@@ -32,16 +32,6 @@
 		)
 		(uuid "1619125d-c261-45ca-94aa-a19a548a8fe7")
 	)
-	(bus
-		(pts
-			(xy 190.5 75.565) (xy 251.46 75.565)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "204fa21b-0320-424a-a1ab-ae469f152c96")
-	)
 	(wire
 		(pts
 			(xy 228.6 90.805) (xy 251.46 90.805)
@@ -81,6 +71,16 @@
 			(type default)
 		)
 		(uuid "76f49ef7-cba9-4b8e-9d8b-89550771d4ce")
+	)
+	(bus
+		(pts
+			(xy 189.23 75.565) (xy 251.46 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ec3364-bdef-4d50-9508-d331ab20d834")
 	)
 	(wire
 		(pts
@@ -429,13 +429,13 @@
 			)
 		)
 		(pin "DSI1{MIPI_DSI}" bidirectional
-			(at 133.35 27.305 180)
+			(at 179.07 49.53 0)
 			(uuid "8776afec-4653-49d0-8596-698b6352259f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "CM5_USB3_0{USB3}" bidirectional
@@ -749,7 +749,7 @@
 		)
 	)
 	(sheet
-		(at 86.995 100.33)
+		(at 19.05 19.05)
 		(size 15.24 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -765,7 +765,7 @@
 		)
 		(uuid "81b87d3e-2b5e-4732-a375-f337eeb3ec3b")
 		(property "Sheetname" "Power_Input"
-			(at 86.995 99.6184 0)
+			(at 19.05 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,7 +774,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Input.kicad_sch"
-			(at 86.995 113.6146 0)
+			(at 19.05 32.3346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +1378,7 @@
 		)
 	)
 	(sheet
-		(at 198.755 109.855)
+		(at 251.46 108.585)
 		(size 29.845 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1393,7 +1393,7 @@
 		)
 		(uuid "e21b738a-3a2f-4bb9-bc25-a1fb9158a2ab")
 		(property "Sheetname" "Ethernet"
-			(at 208.28 109.474 0)
+			(at 260.985 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,7 +1402,7 @@
 			)
 		)
 		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 198.628 114.046 0)
+			(at 251.333 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1411,7 @@
 			)
 		)
 		(pin "{ETH}" bidirectional
-			(at 198.755 111.76 180)
+			(at 251.46 110.49 180)
 			(uuid "6baa6ab7-f657-4080-a952-184fd2bb599a")
 			(effects
 				(font
@@ -1429,7 +1429,7 @@
 		)
 	)
 	(sheet
-		(at 123.19 100.33)
+		(at 55.245 19.05)
 		(size 19.05 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1445,7 +1445,7 @@
 		)
 		(uuid "e2b15d84-0407-4e36-9277-ffea8d1dbee5")
 		(property "Sheetname" "Power Supply"
-			(at 123.19 99.6184 0)
+			(at 55.245 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1454,7 @@
 			)
 		)
 		(property "Sheetfile" "Power Supply.kicad_sch"
-			(at 123.19 113.6146 0)
+			(at 55.245 32.3346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +1463,7 @@
 			)
 		)
 		(pin "RUN_PG" input
-			(at 123.19 102.87 180)
+			(at 55.245 21.59 180)
 			(uuid "64987511-7d17-435c-8b7e-a2108fcd5110")
 			(effects
 				(font
@@ -1473,7 +1473,7 @@
 			)
 		)
 		(pin "POWER_KILL" input
-			(at 123.19 109.22 180)
+			(at 55.245 27.94 180)
 			(uuid "dac1157c-bea2-4a7a-9ef9-b421d8e94f86")
 			(effects
 				(font
@@ -1483,7 +1483,7 @@
 			)
 		)
 		(pin "POWER_IN" input
-			(at 123.19 106.045 180)
+			(at 55.245 24.765 180)
 			(uuid "f0d24f37-1a84-43de-902d-c73f80aab923")
 			(effects
 				(font
