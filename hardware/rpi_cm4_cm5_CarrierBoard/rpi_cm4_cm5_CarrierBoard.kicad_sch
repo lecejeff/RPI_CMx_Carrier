@@ -1,0 +1,1577 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7dcdf741-90ca-4333-848c-806f4d64158e")
+	(paper "A4")
+	(title_block
+		(title "RPI CMx Carrier")
+		(date "2025-12-07")
+		(rev "2.00-0A")
+		(comment 1 "Jean-Francois Bilodeau")
+		(comment 2 "P.Eng #6022173")
+		(comment 3 "203-1690 Rue des quatre-saisons")
+		(comment 4 "Sherbrooke, Canada, J1E0N2")
+		(comment 5 "KiCad Rev 9.0")
+		(comment 6 "TBD")
+		(comment 7 "TBD")
+		(comment 8 "WIP")
+	)
+	(lib_symbols)
+	(no_connect
+		(at 228.6 70.485)
+		(uuid "310f97d6-1225-4405-b8de-1174b78248b9")
+	)
+	(wire
+		(pts
+			(xy 228.6 83.185) (xy 251.46 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1619125d-c261-45ca-94aa-a19a548a8fe7")
+	)
+	(bus
+		(pts
+			(xy 190.5 75.565) (xy 251.46 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "204fa21b-0320-424a-a1ab-ae469f152c96")
+	)
+	(wire
+		(pts
+			(xy 228.6 90.805) (xy 251.46 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec49eb0-1a99-46e9-8810-dbc8efada09b")
+	)
+	(wire
+		(pts
+			(xy 228.6 88.265) (xy 251.46 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6318e37a-02cb-4282-a4de-e0935dcf7410")
+	)
+	(bus
+		(pts
+			(xy 228.6 65.405) (xy 251.46 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711ae7a5-55a2-43d9-8719-43fcb43a38bd")
+	)
+	(wire
+		(pts
+			(xy 228.6 100.965) (xy 251.46 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f49ef7-cba9-4b8e-9d8b-89550771d4ce")
+	)
+	(wire
+		(pts
+			(xy 228.6 98.425) (xy 251.46 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915d51ad-3755-4c35-b219-d8c5bdc2d5bd")
+	)
+	(wire
+		(pts
+			(xy 228.6 93.345) (xy 251.46 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a76bcbe2-88c9-4ac5-870e-ce6652936dad")
+	)
+	(wire
+		(pts
+			(xy 228.6 80.645) (xy 251.46 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12c81c2-1679-4031-bcac-9f5d42c68603")
+	)
+	(wire
+		(pts
+			(xy 228.6 95.885) (xy 251.46 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2dc8e59-34ad-41b2-a135-34d721841757")
+	)
+	(wire
+		(pts
+			(xy 228.6 85.725) (xy 251.46 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2ed755-2279-421e-8faf-836c955c2494")
+	)
+	(sheet
+		(at 252.095 29.21)
+		(size 29.845 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0773b686-9329-480f-afb9-decb2d389d02")
+		(property "Sheetname" "USB_3"
+			(at 263.144 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_3.kicad_sch"
+			(at 252.095 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_HUB_~{RST}" input
+			(at 252.095 31.115 180)
+			(uuid "389811c3-9b6a-4e1c-b677-3561f95d167c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CM5_USB3_0{USB3}" bidirectional
+			(at 252.095 43.815 180)
+			(uuid "2526f788-dcd1-46e3-8c77-ada1158106a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CM5_USB3_1_~{OC}" output
+			(at 252.095 38.735 180)
+			(uuid "4121e120-80ba-4b9f-95be-117cba89e71c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CM5_USB3_0_~{OC}" output
+			(at 252.095 36.195 180)
+			(uuid "abea7cc2-8130-4a7f-8cc7-05f3d981f6a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CM5_USB3_VBUS_EN" input
+			(at 252.095 33.655 180)
+			(uuid "cb77207c-79b2-42d6-9b6b-c93c5b68c275")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CM5_USB3_1{USB3}" bidirectional
+			(at 252.095 46.355 180)
+			(uuid "8c54bb5e-7946-4b28-ab16-f51d9fb6f526")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_HUB{PCIe}" bidirectional
+			(at 252.095 41.275 180)
+			(uuid "a89a65b5-3463-48b8-a67a-c564e90f2aa5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 251.46 63.5)
+		(size 29.845 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "13abfb0a-e124-4fcc-bb4d-eb8f0bf663f5")
+		(property "Sheetname" "TFT_CONN"
+			(at 262.636 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TFT_CONN.kicad_sch"
+			(at 251.46 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TFT_VGH" input
+			(at 251.46 90.805 180)
+			(uuid "b997e8e5-ca1e-463e-80a9-ffbd70a8412e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TFT_AVDD" input
+			(at 251.46 88.265 180)
+			(uuid "602453be-eda6-402f-bfbf-37650506e94c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LVDS_A{LVDS}" input
+			(at 251.46 65.405 180)
+			(uuid "3c3c4b2c-50d8-4b38-b78b-e727ddcbb343")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_HOST{USB2}" bidirectional
+			(at 251.46 75.565 180)
+			(uuid "12b71a9c-2082-47ce-b7c9-0b385cf19ad5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TFT_VGL" input
+			(at 251.46 93.345 180)
+			(uuid "37f7b4dd-c5a9-49ed-bc9f-d1ed56074d10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TFT_VCOM" input
+			(at 251.46 95.885 180)
+			(uuid "3a45fb0b-fee3-43e5-828a-7341d25458f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TFT_VDD" input
+			(at 251.46 85.725 180)
+			(uuid "c41780f3-4231-4dab-8f5a-5e61b4979ace")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TFT_~{RESET}" input
+			(at 251.46 80.645 180)
+			(uuid "f2d20e9f-173b-470c-9429-a66795a2883d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TFT_STBYB" input
+			(at 251.46 83.185 180)
+			(uuid "94872180-5525-4951-870c-d3281b26c419")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TFT_LED-" output
+			(at 251.46 100.965 180)
+			(uuid "c9a48fb3-9c36-4411-ad1b-bee1be223aa3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TFT_LED+" input
+			(at 251.46 98.425 180)
+			(uuid "932702ad-2f0e-45c1-8823-e0b0304d6b44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 25.4)
+		(size 45.72 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "315811e7-ba6e-4f84-a73b-3e30fef30e7f")
+		(property "Sheetname" "CM4_CM5_CONN_B"
+			(at 133.35 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM4_CM5_CONN_B.kicad_sch"
+			(at 133.35 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DSI1{MIPI_DSI}" bidirectional
+			(at 133.35 27.305 180)
+			(uuid "8776afec-4653-49d0-8596-698b6352259f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CM5_USB3_0{USB3}" bidirectional
+			(at 133.35 29.845 180)
+			(uuid "9b4d33e2-eea6-4e25-8893-a4d62477d581")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB{USB2}" bidirectional
+			(at 133.35 32.385 180)
+			(uuid "bf4a3399-84fa-4e12-80df-ff724d16879d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CSI1{MIPI_CSI}" bidirectional
+			(at 133.35 34.925 180)
+			(uuid "7d9b608f-f92e-47af-a60b-c1eacfe17f70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HDMI0{HDMI}" bidirectional
+			(at 133.35 37.465 180)
+			(uuid "3837ae88-8497-4fb5-b7ac-fb98acc6a669")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CM5_USB3_1{USB3}" bidirectional
+			(at 133.35 40.005 180)
+			(uuid "ddfab08b-6fab-49d9-8ff8-55af5eb8d3ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_HUB{PCIe}" bidirectional
+			(at 179.07 33.02 0)
+			(uuid "964bcaee-51f5-4eaf-a188-a41460d2c561")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CM5_USB3_VBUS_EN" output
+			(at 179.07 38.1 0)
+			(uuid "76076583-24fe-4560-9e48-6b577f1f6bf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "M2{PCIe}" bidirectional
+			(at 179.07 35.56 0)
+			(uuid "d0252fff-abbe-427b-b462-d4115bbc1ac4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.755 78.74)
+		(size 29.845 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "55ef0c67-4187-4b81-be30-622ed6c47c9b")
+		(property "Sheetname" "TFT_POWER"
+			(at 208.026 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TFT_POWER.kicad_sch"
+			(at 198.628 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BL_PWM" input
+			(at 198.755 83.82 180)
+			(uuid "bb1b7174-3719-4f7b-a995-1f580de01b6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TFT_3V8" output
+			(at 228.6 95.885 0)
+			(uuid "9867e1da-cc58-4374-acae-da132a943762")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TFT_LED-" input
+			(at 228.6 100.965 0)
+			(uuid "62879392-a1b4-409c-a9b4-1de2dc3f0d57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TFT_LED+" output
+			(at 228.6 98.425 0)
+			(uuid "1491f2f7-3ad1-4b7d-b3cd-1a5646421437")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TFT_~{RST}" output
+			(at 228.6 80.645 0)
+			(uuid "83e7230e-ef7c-41e3-9000-2cd97e0211aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TFT_9V6" output
+			(at 228.6 88.265 0)
+			(uuid "782002ac-c14c-4b8d-bbee-92cec414b01d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TFT_STBYB" output
+			(at 228.6 83.185 0)
+			(uuid "a882be87-9513-4019-97f3-c74709b09796")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SYS_~{RST}" input
+			(at 198.755 80.645 180)
+			(uuid "9ead08cd-a93b-443a-9476-09ceb4cd9e29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TFT_-6V" output
+			(at 228.6 93.345 0)
+			(uuid "0b3b0289-7ef8-4064-bad4-6ad19ef11ec3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TFT_18V" output
+			(at 228.6 90.805 0)
+			(uuid "8115b1b2-f416-4032-ad6c-acf885bc61c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TFT_VDD" output
+			(at 228.6 85.725 0)
+			(uuid "68627146-b654-4e93-acdd-29e06b7adb6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 159.385 71.12)
+		(size 29.845 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "68c27264-913b-431e-a411-550b93528c71")
+		(property "Sheetname" "USB_MUX"
+			(at 168.91 70.739 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_MUX.kicad_sch"
+			(at 159.385 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB{USB2}" bidirectional
+			(at 159.385 73.025 180)
+			(uuid "c8de042d-1db0-4e66-a90c-88b25ecb69dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_OTG{USB2}" bidirectional
+			(at 189.23 73.025 0)
+			(uuid "4e585cd1-712a-40a2-a988-a901163287c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_HOST{USB2}" bidirectional
+			(at 189.23 75.565 0)
+			(uuid "f6c85912-5982-458b-801f-d04e65a74080")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.995 100.33)
+		(size 15.24 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "81b87d3e-2b5e-4732-a375-f337eeb3ec3b")
+		(property "Sheetname" "Power_Input"
+			(at 86.995 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Input.kicad_sch"
+			(at 86.995 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.755 63.5)
+		(size 29.845 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8beee822-4832-4b71-87eb-d8b908112c5e")
+		(property "Sheetname" "DSI - LVDS bridge"
+			(at 205.232 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DSI_LVDS_bridge.kicad_sch"
+			(at 198.628 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SYS_~{RST}" input
+			(at 198.755 65.405 180)
+			(uuid "3fec9613-195e-4836-b84b-c4f2597644a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI1{MIPI_DSI}" bidirectional
+			(at 198.755 67.945 180)
+			(uuid "21fd94aa-1f6a-4f33-b7de-5a1635e283f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C3{I2C}" bidirectional
+			(at 198.755 70.485 180)
+			(uuid "6a082023-9330-48b1-b07b-1d45b8c4e7ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LVDS_A{LVDS}" output
+			(at 228.6 65.405 0)
+			(uuid "a832b23f-347d-4d0b-89c7-6dd1cc5c3d72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LVDS_B{LVDS}" output
+			(at 228.6 70.485 0)
+			(uuid "96dea3bf-3b60-40bb-aab6-32684aad2435")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.755 150.495)
+		(size 29.845 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8ead3a64-86ab-4941-a189-3d26454bcba9")
+		(property "Sheetname" "dsPIC33EPxxxMU810"
+			(at 203.454 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dsPIC33EPxxxMU810.kicad_sch"
+			(at 198.755 163.7796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.115 119.38)
+		(size 29.845 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c05f41d-8810-41e2-a7f9-3345c9f4f612")
+		(property "Sheetname" "RESET_SUPERVISOR"
+			(at 162.814 118.999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RESET_SUPERVISOR.kicad_sch"
+			(at 157.988 123.571 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EXT_~{RST}" input
+			(at 158.115 121.285 180)
+			(uuid "2d6f0cf6-9142-4c70-b40a-bdc01a195786")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYS_~{RST}" output
+			(at 187.96 121.285 0)
+			(uuid "c1c48314-dfe1-4474-9c86-aef6e07c6d23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.755 121.285)
+		(size 29.845 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "adbb075d-f33a-4d25-a8c5-71eb41bbcd81")
+		(property "Sheetname" "SD_CARD"
+			(at 207.518 120.777 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SD_CARD.kicad_sch"
+			(at 198.628 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SD_PWR_ON" input
+			(at 198.755 123.825 180)
+			(uuid "a3be3aa7-3f92-4822-960e-c29aaf594d6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SDIO}" bidirectional
+			(at 198.755 127.635 180)
+			(uuid "a02b5f8b-454e-42a3-bbbc-c10633d78c18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 25.4)
+		(size 25.4 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b189385c-a3f2-4a0b-9ce6-a99cf7ff1f89")
+		(property "Sheetname" "CM4_CM5_CONN_A"
+			(at 101.6 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM4_CM5_CONN_A.kicad_sch"
+			(at 101.6 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "WDOG_IN" input
+			(at 101.6 27.94 180)
+			(uuid "d3e92f11-d582-4725-8089-f55f0fa2eeec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "dsPIC_~{INT}" output
+			(at 101.6 30.48 180)
+			(uuid "a1ba3484-cbfa-409c-9533-ce0c84efc571")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WDOG_OUT" output
+			(at 101.6 33.02 180)
+			(uuid "3bc40d38-254c-481a-94ce-68349a2b6b8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C3{I2C}" bidirectional
+			(at 101.6 35.56 180)
+			(uuid "ddabfd9b-eca3-4a9e-b76e-4714b3bec22e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C0{I2C}" bidirectional
+			(at 101.6 38.735 180)
+			(uuid "6b8cd9b1-b645-4260-936c-94f8c31ef761")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RUN_PG" output
+			(at 101.6 41.91 180)
+			(uuid "f36363d3-20fd-465a-8f24-277773faa67f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXT_~{RST}" output
+			(at 101.6 45.085 180)
+			(uuid "1a2c1df8-eabb-4b2d-b9b1-b4edda41752b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_PWR_ON" output
+			(at 101.6 48.26 180)
+			(uuid "d56b6d8e-6429-4db2-8f35-629e37a93e19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SDIO}" bidirectional
+			(at 101.6 50.8 180)
+			(uuid "cea54362-9ab9-49d1-84b8-030a16015023")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PI_LED_~{ACT}" output
+			(at 101.6 53.975 180)
+			(uuid "1db12d98-9876-4614-9814-69f9b4520820")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI2{SPI}" bidirectional
+			(at 101.6 57.785 180)
+			(uuid "4338c1e6-bf37-4b02-94b2-975ba144632c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD0" output
+			(at 101.6 60.96 180)
+			(uuid "738a61c4-601b-4cac-9609-86c139303201")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CMx_~{INT}" input
+			(at 101.6 64.135 180)
+			(uuid "a66934a7-6022-4958-afcc-84e1e609426b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CM5_USB3_0_~{OC}" input
+			(at 101.6 67.31 180)
+			(uuid "aea79885-45b7-4383-97e1-390126d81907")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CM5_USB3_1_~{OC}" input
+			(at 101.6 71.12 180)
+			(uuid "3c1b439f-df36-4370-9ef3-4f3d240dd8e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{I2S}" bidirectional
+			(at 101.6 74.295 180)
+			(uuid "aefb05d8-24b5-4af4-bddc-82388189c35b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RTCC" input
+			(at 127 64.135 0)
+			(uuid "9da2aef5-2a6a-432d-a5af-3ecf90633f5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_0" output
+			(at 127 60.96 0)
+			(uuid "69311b33-32f1-4f4e-a7f1-62d48be3cf89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RXD0" input
+			(at 127 57.15 0)
+			(uuid "95d382a7-9507-42ad-9e31-c16168b130c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_OTG" input
+			(at 127 53.975 0)
+			(uuid "94ae9978-0afb-4f32-8758-010296eb3205")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RPI_LED_~{PWR}" output
+			(at 127 50.8 0)
+			(uuid "3a2ceb49-938f-4378-a411-3284f48aff9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAM_GPIO" output
+			(at 127 47.625 0)
+			(uuid "de816143-8800-4d9a-8e2f-3d249703d9a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{ETH}" bidirectional
+			(at 127 44.45 0)
+			(uuid "728a7554-416d-4f15-8a15-72c72d74ebcf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.755 138.43)
+		(size 29.845 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "da79d379-819b-4a23-bde6-cf0346f2b26a")
+		(property "Sheetname" "HDMI"
+			(at 210.566 138.303 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HDMI.kicad_sch"
+			(at 198.628 145.161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SYS_~{RST}" input
+			(at 198.755 140.335 180)
+			(uuid "881f6eef-51ae-464a-9d89-11d7ca6719f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HDMI0{HDMI}" bidirectional
+			(at 198.755 142.875 180)
+			(uuid "2cb33ca8-cf64-42b5-b4bf-9df4bdd1106b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.755 109.855)
+		(size 29.845 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e21b738a-3a2f-4bb9-bc25-a1fb9158a2ab")
+		(property "Sheetname" "Ethernet"
+			(at 208.28 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 198.628 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{ETH}" bidirectional
+			(at 198.755 111.76 180)
+			(uuid "6baa6ab7-f657-4080-a952-184fd2bb599a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 100.33)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e2b15d84-0407-4e36-9277-ffea8d1dbee5")
+		(property "Sheetname" "Power Supply"
+			(at 123.19 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power Supply.kicad_sch"
+			(at 123.19 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RUN_PG" input
+			(at 123.19 102.87 180)
+			(uuid "64987511-7d17-435c-8b7e-a2108fcd5110")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POWER_KILL" input
+			(at 123.19 109.22 180)
+			(uuid "dac1157c-bea2-4a7a-9ef9-b421d8e94f86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POWER_IN" input
+			(at 123.19 106.045 180)
+			(uuid "f0d24f37-1a84-43de-902d-c73f80aab923")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "Intellitrol_2025_A3.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WCDEAUbACZkbiDwGD3QMfKBrbOx2DcoGlv3TNh99mV3EvRvWVgcnOtFBWQAXgBnABReV2sI
+				DWpR9uf6n2W1i+p9zrMI/+NthP/jsTnKvtaTq4jzHfcMVMLYn++sya/1DBTK9pT9/uRfAIxI71+E
+				msWxbOccb2R1xl+zX/cYEFLKa8bZF9sve6kACAi+kInTVc6GCgGd8K+NnDMq+1/nGtWx/5FAdLZU
+				oCbtuG1blFcB8Bd3ZNPZHx5Z0uo/+W9P40VnR4o6Ze7a/uoj75j9Zsy917GjFeKwt7V7b7/9891d
+				Es61rf7rIhHmYoxw9uzu+pwx3ltMBqOMYCAYzkE4VyiFU1qdxWAcdHdwd68GVn8VZdzp7KNakRZH
+				RVFJ2Uu/++dCoTYnFMgFonFYLrafLbml/3rOJEaEWowU0o5Sctarb7vz8NaGbM4YNXi1FlcOjKLB
+				cWQuF4iKEAGBgR7avz7O2IMjWZdwHo0UUWJ9TTU3NAxBD9e8m7tZSUACtXXn12M/b1B4YRLKAosQ
+				k1LDsneZ0u659XPIKEUgpDzIGKnUrguj2uHKMu3KDgjMxCGRUBgf6etTDYtwzgtmEsXEEYE8AoC2
+				oPFQpJgZkZEkSTIccESk5Mi0AYxZQcbXbhmCBlS6SEXWAO+lphyKEyNFrMXyEDEYPwHuGFKxNgeK
+				m+1Ad3Z55wGvua2nQMnZCuY7b6Ik7aBJHElBlDZCA1yCKnXozQGN4gTBFE4jULs1PwVZg9WeH8wj
+				TDSSqx3jUNTtIPpYs5EEq2BWwAAhwhx0FuwDog5eqCYJHu4UFVH2mpUpEwMwM0A4tFX1LgyBlqkz
+				uK5yDnACSDHY5QAzEMIMfBVC5lEYagZTDgDVNXSmLK3B7EACr4eCMnbvVlegUyNppvEOK4WommHL
+				Dy8weAwnXggDg+mkNkPKcZNs/YIepwcguE7tI173PruEfM83QETOfzAF2Fr9qdizM/FH2fayEccT
+				a4+A19qsjnoIwhANNfmhoKjNRC57yk0kdUeLGn0DgID+LPVBW6FXDuCD3T3AfbAMgaQRFmndmW/9
+				QG1am5s+IcAMqhPSQVsf+8AeOMyf7hngEzvG1oP21YPAF7PU6fjlmi07SGpbVi4rItg5XrG306tN
+				zdfgYZ0E+PcRH3E/OWlAOga9Cg==|
+			)
+			(checksum "A59890F014518DF3258CF8C2855AC5F5")
+		)
+		(file
+			(name "Intellitrol_2025_A4.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WCZEBUbACZkbiDwGD3QMfKBrbOx2DcoGlv3TNh99mV3EvRvWVgcnOtFBWQAXgBnABReV2sI
+				DWpR9uf6n2W1i+p9zrMI/+NthP/jsTnKvtaTq4jzHfcMVMLYn++sya/1DBTK9pT9/uRfAIxI71+E
+				msWxbOccb2R1xl+zX/cYEFLKa8bZF9sve6kACAi+kInTVc6GCgGd8K+NnDMq+1/nGtWx/5FAdLZU
+				oCbtuG1blFcB8Bd3ZNPZHx5Z0uo/+W9P40VnR4o6Ze7a/uoj75j9Zsy917GjFeKwt7V7b7/9891d
+				Es61rf7rIhHmYoxw9uzu+pwx3ltMBqOMYCAYzkE4VyiFU1qdxWAcdHdwd68GVn8VZdzp7KNakRZH
+				RVFJ2Uu/++dCoTYnFMgFonFYLrafLbml/3rOJEaEWowU0o5Sctarb7vz8NaGbM4YNXi1FlcOjKLB
+				cWQuF4iKEAGBgR7avz7OGfbgSNYlnEcjRZRYX1PNDQ27EPRwzbu5m5UEJFBbd3499vMGhRcmoSyw
+				CDEpsUP2LlPaPbd+GJmklCIQ8iBjpAjsotic85BlBwRm4pBIKIyP9PWphkU45wUziWLiiEAeAYC4
+				oOFQpZgZkZEkSTIccESkxMi2AYxZQeJ8egBowEg/MSlW3q1K3wBOjARiGqpC6EAOCnDHhkppthlP
+				O+jv7HnMEz5zs48DSLYVmNFBENFJhqrjSAystDkaDBNEqctvjpQUNwnTQo7AwFGdzUb7PJvoTFeS
+				1n3YoQEBykkEUIh0QBAV2xAwSol1h6QGA0POWHKVJg3ILBUgU/beZbrJBpgbnshvXvAqXTqkjKYZ
+				4egmwqUO7gQhRWCXA2YghBn4KgRP43HULMbcAqo7dKYsrcHuQILXQ0EZ23erLdCpQ5ppvcNaQtRN
+				o4mHFQA8BhEPlCFDC5IbJuq4SbZyoSKnBEBQHe0jWPtqOwv0nzXAR/h/MAXomvoTsWFHAu+iLWcz
+				LiJmH4FX2KzmewjCKB0xeVGoaM1ETnvKJfJ1QIta/QFAQH+W+qCt0Fsn8MFvn+U6LEIgOcLKLXTm
+				ux/om9bg0CcKcGbVxDTgLYt1YA8bzp+uDHASMHbrQefVg8AXs9Tp+OWaLTtIbV1SLiMiyDkesZdS
+				rE3N1+9hnQT49xEfcT85aUA6Br0K|
+			)
+			(checksum "68DF2994812F00A35785ED6450499936")
+		)
+		(file
+			(name "Intellitrol_2025_A5.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WCZEDUbAIZkbyEQlxsmHCQ5WoAaQszgAGrNb1JZVVp7JPYHvzYiAHoRoAFkAF8AaACyRstq
+				LdOiJmd/3j6sqvbQdr/zHML/mAPxezo2y9nXdvIW2jzHP0OdUbbnPUvyaz9DjbP9ZMMv+RcAoOg9
+				lFGrNpX1fPOBVWf8W/brHUM257SopH2xDbOPCoCAIASRNt7WWVAhKEIj/DdGztmU/a93beLYD0Wf
+				SnsmTLS25DhOTqsA+Is5syvtEIPVrPpL/txXaVXasppKubu2f3PQW2a/GXf/tWxZgTr8ce3f22/3
+				fHtXhPPWVf/1UAh3UspIm7Z3ndKQh+N7e8GinJDL49L5B2dKrZHOyrNXlINuDu7u1KDq30IZczo7
+				uFFmpUFJUE7W0u/usdSoUcnkYXlkGpWLbWhHXum/nrNoIaMmZY215Zyd/ba37X2YawNGqZRatFqT
+				qcYlwdg0MBbLIwGBoR7af3ucMdzBEKxHOINgQs6rL2nLDO2ysnqw6NVcTWoCECauPb8dGzqjRuuK
+				TBQyXnNqNbuXJ+2du3kW2OHSrFqzbB6wKevMrKtq1swmbYpl2SG7SBqRyGQRin77ql0yUmpFLJKQ
+				NAKAuaABSabUjMhIkiQZDnBEpMTItgGMWUHifnpI0IBKPyEpFt6tStxQTowEYtpUgdDBDgpgj6kZ
+				lQRAmfC0w/7ONs95wWdu4nEAybaCGTMPZp0EizqOhIGdEBaN0GaYTJS40HdXSW1JmEJyBAaOajab
+				7H0zoCZXMsZMAAeU0wigEmolyMWzAnwjWhj4ks1ddyBW9XnjB8+W0mBT9NaVWdMNEDfYXAV/9e4O
+				LrFpinDgMbmpWf0khA60gQYMkIYZwCoETKMwajZjrgKuO2ymLK7B7ECC2kNBG9t3qy3kqUPKab3Z
+				WkLUzdGEhxUePMYQD5whwwvSGybxuJRsdaHSpwQgqA7to1/7PjsL+c82wEfjfzAF6Fr9iVizO4F3
+				0dayGccTs4/Ai21WRz0EYZSemHpRqWTNQk57yiX6NYCeGvqDgoDuLP1Bs5K3jvDBbp/lOKwgkDTC
+				yi105rsf6FvX4NMnBjiXapI0gC2LdaAHCudaVy44CRO79aDz6kHgi1nqdPxyzZZdSG1BUgYjIshJ
+				HrGXUqtNzdfzYZ0E+O9DPuJ+ctGAdAx6FQ==|
+			)
+			(checksum "73EEF5D45A1479040F25D65988DEF6D1")
+		)
+	)
+)
