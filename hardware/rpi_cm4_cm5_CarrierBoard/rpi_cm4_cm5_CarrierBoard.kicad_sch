@@ -19,12 +19,12 @@
 	)
 	(lib_symbols)
 	(no_connect
-		(at 228.6 70.485)
+		(at 241.3 70.485)
 		(uuid "310f97d6-1225-4405-b8de-1174b78248b9")
 	)
 	(wire
 		(pts
-			(xy 228.6 83.185) (xy 251.46 83.185)
+			(xy 241.3 83.185) (xy 251.46 83.185)
 		)
 		(stroke
 			(width 0)
@@ -34,7 +34,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 90.805) (xy 251.46 90.805)
+			(xy 241.3 90.805) (xy 251.46 90.805)
 		)
 		(stroke
 			(width 0)
@@ -44,7 +44,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 88.265) (xy 251.46 88.265)
+			(xy 241.3 88.265) (xy 251.46 88.265)
 		)
 		(stroke
 			(width 0)
@@ -54,7 +54,7 @@
 	)
 	(bus
 		(pts
-			(xy 228.6 65.405) (xy 251.46 65.405)
+			(xy 241.3 65.405) (xy 251.46 65.405)
 		)
 		(stroke
 			(width 0)
@@ -64,7 +64,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 100.965) (xy 251.46 100.965)
+			(xy 241.3 100.965) (xy 251.46 100.965)
 		)
 		(stroke
 			(width 0)
@@ -74,7 +74,7 @@
 	)
 	(bus
 		(pts
-			(xy 189.23 75.565) (xy 251.46 75.565)
+			(xy 201.93 75.565) (xy 251.46 75.565)
 		)
 		(stroke
 			(width 0)
@@ -84,7 +84,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 98.425) (xy 251.46 98.425)
+			(xy 241.3 98.425) (xy 251.46 98.425)
 		)
 		(stroke
 			(width 0)
@@ -94,7 +94,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 93.345) (xy 251.46 93.345)
+			(xy 241.3 93.345) (xy 251.46 93.345)
 		)
 		(stroke
 			(width 0)
@@ -104,7 +104,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 80.645) (xy 251.46 80.645)
+			(xy 241.3 80.645) (xy 251.46 80.645)
 		)
 		(stroke
 			(width 0)
@@ -114,7 +114,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 95.885) (xy 251.46 95.885)
+			(xy 241.3 95.885) (xy 251.46 95.885)
 		)
 		(stroke
 			(width 0)
@@ -124,7 +124,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 85.725) (xy 251.46 85.725)
+			(xy 241.3 85.725) (xy 251.46 85.725)
 		)
 		(stroke
 			(width 0)
@@ -527,7 +527,7 @@
 		)
 	)
 	(sheet
-		(at 198.755 78.74)
+		(at 211.455 78.74)
 		(size 29.845 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -542,7 +542,7 @@
 		)
 		(uuid "55ef0c67-4187-4b81-be30-622ed6c47c9b")
 		(property "Sheetname" "TFT_POWER"
-			(at 208.026 78.232 0)
+			(at 220.726 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -551,7 +551,7 @@
 			)
 		)
 		(property "Sheetfile" "TFT_POWER.kicad_sch"
-			(at 198.628 103.124 0)
+			(at 211.328 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -560,7 +560,7 @@
 			)
 		)
 		(pin "BL_PWM" input
-			(at 198.755 83.82 180)
+			(at 211.455 83.82 180)
 			(uuid "bb1b7174-3719-4f7b-a995-1f580de01b6b")
 			(effects
 				(font
@@ -570,7 +570,7 @@
 			)
 		)
 		(pin "TFT_3V8" output
-			(at 228.6 95.885 0)
+			(at 241.3 95.885 0)
 			(uuid "9867e1da-cc58-4374-acae-da132a943762")
 			(effects
 				(font
@@ -580,7 +580,7 @@
 			)
 		)
 		(pin "TFT_LED-" input
-			(at 228.6 100.965 0)
+			(at 241.3 100.965 0)
 			(uuid "62879392-a1b4-409c-a9b4-1de2dc3f0d57")
 			(effects
 				(font
@@ -590,7 +590,7 @@
 			)
 		)
 		(pin "TFT_LED+" output
-			(at 228.6 98.425 0)
+			(at 241.3 98.425 0)
 			(uuid "1491f2f7-3ad1-4b7d-b3cd-1a5646421437")
 			(effects
 				(font
@@ -600,7 +600,7 @@
 			)
 		)
 		(pin "TFT_~{RST}" output
-			(at 228.6 80.645 0)
+			(at 241.3 80.645 0)
 			(uuid "83e7230e-ef7c-41e3-9000-2cd97e0211aa")
 			(effects
 				(font
@@ -610,7 +610,7 @@
 			)
 		)
 		(pin "TFT_9V6" output
-			(at 228.6 88.265 0)
+			(at 241.3 88.265 0)
 			(uuid "782002ac-c14c-4b8d-bbee-92cec414b01d")
 			(effects
 				(font
@@ -620,7 +620,7 @@
 			)
 		)
 		(pin "TFT_STBYB" output
-			(at 228.6 83.185 0)
+			(at 241.3 83.185 0)
 			(uuid "a882be87-9513-4019-97f3-c74709b09796")
 			(effects
 				(font
@@ -630,7 +630,7 @@
 			)
 		)
 		(pin "SYS_~{RST}" input
-			(at 198.755 80.645 180)
+			(at 211.455 80.645 180)
 			(uuid "9ead08cd-a93b-443a-9476-09ceb4cd9e29")
 			(effects
 				(font
@@ -640,7 +640,7 @@
 			)
 		)
 		(pin "TFT_-6V" output
-			(at 228.6 93.345 0)
+			(at 241.3 93.345 0)
 			(uuid "0b3b0289-7ef8-4064-bad4-6ad19ef11ec3")
 			(effects
 				(font
@@ -650,7 +650,7 @@
 			)
 		)
 		(pin "TFT_18V" output
-			(at 228.6 90.805 0)
+			(at 241.3 90.805 0)
 			(uuid "8115b1b2-f416-4032-ad6c-acf885bc61c4")
 			(effects
 				(font
@@ -660,7 +660,7 @@
 			)
 		)
 		(pin "TFT_VDD" output
-			(at 228.6 85.725 0)
+			(at 241.3 85.725 0)
 			(uuid "68627146-b654-4e93-acdd-29e06b7adb6f")
 			(effects
 				(font
@@ -678,7 +678,7 @@
 		)
 	)
 	(sheet
-		(at 159.385 71.12)
+		(at 172.085 71.12)
 		(size 29.845 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -693,7 +693,7 @@
 		)
 		(uuid "68c27264-913b-431e-a411-550b93528c71")
 		(property "Sheetname" "USB_MUX"
-			(at 168.91 70.739 0)
+			(at 181.61 70.739 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -702,7 +702,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_MUX.kicad_sch"
-			(at 159.385 78.0546 0)
+			(at 172.085 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -711,7 +711,7 @@
 			)
 		)
 		(pin "USB{USB2}" bidirectional
-			(at 159.385 73.025 180)
+			(at 172.085 73.025 180)
 			(uuid "c8de042d-1db0-4e66-a90c-88b25ecb69dd")
 			(effects
 				(font
@@ -721,7 +721,7 @@
 			)
 		)
 		(pin "USB_OTG{USB2}" bidirectional
-			(at 189.23 73.025 0)
+			(at 201.93 73.025 0)
 			(uuid "4e585cd1-712a-40a2-a988-a901163287c4")
 			(effects
 				(font
@@ -731,7 +731,7 @@
 			)
 		)
 		(pin "USB_HOST{USB2}" bidirectional
-			(at 189.23 75.565 0)
+			(at 201.93 75.565 0)
 			(uuid "f6c85912-5982-458b-801f-d04e65a74080")
 			(effects
 				(font
@@ -791,7 +791,7 @@
 		)
 	)
 	(sheet
-		(at 198.755 63.5)
+		(at 211.455 63.5)
 		(size 29.845 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -806,7 +806,7 @@
 		)
 		(uuid "8beee822-4832-4b71-87eb-d8b908112c5e")
 		(property "Sheetname" "DSI - LVDS bridge"
-			(at 205.232 62.992 0)
+			(at 217.932 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -815,7 +815,7 @@
 			)
 		)
 		(property "Sheetfile" "DSI_LVDS_bridge.kicad_sch"
-			(at 198.628 72.644 0)
+			(at 211.328 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -824,7 +824,7 @@
 			)
 		)
 		(pin "SYS_~{RST}" input
-			(at 198.755 65.405 180)
+			(at 211.455 65.405 180)
 			(uuid "3fec9613-195e-4836-b84b-c4f2597644a5")
 			(effects
 				(font
@@ -834,7 +834,7 @@
 			)
 		)
 		(pin "DSI1{MIPI_DSI}" bidirectional
-			(at 198.755 67.945 180)
+			(at 211.455 67.945 180)
 			(uuid "21fd94aa-1f6a-4f33-b7de-5a1635e283f0")
 			(effects
 				(font
@@ -844,7 +844,7 @@
 			)
 		)
 		(pin "I2C3{I2C}" bidirectional
-			(at 198.755 70.485 180)
+			(at 211.455 70.485 180)
 			(uuid "6a082023-9330-48b1-b07b-1d45b8c4e7ad")
 			(effects
 				(font
@@ -854,7 +854,7 @@
 			)
 		)
 		(pin "LVDS_A{LVDS}" output
-			(at 228.6 65.405 0)
+			(at 241.3 65.405 0)
 			(uuid "a832b23f-347d-4d0b-89c7-6dd1cc5c3d72")
 			(effects
 				(font
@@ -864,7 +864,7 @@
 			)
 		)
 		(pin "LVDS_B{LVDS}" output
-			(at 228.6 70.485 0)
+			(at 241.3 70.485 0)
 			(uuid "96dea3bf-3b60-40bb-aab6-32684aad2435")
 			(effects
 				(font

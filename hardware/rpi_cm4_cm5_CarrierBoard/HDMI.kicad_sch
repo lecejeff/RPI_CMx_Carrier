@@ -4415,6 +4415,16 @@
 			(justify left bottom)
 		)
 		(uuid "17ba443d-3d23-41c3-b264-61d46e2cee66")
+		(property "Netclass" "DP_100R"
+			(at 137.414 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "HDMI0.CEC"
 		(at 114.3 97.79 0)
@@ -4455,6 +4465,16 @@
 			(justify left bottom)
 		)
 		(uuid "6d8dfd70-d06a-4d7d-aaf2-4d0f38fddf2d")
+		(property "Netclass" "DP_100R"
+			(at 137.414 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "HDMI0.SDA"
 		(at 114.3 95.25 0)
@@ -4475,6 +4495,16 @@
 			(justify left bottom)
 		)
 		(uuid "915b8f23-7719-49dd-8e17-d16bc4fa6948")
+		(property "Netclass" "DP_100R"
+			(at 137.414 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "5V_HDMI0"
 		(at 173.99 117.475 0)
@@ -4495,6 +4525,16 @@
 			(justify left bottom)
 		)
 		(uuid "b09a3c75-bb25-4e02-a29b-227b29bc58f2")
+		(property "Netclass" "DP_100R"
+			(at 137.414 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "HDMI0.D2_P"
 		(at 114.3 56.515 0)
@@ -4505,6 +4545,16 @@
 			(justify left bottom)
 		)
 		(uuid "b66352ef-c008-45c7-b6bc-94fd86c35d9a")
+		(property "Netclass" "DP_100R"
+			(at 137.414 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "HDMI0.CLK_N"
 		(at 114.3 90.17 0)
@@ -4515,6 +4565,16 @@
 			(justify left bottom)
 		)
 		(uuid "c35e8dfa-f9e5-423c-ab74-60809da8eadc")
+		(property "Netclass" "DP_100R"
+			(at 137.414 89.154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "HDMI0.D1_N"
 		(at 114.3 64.135 0)
@@ -4525,6 +4585,16 @@
 			(justify left bottom)
 		)
 		(uuid "d8c314d9-12ff-4094-98e9-614d94c2d18f")
+		(property "Netclass" "DP_100R"
+			(at 137.414 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "HDMI0.D2_N"
 		(at 114.3 59.055 0)
@@ -4535,6 +4605,16 @@
 			(justify left bottom)
 		)
 		(uuid "f7da76b0-7b3f-489e-aef2-d012dfbc91c8")
+		(property "Netclass" "DP_100R"
+			(at 137.414 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "SYS_~{RST}"
 		(shape input)

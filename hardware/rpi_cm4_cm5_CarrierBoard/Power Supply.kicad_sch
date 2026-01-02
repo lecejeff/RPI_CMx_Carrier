@@ -7927,12 +7927,6 @@
 		(uuid "3d1f4226-9e1b-483b-bbf0-09e4cc208bce")
 	)
 	(junction
-		(at 65.405 37.465)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e452315-b014-4893-91b8-a0854e788a3e")
-	)
-	(junction
 		(at 247.65 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8315,6 +8309,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df813ac5-2dd0-4ebc-93ab-33443637c1f6")
+	)
+	(junction
+		(at 65.405 37.465)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e349bb4d-6764-4fd2-9d49-ab3b73d6bc6c")
 	)
 	(junction
 		(at 247.015 71.755)
@@ -10626,16 +10626,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 37.465) (xy 65.405 37.465)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b28a93b1-8adb-407d-96d6-9642846e9fb3")
-	)
-	(wire
-		(pts
 			(xy 267.335 59.69) (xy 267.335 60.96)
 		)
 		(stroke
@@ -10996,6 +10986,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.865 37.465) (xy 65.405 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3da73ad-5059-4212-89d7-602248615ed4")
+	)
+	(wire
+		(pts
 			(xy 260.35 71.755) (xy 254 71.755)
 		)
 		(stroke
@@ -11263,6 +11263,16 @@
 			(type default)
 		)
 		(uuid "e2d5f5ec-8965-4f2a-a467-c0065a7c3225")
+	)
+	(wire
+		(pts
+			(xy 54.61 37.465) (xy 56.515 37.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d8d79a-c3e0-427c-8760-e27bdc25b0ea")
 	)
 	(wire
 		(pts
@@ -26830,6 +26840,174 @@
 			(project "rpi_cm4_cm5_CarrierBoard"
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/e2b15d84-0407-4e36-9277-ffea8d1dbee5"
 					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Resistors/RES_SMT_00001")
+		(at 57.785 37.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1efa6ad-a447-484c-8c35-5c98546887c8")
+		(property "Reference" "R76"
+			(at 56.134 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 62.738 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint:RES_0402"
+			(at 58.293 59.563 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 57.785 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 0 OHM JUMPER 1/16W 0402"
+			(at 59.563 47.371 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 58.039 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "1/16W"
+			(at 58.039 51.689 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 57.785 53.721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 58.039 55.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-071KL"
+			(at 58.039 45.339 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 57.785 43.307 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "311-0.0JRCT-ND"
+			(at 58.547 49.657 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 57.785 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~ 155°C"
+			(at 58.547 61.849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "RES SMT"
+			(at 57.785 37.465 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "1.00mm x 0.50mm"
+			(at 57.785 37.465 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c55acba3-2dc9-4770-b1f9-a38c48699eee")
+		)
+		(pin "2"
+			(uuid "9fd797d8-d9a7-450c-afc3-e32760e29266")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/e2b15d84-0407-4e36-9277-ffea8d1dbee5"
+					(reference "R76")
 					(unit 1)
 				)
 			)

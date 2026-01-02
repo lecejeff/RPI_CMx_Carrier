@@ -11781,6 +11781,16 @@
 			(justify right bottom)
 		)
 		(uuid "1fdb6d89-d1c1-43cb-900d-76ee8885e49d")
+		(property "Netclass" "DP_100R"
+			(at 192.278 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "SDIO_CLK"
 		(at 33.02 88.9 0)
@@ -11811,6 +11821,16 @@
 			(justify left bottom)
 		)
 		(uuid "2c231f6c-5274-4052-aa0c-e3ffa0d71e43")
+		(property "Netclass" "DP_100R"
+			(at 108.712 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "ETH_~{LED2}"
 		(at 95.25 38.1 0)
@@ -11951,6 +11971,16 @@
 			(justify left bottom)
 		)
 		(uuid "78925560-b607-4f06-9c38-a8a0ecd13694")
+		(property "Netclass" "DP_100R"
+			(at 108.712 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "SPI2.SPI_~{CS}"
 		(at 33.02 66.04 0)
@@ -12021,6 +12051,16 @@
 			(justify left bottom)
 		)
 		(uuid "9e3bf98d-cb83-4885-967c-602945f153ee")
+		(property "Netclass" "DP_100R"
+			(at 108.712 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "GPIO14"
 		(at 109.855 86.36 0)
@@ -12081,6 +12121,16 @@
 			(justify right bottom)
 		)
 		(uuid "b924ad36-ff25-44a2-a17a-e2dd92d49782")
+		(property "Netclass" "DP_100R"
+			(at 192.278 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "GPIO19"
 		(at 191.135 48.26 180)
@@ -12121,6 +12171,16 @@
 			(justify right bottom)
 		)
 		(uuid "cc9f892c-c17e-49c4-993b-6a1590cf9a95")
+		(property "Netclass" "DP_100R"
+			(at 192.278 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "ETH_~{LED3}"
 		(at 95.25 35.56 0)
@@ -12181,6 +12241,16 @@
 			(justify right bottom)
 		)
 		(uuid "ea328649-878c-4f8c-883c-b36e591b6ffe")
+		(property "Netclass" "DP_100R"
+			(at 192.278 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "ETH_P3_P"
 		(at 95.25 20.32 0)
@@ -12191,6 +12261,16 @@
 			(justify left bottom)
 		)
 		(uuid "f6519a22-98a3-41cf-ba91-9a46b7072b1b")
+		(property "Netclass" "DP_100R"
+			(at 108.712 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "GPIO12"
 		(at 109.855 55.88 0)

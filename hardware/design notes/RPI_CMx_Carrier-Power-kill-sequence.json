@@ -1,0 +1,29 @@
+{ "signal" : 
+ 	[																								//Empty line for header
+		['RPI CMx Signals',
+         	{ "name": "12V_CB",  	"wave": "1...........",		node: '............' },	//Soft-start delay of 12V regulator
+            { "name": "5V0_CB",  	"wave": "1..0......1.",		node: '...b......n.' },	//SE555DR kill delay
+         	{ "name": "GLOBAL_EN",  "wave": "1...0.......",		node: '....f.......' },	//GLOBAL_EN RC delay as per RPI CMx datasheet
+         	{ "name": "3V3_CMx",  	"wave": "1.....0.....",		node: '......g.....' },  	//As per RPI CMx datasheet
+         	{ "name": "1V8_CMx",  	"wave": "1....0......",		node: '.....h......' },  	//As per RPI CMx datasheet
+         	{ "name": "RUN_PG",  	"wave": "1..0........",		node: '...c........' },  	//As per RPI CMx datasheet
+         	{ "name": "3V3_CB",  	"wave": "1...0.......",		node: '....i.......' },  	//Soft-start delay of 3V3 regulator
+            { "name": "1V8_CB",  	"wave": "1...0.......",		node: '....j.......' },	//Start in parallel to 3V3 regulator
+            { "name": "1V05_CB",  	"wave": "1....0......",		node: '.....k......' },	//Soft-start delay of 1V8 regulator      	
+            { "name": "PWG",  		"wave": "1..0........",		node: '...d........' },   	//200ms deglitch delay in voltage supervisor IC 
+         	{ "name": "nEXTRST",  	"wave": "1.....0.....",		node: '......l.....' },   	//As per RPI CMx datasheet  
+         	{ "name": "SYS_RSTn",  	"wave": "1..0........",		node: '...e........' },   	//Buffered nEXTRST
+         	{ "name": "POWER_KILL", "wave": "01..0.......",		node: '.a..m.......' },   	//Buffered nEXTRST
+ 		],   
+ 	], 
+	edge: 
+    [
+         'a~e TBD ms', 'b|-c', 'c|-d', 'd|-e', 'b~f 1ms', 'f~g 2ms', 'f~h 1ms', 'c~i 1ms', 'i|-j', 'j~k 1ms', 'g|-l',
+         'm-|n TBD ms'
+  	],
+    head:
+    	{
+   			text:'RPI CMx Carrier Power kill sequence'
+		},
+      
+}

@@ -1361,43 +1361,43 @@
 		(uuid "cf4fc6e9-08c2-420e-89f9-3cc8293aa461")
 	)
 	(junction
-		(at 129.54 95.25)
+		(at 132.08 95.885)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c12ba85-9778-453c-bf0a-ce27917c7230")
 	)
 	(junction
-		(at 112.395 103.505)
+		(at 105.41 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37d163d0-482e-455e-b37e-6232df26bcee")
 	)
 	(junction
-		(at 129.54 88.9)
+		(at 132.08 89.535)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a2db0e1-daf8-4689-9a75-e568bff73a97")
 	)
 	(junction
-		(at 109.855 113.03)
+		(at 102.87 113.665)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ae2e131-96a8-4d4f-91cb-91f899ae044f")
 	)
 	(junction
-		(at 109.855 83.82)
+		(at 102.87 84.455)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cc9981b-6b56-4a64-b130-61e528a55ffa")
 	)
 	(junction
-		(at 109.855 103.505)
+		(at 102.87 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcd80ffb-e33f-4c9c-bec6-4c62c35843f4")
 	)
 	(bus_entry
-		(at 149.86 103.505)
+		(at 142.875 104.14)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1406,7 +1406,7 @@
 		(uuid "0d5db3bb-4ea2-4a89-99ec-c0f1bc306e73")
 	)
 	(bus_entry
-		(at 212.09 76.2)
+		(at 205.105 76.835)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1415,7 +1415,7 @@
 		(uuid "166fb70e-0cdb-489f-8ea6-7e49001aed23")
 	)
 	(bus_entry
-		(at 107.315 76.2)
+		(at 100.33 76.835)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1424,7 +1424,7 @@
 		(uuid "1fbdbf9e-3cb3-4552-aeb3-e437b9fabb33")
 	)
 	(bus_entry
-		(at 212.09 82.55)
+		(at 205.105 83.185)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1433,7 +1433,7 @@
 		(uuid "99754023-8a73-4ebf-ab6a-8b78c46af38d")
 	)
 	(bus_entry
-		(at 107.315 78.74)
+		(at 100.33 79.375)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1442,7 +1442,7 @@
 		(uuid "a2339cbc-1288-4f0f-8bc3-81734e169101")
 	)
 	(bus_entry
-		(at 107.315 81.28)
+		(at 100.33 81.915)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1451,7 +1451,7 @@
 		(uuid "ace94e9c-c31d-4359-a675-0abe8538c3fd")
 	)
 	(bus_entry
-		(at 212.09 78.74)
+		(at 205.105 79.375)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1460,7 +1460,7 @@
 		(uuid "c1891ddf-7ed0-4ad0-b815-011ee2d12532")
 	)
 	(bus_entry
-		(at 212.09 85.09)
+		(at 205.105 85.725)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1470,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.855 78.74) (xy 135.89 78.74)
+			(xy 102.87 79.375) (xy 138.43 79.375)
 		)
 		(stroke
 			(width 0)
@@ -1480,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 95.25) (xy 135.255 95.25)
+			(xy 132.08 95.885) (xy 137.795 95.885)
 		)
 		(stroke
 			(width 0)
@@ -1490,7 +1490,7 @@
 	)
 	(bus
 		(pts
-			(xy 82.55 73.66) (xy 104.775 73.66)
+			(xy 75.565 74.295) (xy 97.79 74.295)
 		)
 		(stroke
 			(width 0)
@@ -1500,7 +1500,7 @@
 	)
 	(wire
 		(pts
-			(xy 112.395 110.49) (xy 112.395 113.03)
+			(xy 105.41 111.125) (xy 105.41 113.665)
 		)
 		(stroke
 			(width 0)
@@ -1510,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 88.9) (xy 135.89 88.9)
+			(xy 132.08 89.535) (xy 138.43 89.535)
 		)
 		(stroke
 			(width 0)
@@ -1520,7 +1520,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 93.98) (xy 129.54 95.25)
+			(xy 132.08 94.615) (xy 132.08 95.885)
 		)
 		(stroke
 			(width 0)
@@ -1530,7 +1530,7 @@
 	)
 	(bus
 		(pts
-			(xy 212.09 85.09) (xy 212.09 103.505)
+			(xy 205.105 85.725) (xy 205.105 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1540,7 +1540,7 @@
 	)
 	(bus
 		(pts
-			(xy 107.315 78.74) (xy 107.315 81.28)
+			(xy 100.33 79.375) (xy 100.33 81.915)
 		)
 		(stroke
 			(width 0)
@@ -1550,7 +1550,7 @@
 	)
 	(wire
 		(pts
-			(xy 112.395 103.505) (xy 116.205 103.505)
+			(xy 105.41 104.14) (xy 109.22 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1560,7 +1560,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.855 103.505) (xy 109.855 105.41)
+			(xy 102.87 104.14) (xy 102.87 106.045)
 		)
 		(stroke
 			(width 0)
@@ -1570,7 +1570,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.855 83.82) (xy 109.855 103.505)
+			(xy 102.87 84.455) (xy 102.87 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1580,7 +1580,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.855 111.76) (xy 109.855 113.03)
+			(xy 102.87 112.395) (xy 102.87 113.665)
 		)
 		(stroke
 			(width 0)
@@ -1590,7 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 85.09) (xy 209.55 85.09)
+			(xy 161.29 85.725) (xy 202.565 85.725)
 		)
 		(stroke
 			(width 0)
@@ -1600,7 +1600,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.855 81.28) (xy 135.89 81.28)
+			(xy 102.87 81.915) (xy 138.43 81.915)
 		)
 		(stroke
 			(width 0)
@@ -1610,7 +1610,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.855 83.82) (xy 133.985 83.82)
+			(xy 102.87 84.455) (xy 136.525 84.455)
 		)
 		(stroke
 			(width 0)
@@ -1620,7 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.855 103.505) (xy 112.395 103.505)
+			(xy 102.87 104.14) (xy 105.41 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1630,7 +1630,7 @@
 	)
 	(wire
 		(pts
-			(xy 112.395 103.505) (xy 112.395 105.41)
+			(xy 105.41 104.14) (xy 105.41 106.045)
 		)
 		(stroke
 			(width 0)
@@ -1640,7 +1640,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.255 92.71) (xy 135.89 92.71)
+			(xy 137.795 93.345) (xy 138.43 93.345)
 		)
 		(stroke
 			(width 0)
@@ -1650,7 +1650,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.985 85.09) (xy 135.89 85.09)
+			(xy 136.525 85.725) (xy 138.43 85.725)
 		)
 		(stroke
 			(width 0)
@@ -1660,7 +1660,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.855 113.03) (xy 112.395 113.03)
+			(xy 102.87 113.665) (xy 105.41 113.665)
 		)
 		(stroke
 			(width 0)
@@ -1670,7 +1670,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 87.63) (xy 209.55 87.63)
+			(xy 161.29 88.265) (xy 202.565 88.265)
 		)
 		(stroke
 			(width 0)
@@ -1680,7 +1680,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 78.74) (xy 209.55 78.74)
+			(xy 161.29 79.375) (xy 202.565 79.375)
 		)
 		(stroke
 			(width 0)
@@ -1690,7 +1690,7 @@
 	)
 	(wire
 		(pts
-			(xy 122.555 103.505) (xy 149.86 103.505)
+			(xy 115.57 104.14) (xy 142.875 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1700,7 +1700,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 81.28) (xy 209.55 81.28)
+			(xy 161.29 81.915) (xy 202.565 81.915)
 		)
 		(stroke
 			(width 0)
@@ -1710,7 +1710,7 @@
 	)
 	(bus
 		(pts
-			(xy 212.09 76.2) (xy 212.09 78.74)
+			(xy 205.105 76.835) (xy 205.105 79.375)
 		)
 		(stroke
 			(width 0)
@@ -1720,7 +1720,7 @@
 	)
 	(bus
 		(pts
-			(xy 107.315 76.2) (xy 104.775 73.66)
+			(xy 100.33 76.835) (xy 97.79 74.295)
 		)
 		(stroke
 			(width 0)
@@ -1730,7 +1730,7 @@
 	)
 	(bus
 		(pts
-			(xy 212.09 82.55) (xy 212.09 85.09)
+			(xy 205.105 83.185) (xy 205.105 85.725)
 		)
 		(stroke
 			(width 0)
@@ -1740,7 +1740,7 @@
 	)
 	(bus
 		(pts
-			(xy 212.09 76.2) (xy 214.63 73.66)
+			(xy 205.105 76.835) (xy 207.645 74.295)
 		)
 		(stroke
 			(width 0)
@@ -1750,7 +1750,7 @@
 	)
 	(bus
 		(pts
-			(xy 212.09 103.505) (xy 209.55 106.045)
+			(xy 205.105 104.14) (xy 202.565 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1760,7 +1760,7 @@
 	)
 	(bus
 		(pts
-			(xy 234.95 73.66) (xy 214.63 73.66)
+			(xy 227.965 74.295) (xy 207.645 74.295)
 		)
 		(stroke
 			(width 0)
@@ -1770,7 +1770,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 95.25) (xy 129.54 96.52)
+			(xy 132.08 95.885) (xy 132.08 97.155)
 		)
 		(stroke
 			(width 0)
@@ -1780,7 +1780,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.985 83.82) (xy 133.985 85.09)
+			(xy 136.525 84.455) (xy 136.525 85.725)
 		)
 		(stroke
 			(width 0)
@@ -1790,7 +1790,7 @@
 	)
 	(bus
 		(pts
-			(xy 234.95 80.01) (xy 214.63 80.01)
+			(xy 227.965 80.645) (xy 207.645 80.645)
 		)
 		(stroke
 			(width 0)
@@ -1800,7 +1800,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.855 113.03) (xy 109.855 114.3)
+			(xy 102.87 113.665) (xy 102.87 114.935)
 		)
 		(stroke
 			(width 0)
@@ -1810,7 +1810,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.655 92.71) (xy 160.655 94.615)
+			(xy 163.195 93.345) (xy 163.195 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1820,7 +1820,7 @@
 	)
 	(bus
 		(pts
-			(xy 212.09 82.55) (xy 214.63 80.01)
+			(xy 205.105 83.185) (xy 207.645 80.645)
 		)
 		(stroke
 			(width 0)
@@ -1830,7 +1830,7 @@
 	)
 	(bus
 		(pts
-			(xy 107.315 76.2) (xy 107.315 78.74)
+			(xy 100.33 76.835) (xy 100.33 79.375)
 		)
 		(stroke
 			(width 0)
@@ -1840,7 +1840,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 106.045) (xy 209.55 106.045)
+			(xy 145.415 106.68) (xy 202.565 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1850,7 +1850,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 92.71) (xy 160.655 92.71)
+			(xy 161.29 93.345) (xy 163.195 93.345)
 		)
 		(stroke
 			(width 0)
@@ -1860,7 +1860,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.255 92.71) (xy 135.255 95.25)
+			(xy 137.795 93.345) (xy 137.795 95.885)
 		)
 		(stroke
 			(width 0)
@@ -1869,7 +1869,7 @@
 		(uuid "f84481e6-fd39-45cf-80a0-55348e04181c")
 	)
 	(label "USB_OTG.OTG_ID"
-		(at 149.86 103.505 180)
+		(at 142.875 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1879,7 +1879,7 @@
 		(uuid "064b62ed-765a-4eed-9825-ecf5b4e7c46d")
 	)
 	(label "USB.OTG_ID"
-		(at 109.855 83.82 0)
+		(at 102.87 84.455 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1887,9 +1887,19 @@
 			(justify left bottom)
 		)
 		(uuid "3e30ed20-22c5-446a-b341-510a0ec44177")
+		(property "Netclass" "DP_90R"
+			(at 119.38 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "USB_OTG.USB_P"
-		(at 209.55 85.09 180)
+		(at 202.565 85.725 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1897,9 +1907,19 @@
 			(justify right bottom)
 		)
 		(uuid "42dcf685-1d19-4820-913b-75a6c874f841")
+		(property "Netclass" "DP_90R"
+			(at 177.292 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "USB.USB_P"
-		(at 109.855 78.74 0)
+		(at 102.87 79.375 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1907,9 +1927,19 @@
 			(justify left bottom)
 		)
 		(uuid "43d6f349-2267-4d29-850e-0ee35dc6f2be")
+		(property "Netclass" "DP_90R"
+			(at 119.38 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "USB.USB_N"
-		(at 109.855 81.28 0)
+		(at 102.87 81.915 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1917,9 +1947,19 @@
 			(justify left bottom)
 		)
 		(uuid "7d395edd-d8dd-46f8-aec4-7dd488340c6f")
+		(property "Netclass" "DP_90R"
+			(at 119.38 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "USB_HOST.USB_N"
-		(at 209.55 81.28 180)
+		(at 202.565 81.915 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1927,9 +1967,19 @@
 			(justify right bottom)
 		)
 		(uuid "806f285f-7808-4a6e-94f2-8aa1a353aaac")
+		(property "Netclass" "DP_90R"
+			(at 177.292 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "USB_HOST.USB_P"
-		(at 209.55 78.74 180)
+		(at 202.565 79.375 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1937,9 +1987,19 @@
 			(justify right bottom)
 		)
 		(uuid "93ddfd39-fff1-49ff-ac9f-4e615de03437")
+		(property "Netclass" "DP_90R"
+			(at 177.292 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "USB_OTG.USB_N"
-		(at 209.55 87.63 180)
+		(at 202.565 88.265 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1947,10 +2007,20 @@
 			(justify right bottom)
 		)
 		(uuid "d9611cd8-d39a-4ec9-8baf-a48085873435")
+		(property "Netclass" "DP_90R"
+			(at 177.292 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(hierarchical_label "USB_OTG{USB2}"
 		(shape bidirectional)
-		(at 234.95 80.01 0)
+		(at 227.965 80.645 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1961,7 +2031,7 @@
 	)
 	(hierarchical_label "USB{USB2}"
 		(shape bidirectional)
-		(at 82.55 73.66 180)
+		(at 75.565 74.295 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1972,7 +2042,7 @@
 	)
 	(hierarchical_label "USB_HOST{USB2}"
 		(shape bidirectional)
-		(at 234.95 73.66 0)
+		(at 227.965 74.295 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1983,7 +2053,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:+3V3")
-		(at 129.54 88.9 0)
+		(at 132.08 89.535 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1991,7 +2061,7 @@
 		(dnp no)
 		(uuid "2c45818f-0511-488f-8aee-233e3e0a687a")
 		(property "Reference" "#PWR0214"
-			(at 129.54 92.71 0)
+			(at 132.08 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2000,7 +2070,7 @@
 			)
 		)
 		(property "Value" "3V3_CB"
-			(at 126.238 85.344 0)
+			(at 128.778 85.979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,7 +2079,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 88.9 0)
+			(at 132.08 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2018,7 +2088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 88.9 0)
+			(at 132.08 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,7 +2097,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 129.54 88.9 0)
+			(at 132.08 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,7 +2119,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
-		(at 160.655 94.615 0)
+		(at 163.195 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2057,7 +2127,7 @@
 		(dnp no)
 		(uuid "6fbfeeee-8b78-4652-a948-1f223518391b")
 		(property "Reference" "#PWR0217"
-			(at 160.655 100.965 0)
+			(at 163.195 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,7 +2136,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.528 98.044 0)
+			(at 163.068 98.679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,7 +2144,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.655 94.615 0)
+			(at 163.195 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,7 +2153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.655 94.615 0)
+			(at 163.195 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,7 +2162,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.655 94.615 0)
+			(at 163.195 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,7 +2184,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Resistors/RES_SMT_00013")
-		(at 109.855 110.49 270)
+		(at 102.87 111.125 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2123,7 +2193,7 @@
 		(dnp no)
 		(uuid "815e8444-389d-4905-89cf-241f9fc22a1d")
 		(property "Reference" "R178"
-			(at 109.093 107.442 90)
+			(at 102.108 108.077 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +2202,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 109.093 109.982 90)
+			(at 102.108 110.617 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,7 +2211,7 @@
 			)
 		)
 		(property "Footprint" "footprint:RES_0402"
-			(at 87.757 109.982 0)
+			(at 80.772 110.617 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,7 +2220,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 109.855 110.49 0)
+			(at 102.87 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,7 +2229,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 1% 1/16W 0402"
-			(at 99.949 108.712 0)
+			(at 92.964 109.347 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2168,7 +2238,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 89.535 110.236 0)
+			(at 82.55 110.871 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2247,7 @@
 			)
 		)
 		(property "Power" "1/16W"
-			(at 95.631 110.236 0)
+			(at 88.646 110.871 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2256,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 93.599 110.49 0)
+			(at 86.614 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +2265,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 91.567 110.236 0)
+			(at 84.582 110.871 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,7 +2274,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0402FR-0710KL"
-			(at 101.981 110.236 0)
+			(at 94.996 110.871 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,7 +2283,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 104.013 110.49 0)
+			(at 97.028 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,7 +2292,7 @@
 			)
 		)
 		(property "Distributor Part Number" "311-10.0KLRCT-ND"
-			(at 97.663 109.728 0)
+			(at 90.678 110.363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2231,7 +2301,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 109.855 110.49 0)
+			(at 102.87 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2240,7 +2310,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 155°C"
-			(at 85.471 109.728 0)
+			(at 78.486 110.363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,7 +2319,7 @@
 			)
 		)
 		(property "Type" "RES SMT"
-			(at 109.855 110.49 0)
+			(at 102.87 111.125 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2259,7 +2329,7 @@
 			)
 		)
 		(property "Dimensions" "1.00mm x 0.50mm"
-			(at 109.855 110.49 0)
+			(at 102.87 111.125 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2285,7 +2355,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00001")
-		(at 129.54 93.98 90)
+		(at 132.08 94.615 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2293,7 +2363,7 @@
 		(dnp no)
 		(uuid "ad1ed520-83bd-4ddc-9ef9-ee7202cf1fdb")
 		(property "Reference" "C112"
-			(at 130.556 90.551 90)
+			(at 133.096 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2302,7 +2372,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 130.556 92.329 90)
+			(at 133.096 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +2381,7 @@
 			)
 		)
 		(property "Footprint" "footprint:CAP_NONPOL_0402"
-			(at 151.638 93.472 0)
+			(at 154.178 94.107 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +2390,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
-			(at 129.54 93.98 0)
+			(at 132.08 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +2399,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
-			(at 139.446 92.202 0)
+			(at 141.986 92.837 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,7 +2408,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 149.86 93.726 0)
+			(at 152.4 94.361 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2417,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 143.764 93.726 0)
+			(at 146.304 94.361 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,7 +2426,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 145.796 93.98 0)
+			(at 148.336 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,7 +2435,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 125°C"
-			(at 153.924 93.218 0)
+			(at 156.464 93.853 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +2444,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 129.54 93.98 0)
+			(at 132.08 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,7 +2453,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 147.828 93.726 0)
+			(at 150.368 94.361 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,7 +2462,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM155R71H104KE14D"
-			(at 137.414 93.726 0)
+			(at 139.954 94.361 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2401,7 +2471,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 135.382 93.98 0)
+			(at 137.922 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +2480,7 @@
 			)
 		)
 		(property "Distributor Part Number" "490-10700-1-ND"
-			(at 141.732 93.218 0)
+			(at 144.272 93.853 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,7 +2489,7 @@
 			)
 		)
 		(property "Type" "CER SMT"
-			(at 129.54 93.98 0)
+			(at 132.08 94.615 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2429,7 +2499,7 @@
 			)
 		)
 		(property "Dimensions" "1.00mm x 0.50mm"
-			(at 129.54 93.98 0)
+			(at 132.08 94.615 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2455,7 +2525,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
-		(at 129.54 96.52 0)
+		(at 132.08 97.155 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2463,7 +2533,7 @@
 		(dnp no)
 		(uuid "bda5381a-70bd-4bdd-a41c-4efb9202e268")
 		(property "Reference" "#PWR0215"
-			(at 129.54 102.87 0)
+			(at 132.08 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,7 +2542,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.413 99.949 0)
+			(at 131.953 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,7 +2550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 96.52 0)
+			(at 132.08 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2489,7 +2559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 96.52 0)
+			(at 132.08 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,7 +2568,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 96.52 0)
+			(at 132.08 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,7 +2590,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Interface/INTRFX_00005")
-		(at 138.43 77.47 0)
+		(at 140.97 78.105 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2528,7 +2598,7 @@
 		(dnp no)
 		(uuid "cf795adc-67e1-4d3a-9739-11f0da2bd03f")
 		(property "Reference" "U22"
-			(at 147.32 76.454 0)
+			(at 149.86 77.089 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2606,7 @@
 			)
 		)
 		(property "Value" "FSUSB42UMX"
-			(at 147.066 94.996 0)
+			(at 149.606 95.631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +2614,7 @@
 			)
 		)
 		(property "Footprint" "footprint:10-UMLP"
-			(at 138.43 77.47 0)
+			(at 140.97 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +2623,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fsusb42-d.pdf"
-			(at 138.43 77.47 0)
+			(at 140.97 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +2632,7 @@
 			)
 		)
 		(property "Description" "IC USB SWITCH DPDT 10UMLP"
-			(at 148.59 99.06 0)
+			(at 151.13 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +2641,7 @@
 			)
 		)
 		(property "Type" "USB SWITCH DPDT"
-			(at 138.43 77.47 0)
+			(at 140.97 78.105 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2581,7 +2651,7 @@
 			)
 		)
 		(property "Input" "USB"
-			(at 138.43 77.47 0)
+			(at 140.97 78.105 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2591,7 +2661,7 @@
 			)
 		)
 		(property "Output" "USB"
-			(at 138.43 77.47 0)
+			(at 140.97 78.105 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2601,7 +2671,7 @@
 			)
 		)
 		(property "Package" "10-UMLP"
-			(at 138.43 77.47 0)
+			(at 140.97 78.105 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2611,7 +2681,7 @@
 			)
 		)
 		(property "Supply Voltage" "2.4V ~ 4.4V"
-			(at 138.43 77.47 0)
+			(at 140.97 78.105 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2621,7 +2691,7 @@
 			)
 		)
 		(property "Operating Temperature" "-40°C ~ 85°C"
-			(at 138.43 77.47 0)
+			(at 140.97 78.105 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2631,7 +2701,7 @@
 			)
 		)
 		(property "Dimensions" "1.40mm x 1.80mm"
-			(at 138.43 77.47 0)
+			(at 140.97 78.105 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2641,7 +2711,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 138.43 77.47 0)
+			(at 140.97 78.105 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2651,7 +2721,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "FSUSB42UMX"
-			(at 138.43 77.47 0)
+			(at 140.97 78.105 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2661,7 +2731,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 138.43 77.47 0)
+			(at 140.97 78.105 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2671,7 +2741,7 @@
 			)
 		)
 		(property "Distributor Part Number" "FSUSB42UMXCT-ND"
-			(at 138.43 77.47 0)
+			(at 140.97 78.105 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2721,7 +2791,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
-		(at 109.855 114.3 0)
+		(at 102.87 114.935 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2729,7 +2799,7 @@
 		(dnp no)
 		(uuid "cfec6d88-61de-4265-8976-882814056c85")
 		(property "Reference" "#PWR0216"
-			(at 109.855 120.65 0)
+			(at 102.87 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +2808,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.728 117.729 0)
+			(at 102.743 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2746,7 +2816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.855 114.3 0)
+			(at 102.87 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2755,7 +2825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.855 114.3 0)
+			(at 102.87 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2764,7 +2834,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.855 114.3 0)
+			(at 102.87 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +2856,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Resistors/RES_SMT_00011")
-		(at 117.475 103.505 0)
+		(at 110.49 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2794,7 +2864,7 @@
 		(dnp no)
 		(uuid "d02614c3-fcdc-4c42-bcf5-6bc578c122e1")
 		(property "Reference" "R177"
-			(at 115.57 102.616 0)
+			(at 108.585 103.251 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2802,7 +2872,7 @@
 			)
 		)
 		(property "Value" "6K04"
-			(at 123.444 102.616 0)
+			(at 116.459 103.251 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2810,7 +2880,7 @@
 			)
 		)
 		(property "Footprint" "footprint:RES_0402"
-			(at 117.983 125.603 0)
+			(at 110.998 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2819,7 +2889,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_51_ROHS_P"
-			(at 117.475 103.505 0)
+			(at 110.49 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2828,7 +2898,7 @@
 			)
 		)
 		(property "Description" "RES 6.04K OHM 1% 1/16W 0402"
-			(at 119.253 113.411 0)
+			(at 112.268 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2837,7 +2907,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 117.729 123.825 0)
+			(at 110.744 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2846,7 +2916,7 @@
 			)
 		)
 		(property "Power" "1/16W"
-			(at 117.729 117.729 0)
+			(at 110.744 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,7 +2925,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 117.475 119.761 0)
+			(at 110.49 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +2934,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 117.729 121.793 0)
+			(at 110.744 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,7 +2943,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0402FR-076K04P"
-			(at 117.729 111.379 0)
+			(at 110.744 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,7 +2952,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 117.475 109.347 0)
+			(at 110.49 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2891,7 +2961,7 @@
 			)
 		)
 		(property "Distributor Part Number" "13-RC0402FR-076K04PCT-ND"
-			(at 118.237 115.697 0)
+			(at 111.252 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2900,7 +2970,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 117.475 103.505 0)
+			(at 110.49 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2909,7 +2979,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 155°C"
-			(at 118.237 127.889 0)
+			(at 111.252 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,7 +2988,7 @@
 			)
 		)
 		(property "Type" "RES SMT"
-			(at 117.475 103.505 0)
+			(at 110.49 104.14 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2928,7 +2998,7 @@
 			)
 		)
 		(property "Dimensions" "1.00mm x 0.50mm"
-			(at 117.475 103.505 0)
+			(at 110.49 104.14 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2954,7 +3024,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00001")
-		(at 112.395 110.49 90)
+		(at 105.41 111.125 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2962,7 +3032,7 @@
 		(dnp no)
 		(uuid "f5a12417-bbca-42f8-982b-c05ee6f4a96e")
 		(property "Reference" "C110"
-			(at 113.411 107.061 90)
+			(at 106.426 107.696 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2971,7 +3041,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 113.411 108.839 90)
+			(at 106.426 109.474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2980,7 +3050,7 @@
 			)
 		)
 		(property "Footprint" "footprint:CAP_NONPOL_0402"
-			(at 134.493 109.982 0)
+			(at 127.508 110.617 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +3059,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
-			(at 112.395 110.49 0)
+			(at 105.41 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +3068,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
-			(at 122.301 108.712 0)
+			(at 115.316 109.347 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +3077,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 132.715 110.236 0)
+			(at 125.73 110.871 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,7 +3086,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 126.619 110.236 0)
+			(at 119.634 110.871 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,7 +3095,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 128.651 110.49 0)
+			(at 121.666 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,7 +3104,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 125°C"
-			(at 136.779 109.728 0)
+			(at 129.794 110.363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3113,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 112.395 110.49 0)
+			(at 105.41 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,7 +3122,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 130.683 110.236 0)
+			(at 123.698 110.871 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,7 +3131,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM155R71H104KE14D"
-			(at 120.269 110.236 0)
+			(at 113.284 110.871 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,7 +3140,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 118.237 110.49 0)
+			(at 111.252 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,7 +3149,7 @@
 			)
 		)
 		(property "Distributor Part Number" "490-10700-1-ND"
-			(at 124.587 109.728 0)
+			(at 117.602 110.363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,7 +3158,7 @@
 			)
 		)
 		(property "Type" "CER SMT"
-			(at 112.395 110.49 0)
+			(at 105.41 111.125 0)
 			(show_name yes)
 			(effects
 				(font
@@ -3098,7 +3168,7 @@
 			)
 		)
 		(property "Dimensions" "1.00mm x 0.50mm"
-			(at 112.395 110.49 0)
+			(at 105.41 111.125 0)
 			(show_name yes)
 			(effects
 				(font

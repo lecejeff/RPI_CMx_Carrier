@@ -6425,6 +6425,16 @@
 			(justify left bottom)
 		)
 		(uuid "21779d97-295a-4935-a5d7-70091b510a32")
+		(property "Netclass" "DP_100R"
+			(at 152.654 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_A.CLK_P"
 		(at 212.725 74.295 0)
@@ -6435,6 +6445,16 @@
 			(justify left bottom)
 		)
 		(uuid "2a99caa6-6b81-4af8-a494-bd8035554b53")
+		(property "Netclass" "DP_100R"
+			(at 201.168 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_B.D3_P"
 		(at 213.995 97.155 0)
@@ -6445,6 +6465,16 @@
 			(justify left bottom)
 		)
 		(uuid "37d06003-04c7-45af-adf9-59073a1cfa8b")
+		(property "Netclass" "DP_100R"
+			(at 201.168 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_A.D0_N"
 		(at 213.995 56.515 0)
@@ -6455,6 +6485,16 @@
 			(justify left bottom)
 		)
 		(uuid "42c9c900-ad0e-45c9-8b9e-5989ba143cc3")
+		(property "Netclass" "DP_100R"
+			(at 201.168 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "DSI1.D3_P"
 		(at 135.89 69.215 0)
@@ -6465,6 +6505,16 @@
 			(justify left bottom)
 		)
 		(uuid "49d17661-02c8-49b7-a449-f951f96ea61c")
+		(property "Netclass" "DP_100R"
+			(at 152.654 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_A.CLK_N"
 		(at 212.725 76.835 0)
@@ -6475,6 +6525,16 @@
 			(justify left bottom)
 		)
 		(uuid "509ac8e5-78b4-4ef9-ab44-efe9cc4d1eb5")
+		(property "Netclass" "DP_100R"
+			(at 201.168 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "DSI1.CLK_N"
 		(at 135.89 76.835 0)
@@ -6485,6 +6545,16 @@
 			(justify left bottom)
 		)
 		(uuid "660ec833-bfc8-47c1-9096-121632df8ad0")
+		(property "Netclass" "DP_100R"
+			(at 152.654 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "DSI1.CLK_P"
 		(at 135.89 74.295 0)
@@ -6495,6 +6565,16 @@
 			(justify left bottom)
 		)
 		(uuid "668e9468-664a-43a3-9d07-9127db43e8b5")
+		(property "Netclass" "DP_100R"
+			(at 152.654 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_A.D1_N"
 		(at 213.995 61.595 0)
@@ -6505,6 +6585,16 @@
 			(justify left bottom)
 		)
 		(uuid "67ea71d0-90d1-4773-8e9f-77faeb249728")
+		(property "Netclass" "DP_100R"
+			(at 201.168 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_B.D0_P"
 		(at 213.995 81.915 0)
@@ -6515,6 +6605,16 @@
 			(justify left bottom)
 		)
 		(uuid "69c512ed-7b8a-4750-9fa3-4dc9014bea97")
+		(property "Netclass" "DP_100R"
+			(at 201.168 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_B.D1_N"
 		(at 213.995 89.535 0)
@@ -6525,6 +6625,16 @@
 			(justify left bottom)
 		)
 		(uuid "784f0fd9-fe71-4263-a310-2b14b1e5a300")
+		(property "Netclass" "DP_100R"
+			(at 201.168 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_A.D2_P"
 		(at 213.995 64.135 0)
@@ -6535,6 +6645,16 @@
 			(justify left bottom)
 		)
 		(uuid "7da15b94-a20e-4442-9aad-a5bd113ca32b")
+		(property "Netclass" "DP_100R"
+			(at 201.168 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_B.D3_N"
 		(at 213.995 99.695 0)
@@ -6545,6 +6665,16 @@
 			(justify left bottom)
 		)
 		(uuid "7e2fef98-a0ea-42dc-8fb2-4e52052bc014")
+		(property "Netclass" "DP_100R"
+			(at 201.168 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_A.D2_N"
 		(at 213.995 66.675 0)
@@ -6555,6 +6685,16 @@
 			(justify left bottom)
 		)
 		(uuid "828c8061-640b-49b5-8e6b-3385d295073c")
+		(property "Netclass" "DP_100R"
+			(at 201.168 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_A.D3_P"
 		(at 213.995 69.215 0)
@@ -6565,6 +6705,16 @@
 			(justify left bottom)
 		)
 		(uuid "88d63031-e7c8-416f-b53c-a4039f2ed869")
+		(property "Netclass" "DP_100R"
+			(at 201.168 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "DSI1.D2_N"
 		(at 135.89 66.675 0)
@@ -6575,6 +6725,16 @@
 			(justify left bottom)
 		)
 		(uuid "8e34aaf4-d61b-415c-b02a-5116a6a86434")
+		(property "Netclass" "DP_100R"
+			(at 152.654 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "I2C3.I2C_SDA"
 		(at 80.01 81.915 0)
@@ -6595,6 +6755,16 @@
 			(justify left bottom)
 		)
 		(uuid "9b555282-3f18-4b63-b131-b29f03426657")
+		(property "Netclass" "DP_100R"
+			(at 201.168 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "DSI1.D1_N"
 		(at 135.89 61.595 0)
@@ -6605,6 +6775,16 @@
 			(justify left bottom)
 		)
 		(uuid "a2a6000f-120d-4050-864b-8f836027b13c")
+		(property "Netclass" "DP_100R"
+			(at 152.654 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_B.CLK_N"
 		(at 212.725 104.775 0)
@@ -6615,6 +6795,16 @@
 			(justify left bottom)
 		)
 		(uuid "a321e2bd-d87b-4b7c-9b87-206fa85e9d05")
+		(property "Netclass" "DP_100R"
+			(at 201.168 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_B.CLK_P"
 		(at 212.725 102.235 0)
@@ -6625,6 +6815,16 @@
 			(justify left bottom)
 		)
 		(uuid "acaa9881-0fdf-4ef3-bf61-851d8999e924")
+		(property "Netclass" "DP_100R"
+			(at 201.168 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_B.D1_P"
 		(at 213.995 86.995 0)
@@ -6635,6 +6835,16 @@
 			(justify left bottom)
 		)
 		(uuid "b8d356a9-8d74-4a42-90e7-c7085e155c46")
+		(property "Netclass" "DP_100R"
+			(at 201.168 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "DSI1.D3_N"
 		(at 135.89 71.755 0)
@@ -6645,6 +6855,16 @@
 			(justify left bottom)
 		)
 		(uuid "bcb1990a-82cf-45cd-9b2f-0a260257b048")
+		(property "Netclass" "DP_100R"
+			(at 152.654 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_B.D2_N"
 		(at 213.995 94.615 0)
@@ -6655,6 +6875,16 @@
 			(justify left bottom)
 		)
 		(uuid "bf3623d9-d075-4677-abe9-c26d7be8a78a")
+		(property "Netclass" "DP_100R"
+			(at 201.168 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_A.D3_N"
 		(at 213.995 71.755 0)
@@ -6665,6 +6895,16 @@
 			(justify left bottom)
 		)
 		(uuid "c0de850f-3184-4147-b6c1-55d51e14edd4")
+		(property "Netclass" "DP_100R"
+			(at 201.168 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "SN65DSI_EN"
 		(at 107.95 113.03 0)
@@ -6685,6 +6925,16 @@
 			(justify left bottom)
 		)
 		(uuid "d1806bb7-b123-4f61-b2c9-a4091e0b2788")
+		(property "Netclass" "DP_100R"
+			(at 152.654 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "DSI1.D0_P"
 		(at 135.89 53.975 0)
@@ -6695,6 +6945,16 @@
 			(justify left bottom)
 		)
 		(uuid "d4c950a8-1e07-481e-878f-27be73bd5cf0")
+		(property "Netclass" "DP_100R"
+			(at 152.654 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_B.D2_P"
 		(at 213.995 92.075 0)
@@ -6705,6 +6965,16 @@
 			(justify left bottom)
 		)
 		(uuid "dc5dfa0a-64ec-416e-8259-f567edb7ced7")
+		(property "Netclass" "DP_100R"
+			(at 201.168 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_B.D0_N"
 		(at 213.995 84.455 0)
@@ -6715,6 +6985,16 @@
 			(justify left bottom)
 		)
 		(uuid "e07d1ac9-1d60-40c6-a2a6-fe873c1568eb")
+		(property "Netclass" "DP_100R"
+			(at 201.168 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "LVDS_A.D0_P"
 		(at 213.995 53.975 0)
@@ -6725,6 +7005,16 @@
 			(justify left bottom)
 		)
 		(uuid "e9c201cc-ddb6-49ea-a8e5-49c87c071893")
+		(property "Netclass" "DP_100R"
+			(at 201.168 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "DSI1.D0_N"
 		(at 135.89 56.515 0)
@@ -6735,6 +7025,16 @@
 			(justify left bottom)
 		)
 		(uuid "fa66bf6e-8e48-4a06-ac10-928c4e0e4853")
+		(property "Netclass" "DP_100R"
+			(at 152.654 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "SYS_~{RST}"
 		(shape input)

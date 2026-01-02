@@ -473,6 +473,24 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "DP_100R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DP_120R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DP_90R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -480,6 +498,462 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/CM4_CM5_CONN_A/ETH_P0_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_A/ETH_P0_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_A/ETH_P1_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_A/ETH_P2_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_A/ETH_P2_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_A/ETH_P3_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_A/ETH_P3_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/CM5_USB3_0.U3RXD_N": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/CM5_USB3_0.U3RXD_P": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/CM5_USB3_0.U3TXD_N": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/CM5_USB3_0.U3TXD_P": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/CM5_USB3_0.USB_N": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/CM5_USB3_0.USB_P": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/CM5_USB3_1.U3RXD_N": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/CM5_USB3_1.U3RXD_P": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/CM5_USB3_1.U3TXD_N": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/CM5_USB3_1.U3TXD_P": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/CM5_USB3_1.USB_N": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/CM5_USB3_1.USB_P": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/CSI1.CLK_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/CSI1.CLK_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/CSI1.D0_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/CSI1.D0_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/CSI1.D1_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/CSI1.D1_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/CSI1.D2_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/CSI1.D2_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/CSI1.D3_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/CSI1.D3_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/DSI1.CLK_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/DSI1.CLK_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/DSI1.D0_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/DSI1.D0_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/DSI1.D1_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/DSI1.D1_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/DSI1.D2_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/DSI1.D2_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/DSI1.D3_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/DSI1.D3_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/HDMI0.CLK_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/HDMI0.CLK_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/HDMI0.D0_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/HDMI0.D0_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/HDMI0.D1_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/HDMI0.D1_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/HDMI0.D2_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/HDMI0.D2_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/PCIe_CLK_N": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/PCIe_CLK_P": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/PCIe_RX_N": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/PCIe_RX_P": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/PCIe_TX_N": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/PCIe_TX_P": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/USB.USB_N": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/USB.USB_P": [
+        "DP_90R"
+      ],
+      "/DSI - LVDS bridge/DSI1.CLK_N": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/DSI1.CLK_P": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/DSI1.D0_N": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/DSI1.D0_P": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/DSI1.D1_N": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/DSI1.D1_P": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/DSI1.D2_N": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/DSI1.D2_P": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/DSI1.D3_N": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/DSI1.D3_P": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_A.CLK_N": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_A.CLK_P": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_A.D0_N": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_A.D0_P": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_A.D1_N": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_A.D1_P": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_A.D2_N": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_A.D2_P": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_A.D3_N": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_A.D3_P": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_B.CLK_N": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_B.CLK_P": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_B.D0_N": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_B.D0_P": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_B.D1_N": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_B.D1_P": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_B.D2_N": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_B.D2_P": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_B.D3_N": [
+        "DP_100R"
+      ],
+      "/DSI - LVDS bridge/LVDS_B.D3_P": [
+        "DP_100R"
+      ],
+      "/Ethernet/ETH_P0_N": [
+        "DP_100R"
+      ],
+      "/Ethernet/ETH_P0_P": [
+        "DP_100R"
+      ],
+      "/Ethernet/ETH_P1_N": [
+        "DP_100R"
+      ],
+      "/Ethernet/ETH_P1_P": [
+        "DP_100R"
+      ],
+      "/Ethernet/ETH_P2_N": [
+        "DP_100R"
+      ],
+      "/Ethernet/ETH_P2_P": [
+        "DP_100R"
+      ],
+      "/Ethernet/ETH_P3_N": [
+        "DP_100R"
+      ],
+      "/Ethernet/ETH_P3_P": [
+        "DP_100R"
+      ],
+      "/HDMI/HDMI0.CLK_N": [
+        "DP_100R"
+      ],
+      "/HDMI/HDMI0.CLK_P": [
+        "DP_100R"
+      ],
+      "/HDMI/HDMI0.D0_N": [
+        "DP_100R"
+      ],
+      "/HDMI/HDMI0.D0_P": [
+        "DP_100R"
+      ],
+      "/HDMI/HDMI0.D1_N": [
+        "DP_100R"
+      ],
+      "/HDMI/HDMI0.D1_P": [
+        "DP_100R"
+      ],
+      "/HDMI/HDMI0.D2_N": [
+        "DP_100R"
+      ],
+      "/HDMI/HDMI0.D2_P": [
+        "DP_100R"
+      ],
+      "/TFT_CONN/USB_HOST.USB_N": [
+        "DP_90R"
+      ],
+      "/TFT_CONN/USB_HOST.USB_P": [
+        "DP_90R"
+      ],
+      "/USB_3/CM5_USB3_0.U3RXD_N": [
+        "DP_90R"
+      ],
+      "/USB_3/CM5_USB3_0.U3RXD_P": [
+        "DP_90R"
+      ],
+      "/USB_3/CM5_USB3_0.U3TXD_N": [
+        "DP_90R"
+      ],
+      "/USB_3/CM5_USB3_0.U3TXD_P": [
+        "DP_90R"
+      ],
+      "/USB_3/CM5_USB3_0.USB_N": [
+        "DP_90R"
+      ],
+      "/USB_3/CM5_USB3_0.USB_P": [
+        "DP_90R"
+      ],
+      "/USB_3/CM5_USB3_1.U3RXD_N": [
+        "DP_90R"
+      ],
+      "/USB_3/CM5_USB3_1.U3RXD_P": [
+        "DP_90R"
+      ],
+      "/USB_3/CM5_USB3_1.U3TXD_N": [
+        "DP_90R"
+      ],
+      "/USB_3/CM5_USB3_1.U3TXD_P": [
+        "DP_90R"
+      ],
+      "/USB_3/CM5_USB3_1.USB_N": [
+        "DP_90R"
+      ],
+      "/USB_3/CM5_USB3_1.USB_P": [
+        "DP_90R"
+      ],
+      "/USB_3/PETX_N": [
+        "DP_90R"
+      ],
+      "/USB_3/PETX_P": [
+        "DP_90R"
+      ],
+      "/USB_3/U2D1_N": [
+        "DP_90R"
+      ],
+      "/USB_3/U2D1_P": [
+        "DP_90R"
+      ],
+      "/USB_3/U2D2_N": [
+        "DP_90R"
+      ],
+      "/USB_3/U2D2_P": [
+        "DP_90R"
+      ],
+      "/USB_3/U3RX1_N": [
+        "DP_90R"
+      ],
+      "/USB_3/U3RX1_P": [
+        "DP_90R"
+      ],
+      "/USB_3/U3RX2_N": [
+        "DP_90R"
+      ],
+      "/USB_3/U3RX2_P": [
+        "DP_90R"
+      ],
+      "/USB_3/U3TX1_N": [
+        "DP_90R"
+      ],
+      "/USB_3/U3TX1_P": [
+        "DP_90R"
+      ],
+      "/USB_3/U3TX2_N": [
+        "DP_90R"
+      ],
+      "/USB_3/U3TX2_P": [
+        "DP_90R"
+      ],
+      "/USB_3/USB3_0.U3RXD_N": [
+        "DP_90R"
+      ],
+      "/USB_3/USB3_0.U3RXD_P": [
+        "DP_90R"
+      ],
+      "/USB_3/USB3_0.U3TXD_N": [
+        "DP_90R"
+      ],
+      "/USB_3/USB3_0.U3TXD_P": [
+        "DP_90R"
+      ],
+      "/USB_3/USB3_0.USB_N": [
+        "DP_90R"
+      ],
+      "/USB_3/USB3_0.USB_P": [
+        "DP_90R"
+      ],
+      "/USB_3/USB3_1.U3RXD_N": [
+        "DP_90R"
+      ],
+      "/USB_3/USB3_1.U3RXD_P": [
+        "DP_90R"
+      ],
+      "/USB_3/USB3_1.U3TXD_N": [
+        "DP_90R"
+      ],
+      "/USB_3/USB3_1.U3TXD_P": [
+        "DP_90R"
+      ],
+      "/USB_3/USB3_1.USB_N": [
+        "DP_90R"
+      ],
+      "/USB_3/USB3_1.USB_P": [
+        "DP_90R"
+      ],
+      "/USB_3/USB_HUB.CLK_N": [
+        "DP_90R"
+      ],
+      "/USB_3/USB_HUB.CLK_P": [
+        "DP_90R"
+      ],
+      "/USB_3/USB_HUB.RX_N": [
+        "DP_90R"
+      ],
+      "/USB_3/USB_HUB.RX_P": [
+        "DP_90R"
+      ],
+      "/USB_3/USB_HUB.TX_N": [
+        "DP_90R"
+      ],
+      "/USB_3/USB_HUB.TX_P": [
+        "DP_90R"
+      ],
+      "/USB_MUX/USB.OTG_ID": [
+        "DP_90R"
+      ],
+      "/USB_MUX/USB.USB_N": [
+        "DP_90R"
+      ],
+      "/USB_MUX/USB.USB_P": [
+        "DP_90R"
+      ],
+      "/USB_MUX/USB_OTG.USB_N": [
+        "DP_90R"
+      ],
+      "/USB_MUX/USB_OTG.USB_P": [
+        "DP_90R"
+      ],
       "12V0_CB": [
         "POWER_PLANE"
       ],

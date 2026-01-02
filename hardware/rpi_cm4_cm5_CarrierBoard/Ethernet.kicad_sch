@@ -5038,6 +5038,16 @@
 			(justify left bottom)
 		)
 		(uuid "3c98e6fe-ff74-4a2d-ab01-47bc39e4336e")
+		(property "Netclass" "DP_100R"
+			(at 125.476 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "ETH_~{LED3}"
 		(at 175.895 105.41 0)
@@ -5068,6 +5078,16 @@
 			(justify left bottom)
 		)
 		(uuid "464d71d0-1f12-4a1e-a15f-74056af1eec0")
+		(property "Netclass" "DP_100R"
+			(at 125.476 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "ETH_P0_P"
 		(at 107.95 62.23 0)
@@ -5078,6 +5098,16 @@
 			(justify left bottom)
 		)
 		(uuid "91d4987c-b7a5-4692-9efe-9d1a1b2c6ebd")
+		(property "Netclass" "DP_100R"
+			(at 125.476 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "ETH_P3_N"
 		(at 107.9031 95.25 0)
@@ -5088,6 +5118,16 @@
 			(justify left bottom)
 		)
 		(uuid "97f8b9d4-7f73-4f17-8ed9-81585fcc8be6")
+		(property "Netclass" "DP_100R"
+			(at 125.476 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "ETH_P1_P"
 		(at 107.95 67.31 0)
@@ -5098,6 +5138,16 @@
 			(justify left bottom)
 		)
 		(uuid "a67367b7-dc87-4ab1-b8eb-431ac20148a4")
+		(property "Netclass" "DP_100R"
+			(at 125.476 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "ETH_P2_P"
 		(at 107.95 72.39 0)
@@ -5108,6 +5158,16 @@
 			(justify left bottom)
 		)
 		(uuid "c3072b04-b0aa-4852-8ca4-e605598fc6d7")
+		(property "Netclass" "DP_100R"
+			(at 125.476 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "ETH_~{LED2}"
 		(at 175.895 100.33 0)
@@ -5128,6 +5188,16 @@
 			(justify left bottom)
 		)
 		(uuid "eaf0195f-c570-4cca-99fb-710afb91be26")
+		(property "Netclass" "DP_100R"
+			(at 125.476 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "ETH_~{LED2}"
 		(at 107.95 97.79 0)
@@ -5148,6 +5218,16 @@
 			(justify left bottom)
 		)
 		(uuid "ef949c5c-24e2-41bb-8720-910a43dfcb26")
+		(property "Netclass" "DP_100R"
+			(at 125.476 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "{ETH}"
 		(shape bidirectional)
