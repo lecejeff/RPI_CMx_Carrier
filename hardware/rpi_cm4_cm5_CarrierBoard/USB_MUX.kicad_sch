@@ -1349,6 +1349,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "CapTouch USB2"
+		(exclude_from_sim no)
+		(at 217.932 79.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "c9216048-39ee-4fbc-af70-052494dcdfe8")
+	)
 	(text "Resistors are 1% 1/16W 0402 unless otherwise noted\nCapacitors are 10% 50V X7R 0402 unless otherwise noted"
 		(exclude_from_sim no)
 		(at 12.7 170.942 0)
@@ -1359,6 +1370,28 @@
 			(justify left)
 		)
 		(uuid "cf4fc6e9-08c2-420e-89f9-3cc8293aa461")
+	)
+	(text "CMx USB2"
+		(exclude_from_sim no)
+		(at 87.122 73.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "f57c3503-f1cc-407e-aca1-53d4448dbbe1")
+	)
+	(text "PC OTG USB2"
+		(exclude_from_sim no)
+		(at 217.932 73.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "fc29ee52-b587-411d-a4c7-6cb958d14137")
 	)
 	(junction
 		(at 132.08 95.885)

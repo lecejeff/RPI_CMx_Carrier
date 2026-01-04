@@ -639,6 +639,36 @@
       "/CM4_CM5_CONN_B/HDMI0.D2_P": [
         "DP_100R"
       ],
+      "/CM4_CM5_CONN_B/MIPI0.CLK_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/MIPI0.CLK_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/MIPI0.D0_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/MIPI0.D0_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/MIPI0.D1_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/MIPI0.D1_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/MIPI0.D2_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/MIPI0.D2_P": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/MIPI0.D3_N": [
+        "DP_100R"
+      ],
+      "/CM4_CM5_CONN_B/MIPI0.D3_P": [
+        "DP_100R"
+      ],
       "/CM4_CM5_CONN_B/PCIe_CLK_N": [
         "DP_90R"
       ],
@@ -657,10 +687,31 @@
       "/CM4_CM5_CONN_B/PCIe_TX_P": [
         "DP_90R"
       ],
+      "/CM4_CM5_CONN_B/USB.OTG_ID": [
+        "DP_90R"
+      ],
       "/CM4_CM5_CONN_B/USB.USB_N": [
         "DP_90R"
       ],
       "/CM4_CM5_CONN_B/USB.USB_P": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/USB_HUB.CLK_N": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/USB_HUB.CLK_P": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/USB_HUB.RX_N": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/USB_HUB.RX_P": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/USB_HUB.TX_N": [
+        "DP_90R"
+      ],
+      "/CM4_CM5_CONN_B/USB_HUB.TX_P": [
         "DP_90R"
       ],
       "/DSI - LVDS bridge/DSI1.CLK_N": [
@@ -957,6 +1008,9 @@
       "12V0_CB": [
         "POWER_PLANE"
       ],
+      "1V05_CB": [
+        "POWER_PLANE"
+      ],
       "1V8_CB": [
         "POWER_PLANE"
       ],
@@ -966,7 +1020,22 @@
       "Net-(C114-Pad2)": [
         "POWER_PLANE"
       ],
+      "Net-(D10-K)": [
+        "POWER_PLANE"
+      ],
       "Net-(D11-A)": [
+        "POWER_PLANE"
+      ],
+      "Net-(D18-K)": [
+        "POWER_PLANE"
+      ],
+      "Net-(D8-K)": [
+        "POWER_PLANE"
+      ],
+      "Net-(D9-K)": [
+        "POWER_PLANE"
+      ],
+      "Net-(U12-OUT)": [
         "POWER_PLANE"
       ]
     },
@@ -1141,10 +1210,6 @@
       "CM4_CM5_CONN_B"
     ],
     [
-      "81b87d3e-2b5e-4732-a375-f337eeb3ec3b",
-      "Power_Input"
-    ],
-    [
       "68c27264-913b-431e-a411-550b93528c71",
       "USB_MUX"
     ],
@@ -1158,7 +1223,15 @@
     ],
     [
       "8ead3a64-86ab-4941-a189-3d26454bcba9",
-      "dsPIC33EPxxxMU810"
+      "PIC32AK1216"
+    ],
+    [
+      "ac5e960f-399e-41ec-bf2f-84074a947ebf",
+      "MikroBus"
+    ],
+    [
+      "eab44bb3-09f6-4355-a7c9-065358239d83",
+      "AUDIO_CODEC"
     ]
   ],
   "text_variables": {}

@@ -2916,11 +2916,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus_alias "MIPI_CSI"
-		(members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P" "D3_N" "CLK_P"
-			"CLK_N"
-		)
-	)
 	(text "Resistors are 1% 1/16W 0402 unless otherwise noted\nCapacitors are 10% 50V X7R 0402 unless otherwise noted"
 		(exclude_from_sim no)
 		(at 12.7 170.942 0)
@@ -6003,7 +5998,7 @@
 		)
 		(uuid "ffe2a974-f37d-4548-afa8-fbf1d5508cec")
 	)
-	(label "CSI1.D2_N"
+	(label "MIPI0.D2_N"
 		(at 73.66 65.405 0)
 		(effects
 			(font
@@ -6453,7 +6448,7 @@
 			)
 		)
 	)
-	(label "CSI1.D3_P"
+	(label "MIPI0.D3_P"
 		(at 73.66 75.565 0)
 		(effects
 			(font
@@ -6603,7 +6598,7 @@
 			)
 		)
 	)
-	(label "CSI1.D0_P"
+	(label "MIPI0.D0_P"
 		(at 73.66 45.085 0)
 		(effects
 			(font
@@ -6673,7 +6668,7 @@
 		)
 		(uuid "8098a7c8-70e1-416e-9079-e8148c685343")
 	)
-	(label "CSI1.D2_P"
+	(label "MIPI0.D2_P"
 		(at 73.66 67.945 0)
 		(effects
 			(font
@@ -6923,7 +6918,7 @@
 		)
 		(uuid "bbd076cd-4606-45bd-8b08-de9313405161")
 	)
-	(label "CSI1.CLK_N"
+	(label "MIPI0.CLK_N"
 		(at 73.66 57.785 0)
 		(effects
 			(font
@@ -6943,7 +6938,7 @@
 			)
 		)
 	)
-	(label "CSI1.D0_N"
+	(label "MIPI0.D0_N"
 		(at 73.66 42.545 0)
 		(effects
 			(font
@@ -6973,7 +6968,7 @@
 		)
 		(uuid "c452640a-9436-46be-b44d-4e0e7a1b50f3")
 	)
-	(label "CSI1.D1_N"
+	(label "MIPI0.D1_N"
 		(at 73.66 50.165 0)
 		(effects
 			(font
@@ -7083,7 +7078,7 @@
 		)
 		(uuid "d40ec777-edc9-49fd-813f-bf8b65ad0433")
 	)
-	(label "CSI1.CLK_P"
+	(label "MIPI0.CLK_P"
 		(at 73.66 60.325 0)
 		(effects
 			(font
@@ -7103,7 +7098,7 @@
 			)
 		)
 	)
-	(label "CSI1.D1_P"
+	(label "MIPI0.D1_P"
 		(at 73.66 52.705 0)
 		(effects
 			(font
@@ -7253,7 +7248,7 @@
 		)
 		(uuid "f3ed0440-1e6d-463e-a275-dcaf5ec13913")
 	)
-	(label "CSI1.D3_N"
+	(label "MIPI0.D3_N"
 		(at 73.66 73.025 0)
 		(effects
 			(font
@@ -7390,7 +7385,7 @@
 		)
 		(uuid "83060b2c-8ef0-452d-a9ff-b964157b3339")
 	)
-	(hierarchical_label "CSI1{MIPI_CSI}"
+	(hierarchical_label "MIPI0{MIPI}"
 		(shape bidirectional)
 		(at 64.77 37.465 180)
 		(effects
@@ -7412,7 +7407,7 @@
 		)
 		(uuid "ae4af4a5-f0f3-4417-bc55-ff006d63f4bd")
 	)
-	(hierarchical_label "DSI1{MIPI_DSI}"
+	(hierarchical_label "DSI1{MIPI}"
 		(shape bidirectional)
 		(at 241.3 136.525 0)
 		(effects
@@ -7445,7 +7440,7 @@
 		)
 		(uuid "e852f8b5-29f6-45b4-9cbc-ea6f0dd34354")
 	)
-	(hierarchical_label "DSI1{MIPI_DSI}"
+	(hierarchical_label "DSI1{MIPI}"
 		(shape bidirectional)
 		(at 64.77 113.665 180)
 		(effects

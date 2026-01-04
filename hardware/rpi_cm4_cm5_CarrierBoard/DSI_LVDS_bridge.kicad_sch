@@ -3932,7 +3932,7 @@
 			"CLK_N"
 		)
 	)
-	(bus_alias "MIPI_DSI"
+	(bus_alias "MIPI"
 		(members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P" "D3_N" "CLK_P"
 			"CLK_N"
 		)
