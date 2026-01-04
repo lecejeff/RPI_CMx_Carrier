@@ -4595,11 +4595,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "d7ee4ea8-f3f9-4a31-a7a0-e5ddf879877d")
+			(uuid "18a88724-d78e-4c1a-8541-69dea9bf15fa")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "#PWR024")
 					(unit 1)
 				)
@@ -4762,14 +4762,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "eddf831e-c1f0-421c-9379-827b6fe20db1")
+			(uuid "29c0c760-95b0-4dfd-bcf7-4fbd9ce60c6c")
 		)
 		(pin "1"
-			(uuid "dbb63c55-160b-4001-969c-fdef50495388")
+			(uuid "d4ef62ff-74ce-417f-a586-628d70ecd3a8")
 		)
 		(instances
-			(project ""
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "C9")
 					(unit 1)
 				)
@@ -4930,14 +4930,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "3131f348-d64b-4b1b-a07d-280ba24fc2f5")
+			(uuid "83b8b6cb-5b1e-4516-aff5-736ae95b1024")
 		)
 		(pin "2"
-			(uuid "cc308aa0-dcda-4e65-bf72-6760f98faa60")
+			(uuid "5ed4e56a-c6dd-4c16-967e-7e06fb0692db")
 		)
 		(instances
-			(project ""
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "R13")
 					(unit 1)
 				)
@@ -4953,7 +4953,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1357ebbf-d8e3-48a4-b03d-fc32505c5bba")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 146.05 69.215 0)
 			(effects
 				(font
@@ -4998,12 +4998,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d60f9bb9-bb97-4bfa-82f6-4ad4499f77d9")
+			(uuid "bef7171e-b5b7-4d3f-9b1b-f2b7473564ca")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
-					(reference "#PWR034")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -5165,14 +5165,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac1b44e4-4d01-4101-b3ee-de638896e1f1")
+			(uuid "8021dac2-0cc8-4569-8693-6a2aff9d6fd8")
 		)
 		(pin "2"
-			(uuid "e4100415-d4a0-4d7d-936a-18437fb0c118")
+			(uuid "66d11c59-ba9f-4301-8a26-9a0d4e87f37f")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "C10")
 					(unit 1)
 				)
@@ -5233,11 +5233,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "62622e21-9c9c-4fa8-b126-8cba28f99a60")
+			(uuid "03d898a5-d57b-4ad5-8204-07406d257fc6")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "#PWR029")
 					(unit 1)
 				)
@@ -5298,11 +5298,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "5d11abe1-fd15-44b6-8eb1-bdf2dc8de707")
+			(uuid "c340831d-0541-4817-8adc-a745abd3ce75")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "#PWR038")
 					(unit 1)
 				)
@@ -5363,18 +5363,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0155ca40-5a84-41af-8d38-e5af798302e2")
+			(uuid "5bccd1a0-c041-48e4-aa21-0da66c27f3d4")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/9ae13be0-15f3-45e5-b45b-58078a73a7e5"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5564,24 +5558,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b409fc5-5f42-49dc-9943-84f6681ed4b8")
+			(uuid "b9b037bd-4e3e-437f-9039-c9bd70c3e798")
 		)
 		(pin "3"
-			(uuid "b518df5b-fca4-477d-a31b-5063dbce9f5d")
+			(uuid "11fc811d-4a2d-4f83-a731-041b585894a3")
 		)
 		(pin "2"
-			(uuid "19ec6a2f-55af-460e-afe2-345208dccfc5")
+			(uuid "c43f7ff7-2f1c-4398-81b0-a4b05aba9ffa")
 		)
 		(instances
-			(project ""
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "Q5")
-					(unit 1)
-				)
-			)
-			(project "SD_CARD"
-				(path "/9ae13be0-15f3-45e5-b45b-58078a73a7e5"
-					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -5743,14 +5731,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "ee0b6997-582b-4d8e-a58f-a541cf17470d")
+			(uuid "07d7e09a-97d5-447b-8d57-89e5b8725cce")
 		)
 		(pin "1"
-			(uuid "dadc740a-b3bb-4043-b47d-0375c64b550e")
+			(uuid "db302803-72b8-4c50-99cf-e8253a0b4103")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "C7")
 					(unit 1)
 				)
@@ -5952,45 +5940,39 @@
 			)
 		)
 		(pin "3"
-			(uuid "22250897-7130-4a47-b85c-c527b14e1402")
+			(uuid "48e6f826-b2fb-4fd5-a105-5f1c39186993")
 		)
 		(pin "1"
-			(uuid "2812d4de-e255-476b-ac0e-73a1b2bf15aa")
+			(uuid "43843bf5-c75f-4c8c-a7a0-beb4ab16346a")
 		)
 		(pin "2"
-			(uuid "9ae41645-2ac8-4936-9156-65bc258f5bea")
+			(uuid "27195730-d336-43aa-a5d0-1fe8ea17c412")
 		)
 		(pin "4"
-			(uuid "666710e8-63e6-494f-ba30-119692631243")
+			(uuid "66d17b1d-1476-4ec6-99e1-5707a7a22f7d")
 		)
 		(pin "5"
-			(uuid "37758b2b-0d1e-4d8d-8ebd-36d8a01e5009")
+			(uuid "689f0526-b40f-4a96-9ef3-5491284a862c")
 		)
 		(pin "7"
-			(uuid "0eb5da1d-afb4-4732-ac37-e2009256620f")
+			(uuid "8f10485f-1965-4956-87b1-2173819641b0")
 		)
 		(pin "6"
-			(uuid "dee82070-7c56-40ac-97df-18ff464b6b40")
+			(uuid "7dca12af-3230-4218-aa54-5b4fb4fac204")
 		)
 		(pin "8"
-			(uuid "3a1aa1d8-8dc7-405b-b190-ec6e3fa8c916")
+			(uuid "dcbdf1df-3669-4220-b3b7-934809a0f066")
 		)
 		(pin "9"
-			(uuid "96ba80f2-a414-4725-9fff-6b6b61602e8d")
+			(uuid "79395a1e-56a7-4f77-a462-5a0b85025e71")
 		)
 		(pin "10"
-			(uuid "f941df6e-2ca3-471e-80d4-48491d9b386e")
+			(uuid "24562b9f-1b83-45ae-bfd9-77d4dd83c659")
 		)
 		(instances
-			(project ""
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-			(project "SD_CARD"
-				(path "/9ae13be0-15f3-45e5-b45b-58078a73a7e5"
-					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -6180,24 +6162,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "d36a9347-e87b-4a66-9f21-6c325059bddb")
+			(uuid "42c3d27d-9309-4426-b357-e562d98b82a9")
 		)
 		(pin "3"
-			(uuid "f695f581-5dbb-40f1-acf7-6c24dab65e4c")
+			(uuid "3505d410-ace7-4a72-894c-57bc8ef79aeb")
 		)
 		(pin "2"
-			(uuid "ff2fa77b-b8a7-43a8-b5f9-6c49fadc895c")
+			(uuid "220299ee-64ee-4055-9b9f-f6a4d904cb96")
 		)
 		(instances
-			(project ""
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-			(project "SD_CARD"
-				(path "/9ae13be0-15f3-45e5-b45b-58078a73a7e5"
-					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -6377,33 +6353,27 @@
 			)
 		)
 		(pin "3"
-			(uuid "d935203b-8f93-4f20-ad6b-d0cb2c8cc1b8")
+			(uuid "b693c0cf-a1db-448f-843a-7c298ea78dbb")
 		)
 		(pin "2"
-			(uuid "c11efc13-571b-4a9e-8fc4-f47a61214730")
+			(uuid "43f3dce7-5a1c-4e64-a210-fe4a3d535372")
 		)
 		(pin "5"
-			(uuid "6990156f-0aac-428f-802d-927aa1df11d7")
+			(uuid "8d2af663-640d-445a-846f-2782c559f257")
 		)
 		(pin "1"
-			(uuid "96324542-1fd8-4f7d-9af3-845860394484")
+			(uuid "08ac36ea-5dc6-406e-ba53-31f5b28654a2")
 		)
 		(pin "4"
-			(uuid "4be04493-ed52-45d6-8fa0-035f05f976d3")
+			(uuid "c49eee53-f39a-4270-b505-5846779b47c0")
 		)
 		(pin "6"
-			(uuid "d13e0dc5-7257-4f89-9efe-594c77283072")
+			(uuid "b9f2720c-46b5-40e4-97cc-c39c9a44d307")
 		)
 		(instances
-			(project ""
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-			(project "SD_CARD"
-				(path "/9ae13be0-15f3-45e5-b45b-58078a73a7e5"
-					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -6566,21 +6536,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6e73a667-00b5-4c01-b160-e1899402bbb3")
+			(uuid "d6455f59-0dfc-48b5-bec7-d353f7dfe130")
 		)
 		(pin "1"
-			(uuid "6a260665-7913-4388-b4ec-1453f8303e85")
+			(uuid "1c1d29c4-a865-4a06-89f1-cd95a8494aaf")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/9ae13be0-15f3-45e5-b45b-58078a73a7e5"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6743,21 +6707,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d6163059-60c0-47fd-a6b5-cff2bf8af154")
+			(uuid "5914e154-5d0a-4d90-83dd-e269c7585ddf")
 		)
 		(pin "2"
-			(uuid "ded7201e-c89b-4468-b310-3f129f3a9694")
+			(uuid "b69c3524-5c86-4c88-83dc-237ecdc9119f")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/9ae13be0-15f3-45e5-b45b-58078a73a7e5"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6817,11 +6775,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ac6f742-ca18-4552-aa8b-dcebe5a72059")
+			(uuid "5eefeef7-a00f-4bb0-9e77-47d47d3f18a9")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "#PWR028")
 					(unit 1)
 				)
@@ -6837,7 +6795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60d89723-d537-4ec0-aef3-5d53fb3a27c5")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 151.13 69.215 0)
 			(effects
 				(font
@@ -6882,12 +6840,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0a1743f0-5ae0-4c03-baf3-f425375c0293")
+			(uuid "86ef0b5c-2fbb-45a4-bdd1-4e09da593567")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
-					(reference "#PWR035")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7049,14 +7007,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "351031de-5259-4754-8f1f-6c2171273dff")
+			(uuid "e0ac3f22-dfd9-4bd5-bf46-978a7c9b4a48")
 		)
 		(pin "1"
-			(uuid "548d7ab2-db54-41da-ac49-ca6c26d1adb5")
+			(uuid "50a11b6c-74da-4ff6-8f08-ab77489b6da2")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "C8")
 					(unit 1)
 				)
@@ -7117,11 +7075,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "64740e45-4092-4e51-9de9-7021c63dc671")
+			(uuid "f4e834f6-498c-4406-bccb-0a0621232c31")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "#PWR025")
 					(unit 1)
 				)
@@ -7282,21 +7240,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a94cb98c-8291-4c6d-9ef1-fa7b2ac9dba1")
+			(uuid "c29d2bbd-2ca0-416f-86d6-b2a5fad56f01")
 		)
 		(pin "2"
-			(uuid "4a996b8a-9d86-41d0-afd4-4624a18838e2")
+			(uuid "b6d87b71-fddd-42b6-a68e-f92151646b47")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/9ae13be0-15f3-45e5-b45b-58078a73a7e5"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7311,7 +7263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8681ab16-d84c-4bb7-a9d1-d3f9a2f16c59")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR035"
 			(at 157.48 69.215 0)
 			(effects
 				(font
@@ -7356,12 +7308,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3eca5921-75b6-4ab2-aca9-ecb5110c7ede")
+			(uuid "abe100aa-5e76-462a-ab29-940bb145ef69")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
-					(reference "#PWR036")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7376,7 +7328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "915adfab-7d2f-44d1-bd82-c4fa1a695429")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR036"
 			(at 164.465 69.215 0)
 			(effects
 				(font
@@ -7421,12 +7373,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2408fbff-32a1-400d-8337-fa9e57a15b75")
+			(uuid "09d0c7bf-292c-4b1d-9ae8-316f1af96e50")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
-					(reference "#PWR037")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7441,7 +7393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91ad88e4-3f1b-4354-ac22-9aa5a3484704")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR037"
 			(at 193.675 121.92 0)
 			(effects
 				(font
@@ -7486,12 +7438,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2cca98be-af0a-4571-aa51-c3bf2e58b1c9")
+			(uuid "883a5d45-2ed7-4daa-866f-a50f59d53003")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
-					(reference "#PWR033")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7551,11 +7503,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "065da2f7-d4c4-4688-b370-de7610f11b16")
+			(uuid "cee22194-423b-45af-a655-81f3fdcfccb0")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "#PWR031")
 					(unit 1)
 				)
@@ -7616,11 +7568,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a9e0fab-ff97-46d7-ac04-b911ec913759")
+			(uuid "5f8b96b5-99b0-47c6-bfe1-1fb83402a238")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "#PWR030")
 					(unit 1)
 				)
@@ -7811,24 +7763,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "86fa6711-0a36-4683-913f-377f8343d0ef")
+			(uuid "cd255f45-cc27-46eb-a6a1-737f6d732df6")
 		)
 		(pin "2"
-			(uuid "15289f30-3fa5-4f86-98e3-cb1d56d31cc6")
+			(uuid "cbe83af4-9ef9-449c-874a-e5b938a52ba6")
 		)
 		(pin "1"
-			(uuid "a0542766-c8e4-40e5-b970-930e925faff6")
+			(uuid "b60e13b4-1379-456a-947f-099d4c910d64")
 		)
 		(instances
-			(project ""
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "Q6")
-					(unit 1)
-				)
-			)
-			(project "SD_CARD"
-				(path "/9ae13be0-15f3-45e5-b45b-58078a73a7e5"
-					(reference "Q?")
 					(unit 1)
 				)
 			)
@@ -7888,11 +7834,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "1bf59877-9bc4-42d3-badc-209573d50e3e")
+			(uuid "592e5ab8-afb0-467f-91e6-d131224e5fa3")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "#PWR026")
 					(unit 1)
 				)
@@ -7953,11 +7899,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "432c3aba-be24-4465-be1d-2f47e50cbd90")
+			(uuid "cf0a3287-4367-4dad-89f9-539413f7dbda")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "#PWR032")
 					(unit 1)
 				)
@@ -8121,14 +8067,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "63f529ac-0bb4-4a6e-80ca-1ae102a0ce1f")
+			(uuid "2afdf4b7-7335-4083-96c5-a9799eff29d9")
 		)
 		(pin "2"
-			(uuid "85b124f0-61c6-4999-97fc-d4127a9f346a")
+			(uuid "dcbac532-a0ee-4d92-ad1a-1ba5730c3dbe")
 		)
 		(instances
-			(project ""
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "R14")
 					(unit 1)
 				)
@@ -8292,21 +8238,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ef80f10a-b9e7-4a63-8a3c-bb02b50f098b")
+			(uuid "1fafc62b-5395-4a35-bb6d-84ea4695d0be")
 		)
 		(pin "1"
-			(uuid "63cd8d6d-27ee-404f-8f82-53b7a1e71085")
+			(uuid "fba2bd0c-a0ce-4c7c-9d68-c18e2b5a23e5")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/9ae13be0-15f3-45e5-b45b-58078a73a7e5"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8557,45 +8497,39 @@
 			)
 		)
 		(pin "5"
-			(uuid "6a782367-fb95-440a-ae81-95d6b6439182")
+			(uuid "37b50a96-f8a5-4edb-81c6-cb4ebe8bb6a5")
 		)
 		(pin "4"
-			(uuid "81e63193-a5ff-4947-b355-c7911cead24f")
+			(uuid "e19b3d5e-87d0-42c6-b985-caef43c92ad9")
 		)
 		(pin "1"
-			(uuid "8e6d62b9-f3e7-4d20-9b3f-f9901d67111e")
+			(uuid "9ab25cbb-dd67-4742-b5f7-3ca829b438a0")
 		)
 		(pin "2"
-			(uuid "32af8ba9-f75f-43f1-8a31-832f53e37fc7")
+			(uuid "83d1f300-f8a7-4a29-a45d-657b24320c84")
 		)
 		(pin "3"
-			(uuid "e0a7959c-82d8-4222-ae2a-24d3ada17a88")
+			(uuid "19f8d770-1ba2-4046-a531-e5ea2462f3e1")
 		)
 		(pin "6"
-			(uuid "190e0cb7-5dbc-459f-97f9-85a6a08c7eda")
+			(uuid "5cb10a50-e912-4c9c-a614-88fe00008a62")
 		)
 		(pin "8"
-			(uuid "2b4bbf93-af04-4b3f-8963-aaf7f832d88a")
+			(uuid "94d93b27-9baa-4500-802d-82f32cb36170")
 		)
 		(pin "10"
-			(uuid "371d2253-99be-4412-8aee-ccac4a0e62e5")
+			(uuid "6be7e2f0-2f42-4cfd-9557-c22aca42cad8")
 		)
 		(pin "7"
-			(uuid "87d25699-b60e-4650-b583-2425bf2010aa")
+			(uuid "b53ad3e4-dfd5-45d1-b936-767c70e3a6fd")
 		)
 		(pin "9"
-			(uuid "71a6437f-c083-4982-9ef7-707bedad14f2")
+			(uuid "2c093399-70a1-4260-b5f4-f83b98972430")
 		)
 		(instances
-			(project ""
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-			(project "SD_CARD"
-				(path "/9ae13be0-15f3-45e5-b45b-58078a73a7e5"
-					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -8655,11 +8589,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "83125628-b3ae-454c-a565-0c5616f8207f")
+			(uuid "743fc722-e5f5-4733-bb0a-25f7305eb83c")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "#PWR027")
 					(unit 1)
 				)
@@ -8823,98 +8757,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "59c4ff8d-34bc-4aec-b464-f6c52b69fc4c")
+			(uuid "9c21a092-ecee-4b99-ab89-0d4963c79084")
 		)
 		(pin "1"
-			(uuid "71fcccbb-7e0f-48fe-853b-4e7be93779ef")
+			(uuid "d9df3b15-fc93-4f78-a786-686f8f96a33e")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/adbb075d-f33a-4d25-a8c5-71eb41bbcd81"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/1c15d794-05a7-4cc7-9123-ab84a118bccf"
 					(reference "R11")
 					(unit 1)
 				)
 			)
-			(project ""
-				(path "/9ae13be0-15f3-45e5-b45b-58078a73a7e5"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
-	(embedded_files
-		(file
-			(name "Intellitrol_2025_A3.kicad_wks")
-			(type worksheet)
-			(data |KLUv/WCDEAUbACZkbiDwGD3QMfKBrbOx2DcoGlv3TNh99mV3EvRvWVgcnOtFBWQAXgBnABReV2sI
-				DWpR9uf6n2W1i+p9zrMI/+NthP/jsTnKvtaTq4jzHfcMVMLYn++sya/1DBTK9pT9/uRfAIxI71+E
-				msWxbOccb2R1xl+zX/cYEFLKa8bZF9sve6kACAi+kInTVc6GCgGd8K+NnDMq+1/nGtWx/5FAdLZU
-				oCbtuG1blFcB8Bd3ZNPZHx5Z0uo/+W9P40VnR4o6Ze7a/uoj75j9Zsy917GjFeKwt7V7b7/9891d
-				Es61rf7rIhHmYoxw9uzu+pwx3ltMBqOMYCAYzkE4VyiFU1qdxWAcdHdwd68GVn8VZdzp7KNakRZH
-				RVFJ2Uu/++dCoTYnFMgFonFYLrafLbml/3rOJEaEWowU0o5Sctarb7vz8NaGbM4YNXi1FlcOjKLB
-				cWQuF4iKEAGBgR7avz7O2IMjWZdwHo0UUWJ9TTU3NAxBD9e8m7tZSUACtXXn12M/b1B4YRLKAosQ
-				k1LDsneZ0u659XPIKEUgpDzIGKnUrguj2uHKMu3KDgjMxCGRUBgf6etTDYtwzgtmEsXEEYE8AoC2
-				oPFQpJgZkZEkSTIccESk5Mi0AYxZQcbXbhmCBlS6SEXWAO+lphyKEyNFrMXyEDEYPwHuGFKxNgeK
-				m+1Ad3Z55wGvua2nQMnZCuY7b6Ik7aBJHElBlDZCA1yCKnXozQGN4gTBFE4jULs1PwVZg9WeH8wj
-				TDSSqx3jUNTtIPpYs5EEq2BWwAAhwhx0FuwDog5eqCYJHu4UFVH2mpUpEwMwM0A4tFX1LgyBlqkz
-				uK5yDnACSDHY5QAzEMIMfBVC5lEYagZTDgDVNXSmLK3B7EACr4eCMnbvVlegUyNppvEOK4WommHL
-				Dy8weAwnXggDg+mkNkPKcZNs/YIepwcguE7tI173PruEfM83QETOfzAF2Fr9qdizM/FH2fayEccT
-				a4+A19qsjnoIwhANNfmhoKjNRC57yk0kdUeLGn0DgID+LPVBW6FXDuCD3T3AfbAMgaQRFmndmW/9
-				QG1am5s+IcAMqhPSQVsf+8AeOMyf7hngEzvG1oP21YPAF7PU6fjlmi07SGpbVi4rItg5XrG306tN
-				zdfgYZ0E+PcRH3E/OWlAOga9Cg==|
-			)
-			(checksum "A59890F014518DF3258CF8C2855AC5F5")
-		)
-		(file
-			(name "Intellitrol_2025_A4.kicad_wks")
-			(type worksheet)
-			(data |KLUv/WCZEBUbACZkbiDwGD3QMfKBrbOx2DcoGlv3TNh99mV3EvRvWVgcnOtFBWQAXgBnABReV2sI
-				DWpR9uf6n2W1i+p9zrMI/+NthP/jsTnKvtaTq4jzHfcMVMLYn++sya/1DBTK9pT9/uRfAIxI71+E
-				msWxbOccb2R1xl+zX/cYEFLKa8bZF9sve6kACAi+kInTVc6GCgGd8K+NnDMq+1/nGtWx/5FAdLZU
-				oCbtuG1blFcB8Bd3ZNPZHx5Z0uo/+W9P40VnR4o6Ze7a/uoj75j9Zsy917GjFeKwt7V7b7/9891d
-				Es61rf7rIhHmYoxw9uzu+pwx3ltMBqOMYCAYzkE4VyiFU1qdxWAcdHdwd68GVn8VZdzp7KNakRZH
-				RVFJ2Uu/++dCoTYnFMgFonFYLrafLbml/3rOJEaEWowU0o5Sctarb7vz8NaGbM4YNXi1FlcOjKLB
-				cWQuF4iKEAGBgR7avz7OGfbgSNYlnEcjRZRYX1PNDQ27EPRwzbu5m5UEJFBbd3499vMGhRcmoSyw
-				CDEpsUP2LlPaPbd+GJmklCIQ8iBjpAjsotic85BlBwRm4pBIKIyP9PWphkU45wUziWLiiEAeAYC4
-				oOFQpZgZkZEkSTIccESkxMi2AYxZQeJ8egBowEg/MSlW3q1K3wBOjARiGqpC6EAOCnDHhkppthlP
-				O+jv7HnMEz5zs48DSLYVmNFBENFJhqrjSAystDkaDBNEqctvjpQUNwnTQo7AwFGdzUb7PJvoTFeS
-				1n3YoQEBykkEUIh0QBAV2xAwSol1h6QGA0POWHKVJg3ILBUgU/beZbrJBpgbnshvXvAqXTqkjKYZ
-				4egmwqUO7gQhRWCXA2YghBn4KgRP43HULMbcAqo7dKYsrcHuQILXQ0EZ23erLdCpQ5ppvcNaQtRN
-				o4mHFQA8BhEPlCFDC5IbJuq4SbZyoSKnBEBQHe0jWPtqOwv0nzXAR/h/MAXomvoTsWFHAu+iLWcz
-				LiJmH4FX2KzmewjCKB0xeVGoaM1ETnvKJfJ1QIta/QFAQH+W+qCt0Fsn8MFvn+U6LEIgOcLKLXTm
-				ux/om9bg0CcKcGbVxDTgLYt1YA8bzp+uDHASMHbrQefVg8AXs9Tp+OWaLTtIbV1SLiMiyDkesZdS
-				rE3N1+9hnQT49xEfcT85aUA6Br0K|
-			)
-			(checksum "68DF2994812F00A35785ED6450499936")
-		)
-		(file
-			(name "Intellitrol_2025_A5.kicad_wks")
-			(type worksheet)
-			(data |KLUv/WCZEDUbAIZkbyEQlxsmHCQ5WoAaQszgAGrNb1JZVVp7JPYHvzYiAHoRoAFkAF8AaACyRstq
-				LdOiJmd/3j6sqvbQdr/zHML/mAPxezo2y9nXdvIW2jzHP0OdUbbnPUvyaz9DjbP9ZMMv+RcAoOg9
-				lFGrNpX1fPOBVWf8W/brHUM257SopH2xDbOPCoCAIASRNt7WWVAhKEIj/DdGztmU/a93beLYD0Wf
-				SnsmTLS25DhOTqsA+Is5syvtEIPVrPpL/txXaVXasppKubu2f3PQW2a/GXf/tWxZgTr8ce3f22/3
-				fHtXhPPWVf/1UAh3UspIm7Z3ndKQh+N7e8GinJDL49L5B2dKrZHOyrNXlINuDu7u1KDq30IZczo7
-				uFFmpUFJUE7W0u/usdSoUcnkYXlkGpWLbWhHXum/nrNoIaMmZY215Zyd/ba37X2YawNGqZRatFqT
-				qcYlwdg0MBbLIwGBoR7af3ucMdzBEKxHOINgQs6rL2nLDO2ysnqw6NVcTWoCECauPb8dGzqjRuuK
-				TBQyXnNqNbuXJ+2du3kW2OHSrFqzbB6wKevMrKtq1swmbYpl2SG7SBqRyGQRin77ql0yUmpFLJKQ
-				NAKAuaABSabUjMhIkiQZDnBEpMTItgGMWUHifnpI0IBKPyEpFt6tStxQTowEYtpUgdDBDgpgj6kZ
-				lQRAmfC0w/7ONs95wWdu4nEAybaCGTMPZp0EizqOhIGdEBaN0GaYTJS40HdXSW1JmEJyBAaOajab
-				7H0zoCZXMsZMAAeU0wigEmolyMWzAnwjWhj4ks1ddyBW9XnjB8+W0mBT9NaVWdMNEDfYXAV/9e4O
-				LrFpinDgMbmpWf0khA60gQYMkIYZwCoETKMwajZjrgKuO2ymLK7B7ECC2kNBG9t3qy3kqUPKab3Z
-				WkLUzdGEhxUePMYQD5whwwvSGybxuJRsdaHSpwQgqA7to1/7PjsL+c82wEfjfzAF6Fr9iVizO4F3
-				0dayGccTs4/Ai21WRz0EYZSemHpRqWTNQk57yiX6NYCeGvqDgoDuLP1Bs5K3jvDBbp/lOKwgkDTC
-				yi105rsf6FvX4NMnBjiXapI0gC2LdaAHCudaVy44CRO79aDz6kHgi1nqdPxyzZZdSG1BUgYjIshJ
-				HrGXUqtNzdfzYZ0E+O9DPuJ+ctGAdAx6FQ==|
-			)
-			(checksum "73EEF5D45A1479040F25D65988DEF6D1")
 		)
 	)
 )

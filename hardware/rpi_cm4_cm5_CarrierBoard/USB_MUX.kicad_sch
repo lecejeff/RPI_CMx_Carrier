@@ -1928,6 +1928,7 @@
 					(italic yes)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -2139,10 +2140,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "23284fa0-524e-48a2-b822-2a88aa3823ed")
+			(uuid "b98fe56e-d0f6-4f89-b43b-c394def2823c")
 		)
 		(instances
-			(project "rpi_cm4_cm5_CarrierBoard"
+			(project ""
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/68c27264-913b-431e-a411-550b93528c71"
 					(reference "#PWR0214")
 					(unit 1)
@@ -2204,10 +2205,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "70080ed8-6af5-4a42-9d3d-823bcdad8589")
+			(uuid "c8225121-ed6a-44b2-872a-c0ffd36d79bb")
 		)
 		(instances
-			(project "rpi_cm4_cm5_CarrierBoard"
+			(project ""
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/68c27264-913b-431e-a411-550b93528c71"
 					(reference "#PWR0217")
 					(unit 1)
@@ -2372,13 +2373,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "0591c642-819c-41e4-82dd-99fd989a6a88")
+			(uuid "05be62eb-5e40-4849-b81c-0b9816d586c4")
 		)
 		(pin "1"
-			(uuid "7b6eb75b-a91a-4731-b0fb-00ab69296bb5")
+			(uuid "122e0076-a4fc-4222-9c89-59de49d2ba2b")
 		)
 		(instances
-			(project "rpi_cm4_cm5_CarrierBoard"
+			(project ""
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/68c27264-913b-431e-a411-550b93528c71"
 					(reference "R178")
 					(unit 1)
@@ -2542,13 +2543,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "2f860176-ff9c-4d99-93db-e05032ed978b")
+			(uuid "eee9d9b0-a384-409a-b6e8-9c6488876bed")
 		)
 		(pin "2"
-			(uuid "c8a44685-c406-4307-99d7-f9b656f08fa6")
+			(uuid "98d98bb3-fc84-4f79-83c5-6cc956d1d04a")
 		)
 		(instances
-			(project "rpi_cm4_cm5_CarrierBoard"
+			(project ""
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/68c27264-913b-431e-a411-550b93528c71"
 					(reference "C112")
 					(unit 1)
@@ -2610,10 +2611,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c3431b7d-5dfa-4d72-ae52-f4da089d182c")
+			(uuid "2c34cb25-39d5-4a04-99e6-071ec15e8cd2")
 		)
 		(instances
-			(project "rpi_cm4_cm5_CarrierBoard"
+			(project ""
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/68c27264-913b-431e-a411-550b93528c71"
 					(reference "#PWR0215")
 					(unit 1)
@@ -2784,34 +2785,34 @@
 			)
 		)
 		(pin "3"
-			(uuid "7cea5ae9-c0fe-49d6-8a41-d6dbd2612be0")
+			(uuid "773ef352-26d9-4204-acad-7becc64be132")
 		)
 		(pin "2"
-			(uuid "d483fc8f-e991-475b-9830-e361918f59fa")
+			(uuid "7cca1b06-1ce8-49fc-952e-69e825c7cd0a")
 		)
 		(pin "1"
-			(uuid "277f0db9-57b9-4fe9-9c49-2c259a76183c")
+			(uuid "571d2276-e8be-44a6-a184-90360f6f072e")
 		)
 		(pin "10"
-			(uuid "48e82ad9-cc79-4a51-98be-27e5c90c6a28")
+			(uuid "76218507-7d86-4656-a9b1-e2bce54cde27")
 		)
 		(pin "9"
-			(uuid "93f5c99f-ce16-45ba-a3f6-8e0f7f6ac452")
+			(uuid "ffe378f4-0537-480a-a31d-135fd7505d37")
 		)
 		(pin "4"
-			(uuid "ce8d6c78-92c9-4042-824a-46ba16261eed")
+			(uuid "0570a998-d1d5-41e6-8467-d1373baef806")
 		)
 		(pin "5"
-			(uuid "82f11790-aa73-44c0-acb5-2505135c148e")
+			(uuid "a86928cf-3e23-44a5-9488-d78afa519a14")
 		)
 		(pin "6"
-			(uuid "97d02abc-7d52-4a36-b463-e0dab8746f04")
+			(uuid "99409fde-0251-4b2a-bf51-70c9ab82662b")
 		)
 		(pin "7"
-			(uuid "a6a7ffaa-b634-4d49-a92f-463f5870572c")
+			(uuid "0c065ec2-f160-46e9-9161-aabd2c3be390")
 		)
 		(pin "8"
-			(uuid "94eb4895-b4f2-475e-b1e3-59a5dd91023f")
+			(uuid "90617d85-fbf5-404b-9ed8-8af2676fcdb4")
 		)
 		(instances
 			(project ""
@@ -2876,10 +2877,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f287e91b-c291-495d-b0d7-e351df38511e")
+			(uuid "4031982c-b44c-406e-8584-c299d00d5a01")
 		)
 		(instances
-			(project "rpi_cm4_cm5_CarrierBoard"
+			(project ""
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/68c27264-913b-431e-a411-550b93528c71"
 					(reference "#PWR0216")
 					(unit 1)
@@ -3041,10 +3042,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7a7eceab-4fe9-41e9-8f1b-e3ad84ee0b00")
+			(uuid "1aeec941-0c25-4b2b-a063-dedf58953c45")
 		)
 		(pin "1"
-			(uuid "7f4e2c9b-d578-4896-95e4-3e02ba5c7e8f")
+			(uuid "22ef6713-5a52-45f2-aed6-45d464fd4670")
 		)
 		(instances
 			(project ""
@@ -3211,13 +3212,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "716164d7-c7de-482a-9b48-3de9d3ab760e")
+			(uuid "8a1b0a93-1402-45f2-8d07-0e9c4c32de3b")
 		)
 		(pin "2"
-			(uuid "5bb7e6bf-549e-4e8b-90ba-169b38a5a4b8")
+			(uuid "1b017cc2-c942-4776-8574-838b66246712")
 		)
 		(instances
-			(project "rpi_cm4_cm5_CarrierBoard"
+			(project ""
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/68c27264-913b-431e-a411-550b93528c71"
 					(reference "C110")
 					(unit 1)

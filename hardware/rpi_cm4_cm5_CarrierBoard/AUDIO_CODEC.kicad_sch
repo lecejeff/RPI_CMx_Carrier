@@ -2209,6 +2209,396 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KicadCompDb:ESD Diodes/ESD_DIODE_00002"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 1.27 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D1213A-02SOL-7"
+				(at 1.524 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprint:SOT-23-3"
+				(at 0.508 -22.098 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D1213A_02SOL.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TVS DIODE 3.3VWM 10VC SOT233"
+				(at 1.778 -9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "V(r)" "3.3V"
+				(at 0.254 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "V(cl)" "10V"
+				(at 0.254 -14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "V(br)" "6V"
+				(at 0 -16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "I(pp)" "1A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "NA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Capacitance" "0.85pF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature" "-55°C ~ 125°C"
+				(at 0.762 -24.384 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOT-23-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Diodes Incorporated"
+				(at 0.254 -18.288 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "D1213A-02SOL-7"
+				(at 0.254 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "DigiKey"
+				(at 0 -5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Part Number" "D1213A-02SOL-7DICT-ND"
+				(at 0.762 -12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "ESD TVS DUAL CA SMT"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dimensions" "2.90mm x 2.40mm"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "footprint:SOT-23-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESD Diodes/ESD_DIODE_00002_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy -0.762 -2.032) (xy -1.016 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 0.508 -2.032) (xy 0.762 -2.032) (xy 1.016 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.048) (xy 0 -3.556) (xy 1.27 -3.556) (xy 1.27 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.048) (xy 0.762 -3.048) (xy 0 -2.032) (xy -0.762 -3.048) (xy 0 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.032) (xy 1.778 -2.032) (xy 1.524 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.032) (xy 3.048 -2.032) (xy 3.302 -2.032) (xy 3.556 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.048) (xy 3.302 -3.048) (xy 2.54 -2.032) (xy 1.778 -3.048) (xy 2.54 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.556) (xy 1.27 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESD Diodes/ESD_DIODE_00002_1_1"
+				(pin passive line
+					(at 0 0 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 1.016)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 270)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "KicadCompDb:Load Switch/LOAD_SW_00001"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4054,6 +4444,12 @@
 		(uuid "26959bf3-41d3-4a3f-831e-8160917be3aa")
 	)
 	(junction
+		(at 208.915 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "302163ca-fb43-48d6-b869-3ef26522c0c6")
+	)
+	(junction
 		(at 184.15 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4078,10 +4474,22 @@
 		(uuid "3fff05b8-64f4-4c26-9571-3e979a409b0b")
 	)
 	(junction
+		(at 214.63 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "406d733e-3eb8-40f2-ac30-7955e2673b5b")
+	)
+	(junction
 		(at 229.87 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bddb76a-65a9-4f9b-8dd1-d81d2e42fa08")
+	)
+	(junction
+		(at 224.79 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "553395e7-3db1-4ad5-9372-a005c7be8dd0")
 	)
 	(junction
 		(at 153.67 92.71)
@@ -4138,10 +4546,34 @@
 		(uuid "8e335765-104d-4787-911d-491a556008ce")
 	)
 	(junction
+		(at 86.995 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4ab076b-1110-4ca3-b202-865eb4342740")
+	)
+	(junction
 		(at 153.67 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7adf81e-4c63-408d-94e7-c6a87418bae5")
+	)
+	(junction
+		(at 214.63 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b04cda1e-c170-4dc3-8dc1-6751fbc22ed4")
+	)
+	(junction
+		(at 211.455 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b97a7813-8aca-4676-8b26-161bd2ce3a14")
+	)
+	(junction
+		(at 89.535 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9b567fb-7d2b-4d45-9696-55478efaf9a6")
 	)
 	(junction
 		(at 153.67 90.17)
@@ -4192,7 +4624,7 @@
 		(uuid "ef82482e-6c82-47f5-b2a4-1c50b0779fe8")
 	)
 	(no_connect
-		(at 212.725 125.095)
+		(at 232.41 135.89)
 		(uuid "b5cd2d4a-4dce-4ac2-8150-7969a7007709")
 	)
 	(no_connect
@@ -4204,7 +4636,7 @@
 		(uuid "c461dcd5-1ebd-4f46-b0b7-a77d90798e5e")
 	)
 	(no_connect
-		(at 212.725 109.22)
+		(at 232.41 109.22)
 		(uuid "e11e8cf7-2549-4efe-850f-c36f2107ae16")
 	)
 	(bus_entry
@@ -4313,6 +4745,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.995 107.95) (xy 86.995 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a8e6513-26b9-4dce-801b-fc4763600b6e")
+	)
+	(wire
+		(pts
 			(xy 228.6 86.36) (xy 256.54 86.36)
 		)
 		(stroke
@@ -4323,7 +4765,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.675 115.57) (xy 193.675 122.555)
+			(xy 193.675 115.57) (xy 193.675 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4473,6 +4915,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.915 106.68) (xy 208.915 113.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff5b491-dbc4-4c99-8dd3-073e695a88d0")
+	)
+	(wire
+		(pts
 			(xy 152.4 87.63) (xy 153.67 87.63)
 		)
 		(stroke
@@ -4533,6 +4985,16 @@
 	)
 	(wire
 		(pts
+			(xy 211.455 111.76) (xy 211.455 113.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b4792c-32bb-4e30-ab35-4e0527a13bdb")
+	)
+	(wire
+		(pts
 			(xy 152.4 80.01) (xy 153.67 80.01)
 		)
 		(stroke
@@ -4553,7 +5015,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.835 114.3) (xy 202.565 114.3)
+			(xy 223.52 114.3) (xy 222.25 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4590,6 +5052,16 @@
 			(type default)
 		)
 		(uuid "2e6a0dcf-a418-41e6-b85b-954cedddf264")
+	)
+	(wire
+		(pts
+			(xy 224.79 135.89) (xy 224.79 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee60387-76a8-408b-88cb-066574bc307f")
 	)
 	(wire
 		(pts
@@ -4721,6 +5193,16 @@
 		)
 		(uuid "3ea2b105-4fb9-42d6-9379-05ae3f501ded")
 	)
+	(wire
+		(pts
+			(xy 89.535 110.49) (xy 89.535 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f09796b-f1cc-4a49-be9c-791f7e6b4603")
+	)
 	(bus
 		(pts
 			(xy 72.39 74.93) (xy 77.47 74.93)
@@ -4770,6 +5252,16 @@
 			(type default)
 		)
 		(uuid "44a6a56b-64ff-4827-a1e5-a41f1dc93b5c")
+	)
+	(wire
+		(pts
+			(xy 214.63 137.16) (xy 215.9 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46806d87-7c4e-4e6e-bc2d-a0f36f23c327")
 	)
 	(wire
 		(pts
@@ -4823,7 +5315,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 106.68) (xy 212.725 106.68)
+			(xy 199.39 106.68) (xy 208.915 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4833,7 +5325,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 130.175) (xy 212.725 130.175)
+			(xy 191.135 140.97) (xy 224.79 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4850,6 +5342,16 @@
 			(type default)
 		)
 		(uuid "57167ebc-88ef-4396-a17e-7477e5d4c62f")
+	)
+	(wire
+		(pts
+			(xy 214.63 133.35) (xy 232.41 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "572625e4-09ae-45f7-a9b5-a1d032e10d39")
 	)
 	(wire
 		(pts
@@ -4933,7 +5435,7 @@
 	)
 	(wire
 		(pts
-			(xy 188.595 127.635) (xy 212.725 127.635)
+			(xy 188.595 138.43) (xy 214.63 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5023,13 +5525,33 @@
 	)
 	(wire
 		(pts
-			(xy 202.565 114.3) (xy 202.565 115.57)
+			(xy 86.995 107.95) (xy 115.57 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "676561dc-cca5-4460-8bb2-9c5ee08f6575")
+	)
+	(wire
+		(pts
+			(xy 222.25 114.3) (xy 222.25 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "68edcdab-0529-4595-9fbd-a25d2161e20d")
+	)
+	(wire
+		(pts
+			(xy 224.79 140.97) (xy 232.41 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b69821d-0390-49de-a2dd-0fcdf1b07dec")
 	)
 	(wire
 		(pts
@@ -5053,6 +5575,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.915 106.68) (xy 232.41 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc975dd-c0ae-40eb-8cfd-299075cf4a49")
+	)
+	(wire
+		(pts
 			(xy 79.375 114.3) (xy 79.375 115.57)
 		)
 		(stroke
@@ -5073,7 +5605,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.135 118.11) (xy 191.135 130.175)
+			(xy 191.135 118.11) (xy 191.135 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5171,6 +5703,16 @@
 		)
 		(uuid "851fca7d-6ca2-4982-b4f6-841f24b37dca")
 	)
+	(wire
+		(pts
+			(xy 220.98 135.89) (xy 224.79 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8598af34-7e23-4753-886c-03d91bc2b14e")
+	)
 	(bus
 		(pts
 			(xy 80.01 80.01) (xy 80.01 82.55)
@@ -5213,7 +5755,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 111.76) (xy 212.725 111.76)
+			(xy 199.39 111.76) (xy 211.455 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5230,6 +5772,16 @@
 			(type default)
 		)
 		(uuid "88622cfc-178a-4ba0-9c6b-941bf3d4f353")
+	)
+	(wire
+		(pts
+			(xy 210.185 118.745) (xy 210.185 120.015)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b2bbc6-6c11-450d-903d-13d4f0967a9e")
 	)
 	(wire
 		(pts
@@ -5313,6 +5865,36 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 134.62) (xy 215.9 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a870c8-9820-4163-9433-c1292a837ae8")
+	)
+	(wire
+		(pts
+			(xy 211.455 111.76) (xy 232.41 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee8af7a-ee70-4e8c-9f34-9606004f05ee")
+	)
+	(wire
+		(pts
+			(xy 89.535 110.49) (xy 115.57 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0320cbb-ad6c-42ba-b922-0dede89be156")
+	)
+	(wire
+		(pts
 			(xy 98.425 118.11) (xy 124.46 118.11)
 		)
 		(stroke
@@ -5333,7 +5915,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.375 110.49) (xy 115.57 110.49)
+			(xy 79.375 110.49) (xy 89.535 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5403,7 +5985,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.725 114.3) (xy 210.185 114.3)
+			(xy 232.41 114.3) (xy 229.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5413,7 +5995,7 @@
 	)
 	(wire
 		(pts
-			(xy 188.595 120.65) (xy 188.595 127.635)
+			(xy 188.595 120.65) (xy 188.595 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5503,6 +6085,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 137.16) (xy 214.63 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdbe9ca8-c603-42f1-be4f-503be6e78f65")
+	)
+	(wire
+		(pts
 			(xy 183.515 59.055) (xy 212.725 59.055)
 		)
 		(stroke
@@ -5520,6 +6112,16 @@
 			(type default)
 		)
 		(uuid "bee1f754-417b-49a5-9412-7545216055a5")
+	)
+	(wire
+		(pts
+			(xy 214.63 133.35) (xy 214.63 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0252721-69f6-4da0-ab95-1e51f8192c12")
 	)
 	(wire
 		(pts
@@ -5643,6 +6245,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.265 116.84) (xy 88.265 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1b9aed-9adc-4420-a239-be8d4046888c")
+	)
+	(wire
+		(pts
 			(xy 191.135 80.01) (xy 191.135 81.28)
 		)
 		(stroke
@@ -5713,7 +6325,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.675 122.555) (xy 212.725 122.555)
+			(xy 193.675 133.35) (xy 214.63 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5783,7 +6395,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.375 107.95) (xy 115.57 107.95)
+			(xy 79.375 107.95) (xy 86.995 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5860,6 +6472,16 @@
 			(type default)
 		)
 		(uuid "fc59f619-46fe-4ae9-8ddd-2eb30e37e9c6")
+	)
+	(wire
+		(pts
+			(xy 214.63 138.43) (xy 232.41 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fddbf256-c596-45fa-a4dd-2f99aeac3bfb")
 	)
 	(wire
 		(pts
@@ -6093,7 +6715,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01700f9f-b664-4fa0-bef0-1714b8ff70de")
-		(property "Reference" "#PWR0333"
+		(property "Reference" "#PWR0331"
 			(at 46.99 140.335 0)
 			(effects
 				(font
@@ -6138,12 +6760,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "78d7cd71-50c4-496b-9b83-c465de1ffcd3")
+			(uuid "2592740f-83b5-4494-a494-d630419f294f")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0333")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0331")
 					(unit 1)
 				)
 			)
@@ -6158,7 +6780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02bd3871-1995-40ef-b712-0b020200deba")
-		(property "Reference" "#PWR0342"
+		(property "Reference" "#PWR0338"
 			(at 176.53 73.66 0)
 			(effects
 				(font
@@ -6203,12 +6825,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e1f390e-b504-4d72-974c-88e9cb110c85")
+			(uuid "19c0cad0-50e6-4b3e-88d7-c41be2494195")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0342")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0338")
 					(unit 1)
 				)
 			)
@@ -6388,26 +7010,26 @@
 			)
 		)
 		(pin "6"
-			(uuid "1de04f82-5c62-4fe4-9477-e9e23f3588db")
+			(uuid "1ac940be-6a8b-4faf-b6a3-120d4c6739eb")
 		)
 		(pin "1"
-			(uuid "53c6fa3d-4dd5-4c55-9313-696f14632527")
+			(uuid "f900cc65-dbca-4dc4-bcf3-1424e2f575a0")
 		)
 		(pin "4"
-			(uuid "51cf634c-1ca7-4ca3-a085-40788789c72f")
+			(uuid "9c7ae986-1fd3-4a02-adb8-8174ef0a6c33")
 		)
 		(pin "3"
-			(uuid "c4b69301-d96f-454e-8fac-6f8c1fa0b333")
+			(uuid "df99c816-d4b9-46ce-badf-477642036f61")
 		)
 		(pin "2"
-			(uuid "4d99baab-cd15-44bb-9716-21868c2bba9a")
+			(uuid "612edc4f-e110-4613-9d9a-b4c00860020d")
 		)
 		(pin "5"
-			(uuid "f5b542d6-a93b-42a0-9236-72d5de439258")
+			(uuid "58b911ad-824e-452c-9edf-65c38aeda8fb")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
 					(reference "U36")
 					(unit 1)
 				)
@@ -6423,7 +7045,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b370307-357c-4885-924e-1e8286c2c63c")
-		(property "Reference" "C214"
+		(property "Reference" "C212"
 			(at 178.181 82.931 90)
 			(effects
 				(font
@@ -6570,15 +7192,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe39084d-35d9-4200-9c20-89f319cf6df0")
+			(uuid "34ee7d21-5fa8-411a-b14c-a323910e2bfc")
 		)
 		(pin "2"
-			(uuid "32e8dff2-0934-4840-a202-3a469ae0999e")
+			(uuid "d760704a-1cd1-4f0e-99aa-16a1ebcda618")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "C214")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "C212")
 					(unit 1)
 				)
 			)
@@ -6593,7 +7215,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "0f16e128-c655-4168-8981-70aa40c19da0")
-		(property "Reference" "C207"
+		(property "Reference" "C205"
 			(at 95.25 136.398 90)
 			(effects
 				(font
@@ -6742,15 +7364,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1415e167-a400-4e10-8ae0-11005c845856")
+			(uuid "922c0f09-a393-4807-bbcd-130bb6cd7f49")
 		)
 		(pin "2"
-			(uuid "c6f685fd-132b-480d-8926-f26a9cee11d5")
+			(uuid "d56badd9-563e-484e-bef6-f3943d1869d4")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "C207")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "C205")
 					(unit 1)
 				)
 			)
@@ -6765,7 +7387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "180e0210-856a-45e8-a6dc-e14b18d07235")
-		(property "Reference" "#PWR0335"
+		(property "Reference" "#PWR0334"
 			(at 88.9 147.32 0)
 			(effects
 				(font
@@ -6810,12 +7432,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f49985c-f860-4bcd-957e-22efdcd5d6b3")
+			(uuid "aa72b95e-9426-4bb3-b3aa-3416dbf643af")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0335")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0334")
 					(unit 1)
 				)
 			)
@@ -6830,7 +7452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "218c21f8-f1c0-461d-aa18-78e91f12e495")
-		(property "Reference" "#PWR0349"
+		(property "Reference" "#PWR0345"
 			(at 229.87 81.28 0)
 			(effects
 				(font
@@ -6876,12 +7498,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "c8935604-6c33-44a5-9053-b74c9c102a9c")
+			(uuid "51540c0c-f2e5-415e-9eb9-4ff5bec575b2")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0349")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0345")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Pwr_Symbols:GND")
+		(at 210.185 120.015 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2de71d46-872e-4863-be42-9b49e7b5624f")
+		(property "Reference" "#PWR0385"
+			(at 210.185 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.185 123.571 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.185 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.185 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.185 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0dc8b9c-c6ad-42de-a045-4c626c281298")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0385")
 					(unit 1)
 				)
 			)
@@ -6896,7 +7583,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2feaef98-2b2b-47a2-b8e4-7e24cd3c6032")
-		(property "Reference" "C208"
+		(property "Reference" "C209"
 			(at 153.67 107.061 0)
 			(effects
 				(font
@@ -7045,15 +7732,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7f19c67-5d55-470d-86af-9c11dae981d6")
+			(uuid "867031ca-2e0a-4b11-9b8e-aab2b5f52427")
 		)
 		(pin "2"
-			(uuid "8a735d24-bb36-4dbe-b03d-040d89044e6d")
+			(uuid "1d79fd43-13eb-4145-bff6-f5df3f19cdb1")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "C208")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "C209")
 					(unit 1)
 				)
 			)
@@ -7068,7 +7755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "326ed599-5fc0-4c82-ae7d-29fd96bfbeff")
-		(property "Reference" "C205"
+		(property "Reference" "C204"
 			(at 78.232 128.524 0)
 			(effects
 				(font
@@ -7215,15 +7902,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5001b568-3f8b-4472-9bbc-0554148a8c65")
+			(uuid "f3504116-ca93-4ec7-9f00-bd848e2a0c2f")
 		)
 		(pin "2"
-			(uuid "dff09bcf-aed8-4813-ba19-8d0d573433c3")
+			(uuid "9f2c6b3c-2a7e-40ed-bf8f-9c20f5d6a8eb")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "C205")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "C204")
 					(unit 1)
 				)
 			)
@@ -7231,7 +7918,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Resistors/RES_SMT_00001")
-		(at 208.915 114.3 0)
+		(at 228.6 114.3 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7240,7 +7927,7 @@
 		(dnp no)
 		(uuid "340445b1-4f7b-48db-b901-9fad272de499")
 		(property "Reference" "R278"
-			(at 210.185 113.284 0)
+			(at 229.87 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7248,7 +7935,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 204.089 113.284 0)
+			(at 223.774 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7256,7 +7943,7 @@
 			)
 		)
 		(property "Footprint" "footprint:RES_0402"
-			(at 208.407 136.398 0)
+			(at 228.092 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7265,7 +7952,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 208.915 114.3 0)
+			(at 228.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,7 +7961,7 @@
 			)
 		)
 		(property "Description" "RES 0 OHM JUMPER 1/16W 0402"
-			(at 207.137 124.206 0)
+			(at 226.822 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +7970,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 208.661 134.62 0)
+			(at 228.346 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7292,7 +7979,7 @@
 			)
 		)
 		(property "Power" "1/16W"
-			(at 208.661 128.524 0)
+			(at 228.346 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,7 +7988,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 208.915 130.556 0)
+			(at 228.6 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +7997,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 208.661 132.588 0)
+			(at 228.346 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7319,7 +8006,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0402FR-071KL"
-			(at 208.661 122.174 0)
+			(at 228.346 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7328,7 +8015,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 208.915 120.142 0)
+			(at 228.6 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7337,7 +8024,7 @@
 			)
 		)
 		(property "Distributor Part Number" "311-0.0JRCT-ND"
-			(at 208.153 126.492 0)
+			(at 227.838 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7346,7 +8033,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 208.915 114.3 0)
+			(at 228.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7355,7 +8042,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 155°C"
-			(at 208.153 138.684 0)
+			(at 227.838 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7364,7 +8051,7 @@
 			)
 		)
 		(property "Type" "RES SMT"
-			(at 208.915 114.3 0)
+			(at 228.6 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7374,7 +8061,7 @@
 			)
 		)
 		(property "Dimensions" "1.00mm x 0.50mm"
-			(at 208.915 114.3 0)
+			(at 228.6 114.3 0)
 			(show_name yes)
 			(effects
 				(font
@@ -7384,14 +8071,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "448b1c3a-f7e7-4aeb-81ae-b8de6f81fde1")
+			(uuid "18336167-8aca-4b98-9d10-d677fe72e10c")
 		)
 		(pin "2"
-			(uuid "341052cf-2b64-42c4-9e74-83d51068917d")
+			(uuid "c6c343a7-e2e5-400f-9ed1-28d41deeaf8e")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
 					(reference "R278")
 					(unit 1)
 				)
@@ -7407,7 +8094,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39b1b30e-2287-4344-a564-acf01ee3a09c")
-		(property "Reference" "R274"
+		(property "Reference" "R277"
 			(at 199.644 39.116 0)
 			(effects
 				(font
@@ -7552,15 +8239,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f7748ad4-0eb6-4059-8c21-7803672d210b")
+			(uuid "e97f3463-0eff-4979-9265-e160aad7870b")
 		)
 		(pin "2"
-			(uuid "4c317b07-9512-4703-a7d4-e94f5290893e")
+			(uuid "63966546-49d6-409b-be55-4956774aa199")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "R274")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "R277")
 					(unit 1)
 				)
 			)
@@ -7575,7 +8262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4392d158-a77f-4955-9ffa-1bdf6905342d")
-		(property "Reference" "C212"
+		(property "Reference" "C216"
 			(at 199.009 81.407 90)
 			(effects
 				(font
@@ -7722,15 +8409,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d58b14db-d84b-49e8-88e7-7bd0bc997df1")
+			(uuid "7dd85e34-b255-4f38-82b0-38b3d212abe1")
 		)
 		(pin "1"
-			(uuid "6084ee94-5a45-4bb2-be99-8b4ffc74b22a")
+			(uuid "7c3752d7-105b-4254-8eda-d9692739ecf5")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "C212")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "C216")
 					(unit 1)
 				)
 			)
@@ -7745,7 +8432,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43c66fae-400e-4ee9-a72d-885dc382bfd3")
-		(property "Reference" "R276"
+		(property "Reference" "R274"
 			(at 71.755 113.284 0)
 			(effects
 				(font
@@ -7890,15 +8577,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c86ad6a3-5d58-47b6-b77a-cb27d695ba8e")
+			(uuid "b84d7aa7-006f-4781-9f1c-2f70739d7cb3")
 		)
 		(pin "2"
-			(uuid "544c0273-061c-405d-83a3-ac6b99501e0e")
+			(uuid "8c23645f-5841-4997-b64b-8bfb2b4c48a0")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "R276")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "R274")
 					(unit 1)
 				)
 			)
@@ -7959,11 +8646,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "52eb369d-5080-44e0-9823-c83f4b3d5d97")
+			(uuid "760c1dfc-149f-4cb0-b46d-5413eed68e77")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
 					(reference "#PWR0350")
 					(unit 1)
 				)
@@ -7979,7 +8666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4529db85-ff7f-4f76-9583-786c11fac58f")
-		(property "Reference" "C215"
+		(property "Reference" "C217"
 			(at 229.362 38.989 0)
 			(effects
 				(font
@@ -8126,15 +8813,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a62f85f1-0a57-4b95-a103-61627fcef042")
+			(uuid "32b39cb0-6d99-4e68-a3a7-10b661dffa7e")
 		)
 		(pin "2"
-			(uuid "f993fa15-87e3-44ef-80c5-884a926a921e")
+			(uuid "7bc63ee1-99d7-4ed3-9824-f42cb65d15d1")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "C215")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "C217")
 					(unit 1)
 				)
 			)
@@ -8149,7 +8836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "475541bb-2326-44cc-be50-ba8932913fd2")
-		(property "Reference" "#PWR0341"
+		(property "Reference" "#PWR0339"
 			(at 177.165 94.615 0)
 			(effects
 				(font
@@ -8194,12 +8881,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7121227d-7487-425e-9487-5a214d16b24f")
+			(uuid "548d4b61-133d-4519-88d0-6f246fcf62fa")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0341")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0339")
 					(unit 1)
 				)
 			)
@@ -8215,7 +8902,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a8b1a20-8321-45e3-83e6-00df062c95e4")
-		(property "Reference" "#PWR0347"
+		(property "Reference" "#PWR0348"
 			(at 239.395 86.995 0)
 			(effects
 				(font
@@ -8260,12 +8947,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e017b99-e09b-424d-8fea-b1a49fb52163")
+			(uuid "efd8707a-eb83-4b2b-ba15-d4414fc2812b")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0347")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0348")
 					(unit 1)
 				)
 			)
@@ -8280,7 +8967,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4dbe4348-a59d-44b4-b99b-d097ae4059a0")
-		(property "Reference" "C206"
+		(property "Reference" "C203"
 			(at 48.006 129.286 90)
 			(effects
 				(font
@@ -8427,15 +9114,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3657d591-10f0-498f-89f3-27347ee357b7")
+			(uuid "fe771a65-89ca-4861-8b6e-efe48b7f1305")
 		)
 		(pin "2"
-			(uuid "8f2567b5-26e5-4d60-9980-28367f47f24e")
+			(uuid "3d05ee0d-88f7-476b-a7be-1ac40a189e65")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "C206")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -8596,14 +9283,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "c6b0606a-f79a-4b18-87b3-c9d3c3772273")
+			(uuid "c2eff5c2-b10c-4e01-8f5e-167f67c2b4b0")
 		)
 		(pin "1"
-			(uuid "d2a6c1df-3541-43b6-a2bf-7469fe40be94")
+			(uuid "74ae29e1-6c74-456b-9221-ec56d74bb0b2")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
 					(reference "R280")
 					(unit 1)
 				)
@@ -8619,7 +9306,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55023258-f152-4cca-bd06-ae063741df30")
-		(property "Reference" "#PWR0348"
+		(property "Reference" "#PWR0344"
 			(at 229.235 60.325 0)
 			(effects
 				(font
@@ -8665,12 +9352,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd171802-bb4d-4098-864d-52c7ba2085be")
+			(uuid "1aba8d1e-0bb5-494a-bf45-fd628232f1a0")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0348")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0344")
 					(unit 1)
 				)
 			)
@@ -8686,7 +9373,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "559c589e-6e4f-4d8b-bfe3-a1368f4889ca")
-		(property "Reference" "#PWR0339"
+		(property "Reference" "#PWR0343"
 			(at 212.09 93.98 0)
 			(effects
 				(font
@@ -8731,12 +9418,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc72cc13-3050-416a-8b0a-f945b7e9a98e")
+			(uuid "5920e9fa-8f26-4edd-9a01-01fa302f83bb")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0339")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0343")
 					(unit 1)
 				)
 			)
@@ -8751,7 +9438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59530d73-fa69-427c-9eea-5c3682eeddcd")
-		(property "Reference" "C210"
+		(property "Reference" "C208"
 			(at 153.797 99.314 0)
 			(effects
 				(font
@@ -8898,15 +9585,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "91b1d2b5-097a-428c-a8f0-b9e337e10f4b")
+			(uuid "6e4adeec-9cf9-4b78-a852-0fe0d455f5f4")
 		)
 		(pin "2"
-			(uuid "796b98eb-fb08-4c29-87cc-2ade9264fabb")
+			(uuid "400fbec2-2e61-4d70-ae4e-9db7859c42f1")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "C210")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "C208")
 					(unit 1)
 				)
 			)
@@ -8921,7 +9608,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d6e6b02-9160-4eab-b316-6e20f7a7892f")
-		(property "Reference" "C213"
+		(property "Reference" "C214"
 			(at 185.166 82.931 90)
 			(effects
 				(font
@@ -9068,15 +9755,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "51904bb6-b2b4-4265-98f0-1eb681c3670e")
+			(uuid "f3dfc97a-d0ce-4a07-a9aa-667819a57978")
 		)
 		(pin "2"
-			(uuid "242f3e84-d606-4682-9c67-106fc12d9f63")
+			(uuid "c7b4eb6f-296a-4757-980e-30156d4390eb")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "C213")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "C214")
 					(unit 1)
 				)
 			)
@@ -9091,7 +9778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "623772bd-740c-4b4f-8a7c-713d0e70cd96")
-		(property "Reference" "R275"
+		(property "Reference" "R276"
 			(at 110.744 81.661 0)
 			(effects
 				(font
@@ -9236,15 +9923,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d15ea487-9860-4765-9a58-a4ff82a86050")
+			(uuid "769421c8-f672-4f22-973b-0c9e11cae627")
 		)
 		(pin "2"
-			(uuid "11209381-3ab6-46ec-8e12-dbb650a8bf87")
+			(uuid "4f835603-5154-4654-bc5d-ff56ab064d49")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "R275")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "R276")
 					(unit 1)
 				)
 			)
@@ -9260,7 +9947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "630d32df-5b5e-4d87-8340-889a312fbfd1")
-		(property "Reference" "#PWR0345"
+		(property "Reference" "#PWR0349"
 			(at 244.475 59.055 0)
 			(effects
 				(font
@@ -9305,12 +9992,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "db81b12e-dc64-441b-900b-caefc464465b")
+			(uuid "144a11fa-ac83-4c25-8bd6-ed8fb2701873")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0345")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0349")
 					(unit 1)
 				)
 			)
@@ -9326,7 +10013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66db82cf-094f-4dbe-bda7-133b089344c3")
-		(property "Reference" "#PWR0343"
+		(property "Reference" "#PWR0346"
 			(at 238.76 46.99 0)
 			(effects
 				(font
@@ -9371,12 +10058,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "de1132d0-307c-4c3c-9c69-849261dce6d2")
+			(uuid "1c048e55-aada-4852-9650-cba13063cb95")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0343")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0346")
 					(unit 1)
 				)
 			)
@@ -9391,7 +10078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b665a54-2a77-43c6-95ac-cdffaf88195a")
-		(property "Reference" "#PWR0338"
+		(property "Reference" "#PWR0336"
 			(at 159.385 99.695 0)
 			(effects
 				(font
@@ -9436,12 +10123,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c1cfd94-50d6-4e25-af40-e80cfc4f1bad")
+			(uuid "6c9e68cc-67dc-429d-9e41-a3786e621653")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0338")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0336")
 					(unit 1)
 				)
 			)
@@ -9456,7 +10143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6efc9f8f-d4e3-4c5e-8dd3-623a5fa13c0d")
-		(property "Reference" "#PWR0331"
+		(property "Reference" "#PWR0333"
 			(at 79.375 121.92 0)
 			(effects
 				(font
@@ -9501,12 +10188,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "d85f8003-1e62-43eb-a1e9-4681ea731937")
+			(uuid "b38aee78-5eac-4026-84ea-023a1d7e22ad")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0331")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0333")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Pwr_Symbols:GND")
+		(at 88.265 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73f8cce3-86ab-43b4-b092-5a5870a72ee7")
+		(property "Reference" "#PWR0384"
+			(at 88.265 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.265 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.265 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.265 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.265 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c2582ac-30bc-43b6-955c-0497a1811a45")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0384")
 					(unit 1)
 				)
 			)
@@ -9521,7 +10273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77b8b4d5-90c3-4955-a866-6b058ee97c2d")
-		(property "Reference" "C219"
+		(property "Reference" "C218"
 			(at 229.362 58.039 0)
 			(effects
 				(font
@@ -9668,15 +10420,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "533f92f7-fdc5-4457-989a-1e02ad322439")
+			(uuid "216ab9fe-f814-4bc7-825e-0d678c37af84")
 		)
 		(pin "2"
-			(uuid "68f22700-eb9a-43f9-8faf-45f4b68813a7")
+			(uuid "0283008c-8da8-4745-a31c-41a1d2034d8b")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "C219")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "C218")
 					(unit 1)
 				)
 			)
@@ -9692,7 +10444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78a59082-5650-44b9-aee2-d210763aaaef")
-		(property "Reference" "#PWR0344"
+		(property "Reference" "#PWR0341"
 			(at 211.455 52.705 0)
 			(effects
 				(font
@@ -9737,12 +10489,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "df1b5756-62b7-42c8-a8f0-42d4e2b3645c")
+			(uuid "4b36cef6-afe4-4786-b990-a266d172f78b")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0344")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0341")
 					(unit 1)
 				)
 			)
@@ -9922,26 +10674,26 @@
 			)
 		)
 		(pin "6"
-			(uuid "7afca7e3-ee61-4173-a6a0-014e043a0aba")
+			(uuid "d342104b-df74-4807-9ac4-4e9340492d8b")
 		)
 		(pin "1"
-			(uuid "b86f5efc-e86a-4ca4-9b13-94b814c8ce78")
+			(uuid "641d1d9d-0b20-44c2-817d-eab119057696")
 		)
 		(pin "4"
-			(uuid "4a357b44-bcc6-4500-acc8-a026324ed99d")
+			(uuid "a87899b8-3ef3-4094-84e5-67d11a4161f0")
 		)
 		(pin "3"
-			(uuid "243e0824-f9c1-44f4-8944-7e0632f43e7e")
+			(uuid "be40cf2a-2f59-49bc-adc3-90a02d4298fa")
 		)
 		(pin "2"
-			(uuid "bafe4984-949a-46df-aaf3-98777155a610")
+			(uuid "d21bc6a7-c81d-4dae-aa42-09a5377c07c7")
 		)
 		(pin "5"
-			(uuid "e268758b-807d-44b3-a100-f419c5b1665c")
+			(uuid "7f9fadb4-a86f-4a80-9093-974bf2246636")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
 					(reference "U35")
 					(unit 1)
 				)
@@ -9957,7 +10709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "869afc42-ba89-4c5e-92d3-46e45a1132ea")
-		(property "Reference" "C216"
+		(property "Reference" "C211"
 			(at 177.546 61.976 90)
 			(effects
 				(font
@@ -10104,15 +10856,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "456e1992-be3e-4b7e-b437-37b846b646a4")
+			(uuid "d2a782eb-0bc8-46d4-bfd2-7fdd65805625")
 		)
 		(pin "2"
-			(uuid "49be2c46-2585-4e1f-8726-e5d111c41641")
+			(uuid "99a06466-2d7a-457b-b947-48086ebe44bb")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "C216")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "C211")
 					(unit 1)
 				)
 			)
@@ -10127,7 +10879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a374f99-00fc-4dd0-80fa-939f96736d64")
-		(property "Reference" "#PWR0330"
+		(property "Reference" "#PWR0335"
 			(at 120.65 102.235 0)
 			(effects
 				(font
@@ -10172,12 +10924,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed0caf66-1897-47e4-81b5-2eb61a15e24d")
+			(uuid "e32d3600-416c-45f1-901c-fc13387d5491")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0330")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0335")
 					(unit 1)
 				)
 			)
@@ -10192,7 +10944,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f0d32db-f1bc-4d13-9a94-e188b89aad6f")
-		(property "Reference" "C209"
+		(property "Reference" "C210"
 			(at 153.67 109.601 0)
 			(effects
 				(font
@@ -10341,15 +11093,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "eefc687e-b46f-4554-8087-173d66c18283")
+			(uuid "b2ad9b90-1fe4-442c-a753-e8a2bbb67e14")
 		)
 		(pin "2"
-			(uuid "d76d9133-536d-43d4-8e81-72a8eb550a6e")
+			(uuid "0f40d3f7-65c8-4cf5-aa38-2f9fc08f6159")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "C209")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "C210")
 					(unit 1)
 				)
 			)
@@ -10364,7 +11116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90c1f0fc-7db5-4f10-93f0-0f1f9b576a82")
-		(property "Reference" "C220"
+		(property "Reference" "C219"
 			(at 229.997 78.994 0)
 			(effects
 				(font
@@ -10511,15 +11263,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d090786d-1dbf-4297-a8f9-2034ab01ce13")
+			(uuid "c5a541e5-de0f-4262-830a-5f0fb677c52e")
 		)
 		(pin "2"
-			(uuid "8cff2805-54b7-4d20-a198-2499d2b7b309")
+			(uuid "44074d55-9239-4c8b-acd9-a6e28c10221b")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "C220")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "C219")
 					(unit 1)
 				)
 			)
@@ -10534,7 +11286,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91c32bdc-a5c0-4549-b404-547b7420b533")
-		(property "Reference" "C203"
+		(property "Reference" "C206"
 			(at 112.395 107.061 0)
 			(effects
 				(font
@@ -10683,15 +11435,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a89ebcd-408a-4bd0-95e6-e32f14cbfb39")
+			(uuid "b155dd16-1c4b-4adf-ae69-f37fa2b13748")
 		)
 		(pin "2"
-			(uuid "4df31de6-e821-42eb-be47-87878b839948")
+			(uuid "2412668f-32c7-43e0-9a70-634f90c0ad01")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "C203")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "C206")
 					(unit 1)
 				)
 			)
@@ -10707,7 +11459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "991b20ed-171e-46db-a464-f5b2ee6c6fdf")
-		(property "Reference" "U37"
+		(property "Reference" "U34"
 			(at 220.218 37.846 0)
 			(effects
 				(font
@@ -10881,24 +11633,24 @@
 			)
 		)
 		(pin "2"
-			(uuid "186db513-9050-4004-8594-32803dac9826")
+			(uuid "fb2ef62f-034d-4841-9ac6-47842c2f6c94")
 		)
 		(pin "1"
-			(uuid "45b77c43-d444-4b39-8516-76b60da40c4f")
+			(uuid "2e629b32-8805-46cd-8f85-cdefa48b8f39")
 		)
 		(pin "5"
-			(uuid "7d5fadae-75a4-4b11-b5d3-f235018bf88f")
+			(uuid "4f06e526-332c-4971-adfe-0090cd11afa4")
 		)
 		(pin "3"
-			(uuid "13fb84eb-8445-4195-abf5-263655d6d074")
+			(uuid "bf81bedd-0f10-45e2-b33c-f254ecda9502")
 		)
 		(pin "4"
-			(uuid "7aae27cc-2101-4e62-9154-2afac8aefa11")
+			(uuid "7d1b82a4-1870-46c8-8411-a9871fd88e7b")
 		)
 		(instances
-			(project ""
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "U37")
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "U34")
 					(unit 1)
 				)
 			)
@@ -10913,7 +11665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a2e3f1a-dcbb-4177-ab86-fe53ec2d737b")
-		(property "Reference" "C204"
+		(property "Reference" "C207"
 			(at 112.395 109.601 0)
 			(effects
 				(font
@@ -11062,15 +11814,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "cdfcaa54-6b62-4f21-84d1-e2215764f273")
+			(uuid "2d15c19f-1a65-4c74-ae8b-07b0f0384041")
 		)
 		(pin "2"
-			(uuid "dc39f3dd-fceb-483a-83a1-ed4216d80893")
+			(uuid "f2ea485c-d851-4826-8f21-c98391da2c54")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "C204")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "C207")
 					(unit 1)
 				)
 			)
@@ -11086,7 +11838,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a97851a-e449-4f4c-be6a-c93d54dd6c59")
-		(property "Reference" "C218"
+		(property "Reference" "C220"
 			(at 243.459 48.006 90)
 			(effects
 				(font
@@ -11233,15 +11985,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea2323a0-6255-4541-a66e-831896aee2e3")
+			(uuid "269a9a3f-105e-4912-a08b-3ddf4464a86b")
 		)
 		(pin "2"
-			(uuid "1473dc4a-8491-4812-a311-cc295d8cf1d6")
+			(uuid "c4bed2f1-a0d0-4c1b-b791-d8279b360155")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "C218")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "C220")
 					(unit 1)
 				)
 			)
@@ -11256,7 +12008,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ebd651f-cddb-4bba-a351-a55844a620ce")
-		(property "Reference" "C217"
+		(property "Reference" "C213"
 			(at 184.277 60.452 90)
 			(effects
 				(font
@@ -11403,15 +12155,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a173b22e-f03a-4802-a4f0-fa7a9a92e59b")
+			(uuid "ccbaa886-6423-4014-9e31-79a57dd22cf7")
 		)
 		(pin "2"
-			(uuid "333c72ad-be62-4de7-847e-1a2e23ce358b")
+			(uuid "84f7f885-3abf-4710-8077-997b6531bafb")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "C217")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "C213")
 					(unit 1)
 				)
 			)
@@ -11551,20 +12303,20 @@
 			)
 		)
 		(pin "4"
-			(uuid "8b762467-f406-4219-bd75-72384866a233")
+			(uuid "b4c7d0d3-2b83-4313-8ee0-4bd4707682a0")
 		)
 		(pin "3"
-			(uuid "c75e6534-a94b-48f0-89df-b82117c5f736")
+			(uuid "455b55bc-5cac-4d6c-bbdf-94368d4062aa")
 		)
 		(pin "2"
-			(uuid "1678e2c0-389b-4fe3-a265-4f06eed3afc2")
+			(uuid "a9002c52-7a19-40c9-a116-8cb36619a014")
 		)
 		(pin "1"
-			(uuid "52ab167f-17ba-4e80-8764-3f90d9aecc83")
+			(uuid "864a9efd-74ee-4940-884b-4524c994cca9")
 		)
 		(instances
-			(project ""
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
 					(reference "X1")
 					(unit 1)
 				)
@@ -11572,8 +12324,211 @@
 		)
 	)
 	(symbol
+		(lib_id "KicadCompDb:ESD Diodes/ESD_DIODE_00002")
+		(at 215.9 134.62 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab55b9ee-8641-4b14-92ae-7721c969187c")
+		(property "Reference" "D45"
+			(at 223.52 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D1213A-02SOL-7"
+			(at 218.4399 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprint:SOT-23-3"
+			(at 237.998 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D1213A_02SOL.pdf"
+			(at 215.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS DIODE 3.3VWM 10VC SOT233"
+			(at 225.806 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V(r)" "3.3V"
+			(at 220.9799 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "V(cl)" "10V"
+			(at 230.124 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V(br)" "6V"
+			(at 232.156 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I(pp)" "1A"
+			(at 215.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "NA"
+			(at 215.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "0.85pF"
+			(at 215.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~ 125°C"
+			(at 240.284 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-3"
+			(at 215.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 234.188 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "D1213A-02SOL-7"
+			(at 223.774 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 221.742 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "D1213A-02SOL-7DICT-ND"
+			(at 228.092 135.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "ESD TVS DUAL CA SMT"
+			(at 215.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "2.90mm x 2.40mm"
+			(at 215.9 134.62 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "40321b3b-ffdc-4e3b-aaaa-59f37c0e0afe")
+		)
+		(pin "2"
+			(uuid "f4f726d1-d690-4a5d-96f5-20c9ff1cb664")
+		)
+		(pin "1"
+			(uuid "cf159d65-2a55-44d1-91d5-8a34e0ffaafb")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
-		(at 202.565 115.57 0)
+		(at 222.25 115.57 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11581,8 +12536,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6d99f2d-7da1-40fa-b80d-e19606a7474d")
-		(property "Reference" "#PWR0336"
-			(at 202.565 121.92 0)
+		(property "Reference" "#PWR0340"
+			(at 222.25 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11591,7 +12546,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 202.565 119.126 0)
+			(at 222.25 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11599,7 +12554,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 202.565 115.57 0)
+			(at 222.25 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11608,7 +12563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 202.565 115.57 0)
+			(at 222.25 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11617,7 +12572,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 202.565 115.57 0)
+			(at 222.25 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11626,12 +12581,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8b234f7-1eb4-4580-b6e0-103002006db2")
+			(uuid "04535f40-90e7-407b-aa67-73e3dd8d5378")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0336")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0340")
 					(unit 1)
 				)
 			)
@@ -11691,12 +12646,215 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ddb490e-a59e-44bc-9162-4740527b044f")
+			(uuid "351aa6a8-0d57-4271-a236-6adea8a40431")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
 					(reference "#PWR0337")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:ESD Diodes/ESD_DIODE_00002")
+		(at 89.535 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6f2a3c6-5075-497a-aa7f-3db0c16f49d6")
+		(property "Reference" "D43"
+			(at 85.217 114.173 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D1213A-02SOL-7"
+			(at 85.09 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprint:SOT-23-3"
+			(at 89.027 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D1213A_02SOL.pdf"
+			(at 89.535 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS DIODE 3.3VWM 10VC SOT233"
+			(at 87.757 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V(r)" "3.3V"
+			(at 85.09 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "V(cl)" "10V"
+			(at 89.281 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V(br)" "6V"
+			(at 89.535 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I(pp)" "1A"
+			(at 89.535 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "NA"
+			(at 89.535 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "0.85pF"
+			(at 89.535 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~ 125°C"
+			(at 88.773 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-3"
+			(at 89.535 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 89.281 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "D1213A-02SOL-7"
+			(at 89.281 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 89.535 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "D1213A-02SOL-7DICT-ND"
+			(at 88.773 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "ESD TVS DUAL CA SMT"
+			(at 89.535 111.76 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "2.90mm x 2.40mm"
+			(at 89.535 111.76 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7d44d126-c8ef-40c7-847c-138fb9d166d8")
+		)
+		(pin "2"
+			(uuid "0c4def75-adc4-4f08-995e-08b97ac10fa4")
+		)
+		(pin "1"
+			(uuid "1ec4da5b-f6c0-4f3e-a572-68983880ebfd")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -11711,7 +12869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c72e88cd-23ac-42e3-b6b0-46a97bfbd48f")
-		(property "Reference" "C211"
+		(property "Reference" "C215"
 			(at 191.897 81.407 90)
 			(effects
 				(font
@@ -11858,15 +13016,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3809189c-9494-42c0-b2dd-75c6a7800d26")
+			(uuid "ee688c9a-2f43-4a08-9b74-204ae6eef616")
 		)
 		(pin "2"
-			(uuid "06fc3da3-479c-43b0-9589-68f5b8475707")
+			(uuid "c763a5d0-0e14-4631-b5c4-44165386d842")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "C211")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "C215")
 					(unit 1)
 				)
 			)
@@ -12116,20 +13274,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "33997760-c40d-4b59-b21a-d5c035e3d48f")
+			(uuid "b7f30ef2-6c77-4a75-8a92-6192b8805d0f")
 		)
 		(pin "4"
-			(uuid "78b52030-a54d-49be-aff9-d7ad359f8de3")
+			(uuid "73697152-3ab7-4f75-aa85-970320565310")
 		)
 		(pin "3"
-			(uuid "78d188fe-b30b-4fc1-9542-eb7be77b5a9f")
+			(uuid "c156ad3f-db4a-4e82-b7fe-d2ab1b44f149")
 		)
 		(pin "2"
-			(uuid "6a77f003-8bea-483d-be85-e966e7d367d0")
+			(uuid "d2e61ec0-e8d6-4035-b511-4cd6a909fd4e")
 		)
 		(instances
-			(project ""
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
 					(reference "J12")
 					(unit 1)
 				)
@@ -12145,7 +13303,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "d7cdf390-a496-4230-9eca-898483384d65")
-		(property "Reference" "R277"
+		(property "Reference" "R275"
 			(at 79.756 131.064 0)
 			(effects
 				(font
@@ -12290,15 +13448,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b85c996-401c-4ae8-94a6-3b98ab45d5f6")
+			(uuid "ae40400a-c01e-476c-aa80-8bc8ddc488cf")
 		)
 		(pin "2"
-			(uuid "d6cf5856-cb8b-42d1-97ed-8b76d1a873a6")
+			(uuid "2b29366a-5f06-43ac-8e71-42d303acb4c3")
 		)
 		(instances
-			(project ""
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "R277")
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "R275")
 					(unit 1)
 				)
 			)
@@ -12459,14 +13617,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "bbc61cf9-306b-45cd-b1d5-80d876793979")
+			(uuid "2e1639c0-dea9-442c-87bc-b4cc4be91c4e")
 		)
 		(pin "1"
-			(uuid "a4b11167-0a83-4341-bb4a-cc4145634904")
+			(uuid "fbde0c3b-4a58-43f3-9fb6-e3aa96e4af67")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
 					(reference "R279")
 					(unit 1)
 				)
@@ -12482,7 +13640,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddc010ce-d97b-4042-b5c4-399da785cb4e")
-		(property "Reference" "#PWR0334"
+		(property "Reference" "#PWR0332"
 			(at 54.61 140.335 0)
 			(effects
 				(font
@@ -12527,12 +13685,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "17a58dbe-4f0f-49b3-a29a-8cc54d96e5cd")
+			(uuid "50b97980-7694-4752-b63d-01eaf307d58c")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0334")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0332")
 					(unit 1)
 				)
 			)
@@ -12548,7 +13706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4b86af7-106f-4880-b938-0d5908eb96a6")
-		(property "Reference" "#PWR0340"
+		(property "Reference" "#PWR0342"
 			(at 211.455 73.025 0)
 			(effects
 				(font
@@ -12593,12 +13751,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "08018c42-f31f-4656-bd77-8e277016f303")
+			(uuid "f10a5ef6-1e27-422f-a711-ac6500585937")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0340")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0342")
 					(unit 1)
 				)
 			)
@@ -12606,7 +13764,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Connector/CONN_00013")
-		(at 221.615 131.445 180)
+		(at 241.3 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12614,7 +13772,7 @@
 		(dnp no)
 		(uuid "e6c5a758-8e53-4a89-b32f-a48518a06093")
 		(property "Reference" "J14"
-			(at 218.694 120.396 0)
+			(at 238.379 131.191 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12622,7 +13780,7 @@
 			)
 		)
 		(property "Value" "SJ-3523-SMT-TR"
-			(at 218.44 132.842 0)
+			(at 238.125 143.637 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12630,7 +13788,7 @@
 			)
 		)
 		(property "Footprint" "footprint:SJ-352X-SMT"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12639,7 +13797,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/sj-352x-smt.pdf"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12648,7 +13806,7 @@
 			)
 		)
 		(property "Description" "CONN JACK STEREO 3.5MM SMD R/A"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12657,7 +13815,7 @@
 			)
 		)
 		(property "Type" "RECEPTACLE"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12667,7 +13825,7 @@
 			)
 		)
 		(property "Gender" "FEMALE"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12677,7 +13835,7 @@
 			)
 		)
 		(property "Pitch" "NA"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12687,7 +13845,7 @@
 			)
 		)
 		(property "Positions" "4"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12697,7 +13855,7 @@
 			)
 		)
 		(property "Rows" "3"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12707,7 +13865,7 @@
 			)
 		)
 		(property "Shrouding" "SHROUDED"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12717,7 +13875,7 @@
 			)
 		)
 		(property "Mounting Type" "THT"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12727,7 +13885,7 @@
 			)
 		)
 		(property "Termination" "SOLDER"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12737,7 +13895,7 @@
 			)
 		)
 		(property "Contact Length (Total)" "NA"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12747,7 +13905,7 @@
 			)
 		)
 		(property "Contact Material" "Phosphor Copper"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12757,7 +13915,7 @@
 			)
 		)
 		(property "Contact Finish" "Silver"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12767,7 +13925,7 @@
 			)
 		)
 		(property "Current Rating" "1A"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12777,7 +13935,7 @@
 			)
 		)
 		(property "Voltage Rating" "12V"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12787,7 +13945,7 @@
 			)
 		)
 		(property "Operating Temperature" "-25°C ~ 85°C"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12797,7 +13955,7 @@
 			)
 		)
 		(property "Dimensions" "6.0mm x 17mm x 5mm"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12807,7 +13965,7 @@
 			)
 		)
 		(property "Manufacturer" "Same Sky"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12817,7 +13975,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "SJ-3523-SMT-TR"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12827,7 +13985,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12837,7 +13995,7 @@
 			)
 		)
 		(property "Distributor Part Number" "CP-3523SJCT-ND"
-			(at 221.615 131.445 0)
+			(at 241.3 142.24 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12847,20 +14005,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "85b204f9-5c0c-4f23-8d49-ed0a4e54c735")
+			(uuid "67fa3ac5-a51a-4929-8669-3dd644dab7a3")
 		)
 		(pin "4"
-			(uuid "770b85ec-8e61-4eee-b089-63bdcf39b03b")
+			(uuid "444d8d4f-37bf-452a-852a-9373c0809634")
 		)
 		(pin "3"
-			(uuid "f5b87c70-db46-4249-9fe0-4ba49c66d1c2")
+			(uuid "61783955-b106-42c4-b0a0-3b7e4ba91f96")
 		)
 		(pin "2"
-			(uuid "4c609f23-a46b-488f-a30a-f5069eadbed9")
+			(uuid "9b2e0487-d9f0-4bfd-ac23-01b40ebdd6a8")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
 					(reference "J14")
 					(unit 1)
 				)
@@ -12876,7 +14034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e89ce3ee-dfa9-4b9e-a1ff-f718d0b05fc6")
-		(property "Reference" "#PWR0332"
+		(property "Reference" "#PWR0330"
 			(at 46.99 129.54 0)
 			(effects
 				(font
@@ -12922,12 +14080,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "702cbc22-727a-4d48-8ae8-cbc597e41d6e")
+			(uuid "9c16ffc8-ad00-452b-a9fa-02bf4c44b626")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0332")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0330")
 					(unit 1)
 				)
 			)
@@ -12935,7 +14093,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Connector/CONN_00013")
-		(at 221.615 115.57 180)
+		(at 241.3 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12943,7 +14101,7 @@
 		(dnp no)
 		(uuid "f276fe94-d96a-4e6a-a633-71a099df319a")
 		(property "Reference" "J13"
-			(at 218.694 104.521 0)
+			(at 238.379 104.521 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12951,7 +14109,7 @@
 			)
 		)
 		(property "Value" "SJ-3523-SMT-TR"
-			(at 218.44 116.967 0)
+			(at 238.125 116.967 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12959,7 +14117,7 @@
 			)
 		)
 		(property "Footprint" "footprint:SJ-352X-SMT"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12968,7 +14126,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/sj-352x-smt.pdf"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12977,7 +14135,7 @@
 			)
 		)
 		(property "Description" "CONN JACK STEREO 3.5MM SMD R/A"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12986,7 +14144,7 @@
 			)
 		)
 		(property "Type" "RECEPTACLE"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12996,7 +14154,7 @@
 			)
 		)
 		(property "Gender" "FEMALE"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13006,7 +14164,7 @@
 			)
 		)
 		(property "Pitch" "NA"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13016,7 +14174,7 @@
 			)
 		)
 		(property "Positions" "4"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13026,7 +14184,7 @@
 			)
 		)
 		(property "Rows" "3"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13036,7 +14194,7 @@
 			)
 		)
 		(property "Shrouding" "SHROUDED"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13046,7 +14204,7 @@
 			)
 		)
 		(property "Mounting Type" "THT"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13056,7 +14214,7 @@
 			)
 		)
 		(property "Termination" "SOLDER"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13066,7 +14224,7 @@
 			)
 		)
 		(property "Contact Length (Total)" "NA"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13076,7 +14234,7 @@
 			)
 		)
 		(property "Contact Material" "Phosphor Copper"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13086,7 +14244,7 @@
 			)
 		)
 		(property "Contact Finish" "Silver"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13096,7 +14254,7 @@
 			)
 		)
 		(property "Current Rating" "1A"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13106,7 +14264,7 @@
 			)
 		)
 		(property "Voltage Rating" "12V"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13116,7 +14274,7 @@
 			)
 		)
 		(property "Operating Temperature" "-25°C ~ 85°C"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13126,7 +14284,7 @@
 			)
 		)
 		(property "Dimensions" "6.0mm x 17mm x 5mm"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13136,7 +14294,7 @@
 			)
 		)
 		(property "Manufacturer" "Same Sky"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13146,7 +14304,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "SJ-3523-SMT-TR"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13156,7 +14314,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13166,7 +14324,7 @@
 			)
 		)
 		(property "Distributor Part Number" "CP-3523SJCT-ND"
-			(at 221.615 115.57 0)
+			(at 241.3 115.57 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13176,20 +14334,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "34f9285e-951e-4c00-a7c8-33ca58e701e3")
+			(uuid "79bd4570-0f3b-433e-8f67-85082e113f4f")
 		)
 		(pin "4"
-			(uuid "6f03a87f-5277-41f6-8731-c50663c12762")
+			(uuid "e21bffa0-20ce-46e2-8615-b447e4c917fa")
 		)
 		(pin "3"
-			(uuid "fa4c7c88-4e5f-4bb2-bd9c-a301accf4b60")
+			(uuid "43f7afdc-46bd-43c3-96cf-04d233617406")
 		)
 		(pin "2"
-			(uuid "df283c78-d092-4947-a299-bd547ece1113")
+			(uuid "dfffe6d2-087b-423d-8f95-de1663e64b5a")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
 					(reference "J13")
 					(unit 1)
 				)
@@ -13206,7 +14364,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f74d7da0-8a1b-42ad-92b2-7e78fc70fc85")
-		(property "Reference" "#PWR0346"
+		(property "Reference" "#PWR0347"
 			(at 238.76 66.04 0)
 			(effects
 				(font
@@ -13251,12 +14409,215 @@
 			)
 		)
 		(pin "1"
-			(uuid "8fa3811a-9068-43bd-bc6a-95a8d4036d68")
+			(uuid "0fd24d3b-de64-425b-87da-517443e8a0a5")
 		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "#PWR0346")
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "#PWR0347")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:ESD Diodes/ESD_DIODE_00002")
+		(at 211.455 113.665 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f855357e-febf-42ca-b215-e5f19ea6cb0f")
+		(property "Reference" "D44"
+			(at 207.137 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D1213A-02SOL-7"
+			(at 207.01 116.2049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprint:SOT-23-3"
+			(at 210.947 135.763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D1213A_02SOL.pdf"
+			(at 211.455 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS DIODE 3.3VWM 10VC SOT233"
+			(at 209.677 123.571 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V(r)" "3.3V"
+			(at 207.01 118.7449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "V(cl)" "10V"
+			(at 211.201 127.889 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V(br)" "6V"
+			(at 211.455 129.921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I(pp)" "1A"
+			(at 211.455 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "NA"
+			(at 211.455 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "0.85pF"
+			(at 211.455 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~ 125°C"
+			(at 210.693 138.049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-3"
+			(at 211.455 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 211.201 131.953 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "D1213A-02SOL-7"
+			(at 211.201 121.539 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 211.455 119.507 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "D1213A-02SOL-7DICT-ND"
+			(at 210.693 125.857 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "ESD TVS DUAL CA SMT"
+			(at 211.455 113.665 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "2.90mm x 2.40mm"
+			(at 211.455 113.665 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "37a7d273-1457-404e-9b36-819bcc2921c1")
+		)
+		(pin "2"
+			(uuid "ff3ff091-01cc-4552-9cf6-434fe9cc65bb")
+		)
+		(pin "1"
+			(uuid "97b57aa3-d7a3-4a5d-927b-1efbe936dd8a")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -13271,7 +14632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "faa6ce83-e5db-4db2-ab26-b595d22f16b2")
-		(property "Reference" "U34"
+		(property "Reference" "U33"
 			(at 137.922 72.644 0)
 			(effects
 				(font
@@ -13415,108 +14776,108 @@
 			)
 		)
 		(pin "21"
-			(uuid "4dad5a84-fb39-4d34-8b2a-8de590c69019")
+			(uuid "2f210710-6296-4b82-a60f-a36d3f8c055b")
 		)
 		(pin "26"
-			(uuid "6c4eeca3-2c5b-4cf5-95f1-14d1811ed6ef")
+			(uuid "38f047a8-dffc-4002-9dd8-614e35ebb76a")
 		)
 		(pin "17"
-			(uuid "aea0043e-ba89-4c29-94cc-7fc918c44d47")
+			(uuid "7aa58115-34b0-4633-b40a-7ed3ebd1c7ea")
 		)
 		(pin "16"
-			(uuid "3ebd88f7-32d4-4fd0-bc6e-491d6bcd4d93")
+			(uuid "1cb3be68-40f4-483d-a5fd-56e52b5b9f88")
 		)
 		(pin "28"
-			(uuid "e2bc5876-3efa-4624-92a6-d70aae34d0e8")
+			(uuid "518933ad-2dbb-4d32-890e-b0a5bd3e36e4")
 		)
 		(pin "1"
-			(uuid "d7176509-cdf5-4b82-9b3c-e26782c7667f")
+			(uuid "c72f90f7-baaf-4795-81c3-78aa1300e8c1")
 		)
 		(pin "22"
-			(uuid "e9e5bc0e-740f-4d18-bb87-ddc9c3e90bdb")
+			(uuid "506d2763-e7c0-46c5-9471-ab0e7d8ea16f")
 		)
 		(pin "15"
-			(uuid "8daf0f46-335f-41ca-a9b6-a6792cb24cbf")
+			(uuid "382f3fa7-f72d-48b5-95c8-9eb444d2d7c0")
 		)
 		(pin "27"
-			(uuid "ad1fa6eb-593d-4dcf-add7-bd61fc2e5d06")
+			(uuid "0267da0b-e804-4277-84ba-57454265afbc")
 		)
 		(pin "29"
-			(uuid "74174a23-24bc-4a31-a0e7-b1e27ee200e6")
+			(uuid "876ab9a4-a28b-4551-b556-8833e8bbcc38")
 		)
 		(pin "7"
-			(uuid "1a6d8cfc-b076-4682-a738-ae8f4a0509d4")
+			(uuid "6ba78080-79b6-48aa-b94f-e16ceedf8842")
 		)
 		(pin "13"
-			(uuid "639d38e8-9f51-4b27-9fed-9b63429df3e0")
+			(uuid "47bf7f5d-276f-4be6-81cb-df7db3c5c9dc")
 		)
 		(pin "10"
-			(uuid "b8a4d0c0-8fed-4359-b940-4fad708ee8a1")
+			(uuid "4cccc48c-b9b3-4817-92bb-c3a8b00a03fa")
 		)
 		(pin "9"
-			(uuid "afb260f2-b636-4267-993c-f26e84e8632b")
+			(uuid "cea3c1fd-d14a-4438-94df-a86784d06fdb")
 		)
 		(pin "14"
-			(uuid "df79c1ed-573a-439f-908a-b070236c47fc")
+			(uuid "b3d034d6-cdaa-49d8-886f-bb24f1b0af6b")
 		)
 		(pin "30"
-			(uuid "83e259d7-1a8f-4f3b-aa8b-0f98a0b068bc")
+			(uuid "7eef9f22-4879-4379-b205-c4f2b7516f22")
 		)
 		(pin "31"
-			(uuid "e2a3afd4-0344-4eb3-8494-e5be6175a2ab")
+			(uuid "19a6a022-ad6a-4bef-a63a-67c4846328e1")
 		)
 		(pin "8"
-			(uuid "c723d53c-458c-4a10-ac95-f40316ccc0df")
+			(uuid "ed5cb51d-2452-4aef-b581-41d706cd8150")
 		)
 		(pin "19"
-			(uuid "e09a88c4-48e8-4037-8e3e-031fed7571ca")
+			(uuid "5576c479-72e8-4d02-bace-c6480fbca830")
 		)
 		(pin "25"
-			(uuid "3028d577-cd34-43b1-80d6-0fdbb19b93d0")
+			(uuid "97e13088-13d3-490e-9c6b-015bf599deac")
 		)
 		(pin "24"
-			(uuid "21be1601-37d5-4453-a6dd-a1dde024d2cf")
+			(uuid "a300ad71-c2d6-4b68-baf9-08a1ffcd269a")
 		)
 		(pin "32"
-			(uuid "f77ebee3-f7b8-44ac-a1d7-57a7ac70b74d")
+			(uuid "1b475c9b-a6b3-4317-b126-356b5c27a368")
 		)
 		(pin "5"
-			(uuid "286b6d2e-15d4-4009-9ea8-92de457ad0a7")
+			(uuid "a042f2f0-ec46-4e83-8726-50a8870b589a")
 		)
 		(pin "33"
-			(uuid "a9fccf0e-46e5-4365-b70a-923244374b4c")
+			(uuid "2ad3c24f-4ef8-4fa6-8548-320138597c1f")
 		)
 		(pin "20"
-			(uuid "39d205f0-717e-42b6-a209-02f852fd2484")
+			(uuid "744e19ac-ad56-4f61-a989-939215364590")
 		)
 		(pin "23"
-			(uuid "969b5db3-5dee-4da1-b6f7-72ef6265bee0")
+			(uuid "662f3546-5fce-42be-baba-2d66ae21443a")
 		)
 		(pin "3"
-			(uuid "2d8a5a92-ea71-4f6a-9fbc-40ae30c49b4b")
+			(uuid "69e68454-6794-46ae-95d4-8c29bcd5cced")
 		)
 		(pin "6"
-			(uuid "bf99461f-5291-4d59-b4e1-8856a64ca711")
+			(uuid "aa52c646-9094-4b0f-a9cf-671b6a1e8eba")
 		)
 		(pin "11"
-			(uuid "2c8af805-76ef-44f4-b1e7-a7ee7b00cc06")
+			(uuid "061dbb82-0808-4e87-bfe7-358a64f75592")
 		)
 		(pin "4"
-			(uuid "264b3fb2-9ddd-4942-925f-46038c07257c")
+			(uuid "d14a0977-5650-485e-a8bf-b6002ed106f4")
 		)
 		(pin "2"
-			(uuid "7001acff-992a-403f-a55f-b411aab730f6")
+			(uuid "4124419b-bc40-46d5-befb-b6d04db7c489")
 		)
 		(pin "12"
-			(uuid "50cb5379-a73d-4a62-ab75-ef314754c28d")
+			(uuid "5e24fcdd-1925-4ee6-9a80-df647e98eee0")
 		)
 		(pin "18"
-			(uuid "6b793097-6572-4d04-8674-16fdeece0d53")
+			(uuid "739d3904-12aa-4647-9dab-dce86e593037")
 		)
 		(instances
-			(project ""
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/eab44bb3-09f6-4355-a7c9-065358239d83"
-					(reference "U34")
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/6be3aa9b-6529-4327-ac7b-64810effdbd4"
+					(reference "U33")
 					(unit 1)
 				)
 			)

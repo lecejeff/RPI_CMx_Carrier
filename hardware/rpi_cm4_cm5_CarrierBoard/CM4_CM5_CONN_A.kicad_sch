@@ -12079,6 +12079,16 @@
 		)
 		(uuid "abf15a1b-f938-44dd-bba9-bd73b580d102")
 	)
+	(label "GPIO35"
+		(at 184.15 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad05d04c-f0b8-4ac3-a1cb-65a3b0dbfc77")
+	)
 	(label "ETH_~{LED1}"
 		(at 95.25 40.64 0)
 		(effects
@@ -12198,6 +12208,16 @@
 			(justify left bottom)
 		)
 		(uuid "d802deb7-0eb4-42a6-9889-a678f41e4386")
+	)
+	(label "GPIO34"
+		(at 109.855 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de08f092-7f67-4e63-9442-8a79c3d20c52")
 	)
 	(label "I2C3.I2C_SCL"
 		(at 255.27 58.42 0)
@@ -12531,7 +12551,7 @@
 		)
 		(uuid "b5cea57c-c412-40e6-9e28-31d2d6052e2f")
 	)
-	(hierarchical_label "CAM_GPIO"
+	(hierarchical_label "MIPI0_GPIO"
 		(shape output)
 		(at 58.42 139.7 180)
 		(effects
