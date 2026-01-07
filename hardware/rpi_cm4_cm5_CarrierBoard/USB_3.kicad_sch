@@ -13211,6 +13211,7 @@
 				(font
 					(size 1.27 1.27)
 					(italic yes)
+					(color 132 0 132 1)
 				)
 				(justify left)
 			)
