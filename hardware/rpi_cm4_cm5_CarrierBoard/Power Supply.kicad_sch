@@ -13,9 +13,10 @@
 		(comment 3 "203-1690 Rue des quatre-saisons")
 		(comment 4 "Sherbrooke, Canada, J1E0N2")
 		(comment 5 "KiCad Rev 9.0")
-		(comment 6 "TBD")
-		(comment 7 "TBD")
-		(comment 8 "WIP")
+		(comment 6 "Jean-Francois Bilodeau")
+		(comment 7 "Not applicable")
+		(comment 8 "Preliminary")
+		(comment 9 "RPI_CMx_Carrier_2.00-0A_BOM")
 	)
 	(lib_symbols
 		(symbol "KiCad_Pwr_Symbols:+3V3"
@@ -10392,17 +10393,6 @@
 		)
 		(uuid "7769130d-cf3b-4ffc-bbec-950f70723965")
 	)
-	(text "Current sensors\nVo ~ 1.5V @ 1A\nVo ~ 2.0V @ 2A\nVo ~ 1.5V @ 3A\nVo ~ 2.0V @ 4A\nVo ~ 2.5V @ 5A"
-		(exclude_from_sim no)
-		(at 157.988 181.356 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 153 0 1)
-			)
-		)
-		(uuid "9d081133-d488-4939-ab09-3473f437534d")
-	)
 	(text "Resistors are 1% 1/16W 0402 unless otherwise noted\nCapacitors are 10% 50V X7R 0402 unless otherwise noted"
 		(exclude_from_sim no)
 		(at 13.208 170.434 0)
@@ -10459,6 +10449,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "134e90a2-9c50-4483-bd6f-e8709bc3fbdc")
+	)
+	(junction
+		(at 73.025 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "156537c1-cc0e-4175-a9ef-f598a9f2efd8")
 	)
 	(junction
 		(at 159.385 139.7)
@@ -11025,12 +11021,6 @@
 		(uuid "e7ce553b-df8d-497c-966d-769a24c83e3a")
 	)
 	(junction
-		(at 73.66 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9b1cc72-ed3d-4aac-929c-7594045607d8")
-	)
-	(junction
 		(at 203.835 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11117,16 +11107,6 @@
 			(type default)
 		)
 		(uuid "0067d140-059d-4415-ac43-730e0cf6e25f")
-	)
-	(wire
-		(pts
-			(xy 73.66 116.84) (xy 81.28 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00902682-16f4-4224-8df5-87887884fb9e")
 	)
 	(wire
 		(pts
@@ -12070,7 +12050,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.305 98.425) (xy 81.28 98.425)
+			(xy 27.305 98.425) (xy 83.185 98.425)
 		)
 		(stroke
 			(width 0)
@@ -12230,7 +12210,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 123.825) (xy 73.66 124.46)
+			(xy 73.025 123.825) (xy 73.025 124.46)
 		)
 		(stroke
 			(width 0)
@@ -12327,6 +12307,16 @@
 			(type default)
 		)
 		(uuid "4495e6c2-f368-4548-88b0-5dd996d45ce0")
+	)
+	(wire
+		(pts
+			(xy 73.025 116.84) (xy 83.185 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a47b78-29df-45d8-b251-b0c561ddc459")
 	)
 	(wire
 		(pts
@@ -12600,7 +12590,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 116.84) (xy 93.98 116.84)
+			(xy 89.535 116.84) (xy 93.98 116.84)
 		)
 		(stroke
 			(width 0)
@@ -12630,7 +12620,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 116.84) (xy 73.66 117.475)
+			(xy 73.025 116.84) (xy 73.025 117.475)
 		)
 		(stroke
 			(width 0)
@@ -13200,7 +13190,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 116.84) (xy 73.66 116.84)
+			(xy 71.12 116.84) (xy 73.025 116.84)
 		)
 		(stroke
 			(width 0)
@@ -13210,7 +13200,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 98.425) (xy 93.98 98.425)
+			(xy 89.535 98.425) (xy 93.98 98.425)
 		)
 		(stroke
 			(width 0)
@@ -17287,7 +17277,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
-		(at 73.66 124.46 0)
+		(at 73.025 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17295,7 +17285,7 @@
 		(dnp no)
 		(uuid "16d9d2f8-cc49-4136-94f2-175026dbc1bd")
 		(property "Reference" "#PWR098"
-			(at 73.66 130.81 0)
+			(at 73.025 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17304,7 +17294,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.787 128.016 0)
+			(at 73.152 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17312,7 +17302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 124.46 0)
+			(at 73.025 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17321,7 +17311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 124.46 0)
+			(at 73.025 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17330,7 +17320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 124.46 0)
+			(at 73.025 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17928,7 +17918,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Diodes/DIODE_00006")
-		(at 86.36 98.425 180)
+		(at 88.265 98.425 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17936,7 +17926,7 @@
 		(dnp no)
 		(uuid "1ead289f-4d65-4af6-8f58-7cc016388c21")
 		(property "Reference" "D10"
-			(at 84.328 96.139 0)
+			(at 86.233 96.139 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17944,7 +17934,7 @@
 			)
 		)
 		(property "Value" "BAT42WS-TP"
-			(at 85.09 100.711 0)
+			(at 86.995 100.711 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17952,7 +17942,7 @@
 			)
 		)
 		(property "Footprint" "footprint:SOD-323"
-			(at 85.852 76.327 0)
+			(at 87.757 76.327 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17961,7 +17951,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/BAT42WS-BAT43WS(SOD-323).pdf"
-			(at 86.36 98.425 0)
+			(at 88.265 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17970,7 +17960,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 30V 100MA SOD323"
-			(at 84.582 88.519 0)
+			(at 86.487 88.519 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17979,7 +17969,7 @@
 			)
 		)
 		(property "V(f)" "0.45V"
-			(at 84.455 95.25 0)
+			(at 86.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17988,7 +17978,7 @@
 			)
 		)
 		(property "Tolerance" "NA"
-			(at 86.36 82.169 0)
+			(at 88.265 82.169 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17997,7 +17987,7 @@
 			)
 		)
 		(property "Power" "0.2W"
-			(at 86.36 98.425 0)
+			(at 88.265 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18006,7 +17996,7 @@
 			)
 		)
 		(property "Leakage Current" "0.5uA"
-			(at 86.36 98.425 0)
+			(at 88.265 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18015,7 +18005,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 125°C"
-			(at 85.598 74.041 0)
+			(at 87.503 74.041 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18024,7 +18014,7 @@
 			)
 		)
 		(property "Package" "SOD-323"
-			(at 86.36 98.425 0)
+			(at 88.265 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18033,7 +18023,7 @@
 			)
 		)
 		(property "Manufacturer" "MCC (Micro Commercial Components)"
-			(at 86.106 80.137 0)
+			(at 88.011 80.137 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18042,7 +18032,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "BAT42WS-TP"
-			(at 86.106 90.551 0)
+			(at 88.011 90.551 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18051,7 +18041,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 86.36 92.583 0)
+			(at 88.265 92.583 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18060,7 +18050,7 @@
 			)
 		)
 		(property "Distributor Part Number" "BAT42WSTPMSCT-ND"
-			(at 85.598 86.233 0)
+			(at 87.503 86.233 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18069,7 +18059,7 @@
 			)
 		)
 		(property "Type" "SCHOTTKY SMT"
-			(at 86.36 98.425 0)
+			(at 88.265 98.425 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18079,7 +18069,7 @@
 			)
 		)
 		(property "V(z)" "NA"
-			(at 86.36 98.425 0)
+			(at 88.265 98.425 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18089,7 +18079,7 @@
 			)
 		)
 		(property "Impedance" "NA"
-			(at 86.36 98.425 0)
+			(at 88.265 98.425 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18099,7 +18089,7 @@
 			)
 		)
 		(property "Dimensions" "2.5mm x 1.25mm"
-			(at 86.36 98.425 0)
+			(at 88.265 98.425 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18190,7 +18180,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Resistors/RES_SMT_00001")
-		(at 73.66 122.555 90)
+		(at 73.025 122.555 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18198,7 +18188,7 @@
 		(dnp yes)
 		(uuid "233dac14-13ea-499a-86ec-bb729e9ea840")
 		(property "Reference" "R238"
-			(at 76.327 119.761 90)
+			(at 76.327 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18206,7 +18196,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 76.327 121.539 90)
+			(at 74.93 121.539 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18214,7 +18204,7 @@
 			)
 		)
 		(property "Footprint" "footprint:RES_0402"
-			(at 95.758 122.047 0)
+			(at 95.123 122.047 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18223,7 +18213,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 73.66 122.555 0)
+			(at 73.025 122.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18232,7 +18222,7 @@
 			)
 		)
 		(property "Description" "RES 0 OHM JUMPER 1/16W 0402"
-			(at 83.566 120.777 0)
+			(at 82.931 120.777 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18241,7 +18231,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 93.98 122.301 0)
+			(at 93.345 122.301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18250,7 +18240,7 @@
 			)
 		)
 		(property "Power" "1/16W"
-			(at 87.884 122.301 0)
+			(at 87.249 122.301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18259,7 +18249,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 89.916 122.555 0)
+			(at 89.281 122.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18268,7 +18258,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 91.948 122.301 0)
+			(at 91.313 122.301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18277,7 +18267,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0402FR-071KL"
-			(at 81.534 122.301 0)
+			(at 80.899 122.301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18286,7 +18276,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 79.502 122.555 0)
+			(at 78.867 122.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18295,7 +18285,7 @@
 			)
 		)
 		(property "Distributor Part Number" "311-0.0JRCT-ND"
-			(at 85.852 121.793 0)
+			(at 85.217 121.793 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18304,7 +18294,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 73.66 122.555 0)
+			(at 73.025 122.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18313,7 +18303,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 155°C"
-			(at 98.044 121.793 0)
+			(at 97.409 121.793 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18322,7 +18312,7 @@
 			)
 		)
 		(property "Type" "RES SMT"
-			(at 73.66 122.555 0)
+			(at 73.025 122.555 0)
 			(show_name yes)
 			(effects
 				(font
@@ -18332,7 +18322,7 @@
 			)
 		)
 		(property "Dimensions" "1.00mm x 0.50mm"
-			(at 73.66 122.555 0)
+			(at 73.025 122.555 0)
 			(show_name yes)
 			(effects
 				(font
@@ -30496,7 +30486,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Diodes/DIODE_00006")
-		(at 86.36 116.84 180)
+		(at 88.265 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30504,7 +30494,7 @@
 		(dnp no)
 		(uuid "a0b3ba49-f9d3-4234-a7c5-efc40c63b055")
 		(property "Reference" "D11"
-			(at 84.582 114.554 0)
+			(at 86.487 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30512,7 +30502,7 @@
 			)
 		)
 		(property "Value" "BAT42WS-TP"
-			(at 85.344 119.126 0)
+			(at 87.249 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30520,7 +30510,7 @@
 			)
 		)
 		(property "Footprint" "footprint:SOD-323"
-			(at 85.852 94.742 0)
+			(at 87.757 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30529,7 +30519,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/BAT42WS-BAT43WS(SOD-323).pdf"
-			(at 86.36 116.84 0)
+			(at 88.265 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30538,7 +30528,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 30V 100MA SOD323"
-			(at 84.582 106.934 0)
+			(at 86.487 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30547,7 +30537,7 @@
 			)
 		)
 		(property "V(f)" "0.45V"
-			(at 84.455 113.665 0)
+			(at 86.36 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30556,7 +30546,7 @@
 			)
 		)
 		(property "Tolerance" "NA"
-			(at 86.36 100.584 0)
+			(at 88.265 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30565,7 +30555,7 @@
 			)
 		)
 		(property "Power" "0.2W"
-			(at 86.36 116.84 0)
+			(at 88.265 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30574,7 +30564,7 @@
 			)
 		)
 		(property "Leakage Current" "0.5uA"
-			(at 86.36 116.84 0)
+			(at 88.265 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30583,7 +30573,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 125°C"
-			(at 85.598 92.456 0)
+			(at 87.503 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30592,7 +30582,7 @@
 			)
 		)
 		(property "Package" "SOD-323"
-			(at 86.36 116.84 0)
+			(at 88.265 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30601,7 +30591,7 @@
 			)
 		)
 		(property "Manufacturer" "MCC (Micro Commercial Components)"
-			(at 86.106 98.552 0)
+			(at 88.011 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30610,7 +30600,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "BAT42WS-TP"
-			(at 86.106 108.966 0)
+			(at 88.011 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30619,7 +30609,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 86.36 110.998 0)
+			(at 88.265 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30628,7 +30618,7 @@
 			)
 		)
 		(property "Distributor Part Number" "BAT42WSTPMSCT-ND"
-			(at 85.598 104.648 0)
+			(at 87.503 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30637,7 +30627,7 @@
 			)
 		)
 		(property "Type" "SCHOTTKY SMT"
-			(at 86.36 116.84 0)
+			(at 88.265 116.84 0)
 			(show_name yes)
 			(effects
 				(font
@@ -30647,7 +30637,7 @@
 			)
 		)
 		(property "V(z)" "NA"
-			(at 86.36 116.84 0)
+			(at 88.265 116.84 0)
 			(show_name yes)
 			(effects
 				(font
@@ -30657,7 +30647,7 @@
 			)
 		)
 		(property "Impedance" "NA"
-			(at 86.36 116.84 0)
+			(at 88.265 116.84 0)
 			(show_name yes)
 			(effects
 				(font
@@ -30667,7 +30657,7 @@
 			)
 		)
 		(property "Dimensions" "2.5mm x 1.25mm"
-			(at 86.36 116.84 0)
+			(at 88.265 116.84 0)
 			(show_name yes)
 			(effects
 				(font

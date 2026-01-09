@@ -13,9 +13,10 @@
 		(comment 3 "203-1690 Rue des quatre-saisons")
 		(comment 4 "Sherbrooke, Canada, J1E0N2")
 		(comment 5 "KiCad Rev 9.0")
-		(comment 6 "TBD")
-		(comment 7 "TBD")
-		(comment 8 "WIP")
+		(comment 6 "Jean-Francois Bilodeau")
+		(comment 7 "Not applicable")
+		(comment 8 "Preliminary")
+		(comment 9 "RPI_CMx_Carrier_2.00-0A_BOM")
 	)
 	(lib_symbols
 		(symbol "KiCad_Pwr_Symbols:+3V3"
@@ -6868,12 +6869,6 @@
 		(uuid "78864600-6f73-4426-885e-464110db65eb")
 	)
 	(junction
-		(at 132.08 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ea61a2e-8b4b-4562-9cae-a5754188148a")
-	)
-	(junction
 		(at 154.94 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8408,16 +8403,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 148.59) (xy 132.08 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e74a8d4-488f-472e-9c15-37b186282340")
-	)
-	(wire
-		(pts
 			(xy 160.02 96.52) (xy 190.5 96.52)
 		)
 		(stroke
@@ -8435,16 +8420,6 @@
 			(type default)
 		)
 		(uuid "2ed6594a-352b-4226-a37a-0be6a6d6ce8b")
-	)
-	(wire
-		(pts
-			(xy 132.08 148.59) (xy 140.97 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2edadd30-a1dd-4925-a5aa-84cb787ae42d")
 	)
 	(bus
 		(pts
@@ -9685,16 +9660,6 @@
 			(type default)
 		)
 		(uuid "6e3f445a-15b0-46b0-a690-cd618fd34e9c")
-	)
-	(wire
-		(pts
-			(xy 132.08 166.37) (xy 132.08 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f35ea4c-1fea-4d9f-bb0b-6b18e2e14ebf")
 	)
 	(bus
 		(pts
@@ -11498,7 +11463,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 148.59) (xy 132.08 148.59)
+			(xy 99.06 148.59) (xy 140.97 148.59)
 		)
 		(stroke
 			(width 0)
@@ -25779,177 +25744,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KicadCompDb:Resistors/RES_SMT_00013")
-		(at 132.08 165.1 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "b3442b11-3097-48b9-ad9d-6bac457d764d")
-		(property "Reference" "R90"
-			(at 130.81 161.9249 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 130.81 164.4649 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprint:RES_0402"
-			(at 109.982 164.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 132.08 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 10K OHM 1% 1/16W 0402"
-			(at 122.174 163.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 111.76 164.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "1/16W"
-			(at 117.856 164.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 115.824 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 113.792 164.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0402FR-0710KL"
-			(at 124.206 164.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 126.238 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "311-10.0KLRCT-ND"
-			(at 119.888 164.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 132.08 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature" "-55°C ~ 155°C"
-			(at 107.696 164.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "RES SMT"
-			(at 132.08 165.1 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dimensions" "1.00mm x 0.50mm"
-			(at 132.08 165.1 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b4fd0cd0-5984-4de2-b28a-8916a2280593")
-		)
-		(pin "1"
-			(uuid "26139e12-47eb-414d-8fd1-1d2b73d4df30")
-		)
-		(instances
-			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/0773b686-9329-480f-afb9-decb2d389d02"
-					(reference "R90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KiCad_Pwr_Symbols:+3V3")
 		(at 215.9 73.66 0)
 		(unit 1)
@@ -27471,71 +27265,6 @@
 			(project ""
 				(path "/c6859f98-e275-4e93-9044-02f0667b32a1"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KiCad_Pwr_Symbols:GND")
-		(at 132.08 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cbeb8625-0873-43e7-ac9d-bce6f2d11383")
-		(property "Reference" "#PWR0120"
-			(at 132.08 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.08 172.466 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f50aa08d-be28-4c20-ab93-ff9959704a6e")
-		)
-		(instances
-			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/0773b686-9329-480f-afb9-decb2d389d02"
-					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -32459,24 +32188,24 @@
 		(file
 			(name "Intellitrol_2025_A4.kicad_wks")
 			(type worksheet)
-			(data |KLUv/WCZEBUbACZkbiDwGD3QMfKBrbOx2DcoGlv3TNh99mV3EvRvWVgcnOtFBWQAXgBnABReV2sI
-				DWpR9uf6n2W1i+p9zrMI/+NthP/jsTnKvtaTq4jzHfcMVMLYn++sya/1DBTK9pT9/uRfAIxI71+E
-				msWxbOccb2R1xl+zX/cYEFLKa8bZF9sve6kACAi+kInTVc6GCgGd8K+NnDMq+1/nGtWx/5FAdLZU
-				oCbtuG1blFcB8Bd3ZNPZHx5Z0uo/+W9P40VnR4o6Ze7a/uoj75j9Zsy917GjFeKwt7V7b7/9891d
-				Es61rf7rIhHmYoxw9uzu+pwx3ltMBqOMYCAYzkE4VyiFU1qdxWAcdHdwd68GVn8VZdzp7KNakRZH
-				RVFJ2Uu/++dCoTYnFMgFonFYLrafLbml/3rOJEaEWowU0o5Sctarb7vz8NaGbM4YNXi1FlcOjKLB
-				cWQuF4iKEAGBgR7avz7OGfbgSNYlnEcjRZRYX1PNDQ27EPRwzbu5m5UEJFBbd3499vMGhRcmoSyw
-				CDEpsUP2LlPaPbd+GJmklCIQ8iBjpAjsotic85BlBwRm4pBIKIyP9PWphkU45wUziWLiiEAeAYC4
-				oOFQpZgZkZEkSTIccESkxMi2AYxZQeJ8egBowEg/MSlW3q1K3wBOjARiGqpC6EAOCnDHhkppthlP
-				O+jv7HnMEz5zs48DSLYVmNFBENFJhqrjSAystDkaDBNEqctvjpQUNwnTQo7AwFGdzUb7PJvoTFeS
-				1n3YoQEBykkEUIh0QBAV2xAwSol1h6QGA0POWHKVJg3ILBUgU/beZbrJBpgbnshvXvAqXTqkjKYZ
-				4egmwqUO7gQhRWCXA2YghBn4KgRP43HULMbcAqo7dKYsrcHuQILXQ0EZ23erLdCpQ5ppvcNaQtRN
-				o4mHFQA8BhEPlCFDC5IbJuq4SbZyoSKnBEBQHe0jWPtqOwv0nzXAR/h/MAXomvoTsWFHAu+iLWcz
-				LiJmH4FX2KzmewjCKB0xeVGoaM1ETnvKJfJ1QIta/QFAQH+W+qCt0Fsn8MFvn+U6LEIgOcLKLXTm
-				ux/om9bg0CcKcGbVxDTgLYt1YA8bzp+uDHASMHbrQefVg8AXs9Tp+OWaLTtIbV1SLiMiyDkesZdS
-				rE3N1+9hnQT49xEfcT85aUA6Br0K|
+			(data |KLUv/WDWEI0bAEakbiDwGD3QMfKBrbOx2DcoGlv3TNh99mV3EvRvWVgcnOtFBWMAXwBnAPC6emoI
+				Dcop+3P9z7LaRfU+51mE//E2wv/x2BxlX+vJVcT5jnsGKmHsz3fW5Nd6Bgple8p+f/IvAEak9y9C
+				zeJYtnOON7I646/Zr3sMCCnlNePsi+2XvVQABARfyMTpKmdDhQn/2sg5o7L/da5RHfsfCURnSwVq
+				0o7btkV5FQB/cUc2nf3hkSWt/pP/9jRedHakqFPmru2vPvKO2W/G3HsdO1ohDntbu/f22z/f3SXh
+				XNvqvy4SYS7OGSOc3V2fWaQB3ltMBqOMYCAYzkE4V+iUVmcxGAfdHdzdq4HVX0UZdzr7qFakxVFR
+				VFL20u/+uVCozQkFcoFoHJaL7WdLbum/njOJoUWoRTolZ736tjsPb23I5oxRg1fPGCmUc+XAKBoc
+				R+ZygagIHQGBgR7avz7OGfbgSNYlnEcjRZQrrK+p5oaGHejhmncjAQnU1p1fj/28QeGFbVaahLLA
+				IsSkpNghe5cp7Z5bP5Jik1IEQh4yGSNFYBfF5jxk2QGBmTgkEgrjI319GqGGTW1eMJMoJo4I5BGA
+				wKARTYdqREQkSZJCB2BEpOTG5gGMGUHK15bBQw8S/TKdNcgrujYahuKllw9EvNC6I4YFiwLYY0FJ
+				nnUCDwcPFiMvethvb34MKAB5L9B2pZQnGa69gaETsQZXrjl9hsmsyP0rTpfMIoJuTTe5gp6+GfU8
+				NgMmUdwwJlZ6nEwIDujTCKAU48CgEflwYEmIN4YaDAyff5GrmB6SJRUAYXjtOq2LdUU2NID/sMGr
+				y+kQUw2uhTCjNLEoZieMEMdcEjC4OOICViCexmF0ojHmOqzxy4P9AHCvkOGSCRjmNo2+3dJzpaAj
+				qvjadTGv30dl4zaLVRxG7uwwMoyNTnpTZXssEl6/oN7pASEiu41I1V7oUQL+80/xKMcIRDSw5jCm
+				StDTd4R8qDiEDpOjURY6Q4+IiwFxPfUwCIN0YuKPkrJsKvLaUy4iqLn01igOE4RpT+knmit4cYAb
+				/P7i92proeUxS7fuojd+o2ys5dNLFGB21QnpoLAvrhADBcPLk9de0thuPfRfrRLQnrHSTm/wL+lY
+				oYvU1k3I24o4dj5X7O2UaFQTd7xaJwPgzYCToLG8dCAdA1MF|
 			)
-			(checksum "68DF2994812F00A35785ED6450499936")
+			(checksum "59B3C1B9DB81B980742FE612F73F54F4")
 		)
 		(file
 			(name "Intellitrol_2025_A5.kicad_wks")

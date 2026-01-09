@@ -1323,7 +1323,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "${PROJECTNAME}-${REVISION}-BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1357,6 +1357,12 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
@@ -1375,6 +1381,36 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Distributor",
+          "name": "Distributor",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Distributor Part Number",
+          "name": "Distributor Part Number",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
@@ -1385,14 +1421,482 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Capacitance",
+          "name": "Capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Circuits",
+          "name": "Circuits",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Clock Frequency",
+          "name": "Clock Frequency",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Common-mode voltage",
+          "name": "Common-mode voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Contact Finish",
+          "name": "Contact Finish",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Contact Length (Total)",
+          "name": "Contact Length (Total)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Contact Material",
+          "name": "Contact Material",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Core Material",
+          "name": "Core Material",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current (Rated)",
+          "name": "Current (Rated)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current (Sat)",
+          "name": "Current (Sat)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current Rating",
+          "name": "Current Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DCR",
+          "name": "DCR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dimensions",
+          "name": "Dimensions",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Elements",
+          "name": "Elements",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Frequency",
+          "name": "Frequency",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "GBW",
+          "name": "GBW",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Gender",
+          "name": "Gender",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HFE",
+          "name": "HFE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Hold Current",
+          "name": "Hold Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "I(c)",
+          "name": "I(c)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "I(drain)",
+          "name": "I(drain)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "I(pp)",
+          "name": "I(pp)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Impedance",
+          "name": "Impedance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Inductance",
+          "name": "Inductance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Input",
+          "name": "Input",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Input Voltage (Max)",
+          "name": "Input Voltage (Max)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Input Voltage (Min)",
+          "name": "Input Voltage (Min)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Interface",
+          "name": "Interface",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Leakage Current",
+          "name": "Leakage Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Load Capacitance",
+          "name": "Load Capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Load Voltage",
+          "name": "Load Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Loop Control",
+          "name": "Loop Control",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Max Current",
+          "name": "Max Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting Type",
+          "name": "Mounting Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Offset Voltage",
+          "name": "Offset Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Temperature",
+          "name": "Operating Temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Output",
+          "name": "Output",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Output Configuration",
+          "name": "Output Configuration",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Output Current",
+          "name": "Output Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Output Type",
+          "name": "Output Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Output Voltage",
+          "name": "Output Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pitch",
+          "name": "Pitch",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Positions",
+          "name": "Positions",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power",
+          "name": "Power",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RDS(on)",
+          "name": "RDS(on)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RRIO",
+          "name": "RRIO",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rows",
+          "name": "Rows",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Series",
+          "name": "Series",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Shielding",
+          "name": "Shielding",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Shrouding",
+          "name": "Shrouding",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Slew Rate",
+          "name": "Slew Rate",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Stability",
+          "name": "Stability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Structure",
+          "name": "Structure",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supply Voltage",
+          "name": "Supply Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Technology",
+          "name": "Technology",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature Coefficient",
+          "name": "Temperature Coefficient",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Termination",
+          "name": "Termination",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Time to Trip",
+          "name": "Time to Trip",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Trip Current",
+          "name": "Trip Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "V(br)",
+          "name": "V(br)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "V(cl)",
+          "name": "V(cl)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "V(f)",
+          "name": "V(f)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "V(r)",
+          "name": "V(r)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "V(z)",
+          "name": "V(z)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VCE(max)",
+          "name": "VCE(max)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VCE(sat)",
+          "name": "VCE(sat)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VDS",
+          "name": "VDS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VGS(th)",
+          "name": "VGS(th)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Verified",
+          "name": "Verified",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage Rating",
+          "name": "Voltage Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Bias Current",
+          "name": "Bias Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SYMBOL_NAME",
+          "name": "${SYMBOL_NAME}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Output Voltage"
     },
     "connection_grid_size": 50.0,
     "drawing": {
