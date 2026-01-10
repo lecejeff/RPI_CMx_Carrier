@@ -4675,6 +4675,10 @@
 		(uuid "72b00699-a89c-4ba1-9632-3d7a6dc92e38")
 	)
 	(no_connect
+		(at 191.135 54.61)
+		(uuid "bd9c6c1b-2e9e-4c25-906a-b95a400b2197")
+	)
+	(no_connect
 		(at 248.285 31.115)
 		(uuid "c8279e55-f96c-4ec1-81f5-1c60519682b7")
 	)
@@ -4697,10 +4701,6 @@
 	(no_connect
 		(at 248.285 59.055)
 		(uuid "f1fa7d69-fc76-45ed-ad11-7c4e78bb83c3")
-	)
-	(no_connect
-		(at 191.135 54.61)
-		(uuid "f769189f-3fcf-40bc-b4c8-5df5a9c33b3c")
 	)
 	(bus_entry
 		(at 143.51 94.615)
@@ -9461,8 +9461,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:ESD Diodes/ESD_DIODE_00002")
-		(at 191.135 54.61 0)
-		(mirror y)
+		(at 188.595 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9470,7 +9469,7 @@
 		(dnp no)
 		(uuid "7f0c515f-2aba-4518-a8ab-3c5c105bb272")
 		(property "Reference" "D20"
-			(at 186.817 57.023 0)
+			(at 192.913 57.023 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9479,7 +9478,7 @@
 			)
 		)
 		(property "Value" "D1213A-02SOL-7"
-			(at 186.69 57.1499 0)
+			(at 193.04 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9489,7 +9488,7 @@
 			)
 		)
 		(property "Footprint" "footprint:SOT-23-3"
-			(at 190.627 76.708 0)
+			(at 189.103 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9498,7 +9497,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D1213A_02SOL.pdf"
-			(at 191.135 54.61 0)
+			(at 188.595 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9507,7 +9506,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 3.3VWM 10VC SOT233"
-			(at 189.357 64.516 0)
+			(at 190.373 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9516,7 +9515,7 @@
 			)
 		)
 		(property "V(r)" "3.3V"
-			(at 186.69 59.6899 0)
+			(at 193.04 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9526,7 +9525,7 @@
 			)
 		)
 		(property "V(cl)" "10V"
-			(at 190.881 68.834 0)
+			(at 188.849 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,7 +9534,7 @@
 			)
 		)
 		(property "V(br)" "6V"
-			(at 191.135 70.866 0)
+			(at 188.595 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +9543,7 @@
 			)
 		)
 		(property "I(pp)" "1A"
-			(at 191.135 54.61 0)
+			(at 188.595 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,7 +9552,7 @@
 			)
 		)
 		(property "Power" "NA"
-			(at 191.135 54.61 0)
+			(at 188.595 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,7 +9561,7 @@
 			)
 		)
 		(property "Capacitance" "0.85pF"
-			(at 191.135 54.61 0)
+			(at 188.595 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,7 +9570,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 125°C"
-			(at 190.373 78.994 0)
+			(at 189.357 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9580,7 +9579,7 @@
 			)
 		)
 		(property "Package" "SOT-23-3"
-			(at 191.135 54.61 0)
+			(at 188.595 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9589,7 +9588,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at 190.881 72.898 0)
+			(at 188.849 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9598,7 +9597,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "D1213A-02SOL-7"
-			(at 190.881 62.484 0)
+			(at 188.849 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9607,7 +9606,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 191.135 60.452 0)
+			(at 188.595 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9616,7 +9615,7 @@
 			)
 		)
 		(property "Distributor Part Number" "D1213A-02SOL-7DICT-ND"
-			(at 190.373 66.802 0)
+			(at 189.357 66.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9625,7 +9624,7 @@
 			)
 		)
 		(property "Type" "ESD TVS DUAL CA SMT"
-			(at 191.135 54.61 0)
+			(at 188.595 54.61 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9635,7 +9634,7 @@
 			)
 		)
 		(property "Dimensions" "2.90mm x 2.40mm"
-			(at 191.135 54.61 0)
+			(at 188.595 54.61 0)
 			(show_name yes)
 			(effects
 				(font

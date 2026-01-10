@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 3.0,
+          "height": 5.3,
+          "width": 5.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -1045,9 +1045,6 @@
       "/MIPI0.D3_P": [
         "DP_100R"
       ],
-      "/POWER INPUT/P12V_CMC": [
-        "POWER_PLANE"
-      ],
       "/SYS_~{RST}": [
         "CRITICAL"
       ],
@@ -1277,9 +1274,6 @@
         "POWER_PLANE"
       ],
       "Net-(D9-K)": [
-        "POWER_PLANE"
-      ],
-      "Net-(Q1-D)": [
         "POWER_PLANE"
       ],
       "Net-(U12-OUT)": [

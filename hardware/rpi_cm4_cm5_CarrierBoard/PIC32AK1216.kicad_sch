@@ -6532,6 +6532,12 @@
 		(uuid "e4d016bf-d586-4858-a0b3-e90723c4824e")
 	)
 	(junction
+		(at 78.74 114.935)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e621a5d3-43b1-47d7-b5ca-05418517c621")
+	)
+	(junction
 		(at 243.84 46.355)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6570,6 +6576,10 @@
 	(no_connect
 		(at 66.675 159.385)
 		(uuid "2538c70d-f761-4f10-b5a3-345dac7d7f80")
+	)
+	(no_connect
+		(at 72.39 117.475)
+		(uuid "b98cf210-ffe1-425c-b3e6-1f124ef88a52")
 	)
 	(no_connect
 		(at 88.265 157.48)
@@ -7329,6 +7339,16 @@
 			(type default)
 		)
 		(uuid "2ec05bb0-ae42-4cbb-977c-223639395429")
+	)
+	(wire
+		(pts
+			(xy 74.93 114.935) (xy 78.74 114.935)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa176d4-6345-442e-af9b-0a6ca9ba57be")
 	)
 	(wire
 		(pts
@@ -9022,6 +9042,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 114.935) (xy 74.93 117.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c3ac8d-170a-4f62-b2a7-e480e333879c")
+	)
+	(wire
+		(pts
 			(xy 85.725 146.685) (xy 66.675 146.685)
 		)
 		(stroke
@@ -9262,7 +9292,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 95.25) (xy 78.74 116.205)
+			(xy 78.74 95.25) (xy 78.74 114.935)
 		)
 		(stroke
 			(width 0)
@@ -9892,6 +9922,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 122.555) (xy 73.66 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c6ae75-b1ab-4e04-a0b6-de0be459d211")
+	)
+	(wire
+		(pts
 			(xy 157.48 179.705) (xy 158.75 179.705)
 		)
 		(stroke
@@ -10089,6 +10129,16 @@
 			(type default)
 		)
 		(uuid "f72306aa-e20b-40cb-96f2-47b50d03bc8e")
+	)
+	(wire
+		(pts
+			(xy 78.74 114.935) (xy 78.74 116.205)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f79f628a-8d65-4324-818b-a795f0c56a18")
 	)
 	(wire
 		(pts
@@ -27004,6 +27054,71 @@
 		)
 	)
 	(symbol
+		(lib_id "KiCad_Pwr_Symbols:GND")
+		(at 73.66 123.825 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dba6e065-8c6c-4ea1-b2d0-f52912bce172")
+		(property "Reference" "#PWR0384"
+			(at 73.66 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 127.381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4390eaff-1c82-4940-ac99-8241bbf162dc")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/7cb911d0-d4f5-46a6-8f4b-d261141d8579"
+					(reference "#PWR0384")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KicadCompDb:Resistors/RES_SMT_00013")
 		(at 69.85 90.17 180)
 		(unit 1)
@@ -28768,6 +28883,209 @@
 			(project "rpi_cm4_cm5_CarrierBoard"
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/7cb911d0-d4f5-46a6-8f4b-d261141d8579"
 					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:ESD Diodes/ESD_DIODE_00002")
+		(at 74.93 117.475 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8dfe997-06db-493b-a1eb-0f5211cb8cf1")
+		(property "Reference" "D49"
+			(at 70.612 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D1213A-02SOL-7"
+			(at 70.485 120.0149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprint:SOT-23-3"
+			(at 74.422 139.573 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D1213A_02SOL.pdf"
+			(at 74.93 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS DIODE 3.3VWM 10VC SOT233"
+			(at 73.152 127.381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V(r)" "3.3V"
+			(at 70.485 122.5549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "V(cl)" "10V"
+			(at 74.676 131.699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V(br)" "6V"
+			(at 74.93 133.731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I(pp)" "1A"
+			(at 74.93 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "NA"
+			(at 74.93 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "0.85pF"
+			(at 74.93 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~ 125°C"
+			(at 74.168 141.859 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-3"
+			(at 74.93 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 74.676 135.763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "D1213A-02SOL-7"
+			(at 74.676 125.349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 74.93 123.317 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "D1213A-02SOL-7DICT-ND"
+			(at 74.168 129.667 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "ESD TVS DUAL CA SMT"
+			(at 74.93 117.475 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "2.90mm x 2.40mm"
+			(at 74.93 117.475 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0e0a1b63-9206-4b92-9210-9398a68b8803")
+		)
+		(pin "2"
+			(uuid "e26a6961-eb16-4387-8e91-4f45fd8a462b")
+		)
+		(pin "1"
+			(uuid "2504e3ba-7fb5-4d95-bce3-7071dbd156dd")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/7cb911d0-d4f5-46a6-8f4b-d261141d8579"
+					(reference "D49")
 					(unit 1)
 				)
 			)
