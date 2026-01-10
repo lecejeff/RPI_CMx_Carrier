@@ -5924,7 +5924,7 @@
 		)
 		(uuid "60b9af26-a8d9-4dba-9315-383a2eb2dc7d")
 	)
-	(hierarchical_label "SYS_~{RST}"
+	(hierarchical_label "M.2_~{RST}"
 		(shape input)
 		(at 263.525 130.175 0)
 		(effects

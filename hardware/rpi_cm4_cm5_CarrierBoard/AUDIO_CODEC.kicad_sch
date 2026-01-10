@@ -6031,7 +6031,7 @@
 		)
 		(uuid "95f56709-dddf-449c-b17c-c93f1f41ce81")
 	)
-	(hierarchical_label "SYS_~{RST}"
+	(hierarchical_label "CODEC_~{RST}"
 		(shape input)
 		(at 53.34 60.325 180)
 		(effects

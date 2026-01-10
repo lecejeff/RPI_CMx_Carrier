@@ -6841,7 +6841,7 @@
 		)
 		(uuid "6191d32b-1063-47dc-ae5f-d9e046347bc4")
 	)
-	(hierarchical_label "SYS_~{RST}"
+	(hierarchical_label "EXP_MIPI_~{RST}"
 		(shape input)
 		(at 80.645 151.765 180)
 		(effects

@@ -1045,6 +1045,9 @@
       "/MIPI0.D3_P": [
         "DP_100R"
       ],
+      "/POWER INPUT/P12V_CMC": [
+        "POWER_PLANE"
+      ],
       "/SYS_~{RST}": [
         "CRITICAL"
       ],
@@ -1276,6 +1279,9 @@
       "Net-(D9-K)": [
         "POWER_PLANE"
       ],
+      "Net-(Q1-D)": [
+        "POWER_PLANE"
+      ],
       "Net-(U12-OUT)": [
         "POWER_PLANE"
       ]
@@ -1323,7 +1329,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}-${REVISION}-BOM.csv",
+    "bom_export_filename": "..\\output files\\BOM\\rpi_cm4_cm5_CarrierBoard-2.00-0A-BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1896,7 +1902,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Output Voltage"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -2014,6 +2020,10 @@
     [
       "9de20a6e-0c13-4cd2-9bfa-6170acf466d0",
       "M2_Expansion"
+    ],
+    [
+      "5b092eaf-fa47-43ab-9b96-d2aeda0b5528",
+      "POWER INPUT"
     ]
   ],
   "text_variables": {}

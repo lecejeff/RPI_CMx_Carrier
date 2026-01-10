@@ -7037,7 +7037,7 @@
 			)
 		)
 	)
-	(hierarchical_label "SYS_~{RST}"
+	(hierarchical_label "DSI_BRDG_~{RST}"
 		(shape input)
 		(at 38.1 113.03 180)
 		(effects

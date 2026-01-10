@@ -4577,7 +4577,7 @@
 			)
 		)
 	)
-	(hierarchical_label "SYS_~{RST}"
+	(hierarchical_label "HDMI_~{RST}"
 		(shape input)
 		(at 76.2 123.825 180)
 		(effects

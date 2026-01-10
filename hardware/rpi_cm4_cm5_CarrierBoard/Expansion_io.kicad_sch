@@ -3051,7 +3051,7 @@
 		)
 		(uuid "283f5b98-ab14-467d-aa62-3b7c679d49c6")
 	)
-	(hierarchical_label "SYS_~{RST}"
+	(hierarchical_label "EXP_IO_~{RST}"
 		(shape input)
 		(at 83.185 97.155 180)
 		(effects

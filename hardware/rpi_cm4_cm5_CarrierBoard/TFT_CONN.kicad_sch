@@ -4743,7 +4743,7 @@
 		(uuid "0473958d-d6d1-4b3a-97dc-a7c2cd56ac75")
 	)
 	(junction
-		(at 93.98 116.84)
+		(at 92.71 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c892f40-2765-42e4-b545-568f020f1836")
@@ -4753,6 +4753,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ce17da1-b7f3-405e-894d-85aea2e5b2bb")
+	)
+	(junction
+		(at 122.555 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e309f90-d0b8-454c-98a1-f3d4e3c41ac9")
 	)
 	(junction
 		(at 255.27 99.06)
@@ -4821,7 +4827,7 @@
 		(uuid "3e27fce9-eee8-4e75-97ee-29a98fd79793")
 	)
 	(junction
-		(at 100.965 116.84)
+		(at 99.695 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f29b56b-d4e5-494f-896c-a1c6513efcac")
@@ -4839,16 +4845,22 @@
 		(uuid "44ff86cd-bd95-4222-bbfc-2cb57f85e195")
 	)
 	(junction
-		(at 118.11 99.06)
+		(at 92.71 125.095)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4c8af9d7-8537-4f25-b64a-943bf5bfedea")
+		(uuid "491b2964-9ddd-4f43-a6e3-e43dc164b29d")
 	)
 	(junction
 		(at 257.81 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "512d04f5-183d-48be-8b4f-3f24d6827b07")
+	)
+	(junction
+		(at 118.11 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53af0740-a21b-4de9-8092-fd6065c2ac3b")
 	)
 	(junction
 		(at 212.09 33.02)
@@ -4879,12 +4891,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67a5cc03-d330-4ce4-a4e5-75931f2a8af1")
-	)
-	(junction
-		(at 118.11 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69542fcf-c106-4517-965a-d58f5274df0b")
 	)
 	(junction
 		(at 255.27 154.94)
@@ -4971,12 +4977,6 @@
 		(uuid "a5b56dc8-f150-4cc0-931b-c7e2fe40512b")
 	)
 	(junction
-		(at 104.14 125.095)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab396d74-b975-4fd4-a58f-789a2dcd0026")
-	)
-	(junction
 		(at 104.14 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5011,12 +5011,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bacd3b24-56e2-435e-8a44-4274e0d7c7ad")
-	)
-	(junction
-		(at 100.965 125.095)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4f98bf0-0613-4f67-b5ba-68adb46f8e32")
 	)
 	(junction
 		(at 118.11 114.3)
@@ -5732,7 +5726,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 125.095) (xy 100.965 125.095)
+			(xy 92.71 125.095) (xy 99.695 125.095)
 		)
 		(stroke
 			(width 0)
@@ -5772,7 +5766,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 125.095) (xy 104.14 126.365)
+			(xy 104.14 114.3) (xy 104.14 120.015)
 		)
 		(stroke
 			(width 0)
@@ -5852,16 +5846,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 114.3) (xy 104.14 125.095)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c37ca99-05cd-43f7-bdf7-efb6606127fd")
-	)
-	(wire
-		(pts
 			(xy 88.265 186.69) (xy 95.25 186.69)
 		)
 		(stroke
@@ -5889,6 +5873,16 @@
 			(type default)
 		)
 		(uuid "31da5ae2-2370-4664-be80-c1ea424a4512")
+	)
+	(wire
+		(pts
+			(xy 116.205 99.06) (xy 118.11 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "322d0935-ea9b-45ec-865a-648a0810eb21")
 	)
 	(wire
 		(pts
@@ -5932,7 +5926,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 114.3) (xy 118.11 126.365)
+			(xy 118.11 114.3) (xy 118.11 120.015)
 		)
 		(stroke
 			(width 0)
@@ -6072,7 +6066,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 116.84) (xy 100.965 116.84)
+			(xy 99.695 116.84) (xy 106.045 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6092,7 +6086,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 116.84) (xy 100.965 116.84)
+			(xy 92.71 116.84) (xy 99.695 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6302,6 +6296,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 99.06) (xy 118.11 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59e9281e-8486-458f-8eab-8e49aed17394")
+	)
+	(wire
+		(pts
 			(xy 88.265 177.8) (xy 88.265 179.705)
 		)
 		(stroke
@@ -6442,7 +6446,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 123.825) (xy 93.98 125.095)
+			(xy 92.71 123.825) (xy 92.71 125.095)
 		)
 		(stroke
 			(width 0)
@@ -6512,6 +6516,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 125.095) (xy 92.71 126.365)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695d04fb-3a85-4a58-93de-be933ba4babf")
+	)
+	(wire
+		(pts
 			(xy 119.38 43.18) (xy 119.38 44.45)
 		)
 		(stroke
@@ -6542,7 +6556,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.965 123.825) (xy 100.965 125.095)
+			(xy 99.695 123.825) (xy 99.695 125.095)
 		)
 		(stroke
 			(width 0)
@@ -6562,7 +6576,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 116.84) (xy 93.98 118.745)
+			(xy 92.71 116.84) (xy 92.71 118.745)
 		)
 		(stroke
 			(width 0)
@@ -6759,16 +6773,6 @@
 			(type default)
 		)
 		(uuid "83915242-8d85-41f6-8ecd-5b9e58f16ff0")
-	)
-	(wire
-		(pts
-			(xy 118.11 99.06) (xy 118.11 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "888f7362-9ce7-487b-9b36-4c9dc3040f1a")
 	)
 	(wire
 		(pts
@@ -7022,16 +7026,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 93.98) (xy 118.11 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f515f49-c5c8-4ed8-ae3a-24ac39cd1196")
-	)
-	(wire
-		(pts
 			(xy 116.205 104.14) (xy 132.715 104.14)
 		)
 		(stroke
@@ -7152,16 +7146,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.965 125.095) (xy 104.14 125.095)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a81b71fb-b068-4a2e-b98a-5621390bc866")
-	)
-	(wire
-		(pts
 			(xy 274.955 49.53) (xy 267.97 49.53)
 		)
 		(stroke
@@ -7242,7 +7226,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 116.205) (xy 93.98 116.84)
+			(xy 92.71 116.205) (xy 92.71 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7299,16 +7283,6 @@
 			(type default)
 		)
 		(uuid "b64f0987-9df5-4043-a08f-2363b07cb370")
-	)
-	(wire
-		(pts
-			(xy 118.11 99.06) (xy 116.205 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6ca7070-32f5-4d7d-9632-ab566b5e0ddf")
 	)
 	(bus
 		(pts
@@ -7542,7 +7516,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.965 116.84) (xy 100.965 118.745)
+			(xy 99.695 116.84) (xy 99.695 118.745)
 		)
 		(stroke
 			(width 0)
@@ -7592,16 +7566,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.205 93.98) (xy 118.11 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc5977a5-9f99-4b49-a39b-3466db649e1d")
-	)
-	(wire
-		(pts
 			(xy 114.3 33.02) (xy 119.38 33.02)
 		)
 		(stroke
@@ -7609,6 +7573,16 @@
 			(type default)
 		)
 		(uuid "cc8e00af-c6f1-455b-b48f-22ea4e3dffdb")
+	)
+	(wire
+		(pts
+			(xy 116.205 96.52) (xy 122.555 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdfdff06-b4ab-461f-a982-918df7fe02a8")
 	)
 	(wire
 		(pts
@@ -7659,6 +7633,16 @@
 			(type default)
 		)
 		(uuid "d06235bb-fc7a-4749-90a1-b4a8458aa7b0")
+	)
+	(wire
+		(pts
+			(xy 122.555 93.98) (xy 122.555 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d333736b-ff60-4f24-9562-80a2f80a3d35")
 	)
 	(wire
 		(pts
@@ -7822,16 +7806,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.205 96.52) (xy 122.555 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddc8368a-59de-4a6c-8fb2-7e7791261be8")
-	)
-	(wire
-		(pts
 			(xy 76.2 106.68) (xy 92.075 106.68)
 		)
 		(stroke
@@ -7862,13 +7836,23 @@
 	)
 	(wire
 		(pts
-			(xy 122.555 90.805) (xy 122.555 96.52)
+			(xy 122.555 90.805) (xy 122.555 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e0904a4d-80da-4cb8-8728-47bfaff30104")
+	)
+	(wire
+		(pts
+			(xy 116.205 93.98) (xy 122.555 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e205b6ef-51c8-4930-8a01-182a91ab3377")
 	)
 	(wire
 		(pts
@@ -8680,7 +8664,7 @@
 			)
 		)
 	)
-	(hierarchical_label "SYS_~{RST}"
+	(hierarchical_label "TFT_TOUCH_~{RST}"
 		(shape input)
 		(at 114.3 33.02 180)
 		(effects
@@ -8779,7 +8763,7 @@
 		)
 		(uuid "bc0d484b-3dd5-4246-bbbe-8f70ee26c475")
 	)
-	(hierarchical_label "~{I2C_TOUCH_INT}"
+	(hierarchical_label "I2C_TOUCH_~{INT}"
 		(shape output)
 		(at 114.3 30.48 180)
 		(effects
@@ -8918,7 +8902,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "17bf8fa6-4953-47e5-b7a5-f0ad0da6c245")
 		(property "Reference" "C194"
 			(at 126.746 94.361 90)
@@ -9148,15 +9132,15 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Miscellaneous/MISC_00004")
-		(at 133.35 182.245 0)
+		(at 125.73 182.245 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1cc9348e-4ca0-4f2e-82c4-10e830e97228")
 		(property "Reference" "MTG7"
-			(at 132.08 181.229 0)
+			(at 124.46 181.229 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9165,7 +9149,7 @@
 			)
 		)
 		(property "Value" "M0504-25-AL-7"
-			(at 137.16 185.1024 0)
+			(at 129.54 185.1024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9175,7 +9159,7 @@
 			)
 		)
 		(property "Footprint" "footprint:M0504-25-AL-7"
-			(at 133.35 182.245 0)
+			(at 125.73 182.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9184,7 +9168,7 @@
 			)
 		)
 		(property "Datasheet" "https://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF_catalog_0282.pdf"
-			(at 133.35 182.245 0)
+			(at 125.73 182.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,7 +9177,7 @@
 			)
 		)
 		(property "Description" "ROUND SPACER M2.5 ALUMINUM 5MM"
-			(at 133.35 182.245 0)
+			(at 125.73 182.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,7 +9186,7 @@
 			)
 		)
 		(property "Type" "ROUND SPACER M2.5 ALUMINUM 5MM"
-			(at 133.35 182.245 0)
+			(at 125.73 182.245 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9212,7 +9196,7 @@
 			)
 		)
 		(property "Operating Temperature" "-40°C ~ 150°C"
-			(at 133.35 182.245 0)
+			(at 125.73 182.245 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9222,7 +9206,7 @@
 			)
 		)
 		(property "Dimensions" "4.50mm x 5.00mm"
-			(at 133.35 182.245 0)
+			(at 125.73 182.245 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9232,7 +9216,7 @@
 			)
 		)
 		(property "Manufacturer" "RAF Electronic Hardware"
-			(at 133.35 182.245 0)
+			(at 125.73 182.245 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9242,7 +9226,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "M0504-25-AL-7"
-			(at 133.35 182.245 0)
+			(at 125.73 182.245 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9252,7 +9236,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 133.35 182.245 0)
+			(at 125.73 182.245 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9262,7 +9246,7 @@
 			)
 		)
 		(property "Distributor Part Number" "1772-M0504-25-AL-7-ND"
-			(at 133.35 182.245 0)
+			(at 125.73 182.245 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9353,7 +9337,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "389a18b4-bdd3-4af5-9c44-f1d3f6028c66")
 		(property "Reference" "J20"
 			(at 111.125 88.265 0)
@@ -10128,16 +10112,16 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00002")
-		(at 93.98 123.825 270)
+		(at 92.71 123.825 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "52207509-1bf6-470a-97ba-0ba9a85cb159")
 		(property "Reference" "C223"
-			(at 93.218 118.872 90)
+			(at 91.948 118.872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,7 +10130,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 92.964 120.65 90)
+			(at 91.694 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10155,7 +10139,7 @@
 			)
 		)
 		(property "Footprint" "footprint:CAP_NONPOL_0805"
-			(at 71.882 123.317 0)
+			(at 70.612 123.317 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10164,7 +10148,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
-			(at 93.98 123.825 0)
+			(at 92.71 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,7 +10157,7 @@
 			)
 		)
 		(property "Description" "CAP CER 1UF 50V X7R 0805"
-			(at 84.074 122.047 0)
+			(at 82.804 122.047 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10182,7 +10166,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 73.66 123.571 0)
+			(at 72.39 123.571 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10191,7 +10175,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 79.756 123.571 0)
+			(at 78.486 123.571 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10200,7 +10184,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 92.964 124.206 90)
+			(at 91.694 124.206 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10209,7 +10193,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 125°C"
-			(at 69.596 123.063 0)
+			(at 68.326 123.063 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10218,7 +10202,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 92.964 122.428 90)
+			(at 91.694 122.428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10227,7 +10211,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 75.692 123.571 0)
+			(at 74.422 123.571 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10236,7 +10220,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0805KKX7R9BB105"
-			(at 86.106 123.571 0)
+			(at 84.836 123.571 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10245,7 +10229,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 88.138 123.825 0)
+			(at 86.868 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10254,7 +10238,7 @@
 			)
 		)
 		(property "Distributor Part Number" "311-1886-1-ND"
-			(at 81.788 123.063 0)
+			(at 80.518 123.063 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10263,7 +10247,7 @@
 			)
 		)
 		(property "Type" "CER SMT"
-			(at 93.98 123.825 0)
+			(at 92.71 123.825 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10273,7 +10257,7 @@
 			)
 		)
 		(property "Dimensions" "2.00mm x 1.25mm"
-			(at 93.98 123.825 0)
+			(at 92.71 123.825 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10637,15 +10621,15 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Miscellaneous/MISC_00003")
-		(at 147.955 174.625 0)
+		(at 140.335 174.625 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "63ed5d07-d493-4bd7-99ab-cee47cba9b24")
 		(property "Reference" "ITEM2"
-			(at 153.797 173.736 0)
+			(at 146.177 173.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10654,7 +10638,7 @@
 			)
 		)
 		(property "Value" "RVT70HSLFWCA0"
-			(at 149.225 188.468 0)
+			(at 141.605 188.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10663,7 +10647,7 @@
 			)
 		)
 		(property "Footprint" "footprint:RVT70HSLFWCA0"
-			(at 147.955 174.625 0)
+			(at 140.335 174.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10672,7 +10656,7 @@
 			)
 		)
 		(property "Datasheet" "https://download.riverdi.com/RVT70HSLFWCA0/DS_RVT70HSLFWCA0_Rev.1.4.pdf"
-			(at 147.955 174.625 0)
+			(at 140.335 174.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10681,7 +10665,7 @@
 			)
 		)
 		(property "Description" "TFT Displays & Accessories 7.0\", LVDS, frame, atouch, CTP,air bond"
-			(at 147.955 174.625 0)
+			(at 140.335 174.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10690,7 +10674,7 @@
 			)
 		)
 		(property "Type" "TFT Displays"
-			(at 147.955 174.625 0)
+			(at 140.335 174.625 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10700,7 +10684,7 @@
 			)
 		)
 		(property "Operating Temperature" "-20°C ~ 70°C"
-			(at 147.955 174.625 0)
+			(at 140.335 174.625 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10710,7 +10694,7 @@
 			)
 		)
 		(property "Dimensions" "181.6mm x 100.6mm x 8.68mm"
-			(at 147.955 174.625 0)
+			(at 140.335 174.625 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10720,7 +10704,7 @@
 			)
 		)
 		(property "Manufacturer" "Riverdi"
-			(at 147.955 174.625 0)
+			(at 140.335 174.625 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10730,7 +10714,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "SM-RVT70HSLFWCA0"
-			(at 147.955 174.625 0)
+			(at 140.335 174.625 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10740,7 +10724,7 @@
 			)
 		)
 		(property "Distributor" "Mouser"
-			(at 147.955 174.625 0)
+			(at 140.335 174.625 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10750,7 +10734,7 @@
 			)
 		)
 		(property "Distributor Part Number" "166-RVT70HSLFWCA0"
-			(at 147.955 174.625 0)
+			(at 140.335 174.625 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10770,16 +10754,16 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00001")
-		(at 100.965 123.825 270)
+		(at 99.695 123.825 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "643ef8b9-cf5f-4610-bcde-c482d4745039")
 		(property "Reference" "C222"
-			(at 99.949 120.396 90)
+			(at 98.679 120.396 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10788,7 +10772,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 99.949 122.174 90)
+			(at 98.679 122.174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10797,7 +10781,7 @@
 			)
 		)
 		(property "Footprint" "footprint:CAP_NONPOL_0402"
-			(at 78.867 123.317 0)
+			(at 77.597 123.317 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10806,7 +10790,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
-			(at 100.965 123.825 0)
+			(at 99.695 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10815,7 +10799,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
-			(at 91.059 122.047 0)
+			(at 89.789 122.047 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10824,7 +10808,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 80.645 123.571 0)
+			(at 79.375 123.571 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10833,7 +10817,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 86.741 123.571 0)
+			(at 85.471 123.571 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10842,7 +10826,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 84.709 123.825 0)
+			(at 83.439 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,7 +10835,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 125°C"
-			(at 76.581 123.063 0)
+			(at 75.311 123.063 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10860,7 +10844,7 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 100.965 123.825 0)
+			(at 99.695 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10869,7 +10853,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 82.677 123.571 0)
+			(at 81.407 123.571 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10878,7 +10862,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM155R71H104KE14D"
-			(at 93.091 123.571 0)
+			(at 91.821 123.571 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10887,7 +10871,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 95.123 123.825 0)
+			(at 93.853 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10896,7 +10880,7 @@
 			)
 		)
 		(property "Distributor Part Number" "490-10700-1-ND"
-			(at 88.773 123.063 0)
+			(at 87.503 123.063 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10905,7 +10889,7 @@
 			)
 		)
 		(property "Type" "CER SMT"
-			(at 100.965 123.825 0)
+			(at 99.695 123.825 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10915,7 +10899,7 @@
 			)
 		)
 		(property "Dimensions" "1.00mm x 0.50mm"
-			(at 100.965 123.825 0)
+			(at 99.695 123.825 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11413,15 +11397,15 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Miscellaneous/MISC_00004")
-		(at 138.43 182.245 0)
+		(at 130.81 182.245 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7159f9c2-2260-4ced-9d7d-6998ed02c6f5")
 		(property "Reference" "MTG8"
-			(at 137.922 181.356 0)
+			(at 130.302 181.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11430,7 +11414,7 @@
 			)
 		)
 		(property "Value" "M0504-25-AL-7"
-			(at 142.24 185.1024 0)
+			(at 134.62 185.1024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11440,7 +11424,7 @@
 			)
 		)
 		(property "Footprint" "footprint:M0504-25-AL-7"
-			(at 138.43 182.245 0)
+			(at 130.81 182.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11449,7 +11433,7 @@
 			)
 		)
 		(property "Datasheet" "https://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF_catalog_0282.pdf"
-			(at 138.43 182.245 0)
+			(at 130.81 182.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11458,7 +11442,7 @@
 			)
 		)
 		(property "Description" "ROUND SPACER M2.5 ALUMINUM 5MM"
-			(at 138.43 182.245 0)
+			(at 130.81 182.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11467,7 +11451,7 @@
 			)
 		)
 		(property "Type" "ROUND SPACER M2.5 ALUMINUM 5MM"
-			(at 138.43 182.245 0)
+			(at 130.81 182.245 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11477,7 +11461,7 @@
 			)
 		)
 		(property "Operating Temperature" "-40°C ~ 150°C"
-			(at 138.43 182.245 0)
+			(at 130.81 182.245 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11487,7 +11471,7 @@
 			)
 		)
 		(property "Dimensions" "4.50mm x 5.00mm"
-			(at 138.43 182.245 0)
+			(at 130.81 182.245 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11497,7 +11481,7 @@
 			)
 		)
 		(property "Manufacturer" "RAF Electronic Hardware"
-			(at 138.43 182.245 0)
+			(at 130.81 182.245 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11507,7 +11491,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "M0504-25-AL-7"
-			(at 138.43 182.245 0)
+			(at 130.81 182.245 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11517,7 +11501,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 138.43 182.245 0)
+			(at 130.81 182.245 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11527,7 +11511,7 @@
 			)
 		)
 		(property "Distributor Part Number" "1772-M0504-25-AL-7-ND"
-			(at 138.43 182.245 0)
+			(at 130.81 182.245 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12061,15 +12045,15 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Miscellaneous/MISC_00004")
-		(at 138.43 176.53 0)
+		(at 130.81 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7c314e6a-6f9d-4bf3-8f60-4c13f80e87fa")
 		(property "Reference" "MTG6"
-			(at 137.922 175.641 0)
+			(at 130.302 175.641 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12078,7 +12062,7 @@
 			)
 		)
 		(property "Value" "M0504-25-AL-7"
-			(at 142.24 179.3874 0)
+			(at 134.62 179.3874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12088,7 +12072,7 @@
 			)
 		)
 		(property "Footprint" "footprint:M0504-25-AL-7"
-			(at 138.43 176.53 0)
+			(at 130.81 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12097,7 +12081,7 @@
 			)
 		)
 		(property "Datasheet" "https://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF_catalog_0282.pdf"
-			(at 138.43 176.53 0)
+			(at 130.81 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12106,7 +12090,7 @@
 			)
 		)
 		(property "Description" "ROUND SPACER M2.5 ALUMINUM 5MM"
-			(at 138.43 176.53 0)
+			(at 130.81 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12115,7 +12099,7 @@
 			)
 		)
 		(property "Type" "ROUND SPACER M2.5 ALUMINUM 5MM"
-			(at 138.43 176.53 0)
+			(at 130.81 176.53 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12125,7 +12109,7 @@
 			)
 		)
 		(property "Operating Temperature" "-40°C ~ 150°C"
-			(at 138.43 176.53 0)
+			(at 130.81 176.53 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12135,7 +12119,7 @@
 			)
 		)
 		(property "Dimensions" "4.50mm x 5.00mm"
-			(at 138.43 176.53 0)
+			(at 130.81 176.53 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12145,7 +12129,7 @@
 			)
 		)
 		(property "Manufacturer" "RAF Electronic Hardware"
-			(at 138.43 176.53 0)
+			(at 130.81 176.53 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12155,7 +12139,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "M0504-25-AL-7"
-			(at 138.43 176.53 0)
+			(at 130.81 176.53 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12165,7 +12149,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 138.43 176.53 0)
+			(at 130.81 176.53 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12175,7 +12159,7 @@
 			)
 		)
 		(property "Distributor Part Number" "1772-M0504-25-AL-7-ND"
-			(at 138.43 176.53 0)
+			(at 130.81 176.53 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12538,7 +12522,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8d679b00-3b55-4cff-bfdf-5cb679fcfce3")
 		(property "Reference" "C176"
 			(at 133.477 92.837 90)
@@ -12708,7 +12692,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8efbc337-3da3-4a4c-a38b-f82b41068b84")
 		(property "Reference" "D37"
 			(at 80.01 131.699 0)
@@ -12936,15 +12920,15 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Miscellaneous/MISC_00004")
-		(at 133.35 176.53 0)
+		(at 125.73 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "92579f7e-56fb-4921-910b-3c5f5ef4488e")
 		(property "Reference" "MTG5"
-			(at 132.08 175.641 0)
+			(at 124.46 175.641 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12953,7 +12937,7 @@
 			)
 		)
 		(property "Value" "M0504-25-AL-7"
-			(at 137.16 179.3874 0)
+			(at 129.54 179.3874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12963,7 +12947,7 @@
 			)
 		)
 		(property "Footprint" "footprint:M0504-25-AL-7"
-			(at 133.35 176.53 0)
+			(at 125.73 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12972,7 +12956,7 @@
 			)
 		)
 		(property "Datasheet" "https://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF_catalog_0282.pdf"
-			(at 133.35 176.53 0)
+			(at 125.73 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12981,7 +12965,7 @@
 			)
 		)
 		(property "Description" "ROUND SPACER M2.5 ALUMINUM 5MM"
-			(at 133.35 176.53 0)
+			(at 125.73 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12990,7 +12974,7 @@
 			)
 		)
 		(property "Type" "ROUND SPACER M2.5 ALUMINUM 5MM"
-			(at 133.35 176.53 0)
+			(at 125.73 176.53 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13000,7 +12984,7 @@
 			)
 		)
 		(property "Operating Temperature" "-40°C ~ 150°C"
-			(at 133.35 176.53 0)
+			(at 125.73 176.53 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13010,7 +12994,7 @@
 			)
 		)
 		(property "Dimensions" "4.50mm x 5.00mm"
-			(at 133.35 176.53 0)
+			(at 125.73 176.53 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13020,7 +13004,7 @@
 			)
 		)
 		(property "Manufacturer" "RAF Electronic Hardware"
-			(at 133.35 176.53 0)
+			(at 125.73 176.53 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13030,7 +13014,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "M0504-25-AL-7"
-			(at 133.35 176.53 0)
+			(at 125.73 176.53 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13040,7 +13024,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 133.35 176.53 0)
+			(at 125.73 176.53 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13050,7 +13034,7 @@
 			)
 		)
 		(property "Distributor Part Number" "1772-M0504-25-AL-7-ND"
-			(at 133.35 176.53 0)
+			(at 125.73 176.53 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13501,7 +13485,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:+3V3")
-		(at 93.98 116.205 0)
+		(at 92.71 116.205 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13509,7 +13493,7 @@
 		(dnp no)
 		(uuid "a4d6b84f-0904-417b-a0fa-11dc68771499")
 		(property "Reference" "#PWR0368"
-			(at 93.98 120.015 0)
+			(at 92.71 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13518,7 +13502,7 @@
 			)
 		)
 		(property "Value" "3V3_CB"
-			(at 90.551 112.776 0)
+			(at 89.281 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13527,7 +13511,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 116.205 0)
+			(at 92.71 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13536,7 +13520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 116.205 0)
+			(at 92.71 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13545,7 +13529,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 93.98 116.205 0)
+			(at 92.71 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13633,7 +13617,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
-		(at 104.14 126.365 0)
+		(at 104.14 120.015 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13642,7 +13626,7 @@
 		(dnp no)
 		(uuid "adf56ee3-0b1a-408f-9980-dd9d38683db8")
 		(property "Reference" "#PWR0363"
-			(at 104.14 132.715 0)
+			(at 104.14 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13651,7 +13635,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 130.048 0)
+			(at 104.14 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13659,7 +13643,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 126.365 0)
+			(at 104.14 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13668,7 +13652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 126.365 0)
+			(at 104.14 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13677,7 +13661,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 126.365 0)
+			(at 104.14 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14767,6 +14751,72 @@
 		)
 	)
 	(symbol
+		(lib_id "KiCad_Pwr_Symbols:GND")
+		(at 92.71 126.365 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9655fca-fba1-4a73-a13f-97b1d6c8c0bb")
+		(property "Reference" "#PWR0120"
+			(at 92.71 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a639f8a-bcc3-407e-ae56-557301bbe3db")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/13abfb0a-e124-4fcc-bb4d-eb8f0bf663f5"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KiCad_Lib_Symbols:MTG_hole_cir_5mm_pad_3mm_drill")
 		(at 93.98 173.355 0)
 		(unit 1)
@@ -15339,7 +15389,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
-		(at 118.11 126.365 0)
+		(at 118.11 120.015 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15347,7 +15397,7 @@
 		(dnp no)
 		(uuid "eeb1b93f-8a83-421c-83ce-1c4bda80ba0c")
 		(property "Reference" "#PWR0364"
-			(at 118.11 132.715 0)
+			(at 118.11 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15356,7 +15406,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 130.048 0)
+			(at 118.11 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15364,7 +15414,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 126.365 0)
+			(at 118.11 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15373,7 +15423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 126.365 0)
+			(at 118.11 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15382,7 +15432,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 126.365 0)
+			(at 118.11 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15409,7 +15459,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f412c1fd-a3e3-49a2-976f-0d7b9ae73e40")
 		(property "Reference" "D36"
 			(at 80.01 86.868 0)

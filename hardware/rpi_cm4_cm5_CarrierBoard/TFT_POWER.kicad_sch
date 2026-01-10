@@ -13868,7 +13868,7 @@
 		)
 		(uuid "69e1ceb1-cc96-463d-8e60-1a2bd5eafeda")
 	)
-	(hierarchical_label "SYS_~{RST}"
+	(hierarchical_label "TFT_POWER_~{RST}"
 		(shape input)
 		(at 32.385 89.535 180)
 		(effects
