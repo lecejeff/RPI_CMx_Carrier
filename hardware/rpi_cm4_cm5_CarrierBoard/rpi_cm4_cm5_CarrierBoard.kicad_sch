@@ -2623,6 +2623,12 @@
 		(uuid "52e70a27-7f6a-4c58-8574-701d0665dac2")
 	)
 	(junction
+		(at 159.385 128.905)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65fcad8d-9d13-4716-824b-1b83f9ae8f55")
+	)
+	(junction
 		(at 195.58 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2933,7 +2939,7 @@
 	)
 	(wire
 		(pts
-			(xy 155.575 128.905) (xy 202.565 128.905)
+			(xy 155.575 128.905) (xy 159.385 128.905)
 		)
 		(stroke
 			(width 0)
@@ -3183,6 +3189,16 @@
 	)
 	(wire
 		(pts
+			(xy 159.385 143.51) (xy 165.1 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a0865d-a87f-4d43-906f-b7d9497874d2")
+	)
+	(wire
+		(pts
 			(xy 182.245 105.41) (xy 198.12 105.41)
 		)
 		(stroke
@@ -3250,6 +3266,16 @@
 			(type default)
 		)
 		(uuid "6642b04b-2b21-4a89-a546-b86979575369")
+	)
+	(wire
+		(pts
+			(xy 159.385 128.905) (xy 159.385 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e78d3c-dd88-483c-928b-8576133f5e2c")
 	)
 	(bus
 		(pts
@@ -3533,6 +3559,16 @@
 	)
 	(wire
 		(pts
+			(xy 159.385 128.905) (xy 202.565 128.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1a8a08-6e5a-4c7e-b954-511733d0a804")
+	)
+	(wire
+		(pts
 			(xy 104.775 168.275) (xy 104.775 168.91)
 		)
 		(stroke
@@ -3740,16 +3776,6 @@
 			(type default)
 		)
 		(uuid "b77b482c-3e2b-40ed-a65a-9b3322cc4ddf")
-	)
-	(wire
-		(pts
-			(xy 155.575 143.51) (xy 165.1 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba03af69-f9ec-4337-bbd2-8a3ebd49da57")
 	)
 	(wire
 		(pts
@@ -9634,16 +9660,6 @@
 				(justify right)
 			)
 		)
-		(pin "WDOG_OUT" output
-			(at 202.565 128.905 180)
-			(uuid "0cb7f91a-99d9-49dc-8b8a-4e254359cf3c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "CMx_INT" output
 			(at 202.565 133.985 180)
 			(uuid "2344d279-751e-4372-8edd-137380b433fa")
@@ -9797,6 +9813,16 @@
 		(pin "I_12V0_CB" input
 			(at 202.565 156.21 180)
 			(uuid "a5795ce3-2883-4c55-b939-6dc2e7145b6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{WDOG_OUT}" output
+			(at 202.565 128.905 180)
+			(uuid "cf9b59a9-fecb-4ab4-a511-026de5fa0086")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10169,9 +10195,9 @@
 				(justify right)
 			)
 		)
-		(pin "WDT_~{RST}" input
+		(pin "~{WDOG_IN}" input
 			(at 165.1 143.51 180)
-			(uuid "f136a9aa-7d21-4d22-ac87-c508e8d84356")
+			(uuid "6b97045b-dbd4-4278-bd96-a367cec7f2c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10218,16 +10244,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "WDOG_IN" input
-			(at 155.575 128.905 0)
-			(uuid "d3e92f11-d582-4725-8089-f55f0fa2eeec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "I2C3{I2C}" bidirectional
@@ -10460,9 +10476,9 @@
 				(justify left)
 			)
 		)
-		(pin "WDT_~{RST}" output
-			(at 155.575 143.51 0)
-			(uuid "fc8a7878-98bf-4e53-a14f-a14996501358")
+		(pin "~{WDOG_IN}" input
+			(at 155.575 128.905 0)
+			(uuid "4b6772a5-dcf7-4d0f-a90f-d30fedddc0bf")
 			(effects
 				(font
 					(size 1.27 1.27)

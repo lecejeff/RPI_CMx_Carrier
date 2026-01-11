@@ -1,27 +1,30 @@
 { "signal" : 
  	[																								//Empty line for header
 		['RPI CMx Signals',
-         	{ "name": "12V_CB",  	"wave": "0.1.............",		node: '..a..............' },	//Soft-start delay of 12V regulator
-            { "name": "5V0_CB",  	"wave": "0..1............",		node: '...b.............' },	//Soft-start delay of 5V regulator
-         	{ "name": "GLOBAL_EN",  "wave": "0...1...........",		node: '....c............' },	//GLOBAL_EN RC delay as per RPI CMx datasheet
-         	{ "name": "3V3_CMx",  	"wave": "0....1..........",		node: '.....d...........' },  	//As per RPI CMx datasheet
-         	{ "name": "1V8_CMx",  	"wave": "0.....1.........",		node: '......e..........' },  	//As per RPI CMx datasheet
-         	{ "name": "RUN_PG",  	"wave": "0.......1.......",		node: '........f........' },  	//As per RPI CMx datasheet
-         	{ "name": "3V3_CB",  	"wave": "0........1......",		node: '.........g.......' },  	//Soft-start delay of 3V3 regulator
-            { "name": "1V8_CB",  	"wave": "0........1......",		node: '.........h.......' },	//Start in parallel to 3V3 regulator
-            { "name": "1V05_CB",  	"wave": "0.........1.....",		node: '..........i......' },	//Soft-start delay of 1V8 regulator      	
-            { "name": "PWG",  		"wave": "0...........1...",		node: '............j....' },   	//200ms deglitch delay in voltage supervisor IC 
-         	{ "name": "nEXTRST",  	"wave": "0.............1.",		node: '..............k..' },   	//As per RPI CMx datasheet  
-         	{ "name": "SYS_RSTn",  	"wave": "0.............1.",		node: '..............l..' },   	//Buffered nEXTRST
+         	{ "name": "12V_CB",  	"wave": "0.1.......................",		node: '..a........................' },	//Soft-start delay of 12V regulator
+            { "name": "5V0_CB",  	"wave": "0..1......................",		node: '...b.......................' },	//Soft-start delay of 5V regulator
+         	{ "name": "GLOBAL_EN",  "wave": "0...1................0....",		node: '....c......................' },	//GLOBAL_EN RC delay as per RPI CMx datasheet
+         	{ "name": "3V3_CMx",  	"wave": "0....1.................0..",		node: '.....d.....................' },  //As per RPI CMx datasheet
+         	{ "name": "1V8_CMx",  	"wave": "0.....1...............0...",		node: '......e....................' },  //As per RPI CMx datasheet
+         	{ "name": "RUN_PG",  	"wave": "0.......1............0....",		node: '........f..................' },  //As per RPI CMx datasheet
+         	{ "name": "3V3_CB",  	"wave": "0........1...........0....",		node: '.........g.................' },  //Soft-start delay of 3V3 regulator
+            { "name": "1V8_CB",  	"wave": "0........1...........0....",		node: '.........h.................' },	//Start in parallel to 3V3 regulator
+            { "name": "1V05_CB",  	"wave": "0.........1...........0...",		node: '..........i................' },	//Soft-start delay of 1V8 regulator      	
+            { "name": "PWG",  		"wave": "0...........1.............",		node: '............j..............' },	//200ms deglitch delay in voltage supervisor IC 
+         	{ "name": "nEXTRST",  	"wave": "0.............1...........",		node: '..............k............' },  //As per RPI CMx datasheet  
+         	{ "name": "SYS_RSTn",  	"wave": "0.............1...........",		node: '..............l............' },  //Buffered nEXTRST
+         	{ "name": "WDI",  		"wave": "0..............p.|..l.....",		node: '...........................' },  //Watchdog timer input, fed from PIC output
+         	{ "name": "WDOn",  		"wave": "0..2.....1..........0....",		node: '...m.....n.................' },  //Watchdog timer output, connected to GLOBAL_EN  
+         	{ "name": "WD_ENn",  	"wave": "0........................",		node: '...........................' },  //Watchdog timer enable, active low     
  		],   
  	], 
 	edge: 
     [
-         'a~b TBD ms', 'b~c TBD ms', 'c~d TBD ms', 'd~e 1ms', 'e~f 10ms', 'f~g 1.4ms', 'g|-h', 'h~i 1.4ms', 'i~j 200ms', 'f|-k 1s', 'k|-l'
+         'a~b TBD ms', 'b~c TBD ms', 'c~d TBD ms', 'd~e 1ms', 'e~f 10ms', 'f~g 1.4ms', 'g|-h', 'h~i 1.4ms', 'i~j 200ms', 'f|-k 1s', 'k|-l', 'm~n WD inactive until 3V3_CB up'
   	],
     head:
     	{
-   			text:'RPI CMx Carrier Power-up sequence'
+   			text:'RPI CMx Carrier WARM_RESET sequence'
 		},
       
 }
