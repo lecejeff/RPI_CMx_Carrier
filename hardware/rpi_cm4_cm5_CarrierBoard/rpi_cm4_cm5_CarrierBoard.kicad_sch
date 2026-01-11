@@ -3103,16 +3103,6 @@
 	)
 	(wire
 		(pts
-			(xy 155.575 87.63) (xy 165.1 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e229f8f-d62d-4c1a-b3db-279a7ae79f48")
-	)
-	(wire
-		(pts
 			(xy 236.22 38.735) (xy 252.095 38.735)
 		)
 		(stroke
@@ -3753,6 +3743,16 @@
 	)
 	(wire
 		(pts
+			(xy 155.575 143.51) (xy 165.1 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba03af69-f9ec-4337-bbd2-8a3ebd49da57")
+	)
+	(wire
+		(pts
 			(xy 45.72 91.44) (xy 121.92 91.44)
 		)
 		(stroke
@@ -3790,6 +3790,16 @@
 			(type default)
 		)
 		(uuid "c04461da-7476-45a8-b9fa-fec7f1fb71e9")
+	)
+	(wire
+		(pts
+			(xy 155.575 87.63) (xy 163.195 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c083b4a4-76a5-4a6d-9e52-470082819dff")
 	)
 	(bus
 		(pts
@@ -9390,7 +9400,7 @@
 	)
 	(sheet
 		(at 127 158.75)
-		(size 22.86 6.35)
+		(size 22.86 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9413,7 +9423,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER INPUT.kicad_sch"
-			(at 127 165.6846 0)
+			(at 127 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10159,6 +10169,16 @@
 				(justify right)
 			)
 		)
+		(pin "WDT_~{RST}" input
+			(at 165.1 143.51 180)
+			(uuid "f136a9aa-7d21-4d22-ac87-c508e8d84356")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
@@ -10440,6 +10460,16 @@
 				(justify left)
 			)
 		)
+		(pin "WDT_~{RST}" output
+			(at 155.575 143.51 0)
+			(uuid "fc8a7878-98bf-4e53-a14f-a14996501358")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
@@ -10561,8 +10591,8 @@
 		)
 	)
 	(sheet
-		(at 165.1 85.725)
-		(size 17.145 29.21)
+		(at 163.195 85.725)
+		(size 19.05 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10576,7 +10606,7 @@
 		)
 		(uuid "eb8dcdc7-d58f-4b99-b669-44042cf0955b")
 		(property "Sheetname" "RESET_SUPERVISOR"
-			(at 164.338 85.598 0)
+			(at 163.322 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10585,7 +10615,7 @@
 			)
 		)
 		(property "Sheetfile" "RESET_SUPERVISOR.kicad_sch"
-			(at 165.1 115.062 0)
+			(at 163.068 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10594,7 +10624,7 @@
 			)
 		)
 		(pin "EXT_~{RST}" input
-			(at 165.1 87.63 180)
+			(at 163.195 87.63 180)
 			(uuid "0163582c-f1cb-4af2-96c6-e65c433d67d2")
 			(effects
 				(font

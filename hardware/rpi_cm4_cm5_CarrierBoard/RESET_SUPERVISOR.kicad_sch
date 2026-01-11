@@ -6056,12 +6056,12 @@
 				(type solid)
 			)
 		)
-		(column_widths 12.065 11.43 8.255)
+		(column_widths 12.065 11.43 11.43)
 		(row_heights 2.54 2.54 2.54 2.54 2.54)
 		(cells
 			(table_cell "PER_~{RST}"
 				(exclude_from_sim no)
-				(at 139.065 132.08 0)
+				(at 137.16 132.08 0)
 				(size 12.065 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6078,7 +6078,7 @@
 			)
 			(table_cell "EXT_~{RST}"
 				(exclude_from_sim no)
-				(at 151.13 132.08 0)
+				(at 149.225 132.08 0)
 				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6095,8 +6095,8 @@
 			)
 			(table_cell "PWG"
 				(exclude_from_sim no)
-				(at 162.56 132.08 0)
-				(size 8.255 2.54)
+				(at 160.655 132.08 0)
+				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -6112,7 +6112,7 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 139.065 134.62 0)
+				(at 137.16 134.62 0)
 				(size 12.065 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6129,7 +6129,7 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 151.13 134.62 0)
+				(at 149.225 134.62 0)
 				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6146,8 +6146,8 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 162.56 134.62 0)
-				(size 8.255 2.54)
+				(at 160.655 134.62 0)
+				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -6163,7 +6163,7 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 139.065 137.16 0)
+				(at 137.16 137.16 0)
 				(size 12.065 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6180,7 +6180,7 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 151.13 137.16 0)
+				(at 149.225 137.16 0)
 				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6197,8 +6197,8 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 162.56 137.16 0)
-				(size 8.255 2.54)
+				(at 160.655 137.16 0)
+				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -6214,7 +6214,7 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 139.065 139.7 0)
+				(at 137.16 139.7 0)
 				(size 12.065 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6231,7 +6231,7 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 151.13 139.7 0)
+				(at 149.225 139.7 0)
 				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6248,8 +6248,8 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 162.56 139.7 0)
-				(size 8.255 2.54)
+				(at 160.655 139.7 0)
+				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -6265,7 +6265,7 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 139.065 142.24 0)
+				(at 137.16 142.24 0)
 				(size 12.065 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6282,7 +6282,7 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 151.13 142.24 0)
+				(at 149.225 142.24 0)
 				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -6299,8 +6299,8 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 162.56 142.24 0)
-				(size 8.255 2.54)
+				(at 160.655 142.24 0)
+				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -7905,8 +7905,8 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:+1V8")
-		(at 222.25 107.95 0)
-		(mirror y)
+		(at 222.25 107.95 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7914,7 +7914,7 @@
 		(dnp no)
 		(uuid "2ad97ba1-953e-4697-99a6-0c96b522794f")
 		(property "Reference" "#PWR0326"
-			(at 222.25 111.76 0)
+			(at 218.44 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7923,7 +7923,7 @@
 			)
 		)
 		(property "Value" "3V3_CB"
-			(at 222.123 104.267 0)
+			(at 228.346 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8614,7 +8614,7 @@
 		(dnp no)
 		(uuid "3c84bb26-112c-41a4-b842-1c1dd824dd86")
 		(property "Reference" "C221"
-			(at 208.026 106.934 0)
+			(at 207.772 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12173,8 +12173,8 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:+1V8")
-		(at 222.25 140.97 0)
-		(mirror y)
+		(at 222.25 140.97 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12182,7 +12182,7 @@
 		(dnp no)
 		(uuid "bf9e7b39-d806-4edf-846b-6180795e6283")
 		(property "Reference" "#PWR0351"
-			(at 222.25 144.78 0)
+			(at 218.44 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12191,7 +12191,7 @@
 			)
 		)
 		(property "Value" "3V3_CB"
-			(at 222.123 137.287 0)
+			(at 228.346 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12247,7 +12247,7 @@
 		(dnp no)
 		(uuid "c3234481-e76f-4115-8a14-5bf931577c39")
 		(property "Reference" "C218"
-			(at 208.026 139.954 0)
+			(at 207.772 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
