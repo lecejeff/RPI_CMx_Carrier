@@ -1,0 +1,6 @@
+(version 1)
+(rule dp_inner
+	(layer inner)
+	(condition "A.inDiffPair('*')")
+	(constraint diff_pair_gap (opt 0.25mm))
+	(constraint track_width (opt 0.25mm)))
