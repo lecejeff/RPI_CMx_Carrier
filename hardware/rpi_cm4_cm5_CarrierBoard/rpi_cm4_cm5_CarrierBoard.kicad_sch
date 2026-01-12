@@ -3049,16 +3049,6 @@
 	)
 	(bus
 		(pts
-			(xy 232.41 69.85) (xy 252.095 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44898416-9102-456b-984d-80f8a8367efa")
-	)
-	(bus
-		(pts
 			(xy 155.575 67.31) (xy 202.565 67.31)
 		)
 		(stroke
@@ -9033,16 +9023,6 @@
 				(justify left)
 			)
 		)
-		(pin "LVDS_B{LVDS}" input
-			(at 252.095 69.85 180)
-			(uuid "1705ab4b-b946-4c33-9f7c-a0fcf2e015ba")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "I2C3{I2C}" bidirectional
 			(at 252.095 74.295 180)
 			(uuid "389bd6ae-637a-4841-8836-9831eb19e55b")
@@ -9894,16 +9874,6 @@
 		(pin "LVDS_A{LVDS}" output
 			(at 232.41 64.77 0)
 			(uuid "a832b23f-347d-4d0b-89c7-6dd1cc5c3d72")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LVDS_B{LVDS}" output
-			(at 232.41 69.85 0)
-			(uuid "96dea3bf-3b60-40bb-aab6-32684aad2435")
 			(effects
 				(font
 					(size 1.27 1.27)
