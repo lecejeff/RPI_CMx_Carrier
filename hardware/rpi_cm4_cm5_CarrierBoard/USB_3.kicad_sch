@@ -6203,6 +6203,17 @@
 		)
 		(uuid f9a7f1ab-6f87-4df0-93f9-2a129df9a36b)
 	)
+	(text "Default = PCIe USB"
+		(exclude_from_sim no)
+		(at 148.082 159.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "00ef61a5-e32a-4e92-bdf2-03fa66651a62")
+	)
 	(text "CM4"
 		(exclude_from_sim no)
 		(at 140.589 166.878 0)
@@ -6387,6 +6398,12 @@
 		(uuid "2c17b3cc-dcd0-4d4c-bbb1-6540673fb05f")
 	)
 	(junction
+		(at 78.74 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ce27396-7e0b-4468-9558-0a6ccc08c110")
+	)
+	(junction
 		(at 161.29 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6415,18 +6432,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34ce72f2-5384-446f-8075-1bd2b877884b")
-	)
-	(junction
-		(at 83.82 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36423259-3e30-400c-b72d-7e8de09ad219")
-	)
-	(junction
-		(at 83.82 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37cc020f-d803-4277-833c-1188bfcf65eb")
 	)
 	(junction
 		(at 265.43 85.09)
@@ -6511,6 +6516,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "562f357c-8094-4745-bd0c-b8a907fb48a9")
+	)
+	(junction
+		(at 78.74 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57389664-7e98-4644-b0d7-344c14517451")
 	)
 	(junction
 		(at 219.71 99.06)
@@ -7383,6 +7394,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 66.04) (xy 85.09 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02fac81f-34bb-453f-92d3-9dd5eb3b421b")
+	)
+	(wire
+		(pts
 			(xy 156.21 104.14) (xy 190.5 104.14)
 		)
 		(stroke
@@ -7453,7 +7474,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 66.04) (xy 83.82 66.04)
+			(xy 68.58 66.04) (xy 78.74 66.04)
 		)
 		(stroke
 			(width 0)
@@ -9783,7 +9804,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 76.2) (xy 83.82 76.2)
+			(xy 68.58 76.2) (xy 78.74 76.2)
 		)
 		(stroke
 			(width 0)
@@ -10030,16 +10051,6 @@
 			(type default)
 		)
 		(uuid "91d016c5-ecce-4a40-8670-27813810b208")
-	)
-	(wire
-		(pts
-			(xy 83.82 66.04) (xy 85.09 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91f8a604-fd4e-4fa7-b504-d0a5478115a3")
 	)
 	(wire
 		(pts
@@ -10623,16 +10634,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 76.2) (xy 85.09 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9896ab9-8317-4035-b27f-b6700852885d")
-	)
-	(wire
-		(pts
 			(xy 82.55 104.14) (xy 85.09 104.14)
 		)
 		(stroke
@@ -10683,7 +10684,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 74.295) (xy 83.82 76.2)
+			(xy 78.74 74.295) (xy 78.74 76.2)
 		)
 		(stroke
 			(width 0)
@@ -10973,7 +10974,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 66.04) (xy 83.82 67.945)
+			(xy 78.74 66.04) (xy 78.74 67.945)
 		)
 		(stroke
 			(width 0)
@@ -11430,6 +11431,16 @@
 			(type default)
 		)
 		(uuid "e1ad17ba-4056-4df5-973d-f7373c98a12e")
+	)
+	(wire
+		(pts
+			(xy 78.74 76.2) (xy 85.09 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d4876c-8f47-40e2-b5bb-5ba14c5d2afd")
 	)
 	(wire
 		(pts
@@ -26554,8 +26565,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Resistors/RES_SMT_00006")
-		(at 83.82 73.025 270)
-		(mirror x)
+		(at 78.74 73.025 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26563,7 +26573,7 @@
 		(dnp yes)
 		(uuid "e3ad4d5f-2a0d-4628-aa9c-59927e8a6e61")
 		(property "Reference" "R53"
-			(at 83.058 69.723 90)
+			(at 79.502 69.723 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26572,7 +26582,7 @@
 			)
 		)
 		(property "Value" "1Meg"
-			(at 83.058 72.009 90)
+			(at 79.502 72.009 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26581,7 +26591,7 @@
 			)
 		)
 		(property "Footprint" "footprint:RES_0402"
-			(at 61.722 72.517 0)
+			(at 100.838 72.517 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26590,7 +26600,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 83.82 73.025 0)
+			(at 78.74 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26599,7 +26609,7 @@
 			)
 		)
 		(property "Description" "RES 1M OHM 1% 1/16W 0402"
-			(at 73.914 71.247 0)
+			(at 88.646 71.247 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26608,7 +26618,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 63.5 72.771 0)
+			(at 99.06 72.771 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26617,7 +26627,7 @@
 			)
 		)
 		(property "Power" "1/16W"
-			(at 69.596 72.771 0)
+			(at 92.964 72.771 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26626,7 +26636,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 67.564 73.025 0)
+			(at 94.996 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26635,7 +26645,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 65.532 72.771 0)
+			(at 97.028 72.771 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26644,7 +26654,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0402FR-131ML"
-			(at 75.946 72.771 0)
+			(at 86.614 72.771 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26653,7 +26663,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 77.978 73.025 0)
+			(at 84.582 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26662,7 +26672,7 @@
 			)
 		)
 		(property "Distributor Part Number" "13-RC0402FR-131MLCT-ND"
-			(at 71.628 72.263 0)
+			(at 90.932 72.263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26671,7 +26681,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 83.82 73.025 0)
+			(at 78.74 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26680,7 +26690,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 155°C"
-			(at 59.436 72.263 0)
+			(at 103.124 72.263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26689,7 +26699,7 @@
 			)
 		)
 		(property "Type" "RES SMT"
-			(at 83.82 73.025 0)
+			(at 78.74 73.025 0)
 			(show_name yes)
 			(effects
 				(font
@@ -26699,7 +26709,7 @@
 			)
 		)
 		(property "Dimensions" "1.00mm x 0.50mm"
-			(at 83.82 73.025 0)
+			(at 78.74 73.025 0)
 			(show_name yes)
 			(effects
 				(font

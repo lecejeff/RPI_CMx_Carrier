@@ -9867,7 +9867,7 @@
 		(dnp no)
 		(uuid "9ebd651f-cddb-4bba-a351-a55844a620ce")
 		(property "Reference" "C213"
-			(at 184.912 61.722 90)
+			(at 185.166 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9876,7 +9876,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 185.166 63.5 90)
+			(at 185.166 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9930,7 +9930,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 185.166 67.056 90)
+			(at 185.166 65.786 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9954,6 +9954,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
@@ -10695,7 +10696,7 @@
 		(dnp no)
 		(uuid "c72e88cd-23ac-42e3-b6b0-46a97bfbd48f")
 		(property "Reference" "C215"
-			(at 191.897 75.692 90)
+			(at 192.278 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10704,7 +10705,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 192.151 77.47 90)
+			(at 192.278 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10758,7 +10759,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 192.151 81.026 90)
+			(at 192.278 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10782,6 +10783,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "YAGEO"

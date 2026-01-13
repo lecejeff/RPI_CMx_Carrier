@@ -4930,7 +4930,7 @@
 		(dnp no)
 		(uuid "d6550515-6052-4d51-a7e3-55ea8a214b7f")
 		(property "Reference" "C199"
-			(at 172.212 108.077 90)
+			(at 172.212 108.712 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,7 +4939,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 172.466 109.855 90)
+			(at 172.466 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,7 +4993,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 172.466 113.411 90)
+			(at 172.466 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,6 +5017,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "YAGEO"

@@ -490,56 +490,62 @@
       {
         "name": "12V0_CB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(194, 0, 0)"
       },
       {
         "name": "1V05_CB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(204, 102, 0)"
       },
       {
         "name": "1V8_CB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 255, 255)"
       },
       {
         "name": "3V3_CB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(0, 132, 132)"
       },
       {
         "name": "5V0_CB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(72, 72, 0)"
       },
       {
         "name": "CRITICAL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(255, 0, 255)"
       },
       {
         "name": "DP_100R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DP_120R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DP_90R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 0)"
       }
     ],
     "meta": {
@@ -1048,6 +1054,12 @@
       "/SYS_~{RST}": [
         "CRITICAL"
       ],
+      "/TFT_CONN/TOUCH_USB_N": [
+        "DP_90R"
+      ],
+      "/TFT_CONN/TOUCH_USB_P": [
+        "DP_90R"
+      ],
       "/TFT_CONN/USB_HOST.USB_N": [
         "DP_90R"
       ],
@@ -1249,6 +1261,9 @@
       "3V3_CB": [
         "POWER_PLANE"
       ],
+      "5V0_CB": [
+        "POWER_PLANE"
+      ],
       "Net-(C114-Pad2)": [
         "POWER_PLANE"
       ],
@@ -1304,6 +1319,10 @@
       {
         "netclass": "1V05_CB",
         "pattern": "1V05_CB"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
       }
     ]
   },

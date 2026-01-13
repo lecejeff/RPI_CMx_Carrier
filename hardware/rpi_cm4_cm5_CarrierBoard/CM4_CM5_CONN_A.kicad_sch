@@ -6763,6 +6763,17 @@
 		)
 		(uuid "03980b36-510d-472d-abfe-c2994cc1eda3")
 	)
+	(text "PU = CM4\nPD = CM5"
+		(exclude_from_sim no)
+		(at 35.306 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "1ad5bd27-542c-4c38-9502-6d717d86c89e")
+	)
 	(text "Resistors are 1% 1/16W 0402 unless otherwise noted\nCapacitors are 10% 50V X7R 0402 unless otherwise noted"
 		(exclude_from_sim no)
 		(at 12.7 170.942 0)

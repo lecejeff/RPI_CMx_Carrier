@@ -17779,7 +17779,7 @@
 		(dnp no)
 		(uuid "29304a65-0cbf-4ab8-a993-9152bb52f034")
 		(property "Reference" "C140"
-			(at 131.572 148.717 90)
+			(at 132.08 149.352 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17788,7 +17788,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 131.826 150.495 90)
+			(at 132.08 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17842,7 +17842,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 131.826 154.051 90)
+			(at 132.08 152.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17866,6 +17866,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
@@ -20556,7 +20557,7 @@
 		(dnp no)
 		(uuid "4ff713b8-2c7a-49c0-aa32-40fb0d383df8")
 		(property "Reference" "C138"
-			(at 82.423 157.607 90)
+			(at 82.042 157.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20565,7 +20566,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 82.169 159.385 90)
+			(at 82.042 159.766 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20619,7 +20620,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 82.169 162.941 90)
+			(at 82.042 161.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20643,6 +20644,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
@@ -20726,7 +20728,7 @@
 		(dnp no)
 		(uuid "50422cbe-6c79-4e95-8324-756afcc8248e")
 		(property "Reference" "C141"
-			(at 139.192 148.717 90)
+			(at 139.7 149.352 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20735,7 +20737,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 139.446 150.495 90)
+			(at 139.7 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20789,7 +20791,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 139.446 154.051 90)
+			(at 139.7 152.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20813,6 +20815,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
@@ -24600,7 +24603,7 @@
 		(dnp no)
 		(uuid "9ac1859d-2181-4206-96fc-f5fc655717d6")
 		(property "Reference" "C139"
-			(at 75.438 157.607 90)
+			(at 74.93 157.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24609,7 +24612,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 75.184 159.385 90)
+			(at 74.93 159.766 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24663,7 +24666,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 75.184 162.941 90)
+			(at 75.184 161.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24687,6 +24690,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer" "YAGEO"

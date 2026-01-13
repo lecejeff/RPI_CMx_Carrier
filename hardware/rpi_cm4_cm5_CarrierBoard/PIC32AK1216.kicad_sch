@@ -7469,6 +7469,17 @@
 		)
 		(uuid "b028faa9-d23b-43f4-bf05-6570afbbdfd6")
 	)
+	(text "~{EN} Power-up delay"
+		(exclude_from_sim no)
+		(at 203.454 129.286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "e2a6bef6-eb3a-48a1-8fee-0d578802eddd")
+	)
 	(junction
 		(at 114.3 153.035)
 		(diameter 0)
@@ -11298,7 +11309,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 154.94) (xy 246.38 155.575)
+			(xy 246.38 154.94) (xy 246.38 156.845)
 		)
 		(stroke
 			(width 0)
@@ -20263,7 +20274,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
-		(at 246.38 155.575 0)
+		(at 246.38 156.845 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20271,7 +20282,7 @@
 		(dnp no)
 		(uuid "5856336d-7201-49f5-9ac5-b4e39f53a596")
 		(property "Reference" "#PWR088"
-			(at 246.38 161.925 0)
+			(at 246.38 163.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20280,7 +20291,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.253 159.004 0)
+			(at 246.253 160.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20288,7 +20299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 155.575 0)
+			(at 246.38 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20297,7 +20308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 155.575 0)
+			(at 246.38 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20306,7 +20317,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 155.575 0)
+			(at 246.38 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
