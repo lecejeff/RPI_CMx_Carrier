@@ -1,6 +1,32 @@
 (version 1)
-(rule dp_inner
+(rule dp_inner_90R
 	(layer inner)
 	(condition "A.inDiffPair('*')")
-	(constraint diff_pair_gap (opt 0.25mm))
-	(constraint track_width (opt 0.25mm)))
+	(condition "B.hasNetclass('DP_90R')")
+	(constraint diff_pair_gap (min 0.1mm)(opt 0.25mm))
+	(constraint track_width (min 0.1mm)(opt 0.25mm))
+)
+(rule dp_outer_90R
+	(layer outer)
+	(condition "A.inDiffPair('*')")
+	(condition "B.hasNetclass('DP_90R')")
+	(constraint diff_pair_gap (min 0.1mm)(opt 0.1143mm))
+	(constraint track_width (min 0.1mm)(opt 0.1778mm))
+)
+
+(rule dp_inner_100R
+	(layer inner)
+	(condition "A.inDiffPair('*')")
+	(condition "B.hasNetclass('DP_100R')")
+	(constraint diff_pair_gap (min 0.1mm)(opt 0.25mm))
+	(constraint track_width (min 0.1mm)(opt 0.25mm))
+)
+
+(rule dp_outer_100R
+	(layer outer)
+	(condition "A.inDiffPair('*')")
+	(condition "B.hasNetclass('DP_100R')")
+	(constraint diff_pair_gap (min 0.1mm)(opt 0.2032mm))
+	(constraint track_width (min 0.1mm)(opt 0.2032mm))
+)
+

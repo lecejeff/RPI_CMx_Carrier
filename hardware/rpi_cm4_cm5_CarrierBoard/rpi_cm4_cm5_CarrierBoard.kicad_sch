@@ -3929,7 +3929,7 @@
 	)
 	(bus
 		(pts
-			(xy 232.41 121.92) (xy 252.095 121.92)
+			(xy 232.41 110.49) (xy 252.095 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3999,16 +3999,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 109.22) (xy 252.095 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d73c58a3-1346-4b1c-bc3d-31dd849064a7")
-	)
-	(wire
-		(pts
 			(xy 247.65 76.835) (xy 247.015 76.2)
 		)
 		(stroke
@@ -4036,16 +4026,6 @@
 			(type default)
 		)
 		(uuid "db781d56-36d5-442e-97c8-c1b9ff87bcda")
-	)
-	(bus
-		(pts
-			(xy 232.41 112.395) (xy 252.095 112.395)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df8f73e6-81f1-49a8-9ec7-e77d0d6c5a92")
 	)
 	(wire
 		(pts
@@ -4267,16 +4247,6 @@
 		)
 		(uuid "0f1331f0-905c-4a53-a5a6-c91e511f4dec")
 	)
-	(label "EXP_IO_~{RST}"
-		(at 236.22 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f39caa6-a598-4176-a5a9-ac000b85f1b9")
-	)
 	(label "I2C6.I2C_SDA"
 		(at 99.06 161.925 180)
 		(effects
@@ -4497,16 +4467,6 @@
 		)
 		(uuid "a2b66690-89cd-49b1-af4e-42183a01e6ce")
 	)
-	(label "EXP{IO_EXP}"
-		(at 236.22 112.395 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7062d73-8a94-4a6a-afb1-74b21852d6f6")
-	)
 	(label "SPI2{SPI}"
 		(at 176.53 139.065 180)
 		(effects
@@ -4608,7 +4568,7 @@
 		(uuid "e7fb4ab8-77a8-44c6-b9c8-678a66128b0c")
 	)
 	(label "MKB1{MKB}"
-		(at 236.22 121.92 0)
+		(at 236.22 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9631,7 +9591,7 @@
 			)
 		)
 		(pin "MKB1{MKB}" bidirectional
-			(at 232.41 121.92 0)
+			(at 232.41 110.49 0)
 			(uuid "b1b8d2b0-45c0-4966-b2fd-d5fb9c4a0502")
 			(effects
 				(font
@@ -9750,16 +9710,6 @@
 				(justify left)
 			)
 		)
-		(pin "EXP{IO_EXP}" bidirectional
-			(at 232.41 112.395 0)
-			(uuid "7251a805-40cc-49b1-86ea-ad986f81208e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "PIC_DBG_TXD" output
 			(at 232.41 142.24 0)
 			(uuid "d3ffb976-a78c-4e57-941e-6d1d278d1ad6")
@@ -9851,16 +9801,6 @@
 				(justify left top)
 			)
 		)
-		(pin "DSI1{MIPI_DSI}" bidirectional
-			(at 202.565 67.31 180)
-			(uuid "21fd94aa-1f6a-4f33-b7de-5a1635e283f0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "I2C3{I2C}" bidirectional
 			(at 202.565 69.85 180)
 			(uuid "6a082023-9330-48b1-b07b-1d45b8c4e7ad")
@@ -9891,71 +9831,20 @@
 				(justify left)
 			)
 		)
+		(pin "DSI1{MIPI}" bidirectional
+			(at 202.565 67.31 180)
+			(uuid "163556a8-cff6-4f1d-9ad2-e7a57f086f70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 252.095 107.315)
-		(size 29.845 6.985)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9c5c9bcc-7ea4-40b6-a62c-f47dbedda312")
-		(property "Sheetname" "Expansion_io"
-			(at 259.842 106.807 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Expansion_io.kicad_sch"
-			(at 251.968 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "EXP{IO_EXP}" bidirectional
-			(at 252.095 112.395 180)
-			(uuid "e8bfa3ff-c18b-4264-a454-1839926f2e18")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "EXP_IO_~{RST}" input
-			(at 252.095 109.22 180)
-			(uuid "d5119e8b-8c6a-4681-af1c-2bc129c575ff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
-					(page "18")
 				)
 			)
 		)
@@ -10022,7 +9911,7 @@
 		)
 	)
 	(sheet
-		(at 252.095 120.015)
+		(at 252.095 108.585)
 		(size 29.845 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10037,7 +9926,7 @@
 		)
 		(uuid "ac5e960f-399e-41ec-bf2f-84074a947ebf")
 		(property "Sheetname" "MikroBus"
-			(at 262.382 119.634 0)
+			(at 262.382 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10046,7 +9935,7 @@
 			)
 		)
 		(property "Sheetfile" "MikroBus.kicad_sch"
-			(at 251.968 124.206 0)
+			(at 251.968 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10054,9 +9943,9 @@
 				(justify left top)
 			)
 		)
-		(pin "MBK1{MKB}" bidirectional
-			(at 252.095 121.92 180)
-			(uuid "bedb7cf4-5303-465a-b6c4-0671cbf4c0e8")
+		(pin "MKB1{MKB}" bidirectional
+			(at 252.095 110.49 180)
+			(uuid "fd2a57b6-c271-41af-a2f5-a2d292efda07")
 			(effects
 				(font
 					(size 1.27 1.27)

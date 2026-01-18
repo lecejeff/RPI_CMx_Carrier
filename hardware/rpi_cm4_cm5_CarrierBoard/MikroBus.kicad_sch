@@ -3052,7 +3052,7 @@
 		)
 		(uuid "efced4d2-4a71-41fb-9f96-07b8dbf1118d")
 	)
-	(hierarchical_label "MBK1{MKB}"
+	(hierarchical_label "MKB1{MKB}"
 		(shape bidirectional)
 		(at 234.95 63.5 0)
 		(effects

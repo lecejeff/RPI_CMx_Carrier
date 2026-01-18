@@ -4711,6 +4711,10 @@
 		(at 222.885 135.89)
 		(uuid "2129054b-6a44-489c-a17d-0b639953b6c3")
 	)
+	(no_connect
+		(at 222.885 123.19)
+		(uuid "db8e7a0e-609d-428c-9abb-09f9fe6ab3ea")
+	)
 	(wire
 		(pts
 			(xy 187.96 100.33) (xy 189.865 100.33)
@@ -4770,16 +4774,6 @@
 			(type default)
 		)
 		(uuid "0d101fc1-400e-4f03-90ed-a9338d71ed63")
-	)
-	(wire
-		(pts
-			(xy 222.885 123.19) (xy 229.235 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e99f7bf-8dc5-42eb-b6af-5c9733e9c549")
 	)
 	(wire
 		(pts
@@ -6332,17 +6326,6 @@
 			(justify left)
 		)
 		(uuid "4a9c5c1a-3ba6-4874-935a-5965fe7ba001")
-	)
-	(hierarchical_label "EXP_IO_~{RST}"
-		(shape output)
-		(at 229.235 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4dacc8d7-3aa8-45bd-95a9-75b5505cb263")
 	)
 	(hierarchical_label "M.2_~{RST}"
 		(shape output)
