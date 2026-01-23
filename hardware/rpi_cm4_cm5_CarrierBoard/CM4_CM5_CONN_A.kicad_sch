@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2025-12-07")
+		(date "2026-01-22")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -9628,16 +9628,6 @@
 	)
 	(wire
 		(pts
-			(xy 103.505 139.7) (xy 122.555 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "995a7fef-3f74-4498-9322-911040d3b013")
-	)
-	(wire
-		(pts
 			(xy 229.235 66.04) (xy 229.235 95.885)
 		)
 		(stroke
@@ -9838,7 +9828,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 139.7) (xy 97.155 139.7)
+			(xy 58.42 139.7) (xy 122.555 139.7)
 		)
 		(stroke
 			(width 0)
@@ -10916,16 +10906,6 @@
 		)
 		(uuid "ffbb0979-3f6e-4d57-81b8-df04cf8cc69c")
 	)
-	(label "CMx_PPS_IN"
-		(at 242.57 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "01954bfe-af64-406f-b51a-860aff574bb3")
-	)
 	(label "I2C0.I2C_SCL"
 		(at 255.27 116.84 0)
 		(effects
@@ -11076,7 +11056,7 @@
 		)
 		(uuid "32fcefce-97af-4b6f-b807-1298420286fd")
 	)
-	(label "CMx_PPS_IN"
+	(label "PPS_OUT"
 		(at 85.09 177.165 0)
 		(effects
 			(font
@@ -11115,6 +11095,16 @@
 			(justify right bottom)
 		)
 		(uuid "4e4292cd-a8eb-43df-a80f-45af8ea64bbd")
+	)
+	(label "PPS_OUT"
+		(at 242.57 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65bac221-f364-4c2a-800e-bc84d44713fd")
 	)
 	(label "GPIO8"
 		(at 109.855 66.04 0)
@@ -11385,16 +11375,6 @@
 			(justify left bottom)
 		)
 		(uuid "d802deb7-0eb4-42a6-9889-a678f41e4386")
-	)
-	(label "GPIO34"
-		(at 109.855 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de08f092-7f67-4e63-9442-8a79c3d20c52")
 	)
 	(label "I2C3.I2C_SCL"
 		(at 255.27 58.42 0)
@@ -11793,6 +11773,17 @@
 			(justify right)
 		)
 		(uuid "e151b6d5-3932-4f24-bcce-a647fd260492")
+	)
+	(hierarchical_label "PPS_OUT"
+		(shape output)
+		(at 85.09 177.165 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e50012c6-daf1-44be-bea5-ab2f85ea9fae")
 	)
 	(hierarchical_label "TXD0"
 		(shape output)
@@ -20139,175 +20130,6 @@
 			(project "rpi_cm4_cm5_CarrierBoard"
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/b189385c-a3f2-4a0b-9ce6-a99cf7ff1f89"
 					(reference "Q12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KicadCompDb:Resistors/RES_SMT_00015")
-		(at 102.235 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba8bf3b4-cd69-4ded-90fb-546f1c4ae246")
-		(property "Reference" "R136"
-			(at 96.139 138.811 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 104.013 138.811 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprint:RES_0402"
-			(at 101.727 161.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 102.235 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 22 OHM 1% 1/16W 0402"
-			(at 100.457 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 101.981 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "1/16W"
-			(at 101.981 153.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0402"
-			(at 102.235 155.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 101.981 157.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0402FR-0722RL"
-			(at 101.981 147.574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 102.235 145.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "311-22.0LRCT-ND"
-			(at 101.473 151.892 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 102.235 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature" "-55°C ~ 155°C"
-			(at 101.473 164.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "RES SMT"
-			(at 102.235 139.7 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dimensions" "1.00mm x 0.50mm"
-			(at 102.235 139.7 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f97141b3-abf3-4e6d-9b48-8ec5c4dfca18")
-		)
-		(pin "2"
-			(uuid "e83c6a1c-527b-4b1f-962b-63e2208ebb02")
-		)
-		(instances
-			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/b189385c-a3f2-4a0b-9ce6-a99cf7ff1f89"
-					(reference "R136")
 					(unit 1)
 				)
 			)

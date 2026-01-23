@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2025-12-07")
+		(date "2026-01-22")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -19,6 +19,103 @@
 		(comment 9 "RPI_CMx_Carrier_2.00-0A_BOM")
 	)
 	(lib_symbols
+		(symbol "KiCad_Lib_Symbols:FIDUCIAL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0.254 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "FIDUCIAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FIDUCIAL_1_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 204 102 0 1)
+					)
+					(fill
+						(type color)
+						(color 204 102 0 1)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type color)
+						(color 0 0 255 1)
+					)
+				)
+				(pin no_connect line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "KiCad_Pwr_Symbols:+3V3"
 			(power)
 			(pin_numbers
@@ -2671,7 +2768,7 @@
 		(uuid "fcc9f860-7c59-4e80-a785-986967b80431")
 	)
 	(bus_entry
-		(at 176.53 123.825)
+		(at 176.53 121.285)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2779,7 +2876,7 @@
 	)
 	(wire
 		(pts
-			(xy 155.575 123.825) (xy 176.53 123.825)
+			(xy 155.575 121.285) (xy 176.53 121.285)
 		)
 		(stroke
 			(width 0)
@@ -3169,7 +3266,7 @@
 	)
 	(bus
 		(pts
-			(xy 155.575 126.365) (xy 181.61 126.365)
+			(xy 155.575 123.825) (xy 181.61 123.825)
 		)
 		(stroke
 			(width 0)
@@ -3597,6 +3694,16 @@
 		)
 		(uuid "a76bcbe2-88c9-4ac5-870e-ce6652936dad")
 	)
+	(wire
+		(pts
+			(xy 155.575 126.365) (xy 202.565 126.365)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3c98ec-339f-465b-91be-fe1a4b6b9cfa")
+	)
 	(bus
 		(pts
 			(xy 196.215 70.485) (xy 196.215 73.66)
@@ -3696,16 +3803,6 @@
 			(type default)
 		)
 		(uuid "b3e4a080-957e-49ef-a697-46f2773668a1")
-	)
-	(wire
-		(pts
-			(xy 155.575 146.05) (xy 165.1 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b42f0e3f-303c-40f0-87cf-0fb987aaedda")
 	)
 	(bus
 		(pts
@@ -3959,7 +4056,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 121.285) (xy 155.575 121.285)
+			(xy 176.53 118.745) (xy 155.575 118.745)
 		)
 		(stroke
 			(width 0)
@@ -4069,7 +4166,7 @@
 	)
 	(bus
 		(pts
-			(xy 179.07 121.285) (xy 181.61 121.285)
+			(xy 179.07 118.745) (xy 181.61 118.745)
 		)
 		(stroke
 			(width 0)
@@ -4298,7 +4395,7 @@
 		(uuid "4ec216c9-73db-46f0-be95-86b812d5dea9")
 	)
 	(label "USB.OTG_ID"
-		(at 176.53 123.825 180)
+		(at 176.53 121.285 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4358,7 +4455,7 @@
 		(uuid "5f2e4fb4-63ae-4048-b46a-6623cdf20e0c")
 	)
 	(label "I2C0{I2C}"
-		(at 176.53 126.365 180)
+		(at 176.53 123.825 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4498,7 +4595,7 @@
 		(uuid "b6b4cdc3-b213-46da-abbe-bfe11e9f0187")
 	)
 	(label "MIPI0_GPIO"
-		(at 176.53 121.285 180)
+		(at 176.53 118.745 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4599,7 +4696,7 @@
 	)
 	(hierarchical_label "I2C0{I2C}"
 		(shape bidirectional)
-		(at 181.61 126.365 0)
+		(at 181.61 123.825 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4621,7 +4718,7 @@
 	)
 	(hierarchical_label "USB{USB2}"
 		(shape bidirectional)
-		(at 181.61 121.285 0)
+		(at 181.61 118.745 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7195,6 +7292,72 @@
 		)
 	)
 	(symbol
+		(lib_id "KiCad_Lib_Symbols:FIDUCIAL")
+		(at 88.9 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f4e90de-9865-4ce1-9b8e-c92dbca71657")
+		(property "Reference" "FID2"
+			(at 90.17 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 88.9 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "FIDUCIAL"
+			(at 88.9 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ae633cc-607b-4b26-ac06-f43a44fadd4d")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KicadCompDb:Logic/LOGIC_00003")
 		(at 62.23 134.62 0)
 		(mirror y)
@@ -7396,6 +7559,72 @@
 			(project "rpi_cm4_cm5_CarrierBoard"
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
 					(reference "U37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Lib_Symbols:FIDUCIAL")
+		(at 88.9 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "953e0bf3-8e30-4be8-8f87-0db2652da57a")
+		(property "Reference" "FID1"
+			(at 90.17 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 88.9 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "FIDUCIAL"
+			(at 88.9 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3d83179-9666-4776-805f-760f471368f7")
+		)
+		(instances
+			(project ""
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -7867,6 +8096,72 @@
 		)
 	)
 	(symbol
+		(lib_id "KiCad_Lib_Symbols:FIDUCIAL")
+		(at 101.6 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ec377c5-4907-4fff-a508-11c10c69c2ec")
+		(property "Reference" "FID3"
+			(at 102.87 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 101.6 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "FIDUCIAL"
+			(at 101.6 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4ec21a4-98e9-48ee-9f92-30802eee9e55")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
 		(at 104.775 168.91 0)
 		(mirror y)
@@ -8264,6 +8559,72 @@
 		)
 	)
 	(symbol
+		(lib_id "KiCad_Lib_Symbols:FIDUCIAL")
+		(at 114.3 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b16d5af4-0a79-4cc8-8229-984a54e1cdad")
+		(property "Reference" "FID6"
+			(at 115.57 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 114.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "FIDUCIAL"
+			(at 114.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf90bb83-3034-4f3b-a28d-f4c494de04d6")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(reference "FID6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
 		(at 104.775 150.495 0)
 		(mirror y)
@@ -8325,6 +8686,72 @@
 			(project "rpi_cm4_cm5_CarrierBoard"
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
 					(reference "#PWR0386")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Lib_Symbols:FIDUCIAL")
+		(at 114.3 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bea07614-6b42-4586-9111-03ccca80f6bb")
+		(property "Reference" "FID5"
+			(at 115.57 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 114.3 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "FIDUCIAL"
+			(at 114.3 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "849ebe17-4586-4599-9a69-7c472b2733df")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(reference "FID5")
 					(unit 1)
 				)
 			)
@@ -8729,6 +9156,72 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "KiCad_Lib_Symbols:FIDUCIAL")
+		(at 101.6 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9e73714-864d-4c9c-bf60-ee9692504dab")
+		(property "Reference" "FID4"
+			(at 102.87 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 101.6 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "FIDUCIAL"
+			(at 101.6 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce30892f-a2f0-41ba-accf-1dd423268b27")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
+					(reference "FID4")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 15.875 55.245)
 		(size 29.845 28.575)
@@ -8757,7 +9250,7 @@
 			(at 15.748 84.328 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
 			)
@@ -8868,7 +9361,7 @@
 			(at 251.968 103.124 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
 			)
@@ -9049,7 +9542,7 @@
 			(at 15.875 96.139 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
 			)
@@ -9110,7 +9603,7 @@
 			(at 121.92 69.596 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
 			)
@@ -9241,7 +9734,7 @@
 			(at 202.438 103.124 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
 			)
@@ -9392,7 +9885,7 @@
 			(at 127 162.814 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
 			)
@@ -9443,7 +9936,7 @@
 			(at 202.565 57.7346 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
 			)
@@ -9514,7 +10007,7 @@
 			(at 15.748 121.031 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
 			)
@@ -9585,7 +10078,7 @@
 			(at 202.692 158.496 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
 			)
@@ -9760,6 +10253,16 @@
 				(justify left)
 			)
 		)
+		(pin "PPS_IN" input
+			(at 202.565 126.365 180)
+			(uuid "fa80abfe-197c-41f7-98bc-f18de2d950e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e"
@@ -9796,7 +10299,7 @@
 			(at 202.438 72.009 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
 			)
@@ -9877,7 +10380,7 @@
 			(at 15.748 47.244 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
 			)
@@ -9938,7 +10441,7 @@
 			(at 251.968 112.776 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
 			)
@@ -9989,19 +10492,9 @@
 			(at 164.973 155.956 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
-			)
-		)
-		(pin "RUN_PG" input
-			(at 165.1 146.05 180)
-			(uuid "79426028-86f3-41a1-9f40-3fbe7e05a154")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "POWER_KILL" input
@@ -10100,7 +10593,7 @@
 			(at 121.666 148.336 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
 			)
@@ -10116,18 +10609,8 @@
 			)
 		)
 		(pin "I2C0{I2C}" bidirectional
-			(at 155.575 126.365 0)
+			(at 155.575 123.825 0)
 			(uuid "6b8cd9b1-b645-4260-936c-94f8c31ef761")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RUN_PG" output
-			(at 155.575 146.05 0)
-			(uuid "f36363d3-20fd-465a-8f24-277773faa67f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10246,7 +10729,7 @@
 			)
 		)
 		(pin "USB_OTG" input
-			(at 155.575 123.825 0)
+			(at 155.575 121.285 0)
 			(uuid "94ae9978-0afb-4f32-8758-010296eb3205")
 			(effects
 				(font
@@ -10306,7 +10789,7 @@
 			)
 		)
 		(pin "MIPI0_GPIO" output
-			(at 155.575 121.285 0)
+			(at 155.575 118.745 0)
 			(uuid "caee1291-d27b-46d4-8a71-41668221508d")
 			(effects
 				(font
@@ -10338,6 +10821,16 @@
 		(pin "~{WDOG_IN}" input
 			(at 155.575 128.905 0)
 			(uuid "4b6772a5-dcf7-4d0f-a90f-d30fedddc0bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PPS_OUT" output
+			(at 155.575 126.365 0)
+			(uuid "59f49ba7-4f3f-4034-a94a-8a01694a7418")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10381,7 +10874,7 @@
 			(at 15.748 32.766 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
 			)
@@ -10442,7 +10935,7 @@
 			(at 15.748 105.791 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
 			)
@@ -10493,7 +10986,7 @@
 			(at 163.068 115.316 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
 			)
@@ -10644,7 +11137,7 @@
 			(at 251.46 51.054 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
 			)

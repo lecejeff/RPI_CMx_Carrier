@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2025-12-07")
+		(date "2026-01-22")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -3067,16 +3067,6 @@
 	(bus_alias "SDIO"
 		(members "SDIO_D0" "SDIO_D1" "SDIO_D2" "SDIO_D3" "SDIO_CLK" "SDIO_CMD")
 	)
-	(text "CM4lite"
-		(exclude_from_sim no)
-		(at 112.522 62.357 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "921fbae1-b9b1-467b-8b42-684d9e4ce9ed")
-	)
 	(text "Resistors are 1% 1/16W 0402 unless otherwise noted\nCapacitors are 10% 50V X7R 0402 unless otherwise noted"
 		(exclude_from_sim no)
 		(at 12.446 170.688 0)
@@ -4787,7 +4777,7 @@
 		(dnp no)
 		(uuid "109fc1a2-b6b0-40a3-94a6-45e03315a6fc")
 		(property "Reference" "R13"
-			(at 109.474 59.309 0)
+			(at 108.712 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4795,7 +4785,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 115.062 59.309 0)
+			(at 115.57 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2025-12-07")
+		(date "2026-01-22")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -3211,7 +3211,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KicadCompDb:Miscellaneous/MISC_00008"
+		(symbol "KicadCompDb:Miscellaneous/MISC_00009"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3223,7 +3223,7 @@
 					)
 				)
 			)
-			(property "Value" "9774050243R"
+			(property "Value" "9774025243R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3231,16 +3231,7 @@
 					)
 				)
 			)
-			(property "Footprint" "footprint:9774050243R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" "footprint:9774025243R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3249,7 +3240,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "ROUND STANDOFF M2X0.4 STEEL 5MM"
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774025243R.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3258,7 +3249,16 @@
 					(hide yes)
 				)
 			)
-			(property "Type" "ROUND STANDOFF M2X0.4 STEEL 5MM"
+			(property "Description" "RND STANDOFF M2X0.4 STEEL 2.50MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "RND STANDOFF M2X0.4 STEEL 2.50MM"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -3288,7 +3288,7 @@
 					(hide yes)
 				)
 			)
-			(property "Dimensions" "4.35mm x 6.40mm"
+			(property "Dimensions" "4.35mm x 3.91mm"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -3308,7 +3308,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Number" "9774050243R"
+			(property "Manufacturer Part Number" "9774025243R"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -3328,7 +3328,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Part Number" "732-7097-1-ND"
+			(property "Distributor Part Number" "732-7079-1-ND"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -3338,7 +3338,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "footprint:9774050243R"
+			(property "ki_fp_filters" "footprint:9774025243R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3347,7 +3347,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Miscellaneous/MISC_00008_0_1"
+			(symbol "Miscellaneous/MISC_00009_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 2.54 -0.635)
@@ -3426,7 +3426,7 @@
 					)
 				)
 			)
-			(symbol "Miscellaneous/MISC_00008_1_1"
+			(symbol "Miscellaneous/MISC_00009_1_1"
 				(pin power_in line
 					(at 1.27 -4.445 90)
 					(length 1.27)
@@ -6669,7 +6669,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "0a0b3ffb-5e59-4e68-8007-dcf5161ca969")
 		(property "Reference" "C231"
 			(at 167.386 145.796 90)
@@ -6839,7 +6839,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "0dfa57ac-9025-45c3-8453-6fef44f3a0a5")
 		(property "Reference" "D11"
 			(at 105.029 94.869 0)
@@ -7203,7 +7203,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "14a7baff-b2bf-4821-9b0a-7816ecbdbbec")
 		(property "Reference" "D18"
 			(at 229.616 97.409 0)
@@ -7566,7 +7566,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "2b50874b-07f9-4e1c-9f4b-85d18af5027e")
 		(property "Reference" "C233"
 			(at 160.401 72.136 90)
@@ -7736,7 +7736,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "2cd84361-9f15-4589-a8d1-111a548e31b2")
 		(property "Reference" "C229"
 			(at 184.658 127 0)
@@ -8037,7 +8037,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "4b0989cd-01de-43bc-9cb9-20e66ee31071")
 		(property "Reference" "R286"
 			(at 181.356 58.039 0)
@@ -8205,7 +8205,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "5f3426bd-61f1-4cbd-a830-b06f507a4b3e")
 		(property "Reference" "C232"
 			(at 160.401 145.796 90)
@@ -8375,7 +8375,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "718b53c4-9304-43d4-a7f9-5ff66c54913d")
 		(property "Reference" "C234"
 			(at 174.371 72.136 90)
@@ -8545,7 +8545,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "72fa2156-4918-4fb9-8b56-d3503b95f3d3")
 		(property "Reference" "C235"
 			(at 202.311 70.612 90)
@@ -8781,7 +8781,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "7eab9eed-061d-4cc2-93da-2bf31ce2e7df")
 		(property "Reference" "C237"
 			(at 181.356 72.136 90)
@@ -8951,7 +8951,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "8e5c2561-15da-449f-a1f4-cdccd60dc2b4")
 		(property "Reference" "C236"
 			(at 167.386 72.136 90)
@@ -9186,7 +9186,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "9fbc9d57-37e8-4f14-bd24-2b7944ea3a1d")
 		(property "Reference" "C238"
 			(at 188.341 72.136 90)
@@ -9350,6 +9350,153 @@
 		)
 	)
 	(symbol
+		(lib_id "KicadCompDb:Miscellaneous/MISC_00009")
+		(at 110.49 169.545 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2efdfc0-720f-4a06-9f66-eb424c38677e")
+		(property "Reference" "MTG9"
+			(at 114.3 169.8624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9774025243R"
+			(at 114.3 172.4024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:9774025243R"
+			(at 110.49 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774025243R.pdf"
+			(at 110.49 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RND STANDOFF M2X0.4 STEEL 2.50MM"
+			(at 110.49 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "RND STANDOFF M2X0.4 STEEL 2.50MM"
+			(at 110.49 169.545 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "M2x0.4"
+			(at 110.49 169.545 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-40°C ~ 150°C"
+			(at 110.49 169.545 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "4.35mm x 3.91mm"
+			(at 110.49 169.545 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 110.49 169.545 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "9774025243R"
+			(at 110.49 169.545 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 110.49 169.545 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "732-7079-1-ND"
+			(at 110.49 169.545 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "034f5ea8-d418-4f91-b63f-8a135c0e8e98")
+		)
+		(instances
+			(project ""
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/9de20a6e-0c13-4cd2-9bfa-6170acf466d0"
+					(reference "MTG9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
 		(at 219.075 139.065 0)
 		(mirror y)
@@ -9488,7 +9635,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "be96cf16-93e8-4af5-9438-4f11cf62c727")
 		(property "Reference" "R289"
 			(at 220.345 133.3499 90)
@@ -9658,7 +9805,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf0aacb5-81c3-41ca-a512-fdd37bb2981c")
 		(property "Reference" "J23"
@@ -10203,7 +10350,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c8225fb7-7b37-49a9-b04c-fd73c8c0a620")
 		(property "Reference" "R288"
 			(at 170.434 134.366 0)
@@ -10372,7 +10519,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c958004e-0fbf-4274-8c10-52966a5b6d3f")
 		(property "Reference" "U38"
 			(at 203.835 124.46 0)
@@ -10569,160 +10716,13 @@
 		)
 	)
 	(symbol
-		(lib_id "KicadCompDb:Miscellaneous/MISC_00008")
-		(at 110.49 169.545 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "ccce984f-9c51-4cd8-9634-d7db51cd4a6f")
-		(property "Reference" "MTG9"
-			(at 114.3 169.8624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "9774050243R"
-			(at 114.3 172.4024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprint:9774050243R"
-			(at 110.49 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ROUND STANDOFF M2X0.4 STEEL 5MM"
-			(at 110.49 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "ROUND STANDOFF M2X0.4 STEEL 5MM"
-			(at 110.49 169.545 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "M2x0.4"
-			(at 110.49 169.545 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature" "-40°C ~ 150°C"
-			(at 110.49 169.545 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dimensions" "4.35mm x 6.40mm"
-			(at 110.49 169.545 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 110.49 169.545 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "9774050243R"
-			(at 110.49 169.545 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 110.49 169.545 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "732-7097-1-ND"
-			(at 110.49 169.545 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f81edc3-a7dd-4f1a-921e-ab3e547a7a22")
-		)
-		(instances
-			(project ""
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/9de20a6e-0c13-4cd2-9bfa-6170acf466d0"
-					(reference "MTG9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00011")
 		(at 173.355 149.225 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "cfbb8ebf-1f29-4a54-8297-903e76b0db93")
 		(property "Reference" "C230"
 			(at 174.371 144.272 90)
@@ -10892,7 +10892,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "da699d31-eda8-4422-b885-9bf83c525574")
 		(property "Reference" "D47"
 			(at 199.517 56.261 0)
@@ -11155,7 +11155,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "f955bab8-b016-4c48-8be0-47d2e3cdc879")
 		(property "Reference" "C239"
 			(at 195.326 72.136 90)

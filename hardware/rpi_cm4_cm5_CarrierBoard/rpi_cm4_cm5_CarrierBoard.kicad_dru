@@ -1,32 +1,49 @@
 (version 1)
+# Do not allow footprints on back layer (no condition clause means this rule always applies)
+(rule "Top side footprints only"
+    (layer B.Cu)
+    (constraint disallow footprint))
+
+# Inner differential pair rule for DP_90R net class based on JLC 061611-7628 stackup
 (rule dp_inner_90R
 	(layer inner)
 	(condition "A.inDiffPair('*')")
-	(condition "B.hasNetclass('DP_90R')")
-	(constraint diff_pair_gap (min 0.1mm)(opt 0.25mm))
-	(constraint track_width (min 0.1mm)(opt 0.25mm))
+	(condition "A.hasNetclass('DP_90R')")
+	(constraint diff_pair_gap (min 0.05mm)(opt 0.127mm))
+	(constraint diff_pair_uncoupled (max 0.5mm))
+	(constraint track_width (min 0.05mm)(opt 0.1796mm))
+	(constraint skew (min 0.05mm)(max 0.25mm))
 )
+
+# Outer differential pair rule for DP_90R net class based on JLC 061611-7628 stackup
 (rule dp_outer_90R
 	(layer outer)
 	(condition "A.inDiffPair('*')")
-	(condition "B.hasNetclass('DP_90R')")
-	(constraint diff_pair_gap (min 0.1mm)(opt 0.1143mm))
-	(constraint track_width (min 0.1mm)(opt 0.1778mm))
+	(condition "A.hasNetclass('DP_90R')")
+	(constraint diff_pair_gap (min 0.05mm)(opt 0.127mm))
+	(constraint diff_pair_uncoupled (max 0.5mm))
+	(constraint track_width (min 0.1mm)(opt 0.22mm))
+	(constraint skew (min 0.05mm)(max 0.25mm))
 )
 
+# Inner differential pair rule for DP_100R net class based on JLC 061611-7628 stackup
 (rule dp_inner_100R
 	(layer inner)
 	(condition "A.inDiffPair('*')")
-	(condition "B.hasNetclass('DP_100R')")
-	(constraint diff_pair_gap (min 0.1mm)(opt 0.25mm))
-	(constraint track_width (min 0.1mm)(opt 0.25mm))
+	(condition "A.hasNetclass('DP_100R')")
+	(constraint diff_pair_gap (min 0.05mm)(opt 0.127mm))
+	(constraint diff_pair_uncoupled (max 0.5mm))
+	(constraint track_width (min 0.05mm)(opt 0.1295mm))
+	(constraint skew (min 0.05mm)(max 0.25mm))
 )
 
+# Outer differential pair rule for DP_100R net class based on JLC 061611-7628 stackup
 (rule dp_outer_100R
 	(layer outer)
 	(condition "A.inDiffPair('*')")
-	(condition "B.hasNetclass('DP_100R')")
-	(constraint diff_pair_gap (min 0.1mm)(opt 0.2032mm))
-	(constraint track_width (min 0.1mm)(opt 0.2032mm))
+	(condition "A.hasNetclass('DP_100R')")
+	(constraint diff_pair_gap (min 0.05mm)(opt 0.127mm))
+	(constraint diff_pair_uncoupled (max 0.5mm))
+	(constraint track_width (min 0.05mm)(opt 0.17mm))
+	(constraint skew (min 0.05mm)(max 0.25mm))
 )
-

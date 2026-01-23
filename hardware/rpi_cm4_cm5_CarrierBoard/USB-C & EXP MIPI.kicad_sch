@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2025-12-07")
+		(date "2026-01-22")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -9829,7 +9829,7 @@
 		(dnp no)
 		(uuid "d32702e0-946a-4a29-8032-55fe7168df69")
 		(property "Reference" "C119"
-			(at 155.575 147.955 90)
+			(at 155.194 148.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9838,7 +9838,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 155.575 150.495 90)
+			(at 155.194 150.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
