@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -123,22 +123,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.127,
+        "min_hole_to_hole": 0.45,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.153,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.127,
+        "min_via_annular_width": 0.1016,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -193,10 +193,10 @@
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "max_amplitude": 0.8,
+          "min_amplitude": 0.15,
           "single_sided": false,
-          "spacing": 1.0
+          "spacing": 0.8
         },
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
@@ -210,9 +210,9 @@
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.15,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.45
         }
       },
       "via_dimensions": [
@@ -471,7 +471,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.127,
+        "clearance": 0.1,
         "diff_pair_gap": 1.0,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 1.0,
@@ -482,69 +482,75 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
         "name": "12V0_CB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(194, 0, 0)"
       },
       {
         "name": "1V05_CB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(204, 102, 0)"
       },
       {
         "name": "1V8_CB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(0, 255, 255)"
       },
       {
         "name": "3V3_CB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(0, 132, 132)"
       },
       {
         "name": "5V0_CB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(72, 72, 0)"
+      },
+      {
+        "name": "CGND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "CRITICAL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(255, 0, 255)"
       },
       {
         "name": "DP_100R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DP_120R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DP_90R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(0, 0, 0)"
       }
     ],
@@ -931,6 +937,30 @@
       "/DSI1.D3_P": [
         "DP_100R"
       ],
+      "/ETH_P0_N": [
+        "DP_100R"
+      ],
+      "/ETH_P0_P": [
+        "DP_100R"
+      ],
+      "/ETH_P1_N": [
+        "DP_100R"
+      ],
+      "/ETH_P1_P": [
+        "DP_100R"
+      ],
+      "/ETH_P2_N": [
+        "DP_100R"
+      ],
+      "/ETH_P2_P": [
+        "DP_100R"
+      ],
+      "/ETH_P3_N": [
+        "DP_100R"
+      ],
+      "/ETH_P3_P": [
+        "DP_100R"
+      ],
       "/Ethernet/ETH_P0_N": [
         "DP_100R"
       ],
@@ -1216,6 +1246,18 @@
       "/USB_3/USB_HUB.TX_P": [
         "DP_90R"
       ],
+      "/USB_3/UTXD1_N": [
+        "DP_90R"
+      ],
+      "/USB_3/UTXD1_P": [
+        "DP_90R"
+      ],
+      "/USB_3/UTXD2_N": [
+        "DP_90R"
+      ],
+      "/USB_3/UTXD2_P": [
+        "DP_90R"
+      ],
       "/USB_HUB.CLK_N": [
         "DP_90R"
       ],
@@ -1305,10 +1347,6 @@
         "pattern": "12V0_CB"
       },
       {
-        "netclass": "CRITICAL",
-        "pattern": "SYS_~{RST}"
-      },
-      {
         "netclass": "3V3_CB",
         "pattern": "3V3_CB"
       },
@@ -1323,6 +1361,10 @@
       {
         "netclass": "GND",
         "pattern": "GND"
+      },
+      {
+        "netclass": "CGND",
+        "pattern": "CGND"
       }
     ]
   },

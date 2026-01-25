@@ -11296,7 +11296,7 @@
 		)
 		(uuid "b7a6b30e-ae8c-488a-b889-1aabd93d438a")
 	)
-	(label "ETH_P3_N"
+	(label "ETH_P1_N"
 		(at 205.74 22.86 180)
 		(effects
 			(font

@@ -1,29 +1,16 @@
 (version 1)
-# Do not allow footprints on back layer (no condition clause means this rule always applies)
-(rule "Top side footprints only"
-    (layer B.Cu)
-    (constraint disallow footprint))
 
+#### Differential pairs begin ####
 # Inner differential pair rule for DP_90R net class based on JLC 061611-7628 stackup
 (rule dp_inner_90R
 	(layer inner)
 	(condition "A.inDiffPair('*')")
 	(condition "A.hasNetclass('DP_90R')")
-	(constraint diff_pair_gap (min 0.05mm)(opt 0.127mm))
+	(constraint diff_pair_gap (opt 0.127mm))
 	(constraint diff_pair_uncoupled (max 0.5mm))
-	(constraint track_width (min 0.05mm)(opt 0.1796mm))
-	(constraint skew (min 0.05mm)(max 0.25mm))
-)
-
-# Outer differential pair rule for DP_90R net class based on JLC 061611-7628 stackup
-(rule dp_outer_90R
-	(layer outer)
-	(condition "A.inDiffPair('*')")
-	(condition "A.hasNetclass('DP_90R')")
-	(constraint diff_pair_gap (min 0.05mm)(opt 0.127mm))
-	(constraint diff_pair_uncoupled (max 0.5mm))
-	(constraint track_width (min 0.1mm)(opt 0.22mm))
-	(constraint skew (min 0.05mm)(max 0.25mm))
+	(constraint track_width (opt 0.1527mm))
+	(constraint skew (max 0.25mm))
+	(constraint clearance (min 0.05mm))
 )
 
 # Inner differential pair rule for DP_100R net class based on JLC 061611-7628 stackup
@@ -31,10 +18,35 @@
 	(layer inner)
 	(condition "A.inDiffPair('*')")
 	(condition "A.hasNetclass('DP_100R')")
-	(constraint diff_pair_gap (min 0.05mm)(opt 0.127mm))
+	(constraint diff_pair_gap (opt 0.16mm))
 	(constraint diff_pair_uncoupled (max 0.5mm))
-	(constraint track_width (min 0.05mm)(opt 0.1295mm))
-	(constraint skew (min 0.05mm)(max 0.25mm))
+	(constraint track_width (opt 0.13mm))
+	(constraint skew (max 0.25mm))
+	(constraint clearance (min 0.05mm))
+)
+
+(rule dp_inner_polypour_to_via_clearance
+	(layer inner)
+	(constraint clearance (min 0.35mm))
+	(condition "A.inDiffPair('*') && A.Type == 'Via' && B.Type == 'Zone' && B.NetClass == 'GND'")
+)
+
+(rule dp_inner_polypour_to_track_clearance
+	(layer inner)
+	(constraint clearance (min 0.5mm))
+	(condition "A.inDiffPair('*') && A.Type == 'Track' && B.Type == 'Zone' && B.NetClass == 'GND'")
+)
+
+# Outer differential pair rule for DP_90R net class based on JLC 061611-7628 stackup
+(rule dp_outer_90R
+	(layer outer)
+	(condition "A.inDiffPair('*')")
+	(condition "A.hasNetclass('DP_90R')")
+	(constraint diff_pair_gap (opt 0.127mm))
+	(constraint diff_pair_uncoupled (max 0.5mm))
+	(constraint track_width (opt 0.2065mm))
+	(constraint skew (max 0.25mm))
+	(constraint clearance (min 0.05mm))
 )
 
 # Outer differential pair rule for DP_100R net class based on JLC 061611-7628 stackup
@@ -42,8 +54,36 @@
 	(layer outer)
 	(condition "A.inDiffPair('*')")
 	(condition "A.hasNetclass('DP_100R')")
-	(constraint diff_pair_gap (min 0.05mm)(opt 0.127mm))
+	(constraint diff_pair_gap (opt 0.127mm))
 	(constraint diff_pair_uncoupled (max 0.5mm))
-	(constraint track_width (min 0.05mm)(opt 0.17mm))
-	(constraint skew (min 0.05mm)(max 0.25mm))
+	(constraint track_width (opt 0.175mm))
+	(constraint skew (max 0.25mm))
+	(constraint clearance (min 0.05mm))
+)
+
+(rule dp_outer_polypour_to_via_clearance
+	(layer outer)
+	(constraint clearance (min 0.35mm))
+	(condition "A.inDiffPair('*') && A.Type == 'Via' && B.Type == 'Zone' && B.NetClass == 'GND'")
+)
+
+(rule dp_outer_polypour_to_track_clearance
+	(layer outer)
+	(constraint clearance (min 0.5mm))
+	(condition "A.inDiffPair('*') && A.Type == 'Track' && B.Type == 'Zone' && B.NetClass == 'GND'")
+)
+
+#### Differential pairs end ####
+
+#### Electrical clearance begin ####
+# Electrical seperation for CGND
+(rule cgnd_clearance
+	(condition "A.hasNetclass('CGND') && B.hasNetclass('*')")
+	(constraint clearance (min 0.5mm))
+)
+
+# Electrical clearance via to zone
+(rule zone_to_via_default_clearance
+	(condition "A.Type == 'Zone' && B.Type == 'Via' && !B.inDiffPair('*')")
+	(constraint clearance (min 0.1mm)(opt 0.1mm))
 )

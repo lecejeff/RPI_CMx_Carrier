@@ -2946,10 +2946,22 @@
 		(uuid "729aa80c-3d0d-45b6-9c7a-67a0ecfc3e41")
 	)
 	(junction
+		(at 193.675 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74835284-a0ed-4861-bd1a-5d5037cfa531")
+	)
+	(junction
 		(at 193.675 64.135)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7be26370-3a02-4cda-bacd-b62886265ee0")
+	)
+	(junction
+		(at 193.675 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e3da2fa-e420-44c0-aa91-2082a592c87c")
 	)
 	(junction
 		(at 193.675 56.515)
@@ -2964,10 +2976,10 @@
 		(uuid "9016e77f-8ce2-46d9-a240-a7de25289d96")
 	)
 	(junction
-		(at 193.675 92.71)
+		(at 193.675 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9685b7ef-ac11-4462-8af8-921753882371")
+		(uuid "a48b80b3-6208-4687-a202-92e10f18e2b2")
 	)
 	(junction
 		(at 193.675 61.595)
@@ -2988,12 +3000,6 @@
 		(uuid "b053d558-f3c2-4c78-8bcb-e9ed9a2b7910")
 	)
 	(junction
-		(at 193.675 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b36a4800-1821-431e-972a-d1c0dabdf3e8")
-	)
-	(junction
 		(at 193.675 66.675)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3004,12 +3010,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9a808a8-17de-4ea3-a039-17cde88ee21d")
-	)
-	(junction
-		(at 193.675 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd9bbf12-b542-4ed4-afc8-3ee6db0f7351")
 	)
 	(junction
 		(at 179.705 85.09)
@@ -3179,6 +3179,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.675 92.71) (xy 210.82 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1bbff8-7857-4b81-bc85-0d8735b3eb84")
+	)
+	(wire
+		(pts
 			(xy 238.76 86.995) (xy 238.76 94.615)
 		)
 		(stroke
@@ -3319,7 +3329,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 103.505) (xy 213.36 95.25)
+			(xy 213.36 103.505) (xy 213.36 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3426,6 +3436,16 @@
 			(type default)
 		)
 		(uuid "2bc44cd4-b743-44fe-b410-2a414bdce408")
+	)
+	(wire
+		(pts
+			(xy 193.675 97.79) (xy 213.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eeaa463-3572-475b-971d-e803611b76b1")
 	)
 	(wire
 		(pts
@@ -3579,16 +3599,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 95.25) (xy 193.675 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4649801f-4c58-4ce6-b61a-d24b71ed9552")
-	)
-	(wire
-		(pts
 			(xy 124.46 117.475) (xy 125.73 117.475)
 		)
 		(stroke
@@ -3626,16 +3636,6 @@
 			(type default)
 		)
 		(uuid "54caa4eb-a5d5-4173-82d7-eafb7327e0fa")
-	)
-	(wire
-		(pts
-			(xy 210.82 97.79) (xy 193.675 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "594885ae-ffc7-41ef-9381-91cf0f634ba6")
 	)
 	(wire
 		(pts
@@ -3829,6 +3829,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 92.71) (xy 210.82 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd52b24-5b64-4878-b9d4-74b10a397e7e")
+	)
+	(wire
+		(pts
 			(xy 220.98 87.63) (xy 193.675 87.63)
 		)
 		(stroke
@@ -3859,7 +3869,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 100.965) (xy 215.9 92.71)
+			(xy 215.9 100.965) (xy 215.9 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3896,16 +3906,6 @@
 			(type default)
 		)
 		(uuid "9588928e-c342-4891-b9ad-a53a7183ed1e")
-	)
-	(wire
-		(pts
-			(xy 215.9 92.71) (xy 193.675 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9906a0b3-e4f9-47a3-8a04-24ff4ba3deea")
 	)
 	(bus
 		(pts
@@ -4109,16 +4109,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 107.315) (xy 210.82 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5348693-44a7-47e5-97d0-bb055cbf70b8")
-	)
-	(wire
-		(pts
 			(xy 144.78 123.825) (xy 144.78 126.365)
 		)
 		(stroke
@@ -4146,6 +4136,16 @@
 			(type default)
 		)
 		(uuid "c86fa1fc-c7e8-4288-9ae6-b71f8c7f08c6")
+	)
+	(wire
+		(pts
+			(xy 193.675 95.25) (xy 215.9 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca15cfe4-f1b6-4e01-a15f-464f1e59113c")
 	)
 	(bus
 		(pts
@@ -4387,16 +4387,6 @@
 			)
 		)
 	)
-	(label "HDMI0.CEC"
-		(at 114.3 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27a430a3-c51c-4068-9c10-e0835d2c03c7")
-	)
 	(label "HDMI0.HPD"
 		(at 114.3 100.33 0)
 		(effects
@@ -4407,7 +4397,7 @@
 		)
 		(uuid "3f53c37b-002f-41bf-a448-beb496c68415")
 	)
-	(label "HDMI0.SCL"
+	(label "HDMI0.CEC"
 		(at 114.3 92.71 0)
 		(effects
 			(font
@@ -4415,7 +4405,17 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "497af51f-9199-4195-ae20-9703838fb7f8")
+		(uuid "4b6a6966-6830-4cbe-ae4c-5ddfe0452476")
+	)
+	(label "HDMI0.SDA"
+		(at 114.3 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c04f16a-d166-4102-b5a9-a4d26a0d819f")
 	)
 	(label "HDMI0.CLK_P"
 		(at 114.3 87.63 0)
@@ -4436,16 +4436,6 @@
 				(justify left)
 			)
 		)
-	)
-	(label "HDMI0.SDA"
-		(at 114.3 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e17c599-2554-49de-98b3-a40934078aa7")
 	)
 	(label "HDMI0.D0_P"
 		(at 114.3 66.675 0)
@@ -4536,6 +4526,16 @@
 				(justify left)
 			)
 		)
+	)
+	(label "HDMI0.SCL"
+		(at 114.3 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2f36d1c-45ca-44e4-81cc-56a942957c41")
 	)
 	(label "HDMI0.D1_N"
 		(at 114.3 64.135 0)
@@ -4988,6 +4988,71 @@
 			(project "rpi_cm4_cm5_CarrierBoard"
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/da79d379-819b-4a23-bde6-cf0346f2b26a"
 					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Pwr_Symbols:GND")
+		(at 238.76 126.365 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ca04384-71c6-4b42-848c-90ea189a61c2")
+		(property "Reference" "#PWR014"
+			(at 238.76 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 129.921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "832cc455-0c4c-486c-8ab0-d8733935ea14")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/da79d379-819b-4a23-bde6-cf0346f2b26a"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5652,71 +5717,6 @@
 			(project "rpi_cm4_cm5_CarrierBoard"
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/da79d379-819b-4a23-bde6-cf0346f2b26a"
 					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KiCad_Pwr_Symbols:GNDPWR")
-		(at 238.76 126.365 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "996caf0e-be4b-4726-977b-1370e1d690f5")
-		(property "Reference" "#PWR0150"
-			(at 238.76 131.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "CGND"
-			(at 238.76 129.667 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 238.76 126.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "853c7d64-0593-4607-ab5b-8d9c46114ac4")
-		)
-		(instances
-			(project "rpi_cm4_cm5_CarrierBoard"
-				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/da79d379-819b-4a23-bde6-cf0346f2b26a"
-					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
