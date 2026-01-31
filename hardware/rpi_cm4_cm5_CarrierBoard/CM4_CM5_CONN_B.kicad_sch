@@ -7199,7 +7199,7 @@
 			)
 		)
 	)
-	(label "USB_HUB.CLK_~{REQ}"
+	(label "USB_HUB.~{REQ}"
 		(at 75.565 168.275 0)
 		(effects
 			(font
@@ -7329,7 +7329,7 @@
 			)
 		)
 	)
-	(label "M2.CLK_~{REQ}"
+	(label "M2.~{REQ}"
 		(at 142.875 168.275 0)
 		(effects
 			(font

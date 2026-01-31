@@ -6124,8 +6124,8 @@
 		)
 	)
 	(bus_alias "PCIe"
-		(members "~{RST}" "~{WAKE}" "CLK_~{REQ}" "CLK_P" "CLK_N" "RX_P" "RX_N"
-			"TX_P" "TX_N"
+		(members "~{RST}" "~{WAKE}" "~{REQ}" "CLK_P" "CLK_N" "RX_P" "RX_N" "TX_P"
+			"TX_N"
 		)
 	)
 	(rectangle

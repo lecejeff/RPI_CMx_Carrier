@@ -6569,8 +6569,8 @@
 			)
 		)
 	)
-	(label "M2.CLK_~{REQ}"
-		(at 240.665 112.395 0)
+	(label "M2.~{REQ}"
+		(at 245.745 112.395 0)
 		(effects
 			(font
 				(size 1.27 1.27)
