@@ -125,7 +125,7 @@
         "max_error": 0.005,
         "min_clearance": 0.127,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.127,
         "min_hole_to_hole": 0.45,
@@ -490,68 +490,74 @@
       {
         "name": "12V0_CB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(194, 0, 0)"
       },
       {
         "name": "1V05_CB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(204, 102, 0)"
       },
       {
         "name": "1V8_CB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(0, 255, 255)"
       },
       {
         "name": "3V3_CB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(0, 132, 132)"
       },
       {
         "name": "5V0_CB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(72, 72, 0)"
       },
       {
         "name": "CGND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "CRITICAL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(255, 0, 255)"
       },
       {
         "name": "DP_100R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DP_120R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DP_90R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 0, 0)"
+      },
+      {
+        "name": "SD_CARD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -1081,6 +1087,24 @@
       "/MIPI0.D3_P": [
         "DP_100R"
       ],
+      "/SDIO_CLK": [
+        "SD_CARD"
+      ],
+      "/SDIO_CMD": [
+        "SD_CARD"
+      ],
+      "/SDIO_D0": [
+        "SD_CARD"
+      ],
+      "/SDIO_D1": [
+        "SD_CARD"
+      ],
+      "/SDIO_D2": [
+        "SD_CARD"
+      ],
+      "/SDIO_D3": [
+        "SD_CARD"
+      ],
       "/SYS_~{RST}": [
         "CRITICAL"
       ],
@@ -1291,6 +1315,15 @@
       "/USB_MUX/USB_OTG.USB_P": [
         "DP_90R"
       ],
+      "/USB_OTG.OTG_ID": [
+        "DP_90R"
+      ],
+      "/USB_OTG.USB_N": [
+        "DP_90R"
+      ],
+      "/USB_OTG.USB_P": [
+        "DP_90R"
+      ],
       "12V0_CB": [
         "POWER_PLANE"
       ],
@@ -1365,6 +1398,10 @@
       {
         "netclass": "CGND",
         "pattern": "CGND"
+      },
+      {
+        "netclass": "12V0_CB",
+        "pattern": "3V3_CB"
       }
     ]
   },

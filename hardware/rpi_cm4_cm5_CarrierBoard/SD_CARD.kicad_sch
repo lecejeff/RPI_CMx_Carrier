@@ -4432,6 +4432,7 @@
 	)
 	(label "SDIO_D0"
 		(at 179.705 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4439,6 +4440,17 @@
 			(justify left bottom)
 		)
 		(uuid "0ee3dc20-ca56-406d-8021-d9f8347b38a5")
+		(property "Netclass" "SD_CARD"
+			(at 179.705 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(label "SD_VDD"
 		(at 179.705 92.71 0)
@@ -4452,6 +4464,7 @@
 	)
 	(label "SDIO_D3"
 		(at 179.705 97.79 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4459,9 +4472,21 @@
 			(justify left bottom)
 		)
 		(uuid "38ec0849-94ae-453f-b3f2-982a3f6f6695")
+		(property "Netclass" "SD_CARD"
+			(at 179.705 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(label "SDIO_CMD"
 		(at 179.705 100.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4469,9 +4494,21 @@
 			(justify left bottom)
 		)
 		(uuid "8a557679-c6d3-4d73-aadf-660eb87c8f71")
+		(property "Netclass" "SD_CARD"
+			(at 179.705 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(label "SDIO_D2"
 		(at 179.705 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4479,9 +4516,21 @@
 			(justify left bottom)
 		)
 		(uuid "a347d830-7aca-46b7-8829-86a3364303d2")
+		(property "Netclass" "SD_CARD"
+			(at 179.705 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(label "SDIO_D1"
 		(at 179.705 107.95 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4489,9 +4538,21 @@
 			(justify left bottom)
 		)
 		(uuid "edc34765-a03a-486e-b977-92dc4c8f1bc1")
+		(property "Netclass" "SD_CARD"
+			(at 179.705 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(label "SDIO_CLK"
 		(at 179.705 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4499,6 +4560,17 @@
 			(justify left bottom)
 		)
 		(uuid "f594d11c-7064-445f-afac-478695e80835")
+		(property "Netclass" "SD_CARD"
+			(at 179.705 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(label "SD_CARD_DETECT"
 		(at 133.985 124.46 0)

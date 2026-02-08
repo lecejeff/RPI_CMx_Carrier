@@ -7330,12 +7330,20 @@
 		(uuid "6c1990be-1b06-4efb-9c6e-c80951cc81b3")
 	)
 	(no_connect
+		(at 122.555 73.66)
+		(uuid "718c49ad-5345-434f-beae-35f5abe46944")
+	)
+	(no_connect
 		(at 178.435 86.36)
 		(uuid "7dc73511-d9b7-44e1-86aa-d7bb9fe9e76f")
 	)
 	(no_connect
 		(at 203.835 45.72)
 		(uuid "7f576610-9025-4335-84a2-729fef8c1bdf")
+	)
+	(no_connect
+		(at 122.555 68.58)
+		(uuid "880f843d-4ee4-4aaa-a142-5a859a99aaac")
 	)
 	(no_connect
 		(at 178.435 134.62)
@@ -10068,16 +10076,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 73.66) (xy 122.555 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd09ff09-8f2b-4c3d-9669-c60253002cfa")
-	)
-	(wire
-		(pts
 			(xy 103.505 66.04) (xy 122.555 66.04)
 		)
 		(stroke
@@ -10335,16 +10333,6 @@
 			(type default)
 		)
 		(uuid "d81083a4-abba-4644-8c52-274848caee9c")
-	)
-	(wire
-		(pts
-			(xy 58.42 68.58) (xy 122.555 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8cd74aa-a158-4a96-bf07-e35a8a5f73ab")
 	)
 	(wire
 		(pts
@@ -11609,17 +11597,6 @@
 		)
 		(uuid "5ae19732-3a7f-486a-a501-b7ab6b34190d")
 	)
-	(hierarchical_label "CM5_USB3_0_~{OC}"
-		(shape input)
-		(at 58.42 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "60e2fa83-da66-401a-a215-bad1c0e8d9ba")
-	)
 	(hierarchical_label "SPI2{SPI}"
 		(shape bidirectional)
 		(at 273.685 58.42 0)
@@ -11685,17 +11662,6 @@
 			(justify right)
 		)
 		(uuid "93af02a2-3fe1-4033-b0a1-260b41e5e6b9")
-	)
-	(hierarchical_label "CM5_USB3_1_~{OC}"
-		(shape input)
-		(at 58.42 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e09d0b3-fe3e-49d9-b2af-8576b596c2e0")
 	)
 	(hierarchical_label "{ETH}"
 		(shape bidirectional)

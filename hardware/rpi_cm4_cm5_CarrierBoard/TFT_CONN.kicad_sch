@@ -6552,7 +6552,7 @@
 		)
 		(uuid "1bcb00b3-aed1-4734-8964-aa9b701d7bb4")
 	)
-	(hierarchical_label "TFT_LED+"
+	(hierarchical_label "TFT_LEDP"
 		(shape input)
 		(at 152.4 130.81 180)
 		(effects
@@ -6596,7 +6596,7 @@
 		)
 		(uuid "a70d1d5d-d3cd-4158-a3cb-ed606d457e6f")
 	)
-	(hierarchical_label "TFT_LED-"
+	(hierarchical_label "TFT_LEDM"
 		(shape output)
 		(at 152.4 133.35 180)
 		(effects
