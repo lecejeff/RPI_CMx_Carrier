@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2026-01-22")
+		(date "2026-02-13")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -2048,7 +2048,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 11.43 -101.6 90)
+					(at 5.08 -101.6 90)
 					(length 2.54)
 					(hide yes)
 					(name "NC"
@@ -2059,6 +2059,60 @@
 						)
 					)
 					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -101.6 90)
+					(length 2.54)
+					(name "2230"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "76"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -101.6 90)
+					(length 2.54)
+					(name "2242"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "77"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -101.6 90)
+					(length 2.54)
+					(name "2260"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "78"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4511,6 +4565,12 @@
 		(uuid "171f78f2-747c-41a2-b20a-26021b64683e")
 	)
 	(junction
+		(at 144.78 150.495)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "191ffee7-8b4a-49ef-9b86-aff576871eaa")
+	)
+	(junction
 		(at 159.385 61.595)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5441,6 +5501,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 150.495) (xy 144.78 151.765)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632978d5-fac1-4b92-9af9-15e72d64a7cd")
+	)
+	(wire
+		(pts
 			(xy 201.295 75.565) (xy 201.295 76.835)
 		)
 		(stroke
@@ -5478,6 +5548,16 @@
 			(type default)
 		)
 		(uuid "67a31f56-d664-4ea6-99af-825beddb1aff")
+	)
+	(wire
+		(pts
+			(xy 142.24 150.495) (xy 144.78 150.495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "693f8092-2b46-463b-9aa9-6d644430314f")
 	)
 	(wire
 		(pts
@@ -5911,6 +5991,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 149.225) (xy 142.24 150.495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b014a85a-a9af-4091-9ce2-a58762c15302")
+	)
+	(wire
+		(pts
 			(xy 127.635 89.535) (xy 129.54 89.535)
 		)
 		(stroke
@@ -5961,6 +6051,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 149.225) (xy 147.32 150.495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd484e33-074a-43b2-87aa-c45f957d6d67")
+	)
+	(wire
+		(pts
 			(xy 166.37 142.875) (xy 173.355 142.875)
 		)
 		(stroke
@@ -6008,6 +6108,16 @@
 			(type default)
 		)
 		(uuid "c3e488de-e53a-484e-8eb4-9c5865f4b620")
+	)
+	(wire
+		(pts
+			(xy 144.78 150.495) (xy 147.32 150.495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c474da38-3a7b-40b1-9d88-bb78a87e1fc8")
 	)
 	(wire
 		(pts
@@ -6358,6 +6468,16 @@
 			(type default)
 		)
 		(uuid "f2fb63b8-5715-49bb-8ccf-7d0612e1bb22")
+	)
+	(wire
+		(pts
+			(xy 144.78 149.225) (xy 144.78 150.495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b55933-28f4-445b-bd72-dcd89d28536f")
 	)
 	(wire
 		(pts
@@ -10269,6 +10389,15 @@
 		(pin "0"
 			(uuid "3433d0c2-efc2-4aba-ba2a-0f480bcd045b")
 		)
+		(pin "77"
+			(uuid "7f76a524-8b90-4267-ac05-0bbdd04b73e0")
+		)
+		(pin "78"
+			(uuid "8b271eaa-7450-483f-be4f-2e2641044775")
+		)
+		(pin "76"
+			(uuid "4dcb4182-4913-4d40-93bf-8365706ad7d9")
+		)
 		(instances
 			(project ""
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/9de20a6e-0c13-4cd2-9bfa-6170acf466d0"
@@ -10710,6 +10839,71 @@
 			(project ""
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/9de20a6e-0c13-4cd2-9bfa-6170acf466d0"
 					(reference "U38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Pwr_Symbols:GND")
+		(at 144.78 151.765 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf1827e4-ba9b-4a24-b2b0-c4a8167e083b")
+		(property "Reference" "#PWR02"
+			(at 144.78 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 155.321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9430f31-27e6-4518-9811-3f9522b367bf")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/9de20a6e-0c13-4cd2-9bfa-6170acf466d0"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

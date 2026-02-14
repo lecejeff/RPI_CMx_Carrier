@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2026-01-22")
+		(date "2026-02-13")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -2726,12 +2726,6 @@
 		(uuid "63d27095-4b08-425b-9df6-e55c06fd8820")
 	)
 	(junction
-		(at 194.945 50.165)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "748a8551-dfb2-48f3-a352-518512c83549")
-	)
-	(junction
 		(at 106.045 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2916,17 +2910,7 @@
 	)
 	(bus
 		(pts
-			(xy 196.215 54.61) (xy 195.58 53.975)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c473d35-b658-4d7f-9f30-0f6d0d26eebc")
-	)
-	(bus
-		(pts
-			(xy 194.945 50.165) (xy 201.93 50.165)
+			(xy 180.975 50.165) (xy 201.93 50.165)
 		)
 		(stroke
 			(width 0)
@@ -2953,16 +2937,6 @@
 			(type default)
 		)
 		(uuid "1deef441-5108-4a14-991b-7fec1585d147")
-	)
-	(wire
-		(pts
-			(xy 179.07 57.15) (xy 252.095 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "275e0bd5-d5d9-4e81-aa6a-80893017b199")
 	)
 	(wire
 		(pts
@@ -3086,16 +3060,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 86.995) (xy 252.095 86.995)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d116917-5f92-4b18-ae79-52fe8b75c2f9")
-	)
-	(wire
-		(pts
 			(xy 182.88 102.235) (xy 198.755 102.235)
 		)
 		(stroke
@@ -3146,16 +3110,6 @@
 	)
 	(bus
 		(pts
-			(xy 180.975 50.165) (xy 194.945 50.165)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "444a516a-2f7c-4f23-be16-dc132689748f")
-	)
-	(bus
-		(pts
 			(xy 155.575 47.625) (xy 201.93 47.625)
 		)
 		(stroke
@@ -3173,16 +3127,6 @@
 			(type default)
 		)
 		(uuid "45fa419e-0abe-4051-9003-6f4d8d308ca0")
-	)
-	(wire
-		(pts
-			(xy 182.88 84.455) (xy 200.66 84.455)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47bc9305-67ac-4b4c-ba9a-36e235d0b740")
 	)
 	(wire
 		(pts
@@ -3296,16 +3240,6 @@
 	)
 	(wire
 		(pts
-			(xy 155.575 71.755) (xy 176.53 71.755)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59872652-b23e-4f24-b4a6-f7117a665c6a")
-	)
-	(wire
-		(pts
 			(xy 84.455 162.56) (xy 103.505 162.56)
 		)
 		(stroke
@@ -3343,16 +3277,6 @@
 			(type default)
 		)
 		(uuid "6318e37a-02cb-4282-a4de-e0935dcf7410")
-	)
-	(wire
-		(pts
-			(xy 179.07 57.15) (xy 177.8 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f174257-616a-4d73-b62d-f9c2e79158cc")
 	)
 	(wire
 		(pts
@@ -3546,16 +3470,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.295 86.36) (xy 201.93 86.995)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e3a5365-9da7-40b2-8a15-efb91ae23cb9")
-	)
-	(wire
-		(pts
 			(xy 17.145 128.27) (xy 17.145 129.54)
 		)
 		(stroke
@@ -3573,16 +3487,6 @@
 			(type default)
 		)
 		(uuid "915d51ad-3755-4c35-b219-d8c5bdc2d5bd")
-	)
-	(bus
-		(pts
-			(xy 252.095 54.61) (xy 196.215 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "918a1eb3-9f81-453f-b163-5ce33df407d4")
 	)
 	(bus
 		(pts
@@ -3696,16 +3600,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 84.455) (xy 201.295 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a41badca-e2f4-4e39-b9cf-1c85bd9fa212")
-	)
-	(wire
-		(pts
 			(xy 180.34 63.5) (xy 181.61 62.23)
 		)
 		(stroke
@@ -3743,16 +3637,6 @@
 			(type default)
 		)
 		(uuid "aa9d1040-3d0c-405b-8b68-74e2c395fd6a")
-	)
-	(bus
-		(pts
-			(xy 195.58 50.8) (xy 195.58 53.975)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa9d98a6-40ea-4be9-9f02-0ec7a63c8ef7")
 	)
 	(wire
 		(pts
@@ -3863,16 +3747,6 @@
 			(type default)
 		)
 		(uuid "b5643b29-59f6-44f4-b44f-f1f3d7faecf0")
-	)
-	(wire
-		(pts
-			(xy 201.295 85.09) (xy 201.295 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7103409-fff0-42cd-bfaf-86fb35a06184")
 	)
 	(wire
 		(pts
@@ -4144,16 +4018,6 @@
 		)
 		(uuid "e359ba23-593c-45da-be3c-a74cd08010c9")
 	)
-	(wire
-		(pts
-			(xy 177.8 58.42) (xy 177.8 70.485)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4ebae6b-957c-468e-b7e3-6dc28004c757")
-	)
 	(bus
 		(pts
 			(xy 179.07 111.76) (xy 181.61 111.76)
@@ -4196,16 +4060,6 @@
 	)
 	(bus
 		(pts
-			(xy 195.58 50.8) (xy 194.945 50.165)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef1a135f-21d7-4998-a2cc-818ce3ecfbb8")
-	)
-	(bus
-		(pts
 			(xy 114.935 161.29) (xy 202.565 161.29)
 		)
 		(stroke
@@ -4213,16 +4067,6 @@
 			(type default)
 		)
 		(uuid "efc4c373-d27b-4e4f-a9f2-abfbeb3fa46b")
-	)
-	(wire
-		(pts
-			(xy 176.53 71.755) (xy 177.8 70.485)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5423f1e-7021-48ff-bbee-64c8fe4382cd")
 	)
 	(wire
 		(pts
@@ -4484,16 +4328,6 @@
 		)
 		(uuid "6ba4b582-c718-47c1-a066-f533085c8205")
 	)
-	(label "TFT_TOUCH_~{RST}"
-		(at 234.315 86.995 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c45b1ed-5ec8-4ab4-88d4-2b29befdd86c")
-	)
 	(label "TFT_POWER_~{RST}"
 		(at 198.755 81.915 180)
 		(effects
@@ -4563,16 +4397,6 @@
 			(justify right bottom)
 		)
 		(uuid "9ceda91d-2098-410e-8510-78a70035f52b")
-	)
-	(label "TFT_TOUCH_~{RST}"
-		(at 198.755 84.455 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a2b66690-89cd-49b1-af4e-42183a01e6ce")
 	)
 	(label "SPI2{SPI}"
 		(at 175.895 121.92 180)
@@ -9435,36 +9259,6 @@
 				(justify left)
 			)
 		)
-		(pin "I2C3{I2C}" bidirectional
-			(at 252.095 54.61 180)
-			(uuid "389bd6ae-637a-4841-8836-9831eb19e55b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TFT_TOUCH_~{RST}" input
-			(at 252.095 86.995 180)
-			(uuid "1dba0e0e-705e-4920-9d86-cda259d4db88")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C_TOUCH_~{INT}" output
-			(at 252.095 57.15 180)
-			(uuid "60678709-252c-4bf4-b8d4-fe3c64b2b5b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "TFT_LEDP" input
 			(at 252.095 79.375 180)
 			(uuid "2941359f-683b-4b2f-a821-5bd8956367f2")
@@ -10747,16 +10541,6 @@
 				(justify right)
 			)
 		)
-		(pin "I2C_TOUCH_~{INT}" input
-			(at 155.575 71.755 0)
-			(uuid "0d68cc28-4a4e-444e-8534-ab732827002a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I2C6{I2C}" bidirectional
 			(at 121.92 148.59 180)
 			(uuid "2522d658-734f-43fe-af6d-2f0dd716dcbf")
@@ -11013,16 +10797,6 @@
 		(pin "EXP_MIPI_~{RST}" output
 			(at 182.88 86.995 0)
 			(uuid "3e4d265c-06ab-41f3-86f1-6b1693dc8d9a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TFT_TOUCH_~{RST}" output
-			(at 182.88 84.455 0)
-			(uuid "ea5de8da-8b68-4dc3-b0b3-ecb232ac3f33")
 			(effects
 				(font
 					(size 1.27 1.27)

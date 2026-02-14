@@ -1,26 +1,26 @@
 (version 1)
 
 #### Differential pairs begin ####
-# Inner differential pair rule for DP_90R net class based on JLC 061611-7628 stackup
+# Inner differential pair rule for DP_90R net class based on 8-layer stackup from JLCPCB 081611-2116
 (rule dp_inner_90R
 	(layer inner)
 	(condition "A.inDiffPair('*')")
 	(condition "A.hasNetclass('DP_90R')")
-	(constraint diff_pair_gap (opt 0.127mm))
+	(constraint diff_pair_gap (opt 0.16mm))
 	(constraint diff_pair_uncoupled (max 0.5mm))
-	(constraint track_width (opt 0.1527mm))
+	(constraint track_width (opt 0.17mm))
 	(constraint skew (max 0.25mm))
 	(constraint clearance (min 0.05mm))
 )
 
-# Inner differential pair rule for DP_100R net class based on JLC 061611-7628 stackup
+# Inner differential pair rule for DP_100R net class based on 8-layer stackup from JLCPCB 081611-2116
 (rule dp_inner_100R
 	(layer inner)
 	(condition "A.inDiffPair('*')")
 	(condition "A.hasNetclass('DP_100R')")
-	(constraint diff_pair_gap (opt 0.16mm))
+	(constraint diff_pair_gap (opt 0.26mm))
 	(constraint diff_pair_uncoupled (max 0.5mm))
-	(constraint track_width (opt 0.13mm))
+	(constraint track_width (opt 0.127mm))
 	(constraint skew (max 0.25mm))
 	(constraint clearance (min 0.05mm))
 )
@@ -37,26 +37,26 @@
 	(condition "A.inDiffPair('*') && A.Type == 'Track' && B.Type == 'Zone'")
 )
 
-# Outer differential pair rule for DP_90R net class based on JLC 061611-7628 stackup
+# Outer differential pair rule for DP_90R net class based on 8-layer stackup from JLCPCB 081611-2116
 (rule dp_outer_90R
 	(layer outer)
 	(condition "A.inDiffPair('*')")
 	(condition "A.hasNetclass('DP_90R')")
 	(constraint diff_pair_gap (opt 0.127mm))
 	(constraint diff_pair_uncoupled (max 0.5mm))
-	(constraint track_width (opt 0.2065mm))
+	(constraint track_width (opt 0.1382mm))
 	(constraint skew (max 0.25mm))
 	(constraint clearance (min 0.05mm))
 )
 
-# Outer differential pair rule for DP_100R net class based on JLC 061611-7628 stackup
+# Outer differential pair rule for DP_100R net class based on 8-layer stackup from JLCPCB 081611-2116
 (rule dp_outer_100R
 	(layer outer)
 	(condition "A.inDiffPair('*')")
 	(condition "A.hasNetclass('DP_100R')")
-	(constraint diff_pair_gap (opt 0.127mm))
+	(constraint diff_pair_gap (opt 0.18mm))
 	(constraint diff_pair_uncoupled (max 0.5mm))
-	(constraint track_width (opt 0.175mm))
+	(constraint track_width (opt 0.1273mm))
 	(constraint skew (max 0.25mm))
 	(constraint clearance (min 0.05mm))
 )
@@ -78,7 +78,7 @@
 #### Electrical clearance begin ####
 # Electrical seperation for CGND
 (rule cgnd_clearance
-	(condition "A.hasNetclass('CGND') && B.hasNetclass('*')")
+	(condition "A.hasNetclass('CGND') && B.hasNetclass('GND')")
 	(constraint clearance (min 0.5mm))
 )
 
@@ -99,6 +99,7 @@
 )
 
 (rule polygon_to_polygon_clearance
-	(condition "A.Type == 'Zone' && B.Type == 'Zone'")
-	(constraint clearance (min 0.25mm))
+	(condition "A.Type == 'Zone' && !A.hasNetclass('CGND') && !A.hasNetclass('GND')")
+	(condition "B.Type == 'Zone' && !B.hasNetclass('GND') && !B.hasNetclass('CGND')")
+	(constraint clearance (min 0.2mm))
 )

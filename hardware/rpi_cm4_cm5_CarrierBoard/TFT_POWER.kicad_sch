@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2026-01-22")
+		(date "2026-02-13")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -12744,7 +12744,7 @@
 		)
 		(uuid "3e3f6b49-e552-466d-b03d-97c0d180deac")
 	)
-	(label "VCP"
+	(label "VCpos"
 		(at 73.025 154.94 0)
 		(effects
 			(font
@@ -12774,7 +12774,7 @@
 		)
 		(uuid "8210a7b5-70dd-4f8d-8bb1-1400deedf224")
 	)
-	(label "VCN"
+	(label "VCneg"
 		(at 205.74 109.855 180)
 		(effects
 			(font
@@ -12784,7 +12784,7 @@
 		)
 		(uuid "acf03510-0803-4a8d-9880-cc03115442bd")
 	)
-	(label "VCN"
+	(label "VCneg"
 		(at 135.255 147.32 0)
 		(effects
 			(font

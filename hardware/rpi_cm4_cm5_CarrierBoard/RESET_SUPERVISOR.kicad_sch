@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2026-01-22")
+		(date "2026-02-13")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -4708,6 +4708,10 @@
 		(uuid "41e18aa7-4583-49ac-84fb-c8ca1a7db685")
 	)
 	(no_connect
+		(at 222.885 128.27)
+		(uuid "44b399d8-f0ef-44a3-b0db-fcaf37fdc6f6")
+	)
+	(no_connect
 		(at 222.885 95.25)
 		(uuid "7fddbdea-d2e4-49ca-b1d5-2429a1e819dc")
 	)
@@ -5687,16 +5691,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.885 128.27) (xy 229.235 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0804476-3289-484b-82e6-7d4c961df8a4")
-	)
-	(wire
-		(pts
 			(xy 219.075 105.41) (xy 219.075 107.95)
 		)
 		(stroke
@@ -6315,17 +6309,6 @@
 			(justify left)
 		)
 		(uuid "45e1058d-42e4-42d0-b912-231ef007e564")
-	)
-	(hierarchical_label "TFT_TOUCH_~{RST}"
-		(shape output)
-		(at 229.235 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5702393b-b55a-43e7-ad78-6be73a88508f")
 	)
 	(hierarchical_label "EXP_MIPI_~{RST}"
 		(shape output)
