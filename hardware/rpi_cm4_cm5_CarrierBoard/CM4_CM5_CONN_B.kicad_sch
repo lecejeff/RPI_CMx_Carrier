@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2026-02-13")
+		(date "2026-02-15")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -15,7 +15,7 @@
 		(comment 5 "KiCad Rev 9.0")
 		(comment 6 "Jean-Francois Bilodeau")
 		(comment 7 "Not applicable")
-		(comment 8 "Preliminary")
+		(comment 8 "Released")
 		(comment 9 "RPI_CMx_Carrier_2.00-0A_BOM")
 	)
 	(lib_symbols
@@ -3207,6 +3207,28 @@
 			)
 		)
 		(uuid "9c012474-fa7a-4c94-8aee-230b88def4ec")
+	)
+	(text "CM4 = PCIe USB (DNP)"
+		(exclude_from_sim no)
+		(at 100.33 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "c19f6d75-845e-4271-ac4d-b1270057a996")
+	)
+	(text "CM5 = M.2 M-Key PCIe"
+		(exclude_from_sim no)
+		(at 129.54 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "f94b1059-d6ae-4adb-a721-3df640df652d")
 	)
 	(junction
 		(at 182.88 55.245)
@@ -6610,12 +6632,12 @@
 		(uuid "477a4bd7-0253-40cd-94fc-8a15ce1a04ab")
 	)
 	(label "M2.~{WAKE}"
-		(at 146.05 170.815 0)
+		(at 154.94 170.815 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "48ce9edc-53bd-4bfa-a4a8-f300aad4c8a6")
 	)
@@ -6840,12 +6862,12 @@
 		(uuid "68a6b9f6-eaca-4a70-9ab6-0e291e502c70")
 	)
 	(label "M2.CLK_N"
-		(at 145.415 175.895 0)
+		(at 154.94 175.895 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "68b2c9e0-76dd-4081-960c-3cf586057ba3")
 	)
@@ -6940,12 +6962,12 @@
 		)
 	)
 	(label "M2.CLK_P"
-		(at 145.415 173.355 0)
+		(at 154.94 173.355 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "75c0fc90-c53f-4214-aa75-6cd17088da53")
 	)
@@ -6980,12 +7002,12 @@
 		)
 	)
 	(label "M2.TX_N"
-		(at 147.32 186.055 0)
+		(at 154.94 186.055 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8098a7c8-70e1-416e-9079-e8148c685343")
 	)
@@ -7330,12 +7352,12 @@
 		)
 	)
 	(label "M2.~{REQ}"
-		(at 142.875 168.275 0)
+		(at 154.94 168.275 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c81f8a91-4608-46f5-9619-c104522946bd")
 	)
@@ -7360,32 +7382,32 @@
 		)
 	)
 	(label "M2.TX_P"
-		(at 147.32 183.515 0)
+		(at 154.94 183.515 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ca28269e-0f49-4c2c-8a3b-9a311d5d806f")
 	)
 	(label "M2.RX_P"
-		(at 146.685 178.435 0)
+		(at 154.94 178.435 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "cbce31aa-3bb0-484c-a72d-285f9bf62a78")
 	)
 	(label "M2.RX_N"
-		(at 146.685 180.975 0)
+		(at 154.94 180.975 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "cd2942bf-a6a9-48e4-ad5c-d46158b209ef")
 	)
@@ -7799,7 +7821,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "084392ec-e66e-4857-9687-5c6bd9072186")
 		(property "Reference" "R176"
 			(at 127 185.039 0)
@@ -8095,7 +8117,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "2de77255-f9e0-4350-a0d9-a9d4abe8a24f")
 		(property "Reference" "R173"
 			(at 127 177.419 0)
@@ -8328,7 +8350,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "3237b216-a4ad-4303-b16b-f2ce7812bbef")
 		(property "Reference" "R168"
 			(at 127 164.719 0)
@@ -9302,7 +9324,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "6857ba71-0595-4154-aa5e-79fcb0d4af41")
 		(property "Reference" "R171"
 			(at 127 172.339 0)
@@ -10145,7 +10167,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "acd28690-1846-43c4-bfa6-e2536f507016")
 		(property "Reference" "R174"
 			(at 127 179.959 0)
@@ -10450,7 +10472,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "b3052161-0ede-40d1-a3db-082a7fd7fe8f")
 		(property "Reference" "R172"
 			(at 127 174.879 0)
@@ -10787,7 +10809,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c31555ec-ef6b-4107-b153-d17cd459e305")
 		(property "Reference" "R169"
 			(at 127 167.259 0)
@@ -11665,7 +11687,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "d9ef5c01-48b1-426e-98d1-a986625bfb17")
 		(property "Reference" "R175"
 			(at 127 182.499 0)
@@ -11833,7 +11855,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "edde1f08-0634-4003-84bd-46dc6bc2fb79")
 		(property "Reference" "R170"
 			(at 127 169.799 0)

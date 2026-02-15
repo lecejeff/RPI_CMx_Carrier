@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2026-02-13")
+		(date "2026-02-15")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -15,7 +15,7 @@
 		(comment 5 "KiCad Rev 9.0")
 		(comment 6 "Jean-Francois Bilodeau")
 		(comment 7 "Not applicable")
-		(comment 8 "Preliminary")
+		(comment 8 "Released")
 		(comment 9 "RPI_CMx_Carrier_2.00-0A_BOM")
 	)
 	(lib_symbols
@@ -1921,17 +1921,6 @@
 			(justify left bottom)
 		)
 		(uuid "3e30ed20-22c5-446a-b341-510a0ec44177")
-		(property "Netclass" "DP_90R"
-			(at 119.38 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "USB_OTG.USB_P"
 		(at 202.565 85.725 180)

@@ -1,0 +1,65 @@
+PCB statistics report
+=====================
+- Date: 2026-02-15 12:03:58 PM
+- Project: rpi_cm4_cm5_CarrierBoard
+- Board name: rpi_cm4_cm5_CarrierBoard
+
+Board
+-----
+- Width: 181.6000 mm
+- Height: 100.6000 mm
+- Area: 16904.9890 mm²
+
+Pads
+----
+- Through hole: 155
+- SMD: 2219
+- Connector: 0
+- NPTH: 12
+
+Vias
+----
+- Through vias: 1489
+- Blind/buried: 0
+- Micro vias: 0
+
+Components
+----------
+
+|              | Front Side | Back Side | Total |
+|--------------|------------|-----------|-------|
+|THT:          |          0 |         0 |     0 |
+|SMD:          |        666 |         4 |   670 |
+|Unspecified:  |          0 |         1 |     1 |
+|Total:        |        666 |         5 |   671 |
+
+Drill holes
+-----------
+
+| Count | Shape |     X Size |    Y Size | Plated | Via/Pad | Start Layer | Stop Layer |
+|-------|-------|------------|-----------|--------|---------|-------------|------------|
+|  1489 | Round |  0.2000 mm | 0.2000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|    34 | Round |  0.3300 mm | 0.3300 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|    30 | Round |  0.2000 mm | 0.2000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|    28 | Round |  1.1000 mm | 1.1000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|    18 | Round |  0.7000 mm | 0.7000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|    12 | Round |  0.8900 mm | 0.8900 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     8 | Round |  3.0000 mm | 3.0000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     4 | Round |  3.8000 mm | 3.8000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     4 | Round |  2.3000 mm | 2.3000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     4 |  Slot |  0.5000 mm | 1.1000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     4 | Round |  1.7000 mm | 1.7000 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     4 | Round |  1.0200 mm | 1.0200 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     2 | Round |  3.3000 mm | 3.3000 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     2 | Round |  1.5700 mm | 1.5700 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     2 |  Slot |  0.9000 mm | 2.7000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     2 |  Slot |  0.9000 mm | 1.7000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     1 |  Slot | 25.0000 mm | 5.0000 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     1 | Round |  0.6500 mm | 0.6500 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     1 |  Slot |  0.9500 mm | 0.6500 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     1 |  Slot | 10.5000 mm | 5.0000 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     1 |  Slot |  3.2000 mm | 0.7000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     1 |  Slot |  2.8000 mm | 0.7000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     1 |  Slot |  0.7000 mm | 2.8000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     1 | Round |  1.1000 mm | 1.1000 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     1 | Round |  1.6000 mm | 1.6000 mm |   NPTH |     Pad |        F.Cu |       B.Cu |

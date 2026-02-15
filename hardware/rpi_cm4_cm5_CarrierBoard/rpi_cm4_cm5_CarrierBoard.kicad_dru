@@ -6,10 +6,10 @@
 	(layer inner)
 	(condition "A.inDiffPair('*')")
 	(condition "A.hasNetclass('DP_90R')")
-	(constraint diff_pair_gap (opt 0.16mm))
-	(constraint diff_pair_uncoupled (max 0.5mm))
+	(constraint diff_pair_gap (min 0.1mm)(opt 0.16mm))
+	(constraint diff_pair_uncoupled (max 15mm))
 	(constraint track_width (opt 0.17mm))
-	(constraint skew (max 0.25mm))
+	(constraint skew (opt 0.25mm))
 	(constraint clearance (min 0.05mm))
 )
 
@@ -18,10 +18,10 @@
 	(layer inner)
 	(condition "A.inDiffPair('*')")
 	(condition "A.hasNetclass('DP_100R')")
-	(constraint diff_pair_gap (opt 0.26mm))
-	(constraint diff_pair_uncoupled (max 0.5mm))
+	(constraint diff_pair_gap (min 0.1mm)(opt 0.26mm))
+	(constraint diff_pair_uncoupled (max 15mm))
 	(constraint track_width (opt 0.127mm))
-	(constraint skew (max 0.25mm))
+	(constraint skew (opt 0.25mm))
 	(constraint clearance (min 0.05mm))
 )
 
@@ -42,10 +42,10 @@
 	(layer outer)
 	(condition "A.inDiffPair('*')")
 	(condition "A.hasNetclass('DP_90R')")
-	(constraint diff_pair_gap (opt 0.127mm))
-	(constraint diff_pair_uncoupled (max 0.5mm))
+	(constraint diff_pair_gap (min 0.1mm)(opt 0.127mm))
+	(constraint diff_pair_uncoupled (max 15mm))
 	(constraint track_width (opt 0.1382mm))
-	(constraint skew (max 0.25mm))
+	(constraint skew (opt 0.25mm))
 	(constraint clearance (min 0.05mm))
 )
 
@@ -54,10 +54,10 @@
 	(layer outer)
 	(condition "A.inDiffPair('*')")
 	(condition "A.hasNetclass('DP_100R')")
-	(constraint diff_pair_gap (opt 0.18mm))
-	(constraint diff_pair_uncoupled (max 0.5mm))
+	(constraint diff_pair_gap (min 0.1mm)(opt 0.18mm))
+	(constraint diff_pair_uncoupled (max 15mm))
 	(constraint track_width (opt 0.1273mm))
-	(constraint skew (max 0.25mm))
+	(constraint skew (opt 0.25mm))
 	(constraint clearance (min 0.05mm))
 )
 
@@ -79,18 +79,13 @@
 # Electrical seperation for CGND
 (rule cgnd_clearance
 	(condition "A.hasNetclass('CGND') && B.hasNetclass('GND')")
-	(constraint clearance (min 0.5mm))
+	(constraint clearance (min 0.45mm))
 )
 
 # Electrical clearance via to zone
 (rule zone_to_via_default_clearance
 	(condition "A.Type == 'Zone' && B.Type == 'Via' && !B.inDiffPair('*')")
-	(constraint clearance (min 0.1mm)(opt 0.1mm))
-)
-
-(rule sd_card_skew
-	(condition "A.hasNetclass('SD_CARD')")
-	(constraint skew (max 0.5mm))
+	(constraint clearance (min 0.254mm)(opt 0.254mm))
 )
 
 (rule no_connect_clearance
@@ -103,3 +98,16 @@
 	(condition "B.Type == 'Zone' && !B.hasNetclass('GND') && !B.hasNetclass('CGND')")
 	(constraint clearance (min 0.2mm))
 )
+
+(rule polygon_to_no_connect_clearance
+	(condition "A.Type == 'Zone' && B.Pin_Type == 'unconnected'")
+	(constraint clearance (min 0.5mm))
+)
+
+## Rule to allow components under RPI CMx module ##
+(rule ITEM1_courtyard_overlap
+	(severity exclusion)
+	(constraint courtyard_clearance)
+	(condition "A.Reference == 'ITEM1' && B.Reference == '*'")
+)
+	
