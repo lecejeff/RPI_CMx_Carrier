@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -64,36 +64,40 @@
           "Courtyard overlap between SMT connector and slot hole for flat flex cable"
         ],
         [
-          "diff_pair_uncoupled_length_too_long|166031800|59411500|e853c2a8-0864-4298-a170-eaaf63fbb9c1|4c231f52-7209-466a-bc02-49211aae73cd",
+          "diff_pair_uncoupled_length_too_long|147011600|59536500|e21eb4f7-5d77-444c-aa46-f29335e27c2f|417b4fb0-b691-441c-a78c-f4fa96f524ee",
           ""
         ],
         [
-          "diff_pair_uncoupled_length_too_long|176739600|83663100|b6d68abd-1b07-4fd5-b6be-0df6c94d54a0|b727fabf-011a-4f03-b882-45da0e188d31",
+          "diff_pair_uncoupled_length_too_long|171917500|82434500|9b2eb864-6afc-41a5-b549-7cfc7208dbb1|02ebeeb6-e4ea-4af9-94ea-9acfb410ef05",
           ""
         ],
         [
-          "diff_pair_uncoupled_length_too_long|192626876|69340752|34e2482e-f8e2-4119-9555-da34cd9beff1|a200703f-0902-4bd4-ad3a-c59a7185e6b4",
+          "diff_pair_uncoupled_length_too_long|190090001|74333799|336aa0d4-aabd-4ab2-bb77-a0da7a843bd2|1c048d4d-a038-4397-a77a-87d60238b961",
           ""
         ],
         [
-          "diff_pair_uncoupled_length_too_long|198273400|109885400|07371782-3266-43d6-8ba5-fb542519094d|f37fadce-ea2b-47b3-bad2-c8427ded49f2",
+          "diff_pair_uncoupled_length_too_long|190090500|68709300|6169121e-fb37-4193-9c99-ad0a42b400bb|2ecb1c80-7a2d-4201-952c-a165384440f4",
           ""
         ],
         [
-          "diff_pair_uncoupled_length_too_long|204692600|61990000|03310e8a-5002-4769-9604-9051d440fc7c|ad01874d-62b8-475f-8de5-0d6b0834b46d",
+          "diff_pair_uncoupled_length_too_long|196679700|66326500|0c150591-a7b2-4b52-add0-07723ed0662b|fa77c521-2517-4c48-9ee5-4d6d54a949c2",
           ""
         ],
         [
-          "diff_pair_uncoupled_length_too_long|205065000|93001400|2b8b3801-1deb-447a-b79d-b54e2f9e811c|73799720-cc4e-448b-bdef-4c1ecb90ba20",
+          "diff_pair_uncoupled_length_too_long|200203200|104289700|2a072894-bbe8-4336-ba12-9edfd1107c02|dcc44b1d-244b-4da2-8367-ae5172bfed74",
           ""
         ],
         [
-          "diff_pair_uncoupled_length_too_long|218474300|62131800|32a86716-da96-4b6c-81b7-e7e7f764cdb0|035f0467-8df1-4665-8b10-159324c78f07",
+          "diff_pair_uncoupled_length_too_long|204100000|88828500|06e5c256-3147-4274-94da-34a3fe354c06|a2600156-2f55-4662-887c-2c16a0fe0c18",
           ""
         ],
         [
           "hole_to_hole|132545000|127260000|4b793b8c-c3d3-4b3c-82bb-951f66adc24b|ba5ec809-3d03-4386-a298-baf276722f82",
           "Component on top of existing pad for 3d viewer"
+        ],
+        [
+          "solder_mask_bridge|132327167|98537491|107e4590-22e6-4b59-aa8f-4ee0469a7d70|85856001-40c6-4af7-88d0-e22a16476f89",
+          ""
         ],
         [
           "solder_mask_bridge|142620000|105535000|0696f7ac-4de1-4328-a1d0-d93f8bbf0542|7235a5c5-e6f0-4009-a57f-98384e4437ab",
@@ -102,6 +106,74 @@
         [
           "solder_mask_bridge|168120000|106335000|528cb48a-98f7-4e55-bd47-1c455f944240|0c66cc1f-9233-405e-99bf-b31f747e371c",
           "Dual zone made into a single pad"
+        ],
+        [
+          "solder_mask_bridge|175980758|58810475|ecb70817-4d93-4394-b2b8-44bf2ba45fa8|85856001-40c6-4af7-88d0-e22a16476f89",
+          ""
+        ],
+        [
+          "solder_mask_bridge|223870475|42770758|69ee576d-9d08-4975-bfb8-fd82b058f2d1|85856001-40c6-4af7-88d0-e22a16476f89",
+          ""
+        ],
+        [
+          "solder_mask_bridge|224134238|137060466|52a7bd92-36e2-4aa4-bcca-2280b8c6eea5|85856001-40c6-4af7-88d0-e22a16476f89",
+          ""
+        ],
+        [
+          "solder_mask_bridge|234833423|52546755|bb49ad32-3219-4052-8a28-4c1b354625e1|85856001-40c6-4af7-88d0-e22a16476f89",
+          ""
+        ],
+        [
+          "solder_mask_bridge|236228085|129278958|4b0fe277-cb64-400b-8498-8b164f57407c|85856001-40c6-4af7-88d0-e22a16476f89",
+          ""
+        ],
+        [
+          "solder_mask_bridge|237720925|48477209|bb49ad32-3219-4052-8a28-4c1b354625e1|85856001-40c6-4af7-88d0-e22a16476f89",
+          ""
+        ],
+        [
+          "solder_mask_bridge|238803736|124618667|4b0fe277-cb64-400b-8498-8b164f57407c|85856001-40c6-4af7-88d0-e22a16476f89",
+          ""
+        ],
+        [
+          "solder_mask_bridge|61536270|48998661|0f72277c-1d5a-4162-8f77-54c8f4e25145|85856001-40c6-4af7-88d0-e22a16476f89",
+          ""
+        ],
+        [
+          "solder_mask_bridge|62619069|129362789|7aeb695c-e1a9-4f94-bc9a-69eef5e6f0a0|85856001-40c6-4af7-88d0-e22a16476f89",
+          ""
+        ],
+        [
+          "solder_mask_bridge|64903736|124618667|7aeb695c-e1a9-4f94-bc9a-69eef5e6f0a0|85856001-40c6-4af7-88d0-e22a16476f89",
+          ""
+        ],
+        [
+          "solder_mask_bridge|65129541|49200458|0f72277c-1d5a-4162-8f77-54c8f4e25145|85856001-40c6-4af7-88d0-e22a16476f89",
+          ""
+        ],
+        [
+          "solder_mask_bridge|70347488|58317165|bb6e28ca-53ae-45e3-abbf-2bbe02b5220c|85856001-40c6-4af7-88d0-e22a16476f89",
+          ""
+        ],
+        [
+          "solder_mask_bridge|76250314|119164941|046eda7e-285d-4973-bc46-2230a56bb4dc|85856001-40c6-4af7-88d0-e22a16476f89",
+          ""
+        ],
+        [
+          "solder_mask_bridge|77019999|123760499|d6b45029-7aac-496e-9854-f21d2d5fcf11|85856001-40c6-4af7-88d0-e22a16476f89",
+          ""
+        ],
+        [
+          "solder_mask_bridge|77020000|123760499|d6b45029-7aac-496e-9854-f21d2d5fcf11|85856001-40c6-4af7-88d0-e22a16476f89",
+          ""
+        ],
+        [
+          "solder_mask_bridge|80939239|106435467|e1232213-0736-4a8a-a6cb-f2db972fd1bb|85856001-40c6-4af7-88d0-e22a16476f89",
+          ""
+        ],
+        [
+          "solder_mask_bridge|81422011|115689466|cb3c3269-37d2-434d-a555-5fb9ece2a499|85856001-40c6-4af7-88d0-e22a16476f89",
+          ""
         ]
       ],
       "meta": {
@@ -1455,7 +1527,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../output files/PCB_PDF/",
+      "plot": "../output files/GERBERS/",
       "pos_files": "../output files/PICKnPLACE/",
       "specctra_dsn": "",
       "step": "",

@@ -27,13 +27,13 @@
 
 (rule dp_inner_polypour_to_via_clearance
 	(layer inner)
-	(constraint clearance (min 0.35mm))
+	(constraint clearance (min 0.3mm))
 	(condition "A.inDiffPair('*') && (A.Type == 'Via' || A.Type == 'Pad') && B.Type == 'Zone'")
 )
 
 (rule dp_inner_polypour_to_track_clearance
 	(layer inner)
-	(constraint clearance (min 0.5mm))
+	(constraint clearance (min 0.8mm))
 	(condition "A.inDiffPair('*') && A.Type == 'Track' && B.Type == 'Zone'")
 )
 
@@ -63,13 +63,13 @@
 
 (rule dp_outer_polypour_to_via_clearance
 	(layer outer)
-	(constraint clearance (min 0.35mm))
+	(constraint clearance (min 0.3mm))
 	(condition "A.inDiffPair('*') && (A.Type == 'Via' || A.Type == 'Pad') && B.Type == 'Zone'")
 )
 
 (rule dp_outer_polypour_to_track_clearance
 	(layer outer)
-	(constraint clearance (min 0.5mm))
+	(constraint clearance (min 0.8mm))
 	(condition "A.inDiffPair('*') && A.Type == 'Track' && B.Type == 'Zone'")
 )
 
@@ -85,7 +85,7 @@
 # Electrical clearance via to zone
 (rule zone_to_via_default_clearance
 	(condition "A.Type == 'Zone' && B.Type == 'Via' && !B.inDiffPair('*')")
-	(constraint clearance (min 0.254mm)(opt 0.254mm))
+	(constraint clearance (min 0.2mm)(opt 0.2mm))
 )
 
 (rule no_connect_clearance
@@ -101,7 +101,7 @@
 
 (rule polygon_to_no_connect_clearance
 	(condition "A.Type == 'Zone' && B.Pin_Type == 'unconnected'")
-	(constraint clearance (min 0.5mm))
+	(constraint clearance (min 0.35mm))
 )
 
 ## Rule to allow components under RPI CMx module ##
