@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2026-02-15")
+		(date "2026-02-17")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -3035,6 +3035,16 @@
 					(hide yes)
 				)
 			)
+			(property "Package" "M2.5"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "Operating Temperature" "-40°C ~ 150°C"
 				(at 0 0 0)
 				(show_name)
@@ -3107,7 +3117,33 @@
 			(symbol "Miscellaneous/MISC_00004_0_1"
 				(rectangle
 					(start 0 0)
-					(end 2.54 -3.175)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.54) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 0) (xy 1.778 -2.54)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -6059,15 +6095,15 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Miscellaneous/MISC_00004")
-		(at 125.73 182.245 0)
+		(at 125.73 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "1cc9348e-4ca0-4f2e-82c4-10e830e97228")
 		(property "Reference" "MTG7"
-			(at 124.46 181.229 0)
+			(at 124.46 183.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +6112,7 @@
 			)
 		)
 		(property "Value" "M0504-25-AL-7"
-			(at 129.54 185.1024 0)
+			(at 129.54 187.0074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6086,7 +6122,7 @@
 			)
 		)
 		(property "Footprint" "footprint:M0504-25-AL-7"
-			(at 125.73 182.245 0)
+			(at 125.73 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6095,7 +6131,7 @@
 			)
 		)
 		(property "Datasheet" "https://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF_catalog_0282.pdf"
-			(at 125.73 182.245 0)
+			(at 125.73 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6104,7 +6140,7 @@
 			)
 		)
 		(property "Description" "ROUND SPACER M2.5 ALUMINUM 5MM"
-			(at 125.73 182.245 0)
+			(at 125.73 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6113,7 +6149,7 @@
 			)
 		)
 		(property "Type" "ROUND SPACER M2.5 ALUMINUM 5MM"
-			(at 125.73 182.245 0)
+			(at 125.73 184.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6123,7 +6159,7 @@
 			)
 		)
 		(property "Operating Temperature" "-40°C ~ 150°C"
-			(at 125.73 182.245 0)
+			(at 125.73 184.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6133,7 +6169,7 @@
 			)
 		)
 		(property "Dimensions" "4.50mm x 5.00mm"
-			(at 125.73 182.245 0)
+			(at 125.73 184.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6143,7 +6179,7 @@
 			)
 		)
 		(property "Manufacturer" "RAF Electronic Hardware"
-			(at 125.73 182.245 0)
+			(at 125.73 184.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6153,7 +6189,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "M0504-25-AL-7"
-			(at 125.73 182.245 0)
+			(at 125.73 184.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6163,7 +6199,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 125.73 182.245 0)
+			(at 125.73 184.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6173,8 +6209,17 @@
 			)
 		)
 		(property "Distributor Part Number" "1772-M0504-25-AL-7-ND"
-			(at 125.73 182.245 0)
+			(at 125.73 184.15 0)
 			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "M2.5"
+			(at 125.73 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6666,7 +6711,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "63ed5d07-d493-4bd7-99ab-cee47cba9b24")
 		(property "Reference" "ITEM2"
 			(at 146.177 173.736 0)
@@ -6859,15 +6904,15 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Miscellaneous/MISC_00004")
-		(at 130.81 182.245 0)
+		(at 130.81 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "7159f9c2-2260-4ced-9d7d-6998ed02c6f5")
 		(property "Reference" "MTG8"
-			(at 130.302 181.356 0)
+			(at 130.302 183.261 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6876,7 +6921,7 @@
 			)
 		)
 		(property "Value" "M0504-25-AL-7"
-			(at 134.62 185.1024 0)
+			(at 134.62 187.0074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6886,7 +6931,7 @@
 			)
 		)
 		(property "Footprint" "footprint:M0504-25-AL-7"
-			(at 130.81 182.245 0)
+			(at 130.81 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6895,7 +6940,7 @@
 			)
 		)
 		(property "Datasheet" "https://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF_catalog_0282.pdf"
-			(at 130.81 182.245 0)
+			(at 130.81 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,7 +6949,7 @@
 			)
 		)
 		(property "Description" "ROUND SPACER M2.5 ALUMINUM 5MM"
-			(at 130.81 182.245 0)
+			(at 130.81 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,7 +6958,7 @@
 			)
 		)
 		(property "Type" "ROUND SPACER M2.5 ALUMINUM 5MM"
-			(at 130.81 182.245 0)
+			(at 130.81 184.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6923,7 +6968,7 @@
 			)
 		)
 		(property "Operating Temperature" "-40°C ~ 150°C"
-			(at 130.81 182.245 0)
+			(at 130.81 184.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6933,7 +6978,7 @@
 			)
 		)
 		(property "Dimensions" "4.50mm x 5.00mm"
-			(at 130.81 182.245 0)
+			(at 130.81 184.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6943,7 +6988,7 @@
 			)
 		)
 		(property "Manufacturer" "RAF Electronic Hardware"
-			(at 130.81 182.245 0)
+			(at 130.81 184.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6953,7 +6998,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "M0504-25-AL-7"
-			(at 130.81 182.245 0)
+			(at 130.81 184.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6963,7 +7008,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 130.81 182.245 0)
+			(at 130.81 184.15 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6973,8 +7018,17 @@
 			)
 		)
 		(property "Distributor Part Number" "1772-M0504-25-AL-7-ND"
-			(at 130.81 182.245 0)
+			(at 130.81 184.15 0)
 			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "M2.5"
+			(at 130.81 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7511,8 +7565,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "7c314e6a-6f9d-4bf3-8f60-4c13f80e87fa")
 		(property "Reference" "MTG6"
 			(at 130.302 175.641 0)
@@ -7630,6 +7684,15 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "M2.5"
+			(at 130.81 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "rpi_cm4_cm5_CarrierBoard"
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/13abfb0a-e124-4fcc-bb4d-eb8f0bf663f5"
@@ -7645,8 +7708,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "92579f7e-56fb-4921-910b-3c5f5ef4488e")
 		(property "Reference" "MTG5"
 			(at 124.46 175.641 0)
@@ -7757,6 +7820,15 @@
 		(property "Distributor Part Number" "1772-M0504-25-AL-7-ND"
 			(at 125.73 176.53 0)
 			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "M2.5"
+			(at 125.73 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)

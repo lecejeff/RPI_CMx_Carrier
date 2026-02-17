@@ -64,31 +64,31 @@
           "Courtyard overlap between SMT connector and slot hole for flat flex cable"
         ],
         [
-          "diff_pair_uncoupled_length_too_long|147011600|59536500|e21eb4f7-5d77-444c-aa46-f29335e27c2f|417b4fb0-b691-441c-a78c-f4fa96f524ee",
+          "diff_pair_uncoupled_length_too_long|152541715|59536500|340b4999-80e3-4e5c-96dc-c10383ac89d8|6f578eb0-a841-43f9-a21f-787868a813c4",
           ""
         ],
         [
-          "diff_pair_uncoupled_length_too_long|171917500|82434500|9b2eb864-6afc-41a5-b549-7cfc7208dbb1|02ebeeb6-e4ea-4af9-94ea-9acfb410ef05",
+          "diff_pair_uncoupled_length_too_long|189576502|70460300|454733a4-812b-44f4-9de5-5ab70eed3747|15dde057-5af9-4670-835b-1bb707731abb",
           ""
         ],
         [
-          "diff_pair_uncoupled_length_too_long|190090001|74333799|336aa0d4-aabd-4ab2-bb77-a0da7a843bd2|1c048d4d-a038-4397-a77a-87d60238b961",
+          "diff_pair_uncoupled_length_too_long|190090500|68709300|8c2ee3bc-ff80-4c8e-824a-aa8d1539f9c3|2ecb1c80-7a2d-4201-952c-a165384440f4",
           ""
         ],
         [
-          "diff_pair_uncoupled_length_too_long|190090500|68709300|6169121e-fb37-4193-9c99-ad0a42b400bb|2ecb1c80-7a2d-4201-952c-a165384440f4",
+          "diff_pair_uncoupled_length_too_long|200955000|118791654|04c1fcb7-d832-4793-a60e-5f9387f5369d|0360e8ea-5dfc-4c8f-8f02-f93dcd6a8d60",
           ""
         ],
         [
-          "diff_pair_uncoupled_length_too_long|196679700|66326500|0c150591-a7b2-4b52-add0-07723ed0662b|fa77c521-2517-4c48-9ee5-4d6d54a949c2",
+          "diff_pair_uncoupled_length_too_long|202452592|60129500|1ea4cd1e-fd86-4a03-abea-c27655ac6351|2c0e9ff4-f2da-482d-99af-95550d24d02b",
           ""
         ],
         [
-          "diff_pair_uncoupled_length_too_long|200203200|104289700|2a072894-bbe8-4336-ba12-9edfd1107c02|dcc44b1d-244b-4da2-8367-ae5172bfed74",
+          "diff_pair_uncoupled_length_too_long|202705000|102466654|a7a87c22-0a3b-4172-b40e-018e33350cca|a4a7f45a-ed10-4b15-b7c3-d8bffef4d2c6",
           ""
         ],
         [
-          "diff_pair_uncoupled_length_too_long|204100000|88828500|06e5c256-3147-4274-94da-34a3fe354c06|a2600156-2f55-4662-887c-2c16a0fe0c18",
+          "diff_pair_uncoupled_length_too_long|219242579|61363545|045856e6-fbb2-4880-8718-7ba0132b29c0|cf2f4fc4-95d3-4f10-8605-2ffe48212708",
           ""
         ],
         [
@@ -96,7 +96,7 @@
           "Component on top of existing pad for 3d viewer"
         ],
         [
-          "solder_mask_bridge|132327167|98537491|107e4590-22e6-4b59-aa8f-4ee0469a7d70|85856001-40c6-4af7-88d0-e22a16476f89",
+          "solder_mask_bridge|130834238|99335466|107e4590-22e6-4b59-aa8f-4ee0469a7d70|85856001-40c6-4af7-88d0-e22a16476f89",
           ""
         ],
         [
@@ -108,71 +108,39 @@
           ""
         ],
         [
-          "solder_mask_bridge|175980758|58810475|ecb70817-4d93-4394-b2b8-44bf2ba45fa8|85856001-40c6-4af7-88d0-e22a16476f89",
+          "solder_mask_bridge|175029077|59319158|ecb70817-4d93-4394-b2b8-44bf2ba45fa8|85856001-40c6-4af7-88d0-e22a16476f89",
           ""
         ],
         [
-          "solder_mask_bridge|223870475|42770758|69ee576d-9d08-4975-bfb8-fd82b058f2d1|85856001-40c6-4af7-88d0-e22a16476f89",
+          "solder_mask_bridge|223072491|42692167|69ee576d-9d08-4975-bfb8-fd82b058f2d1|85856001-40c6-4af7-88d0-e22a16476f89",
           ""
         ],
         [
-          "solder_mask_bridge|224134238|137060466|52a7bd92-36e2-4aa4-bcca-2280b8c6eea5|85856001-40c6-4af7-88d0-e22a16476f89",
+          "solder_mask_bridge|224447488|137442165|52a7bd92-36e2-4aa4-bcca-2280b8c6eea5|85856001-40c6-4af7-88d0-e22a16476f89",
           ""
         ],
         [
-          "solder_mask_bridge|234833423|52546755|bb49ad32-3219-4052-8a28-4c1b354625e1|85856001-40c6-4af7-88d0-e22a16476f89",
+          "solder_mask_bridge|236507058|129415436|4b0fe277-cb64-400b-8498-8b164f57407c|85856001-40c6-4af7-88d0-e22a16476f89",
           ""
         ],
         [
-          "solder_mask_bridge|236228085|129278958|4b0fe277-cb64-400b-8498-8b164f57407c|85856001-40c6-4af7-88d0-e22a16476f89",
+          "solder_mask_bridge|236507058|53795436|bb49ad32-3219-4052-8a28-4c1b354625e1|85856001-40c6-4af7-88d0-e22a16476f89",
           ""
         ],
         [
-          "solder_mask_bridge|237720925|48477209|bb49ad32-3219-4052-8a28-4c1b354625e1|85856001-40c6-4af7-88d0-e22a16476f89",
+          "solder_mask_bridge|62607058|129415436|7aeb695c-e1a9-4f94-bc9a-69eef5e6f0a0|85856001-40c6-4af7-88d0-e22a16476f89",
           ""
         ],
         [
-          "solder_mask_bridge|238803736|124618667|4b0fe277-cb64-400b-8498-8b164f57407c|85856001-40c6-4af7-88d0-e22a16476f89",
+          "solder_mask_bridge|62607058|53795436|0f72277c-1d5a-4162-8f77-54c8f4e25145|85856001-40c6-4af7-88d0-e22a16476f89",
           ""
         ],
         [
-          "solder_mask_bridge|61536270|48998661|0f72277c-1d5a-4162-8f77-54c8f4e25145|85856001-40c6-4af7-88d0-e22a16476f89",
+          "solder_mask_bridge|70034238|57935466|bb6e28ca-53ae-45e3-abbf-2bbe02b5220c|85856001-40c6-4af7-88d0-e22a16476f89",
           ""
         ],
         [
-          "solder_mask_bridge|62619069|129362789|7aeb695c-e1a9-4f94-bc9a-69eef5e6f0a0|85856001-40c6-4af7-88d0-e22a16476f89",
-          ""
-        ],
-        [
-          "solder_mask_bridge|64903736|124618667|7aeb695c-e1a9-4f94-bc9a-69eef5e6f0a0|85856001-40c6-4af7-88d0-e22a16476f89",
-          ""
-        ],
-        [
-          "solder_mask_bridge|65129541|49200458|0f72277c-1d5a-4162-8f77-54c8f4e25145|85856001-40c6-4af7-88d0-e22a16476f89",
-          ""
-        ],
-        [
-          "solder_mask_bridge|70347488|58317165|bb6e28ca-53ae-45e3-abbf-2bbe02b5220c|85856001-40c6-4af7-88d0-e22a16476f89",
-          ""
-        ],
-        [
-          "solder_mask_bridge|76250314|119164941|046eda7e-285d-4973-bc46-2230a56bb4dc|85856001-40c6-4af7-88d0-e22a16476f89",
-          ""
-        ],
-        [
-          "solder_mask_bridge|77019999|123760499|d6b45029-7aac-496e-9854-f21d2d5fcf11|85856001-40c6-4af7-88d0-e22a16476f89",
-          ""
-        ],
-        [
-          "solder_mask_bridge|77020000|123760499|d6b45029-7aac-496e-9854-f21d2d5fcf11|85856001-40c6-4af7-88d0-e22a16476f89",
-          ""
-        ],
-        [
-          "solder_mask_bridge|80939239|106435467|e1232213-0736-4a8a-a6cb-f2db972fd1bb|85856001-40c6-4af7-88d0-e22a16476f89",
-          ""
-        ],
-        [
-          "solder_mask_bridge|81422011|115689466|cb3c3269-37d2-434d-a555-5fb9ece2a499|85856001-40c6-4af7-88d0-e22a16476f89",
+          "solder_mask_bridge|81399534|105324238|e1232213-0736-4a8a-a6cb-f2db972fd1bb|85856001-40c6-4af7-88d0-e22a16476f89",
           ""
         ]
       ],
@@ -1527,7 +1495,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../output files/GERBERS/",
+      "plot": "../output files/PCB_PDF/",
       "pos_files": "../output files/PICKnPLACE/",
       "specctra_dsn": "",
       "step": "",

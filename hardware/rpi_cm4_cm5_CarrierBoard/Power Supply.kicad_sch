@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2026-02-15")
+		(date "2026-02-17")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -8997,6 +8997,191 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KicadCompDb:Test Point/TP_00001"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0.635 1.27 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Value" "28 mils"
+				(at 0.635 -1.016 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "footprint:SMT_TP_28_MILS"
+				(at 0 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "NA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMT TP 28 mils"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "SMT"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "NA"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature" "NA"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dimensions" "28 mils"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "NA"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "NA"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "NA"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Part Number" "NA"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "footprint:SMT_TP_28_MILS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Test Point/TP_00001_0_1"
+				(circle
+					(center 0.635 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Test Point/TP_00001_1_1"
+				(text "28\nmil"
+					(at 0.635 0 0)
+					(effects
+						(font
+							(size 0.254 0.254)
+							(color 0 0 255 1)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "If 3V3_CMx and 1V8_CMX\nare OK, release CB rails "
 		(exclude_from_sim no)
@@ -9074,6 +9259,12 @@
 		(uuid "16da1978-2c3a-4c53-89a7-32dd78012c67")
 	)
 	(junction
+		(at 259.715 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17db90d9-1889-4bb4-b947-ab70ee5a390d")
+	)
+	(junction
 		(at 278.765 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9120,6 +9311,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2de628b8-8f0c-4254-9647-c6a4903a487d")
+	)
+	(junction
+		(at 259.715 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3158c00b-d647-4b5e-82e2-f44158aae083")
 	)
 	(junction
 		(at 203.835 76.2)
@@ -9224,6 +9421,18 @@
 		(uuid "54c1a351-7609-4cff-b7dc-d3cb2650424c")
 	)
 	(junction
+		(at 259.715 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5588cabd-a006-4c9c-8909-ecaa03aa4bd1")
+	)
+	(junction
+		(at 106.68 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58023088-6b8c-4e67-8dcb-9a5f828a6863")
+	)
+	(junction
 		(at 203.835 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9276,6 +9485,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "811323b8-d43d-48ba-8264-11ee3a8fd50d")
+	)
+	(junction
+		(at 121.285 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83775d39-7ed3-45a2-a5e0-b6f2c04586f8")
 	)
 	(junction
 		(at 104.14 76.835)
@@ -9500,6 +9715,12 @@
 		(uuid "ef3fa924-fbdb-42d7-b3bc-3535229d9906")
 	)
 	(junction
+		(at 110.49 76.835)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f66bb435-f094-4450-bc94-59c836461657")
+	)
+	(junction
 		(at 261.62 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9709,6 +9930,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 40.64) (xy 108.585 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b5601f4-a7c2-4d79-abc9-9f919a3a06f4")
+	)
+	(wire
+		(pts
 			(xy 152.4 80.01) (xy 156.21 80.01)
 		)
 		(stroke
@@ -9826,6 +10057,16 @@
 			(type default)
 		)
 		(uuid "12961dfd-573c-4167-a9b3-a449d6b46a16")
+	)
+	(wire
+		(pts
+			(xy 259.715 66.04) (xy 261.62 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e1a1a3-abf3-4032-82c1-3d43d2ef3cc2")
 	)
 	(wire
 		(pts
@@ -10159,6 +10400,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.285 34.29) (xy 145.415 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28731b69-e419-4843-a769-0358d973c508")
+	)
+	(wire
+		(pts
 			(xy 128.27 60.96) (xy 135.255 60.96)
 		)
 		(stroke
@@ -10389,6 +10640,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.715 106.68) (xy 261.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f6dd3c-c05e-4c61-87d2-48ee3f0a7bd0")
+	)
+	(wire
+		(pts
 			(xy 128.27 67.31) (xy 128.27 68.58)
 		)
 		(stroke
@@ -10589,7 +10850,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 40.64) (xy 108.585 40.64)
+			(xy 104.14 40.64) (xy 106.68 40.64)
 		)
 		(stroke
 			(width 0)
@@ -11129,7 +11390,7 @@
 	)
 	(wire
 		(pts
-			(xy 258.445 25.4) (xy 261.62 25.4)
+			(xy 258.445 25.4) (xy 259.715 25.4)
 		)
 		(stroke
 			(width 0)
@@ -11359,7 +11620,7 @@
 	)
 	(wire
 		(pts
-			(xy 258.445 66.04) (xy 261.62 66.04)
+			(xy 258.445 66.04) (xy 259.715 66.04)
 		)
 		(stroke
 			(width 0)
@@ -12089,7 +12350,7 @@
 	)
 	(wire
 		(pts
-			(xy 258.445 106.68) (xy 261.62 106.68)
+			(xy 258.445 106.68) (xy 259.715 106.68)
 		)
 		(stroke
 			(width 0)
@@ -12206,6 +12467,16 @@
 			(type default)
 		)
 		(uuid "c418a195-819b-4699-a2ca-dcd60906a53e")
+	)
+	(wire
+		(pts
+			(xy 259.715 25.4) (xy 261.62 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d9d3d3-681d-4f89-b91f-eff65f535e32")
 	)
 	(wire
 		(pts
@@ -12469,7 +12740,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 76.835) (xy 113.665 76.835)
+			(xy 104.14 76.835) (xy 110.49 76.835)
 		)
 		(stroke
 			(width 0)
@@ -12549,7 +12820,7 @@
 	)
 	(wire
 		(pts
-			(xy 112.395 34.29) (xy 145.415 34.29)
+			(xy 112.395 34.29) (xy 121.285 34.29)
 		)
 		(stroke
 			(width 0)
@@ -12996,6 +13267,16 @@
 			(type default)
 		)
 		(uuid "f7ed9ce8-c2d1-4011-8281-a8f87ef78d25")
+	)
+	(wire
+		(pts
+			(xy 110.49 76.835) (xy 113.665 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8128176-a422-4113-b4da-f52e3f50f880")
 	)
 	(wire
 		(pts
@@ -17740,6 +18021,152 @@
 		)
 	)
 	(symbol
+		(lib_id "KicadCompDb:Test Point/TP_00001")
+		(at 259.715 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "285d373f-36d6-4218-9522-f1d7dff0959a")
+		(property "Reference" "TP12"
+			(at 258.572 62.738 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "28 mils"
+			(at 260.731 64.135 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprint:SMT_TP_28_MILS"
+			(at 261.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "NA"
+			(at 259.715 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT TP 28 mils"
+			(at 259.715 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 259.715 64.77 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "NA"
+			(at 259.715 64.77 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "NA"
+			(at 259.715 64.77 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "28 mils"
+			(at 259.715 64.77 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 259.715 64.77 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 259.715 64.77 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "NA"
+			(at 259.715 64.77 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "NA"
+			(at 259.715 64.77 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8686d16b-c4ee-4fd6-a5a3-408f042f05c5")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/ac669fd3-90f9-4392-98b9-bf5487d822ca"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00015")
 		(at 152.4 119.38 270)
 		(mirror x)
@@ -18807,6 +19234,152 @@
 			(project "rpi_cm4_cm5_CarrierBoard"
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/ac669fd3-90f9-4392-98b9-bf5487d822ca"
 					(reference "#PWR0276")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Test Point/TP_00001")
+		(at 121.285 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "2dfe375e-2d83-4fa7-9d37-e9572fce4bd0")
+		(property "Reference" "TP15"
+			(at 120.142 30.988 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "28 mils"
+			(at 122.301 32.385 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprint:SMT_TP_28_MILS"
+			(at 123.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "NA"
+			(at 121.285 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT TP 28 mils"
+			(at 121.285 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 121.285 33.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "NA"
+			(at 121.285 33.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "NA"
+			(at 121.285 33.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "28 mils"
+			(at 121.285 33.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 121.285 33.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 121.285 33.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "NA"
+			(at 121.285 33.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "NA"
+			(at 121.285 33.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "281f40ee-e681-478c-b6aa-0f0d98d127a0")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/ac669fd3-90f9-4392-98b9-bf5487d822ca"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -25475,6 +26048,152 @@
 		)
 	)
 	(symbol
+		(lib_id "KicadCompDb:Test Point/TP_00001")
+		(at 259.715 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "72d96eba-fa70-49ce-a2d1-d05013c9f2bc")
+		(property "Reference" "TP13"
+			(at 258.572 103.378 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "28 mils"
+			(at 260.731 104.775 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprint:SMT_TP_28_MILS"
+			(at 261.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "NA"
+			(at 259.715 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT TP 28 mils"
+			(at 259.715 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 259.715 105.41 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "NA"
+			(at 259.715 105.41 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "NA"
+			(at 259.715 105.41 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "28 mils"
+			(at 259.715 105.41 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 259.715 105.41 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 259.715 105.41 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "NA"
+			(at 259.715 105.41 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "NA"
+			(at 259.715 105.41 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88dadb79-e197-4c7c-a2d0-98bdcad131d4")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/ac669fd3-90f9-4392-98b9-bf5487d822ca"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KicadCompDb:Resistors/RES_SMT_00016")
 		(at 203.835 109.22 90)
 		(unit 1)
@@ -28275,6 +28994,152 @@
 		)
 	)
 	(symbol
+		(lib_id "KicadCompDb:Test Point/TP_00001")
+		(at 106.68 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "91cf9920-a5fe-4c1f-8edf-62aebf186b22")
+		(property "Reference" "TP16"
+			(at 105.537 37.338 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "28 mils"
+			(at 107.696 38.735 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprint:SMT_TP_28_MILS"
+			(at 108.585 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "NA"
+			(at 106.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT TP 28 mils"
+			(at 106.68 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 106.68 39.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "NA"
+			(at 106.68 39.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "NA"
+			(at 106.68 39.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "28 mils"
+			(at 106.68 39.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 106.68 39.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 106.68 39.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "NA"
+			(at 106.68 39.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "NA"
+			(at 106.68 39.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c848b216-31e4-477f-83ce-5041c3648f71")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/ac669fd3-90f9-4392-98b9-bf5487d822ca"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KicadCompDb:Resistors/RES_SMT_00001")
 		(at 53.975 121.92 180)
 		(unit 1)
@@ -30358,6 +31223,152 @@
 			(project "rpi_cm4_cm5_CarrierBoard"
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/ac669fd3-90f9-4392-98b9-bf5487d822ca"
 					(reference "C175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Test Point/TP_00001")
+		(at 259.715 24.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "aea4600c-00aa-435a-a6be-4ad6714b2b74")
+		(property "Reference" "TP11"
+			(at 258.572 22.098 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "28 mils"
+			(at 260.731 23.495 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprint:SMT_TP_28_MILS"
+			(at 261.62 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "NA"
+			(at 259.715 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT TP 28 mils"
+			(at 259.715 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 259.715 24.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "NA"
+			(at 259.715 24.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "NA"
+			(at 259.715 24.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "28 mils"
+			(at 259.715 24.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 259.715 24.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 259.715 24.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "NA"
+			(at 259.715 24.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "NA"
+			(at 259.715 24.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cad76e9e-3d99-4c12-a5a4-76e6c6fea9b8")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/ac669fd3-90f9-4392-98b9-bf5487d822ca"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -36935,6 +37946,152 @@
 			(project "rpi_cm4_cm5_CarrierBoard"
 				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/ac669fd3-90f9-4392-98b9-bf5487d822ca"
 					(reference "C189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Test Point/TP_00001")
+		(at 110.49 75.565 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "fa3de2be-ff0a-4203-b988-c3961681614b")
+		(property "Reference" "TP17"
+			(at 109.347 73.533 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "28 mils"
+			(at 111.506 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprint:SMT_TP_28_MILS"
+			(at 112.395 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "NA"
+			(at 110.49 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMT TP 28 mils"
+			(at 110.49 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 110.49 75.565 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "NA"
+			(at 110.49 75.565 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "NA"
+			(at 110.49 75.565 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "28 mils"
+			(at 110.49 75.565 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 110.49 75.565 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 110.49 75.565 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "NA"
+			(at 110.49 75.565 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "NA"
+			(at 110.49 75.565 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70a30954-72af-424f-ab5d-eef049b79daa")
+		)
+		(instances
+			(project "rpi_cm4_cm5_CarrierBoard"
+				(path "/7dcdf741-90ca-4333-848c-806f4d64158e/ac669fd3-90f9-4392-98b9-bf5487d822ca"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
