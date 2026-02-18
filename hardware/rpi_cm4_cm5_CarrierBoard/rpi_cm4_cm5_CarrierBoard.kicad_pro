@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.0,
-          "height": 5.3,
-          "width": 5.3
+          "drill": 25.0,
+          "height": 5.0,
+          "width": 25.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,92 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|121415000|95490000|4ca757c1-3456-439c-ab8b-da82a0f55938|a73ff796-cd1a-4459-b0d9-b2f531b71b54",
-          "Courtyard overlap between SMT connector and slot hole for flat flex cable"
-        ],
-        [
-          "diff_pair_uncoupled_length_too_long|152541715|59536500|340b4999-80e3-4e5c-96dc-c10383ac89d8|6f578eb0-a841-43f9-a21f-787868a813c4",
-          ""
-        ],
-        [
-          "diff_pair_uncoupled_length_too_long|189576502|70460300|454733a4-812b-44f4-9de5-5ab70eed3747|15dde057-5af9-4670-835b-1bb707731abb",
-          ""
-        ],
-        [
-          "diff_pair_uncoupled_length_too_long|190090500|68709300|8c2ee3bc-ff80-4c8e-824a-aa8d1539f9c3|2ecb1c80-7a2d-4201-952c-a165384440f4",
-          ""
-        ],
-        [
-          "diff_pair_uncoupled_length_too_long|200955000|118791654|04c1fcb7-d832-4793-a60e-5f9387f5369d|0360e8ea-5dfc-4c8f-8f02-f93dcd6a8d60",
-          ""
-        ],
-        [
-          "diff_pair_uncoupled_length_too_long|202452592|60129500|1ea4cd1e-fd86-4a03-abea-c27655ac6351|2c0e9ff4-f2da-482d-99af-95550d24d02b",
-          ""
-        ],
-        [
-          "diff_pair_uncoupled_length_too_long|202705000|102466654|a7a87c22-0a3b-4172-b40e-018e33350cca|a4a7f45a-ed10-4b15-b7c3-d8bffef4d2c6",
-          ""
-        ],
-        [
-          "diff_pair_uncoupled_length_too_long|219242579|61363545|045856e6-fbb2-4880-8718-7ba0132b29c0|cf2f4fc4-95d3-4f10-8605-2ffe48212708",
-          ""
-        ],
-        [
-          "hole_to_hole|132545000|127260000|4b793b8c-c3d3-4b3c-82bb-951f66adc24b|ba5ec809-3d03-4386-a298-baf276722f82",
-          "Component on top of existing pad for 3d viewer"
-        ],
-        [
-          "solder_mask_bridge|130834238|99335466|107e4590-22e6-4b59-aa8f-4ee0469a7d70|85856001-40c6-4af7-88d0-e22a16476f89",
-          ""
-        ],
-        [
-          "solder_mask_bridge|142620000|105535000|0696f7ac-4de1-4328-a1d0-d93f8bbf0542|7235a5c5-e6f0-4009-a57f-98384e4437ab",
-          ""
-        ],
-        [
-          "solder_mask_bridge|168120000|106335000|528cb48a-98f7-4e55-bd47-1c455f944240|0c66cc1f-9233-405e-99bf-b31f747e371c",
-          ""
-        ],
-        [
-          "solder_mask_bridge|175029077|59319158|ecb70817-4d93-4394-b2b8-44bf2ba45fa8|85856001-40c6-4af7-88d0-e22a16476f89",
-          ""
-        ],
-        [
-          "solder_mask_bridge|223072491|42692167|69ee576d-9d08-4975-bfb8-fd82b058f2d1|85856001-40c6-4af7-88d0-e22a16476f89",
-          ""
-        ],
-        [
-          "solder_mask_bridge|224447488|137442165|52a7bd92-36e2-4aa4-bcca-2280b8c6eea5|85856001-40c6-4af7-88d0-e22a16476f89",
-          ""
-        ],
-        [
-          "solder_mask_bridge|236507058|129415436|4b0fe277-cb64-400b-8498-8b164f57407c|85856001-40c6-4af7-88d0-e22a16476f89",
-          ""
-        ],
-        [
-          "solder_mask_bridge|236507058|53795436|bb49ad32-3219-4052-8a28-4c1b354625e1|85856001-40c6-4af7-88d0-e22a16476f89",
-          ""
-        ],
-        [
-          "solder_mask_bridge|62607058|129415436|7aeb695c-e1a9-4f94-bc9a-69eef5e6f0a0|85856001-40c6-4af7-88d0-e22a16476f89",
-          ""
-        ],
-        [
-          "solder_mask_bridge|62607058|53795436|0f72277c-1d5a-4162-8f77-54c8f4e25145|85856001-40c6-4af7-88d0-e22a16476f89",
-          ""
-        ],
-        [
-          "solder_mask_bridge|70034238|57935466|bb6e28ca-53ae-45e3-abbf-2bbe02b5220c|85856001-40c6-4af7-88d0-e22a16476f89",
-          ""
-        ],
-        [
-          "solder_mask_bridge|81399534|105324238|e1232213-0736-4a8a-a6cb-f2db972fd1bb|85856001-40c6-4af7-88d0-e22a16476f89",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -1495,7 +1410,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../output files/PCB_PDF/",
+      "plot": "../output files/GERBERS/",
       "pos_files": "../output files/PICKnPLACE/",
       "specctra_dsn": "",
       "step": "",
