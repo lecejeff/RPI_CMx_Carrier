@@ -67,6 +67,15 @@
 					(hide yes)
 				)
 			)
+			(property "Component Class" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "FIDUCIAL_1_1"
 				(circle
 					(center 0 0)
@@ -4768,6 +4777,52 @@
 		)
 		(uuid "f5c3d366-b45f-4c01-80f5-df546db33a79")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 121.285 179.705) (xy 121.285 193.675) (xy 85.725 193.675) (xy 85.725 179.705)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 85c05549-b0d4-4cce-a868-85799b622620)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 86.995 179.705 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4af963b-5ca2-4401-ba56-9e387c22713e")
+		(property "Netclass" ""
+			(at 24.13 13.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "FIDUCIALS"
+			(at 87.6935 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "KicadCompDb:Connector/ONN_00023")
 		(at 81.915 168.91 180)
@@ -7385,6 +7440,15 @@
 				(hide yes)
 			)
 		)
+		(property "Component Class" ""
+			(at 88.9 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ae633cc-607b-4b26-ac06-f43a44fadd4d")
 		)
@@ -7650,6 +7714,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 88.9 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
 			(at 88.9 184.15 0)
 			(effects
 				(font
@@ -8181,6 +8254,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 101.6 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
 			(at 101.6 184.15 0)
 			(effects
 				(font
@@ -8798,6 +8880,15 @@
 				(hide yes)
 			)
 		)
+		(property "Component Class" ""
+			(at 114.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf90bb83-3034-4f3b-a28d-f4c494de04d6")
 		)
@@ -8923,6 +9014,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 114.3 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
 			(at 114.3 184.15 0)
 			(effects
 				(font
@@ -9534,6 +9634,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 101.6 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
 			(at 101.6 190.5 0)
 			(effects
 				(font

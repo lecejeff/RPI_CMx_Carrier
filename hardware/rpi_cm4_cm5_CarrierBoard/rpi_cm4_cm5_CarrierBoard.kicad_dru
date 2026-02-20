@@ -100,8 +100,13 @@
 )
 
 (rule polygon_to_no_connect_clearance
-	(condition "A.Type == 'Zone' && B.Pin_Type == 'unconnected'")
+	(condition "A.Type == 'Zone' && B.Pin_Type == 'unconnected' && !B.hasComponentClass('FIDUCIALS')")
 	(constraint clearance (min 0.35mm))
+)
+
+(rule fiducial_clearance
+	(condition "A.Type == 'Zone' && B.Pad_Type == 'SMD' && B.hasComponentClass('FIDUCIALS')")
+	(constraint clearance (min 0.5mm))
 )
 
 ## Rule to allow components under RPI CMx module ##

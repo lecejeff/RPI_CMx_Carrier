@@ -2120,6 +2120,25 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 20.32 -101.6 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "80"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 25.4 -1.27 180)
 					(length 2.54)
@@ -10397,6 +10416,9 @@
 		)
 		(pin "76"
 			(uuid "4dcb4182-4913-4d40-93bf-8365706ad7d9")
+		)
+		(pin "80"
+			(uuid "eaee04e9-4e5d-4a21-98e0-8d8e7b62d405")
 		)
 		(instances
 			(project ""

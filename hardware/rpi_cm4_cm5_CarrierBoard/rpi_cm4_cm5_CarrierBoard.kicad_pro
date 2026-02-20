@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 25.0,
+          "drill": 3.0,
           "height": 5.0,
-          "width": 25.0
+          "width": 5.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.254
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,52 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|121415000|95490000|4ca757c1-3456-439c-ab8b-da82a0f55938|a73ff796-cd1a-4459-b0d9-b2f531b71b54",
+          "Overlap for slot routing of flat flex cable. No issue"
+        ],
+        [
+          "diff_pair_uncoupled_length_too_long|150697700|59536500|10b970be-0fd0-4c27-96ba-167855225c38|df4f2928-28d6-456a-b969-a78f27ad27e4",
+          ""
+        ],
+        [
+          "diff_pair_uncoupled_length_too_long|176859600|83663100|d7efdbcf-19d6-4bbb-a635-f50ee25b9e64|5c8351d7-fa8e-4cfd-8ac5-92b4955202fa",
+          ""
+        ],
+        [
+          "diff_pair_uncoupled_length_too_long|180766200|82536500|03310e8a-5002-4769-9604-9051d440fc7c|e66a4e30-7079-4859-9845-4d2ac1ffdac9",
+          ""
+        ],
+        [
+          "diff_pair_uncoupled_length_too_long|184812300|66377000|34e2482e-f8e2-4119-9555-da34cd9beff1|bb1cfc06-a7e0-407c-921b-eb6951e30d0d",
+          ""
+        ],
+        [
+          "diff_pair_uncoupled_length_too_long|200549637|105767528|37283d3f-2b4c-48ae-a502-2acadc3696c0|2d1cd73f-2f74-4966-b202-371bf3268949",
+          ""
+        ],
+        [
+          "diff_pair_uncoupled_length_too_long|207765000|69359200|1e9608be-026b-48e5-8f8f-208d720ac9a3|592d3f1a-6a7f-43a3-989c-ad1e6845bff2",
+          ""
+        ],
+        [
+          "diff_pair_uncoupled_length_too_long|220737000|59869100|89e904f9-9340-49b1-8171-3732f855b435|0b0e37e4-5910-4650-bf53-61b0cb050bc2",
+          ""
+        ],
+        [
+          "hole_to_hole|132545000|127260000|4b793b8c-c3d3-4b3c-82bb-951f66adc24b|ba5ec809-3d03-4386-a298-baf276722f82",
+          "SMT spacer footprintg on top of M.2 fooprint, totally fine."
+        ],
+        [
+          "solder_mask_bridge|142620000|105535000|0696f7ac-4de1-4328-a1d0-d93f8bbf0542|7235a5c5-e6f0-4009-a57f-98384e4437ab",
+          ""
+        ],
+        [
+          "solder_mask_bridge|168120000|106335000|528cb48a-98f7-4e55-bd47-1c455f944240|0c66cc1f-9233-405e-99bf-b31f747e371c",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -1410,7 +1455,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../output files/GERBERS/",
+      "plot": "../output files/PCB_PDF/",
       "pos_files": "../output files/PICKnPLACE/",
       "specctra_dsn": "",
       "step": "",
@@ -1986,6 +2031,12 @@
           "group_by": false,
           "label": "SYMBOL_NAME",
           "name": "${SYMBOL_NAME}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Component Class",
+          "name": "Component Class",
           "show": false
         }
       ],
