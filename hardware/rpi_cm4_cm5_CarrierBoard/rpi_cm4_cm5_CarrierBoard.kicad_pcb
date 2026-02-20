@@ -35356,7 +35356,7 @@
 				)
 			)
 		)
-		(attr smd board_only)
+		(attr smd board_only exclude_from_pos_files)
 		(fp_rect
 			(start -14 -4)
 			(end 14 4)
@@ -69324,7 +69324,7 @@
 				)
 			)
 		)
-		(attr smd board_only)
+		(attr smd board_only exclude_from_pos_files)
 		(fp_rect
 			(start -6.5 -4)
 			(end 6.5 4)
