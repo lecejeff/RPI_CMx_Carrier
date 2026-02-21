@@ -64,31 +64,31 @@
           "Overlap for slot routing of flat flex cable. No issue"
         ],
         [
-          "diff_pair_uncoupled_length_too_long|171170000|85785000|06442716-4a12-441e-933c-80b4e0d22b34|01e449c9-6313-44d6-a84c-644af7082925",
+          "diff_pair_uncoupled_length_too_long|151228200|59536500|1314f161-e78a-4a5b-a8ad-538b7992db7f|0747af80-58e7-4ad3-9bc4-ec78e302e391",
           ""
         ],
         [
-          "diff_pair_uncoupled_length_too_long|172453763|59055000|07447882-9420-45d3-a3b7-2753617e1973|3d2e64ea-fd3c-475e-a9df-b8746e48aa75",
+          "diff_pair_uncoupled_length_too_long|181406200|82890000|03310e8a-5002-4769-9604-9051d440fc7c|b005c98a-87f7-4ab7-a8db-b99909368769",
           ""
         ],
         [
-          "diff_pair_uncoupled_length_too_long|194595000|71235000|ed687690-2791-465f-824b-b1dac05297e0|3b23eef0-9ce3-494c-9d3b-6123329f6d1a",
+          "diff_pair_uncoupled_length_too_long|185612300|65030000|0d7d28eb-d184-4826-a35c-bfadd3bbacb9|14df1858-aa6d-40d3-a088-ee478de0ae4c",
           ""
         ],
         [
-          "diff_pair_uncoupled_length_too_long|200475000|112274082|6dc73281-a420-49ed-968a-e94a56f8b76a|29582d48-d79b-40b8-9355-45294f23ddbb",
+          "diff_pair_uncoupled_length_too_long|190090000|70460300|d08fa8c3-ab5c-48b3-bfec-51a0f826226e|2efce160-a1e7-4658-ac69-1cb7e660d1e7",
           ""
         ],
         [
-          "diff_pair_uncoupled_length_too_long|203180000|78691654|0768bff5-b1f1-47d9-ae46-86a4d15c8616|a559eda2-b828-47f3-8d2a-1a124290bd9a",
+          "diff_pair_uncoupled_length_too_long|195975000|111739200|73b88e92-b5cc-4428-8190-dca980924239|2ccddd17-6f91-44d8-9159-b08f0e0bdc38",
           ""
         ],
         [
-          "diff_pair_uncoupled_length_too_long|206452592|62116500|510c7387-8bf6-4af2-aaeb-aa6096761c5e|0166ea72-c226-461e-9cb1-ecfd04567141",
+          "diff_pair_uncoupled_length_too_long|200800000|110519100|216cbbbd-4b37-4954-b273-82d3d3885deb|be50f2c4-3626-43d1-9132-2a2ba7c5f39b",
           ""
         ],
         [
-          "diff_pair_uncoupled_length_too_long|217682346|62244957|0e1bd775-5f99-4ba3-ab9a-892416512d38|460f90a8-5cfb-4355-9877-57c2af492095",
+          "diff_pair_uncoupled_length_too_long|218200656|60500519|c93fb86e-22bb-4125-8b3f-d37603b86417|324f6c76-271a-4b9d-908e-1050fc9e07f2",
           ""
         ],
         [
@@ -182,8 +182,8 @@
         "min_text_thickness": 0.1,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.127,
-        "min_via_annular_width": 0.1016,
-        "min_via_diameter": 0.45,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.35,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },

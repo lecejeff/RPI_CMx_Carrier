@@ -1,5 +1,5 @@
 Drill report for rpi_cm4_cm5_CarrierBoard.kicad_pcb
-Created on 2026-02-20T17:14:26-0500
+Created on 2026-02-21T07:15:03-0500
 
 Copper Layer Stackup:
     =============================================================
@@ -16,7 +16,7 @@ Copper Layer Stackup:
 Drill file 'rpi_cm4_cm5_CarrierBoard-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.200mm  0.0079"  (1494 holes)
+    T1  0.150mm  0.0059"  (1494 holes)
     T2  0.200mm  0.0079"  (30 holes)
     T3  0.330mm  0.0130"  (34 holes)
     T4  0.500mm  0.0197"  (4 holes)  (with 4 slots)
