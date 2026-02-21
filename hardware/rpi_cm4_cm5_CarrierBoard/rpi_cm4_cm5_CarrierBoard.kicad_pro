@@ -168,7 +168,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.127,
+        "min_clearance": 0.1016,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
@@ -181,7 +181,7 @@
         "min_text_height": 0.5,
         "min_text_thickness": 0.1,
         "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.127,
+        "min_track_width": 0.1016,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.35,
         "solder_mask_to_copper_clearance": 0.0,
