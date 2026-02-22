@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2026-02-20")
+		(date "2026-02-22")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -6822,14 +6822,6 @@
 		(color 0 0 0 0)
 		(uuid "fe072128-3b56-499f-85e5-39190f6a4021")
 	)
-	(no_connect
-		(at 279.4 107.95)
-		(uuid "00a85cbf-b9cd-41f6-9df1-fa8b89d83a50")
-	)
-	(no_connect
-		(at 279.4 85.09)
-		(uuid "91171200-bd9d-4216-8502-d7bbd0928e17")
-	)
 	(bus_entry
 		(at 96.52 148.59)
 		(size 2.54 -2.54)
@@ -9597,16 +9589,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 107.95) (xy 279.4 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81659f31-78aa-41eb-ac4c-5cb1a1066e32")
-	)
-	(wire
-		(pts
 			(xy 243.84 85.09) (xy 245.11 85.09)
 		)
 		(stroke
@@ -9624,6 +9606,16 @@
 			(type default)
 		)
 		(uuid "82126277-df26-4aad-91de-e1180ecee0bb")
+	)
+	(wire
+		(pts
+			(xy 279.4 107.95) (xy 265.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82507ddc-6a20-4d42-914e-ba1f31f6b4cb")
 	)
 	(bus
 		(pts
@@ -11787,12 +11779,12 @@
 		)
 	)
 	(label "USB3_1.USB_VBUS"
-		(at 265.43 107.95 0)
+		(at 279.4 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "141a7f96-8df2-4c72-96b2-4bdf025d812e")
 	)
@@ -12162,12 +12154,12 @@
 		)
 	)
 	(label "USB3_0.USB_VBUS"
-		(at 265.43 85.09 0)
+		(at 279.4 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "505e95b2-4605-415e-89c9-8effa9de8507")
 	)

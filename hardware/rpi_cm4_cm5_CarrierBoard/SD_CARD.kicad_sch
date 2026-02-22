@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2026-02-20")
+		(date "2026-02-22")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -3066,6 +3066,17 @@
 	)
 	(bus_alias "SDIO"
 		(members "SDIO_D0" "SDIO_D1" "SDIO_D2" "SDIO_D3" "SDIO_CLK" "SDIO_CMD")
+	)
+	(text "Populate only for CM[x] lite variants"
+		(exclude_from_sim no)
+		(at 137.922 83.312 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "7559ca7e-31ff-43e5-87a9-bb5a4a4a6173")
 	)
 	(text "Resistors are 1% 1/16W 0402 unless otherwise noted\nCapacitors are 10% 50V X7R 0402 unless otherwise noted"
 		(exclude_from_sim no)

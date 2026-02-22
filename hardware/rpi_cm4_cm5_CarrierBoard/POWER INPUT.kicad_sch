@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2026-02-20")
+		(date "2026-02-22")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -4857,6 +4857,17 @@
 			)
 		)
 		(uuid "5fe4cac1-c34a-4b07-8e11-c2371fede40c")
+	)
+	(text "Resistors are 1% 1/16W 0402 unless otherwise noted\nCapacitors are 10% 50V X7R 0402 unless otherwise noted"
+		(exclude_from_sim no)
+		(at 12.7 170.688 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cca9e5b0-40ef-4778-b7f0-dfcfbfc63f74")
 	)
 	(junction
 		(at 160.655 86.995)
