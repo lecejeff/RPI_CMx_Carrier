@@ -58,52 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|121415000|95490000|4ca757c1-3456-439c-ab8b-da82a0f55938|a73ff796-cd1a-4459-b0d9-b2f531b71b54",
-          "Overlap for slot routing of flat flex cable. No issue"
-        ],
-        [
-          "diff_pair_uncoupled_length_too_long|117706500|73320150|b56ab81d-93cf-4316-82d5-3c67d2d65944|36083e84-69da-41b0-8a94-b099492d7fa8",
-          ""
-        ],
-        [
-          "diff_pair_uncoupled_length_too_long|179135585|59922000|07447882-9420-45d3-a3b7-2753617e1973|a5c5ce45-660b-4204-96cc-51e020aad53a",
-          ""
-        ],
-        [
-          "diff_pair_uncoupled_length_too_long|190090001|72733799|3324612f-eb13-48a0-84f2-25bf0a070bb2|1f96cb8b-c7e9-4d4f-9cc3-b0a2a2f574d5",
-          ""
-        ],
-        [
-          "diff_pair_uncoupled_length_too_long|199990000|111319082|25f9ec75-f0fc-41fd-ae75-0e1be1676c4e|6aa806f7-6268-47c6-8e56-d350ecd23339",
-          ""
-        ],
-        [
-          "diff_pair_uncoupled_length_too_long|203755000|66716654|6f922297-61a9-4b15-8384-4d50b64bae3b|73d99c1f-b4da-469a-bb71-53e3e0a2518d",
-          ""
-        ],
-        [
-          "diff_pair_uncoupled_length_too_long|206452592|62116500|b8a9c6f7-3122-4e10-a320-f41b045c20b5|0166ea72-c226-461e-9cb1-ecfd04567141",
-          ""
-        ],
-        [
-          "diff_pair_uncoupled_length_too_long|218290105|60411072|a494d9bd-466f-444a-8463-01d152e6c12c|1fd6c62c-92ec-4f39-956f-8c68d4665bb8",
-          ""
-        ],
-        [
-          "hole_to_hole|132545000|127260000|4b793b8c-c3d3-4b3c-82bb-951f66adc24b|ba5ec809-3d03-4386-a298-baf276722f82",
-          "SMT spacer footprintg on top of M.2 fooprint, totally fine."
-        ],
-        [
-          "solder_mask_bridge|142620000|105535000|0696f7ac-4de1-4328-a1d0-d93f8bbf0542|7235a5c5-e6f0-4009-a57f-98384e4437ab",
-          ""
-        ],
-        [
-          "solder_mask_bridge|168120000|106335000|528cb48a-98f7-4e55-bd47-1c455f944240|0c66cc1f-9233-405e-99bf-b31f747e371c",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
