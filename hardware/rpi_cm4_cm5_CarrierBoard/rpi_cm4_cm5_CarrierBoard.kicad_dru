@@ -119,5 +119,5 @@
 ## Rule for polygon clearance to NPTH ##
 (rule polygon_to_NPTH_clearance
 	(condition "A.Type == 'Zone' && B.Pad_Type == 'NPTH, mechanical'")
-	(constraint hole_clearance (min 1mm))
+	(constraint hole_clearance (min 0.518mm))
 )
