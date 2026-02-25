@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2026-02-22")
+		(date "2026-02-24")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -3711,19 +3711,6 @@
 				(rectangle
 					(start 0 0)
 					(end 10.16 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 -3.81) (xy 3.556 -3.81)
-					)
 					(stroke
 						(width 0)
 						(type default)
