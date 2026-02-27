@@ -58,24 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|121415000|95490000|4ca757c1-3456-439c-ab8b-da82a0f55938|a73ff796-cd1a-4459-b0d9-b2f531b71b54",
-          ""
-        ],
-        [
-          "hole_to_hole|132545000|127260000|4b793b8c-c3d3-4b3c-82bb-951f66adc24b|ba5ec809-3d03-4386-a298-baf276722f82",
-          ""
-        ],
-        [
-          "solder_mask_bridge|142620000|105535000|0696f7ac-4de1-4328-a1d0-d93f8bbf0542|7235a5c5-e6f0-4009-a57f-98384e4437ab",
-          ""
-        ],
-        [
-          "solder_mask_bridge|168120000|106335000|528cb48a-98f7-4e55-bd47-1c455f944240|0c66cc1f-9233-405e-99bf-b31f747e371c",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -1438,7 +1421,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "..\\output files\\BOM\\rpi_cm4_cm5_CarrierBoard-2.00-0A-BOM.csv",
+    "bom_export_filename": "..\\output files\\BOM\\rpi_cm4_cm5_CarrierBoard.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

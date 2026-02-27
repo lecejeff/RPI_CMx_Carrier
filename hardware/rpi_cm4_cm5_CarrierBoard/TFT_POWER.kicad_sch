@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2026-02-24")
+		(date "2026-02-26")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -5823,7 +5823,7 @@
 					)
 				)
 			)
-			(property "Value" "MAX16928CGUP"
+			(property "Value" "MAX16928CGUP/V+"
 				(at 0 0 0)
 				(effects
 					(font
@@ -29873,7 +29873,7 @@
 				)
 			)
 		)
-		(property "Value" "MAX16928CGUP"
+		(property "Value" "MAX16928CGUP/V+"
 			(at 152.4 73.66 0)
 			(effects
 				(font

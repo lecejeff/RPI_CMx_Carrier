@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2026-02-24")
+		(date "2026-02-26")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -5211,7 +5211,7 @@
 					)
 				)
 			)
-			(property "Value" "Y35A23310FPLFG"
+			(property "Value" "KSR233G LFG"
 				(at 1.524 -1.524 0)
 				(effects
 					(font
@@ -5282,7 +5282,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Number" "Y35A23310FPLFG"
+			(property "Manufacturer Part Number" "KSR233G LFG"
 				(at 0.254 -7.874 0)
 				(effects
 					(font
@@ -28564,7 +28564,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Y35A23310FPLFG"
+		(property "Value" "KSR233G LFG"
 			(at 80.01 120.6499 90)
 			(effects
 				(font
@@ -28637,7 +28637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "Y35A23310FPLFG"
+		(property "Manufacturer Part Number" "KSR233G LFG"
 			(at 86.614 121.031 0)
 			(effects
 				(font
@@ -30935,7 +30935,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Y35A23310FPLFG"
+		(property "Value" "KSR233G LFG"
 			(at 90.17 158.7499 90)
 			(effects
 				(font
@@ -31008,7 +31008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "Y35A23310FPLFG"
+		(property "Manufacturer Part Number" "KSR233G LFG"
 			(at 96.774 159.131 0)
 			(effects
 				(font
