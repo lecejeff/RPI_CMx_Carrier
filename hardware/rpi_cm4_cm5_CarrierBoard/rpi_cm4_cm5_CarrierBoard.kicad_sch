@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2026-02-26")
+		(date "2026-02-28")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -3146,16 +3146,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 92.075) (xy 198.755 92.075)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bd93f1d-288d-4100-b522-70724dc61d92")
-	)
-	(wire
-		(pts
 			(xy 38.735 138.43) (xy 31.115 138.43)
 		)
 		(stroke
@@ -4353,16 +4343,6 @@
 			(type default)
 		)
 		(uuid "fdc49674-00d2-45a1-9afb-5ce6c3b91a7f")
-	)
-	(label "EXP_IO_~{RST}"
-		(at 198.755 92.075 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "00451223-05b5-410a-8b46-ee4230ed180a")
 	)
 	(label "USB_HUB_~{RST}"
 		(at 61.595 52.705 180)
@@ -11355,16 +11335,6 @@
 		(pin "USB_HUB_~{RST}" output
 			(at 182.88 99.695 0)
 			(uuid "0ff88b51-c64f-4724-9980-3647acd81640")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "EXP_IO_~{RST}" output
-			(at 182.88 92.075 0)
-			(uuid "6117ca0c-923a-459d-a343-d3a6902e9a5d")
 			(effects
 				(font
 					(size 1.27 1.27)

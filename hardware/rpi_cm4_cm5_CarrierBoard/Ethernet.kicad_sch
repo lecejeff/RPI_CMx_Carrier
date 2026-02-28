@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2026-02-26")
+		(date "2026-02-28")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -4054,15 +4054,6 @@
 		(uuid "c54df70a-2a9a-4f1a-804c-9c2387e90cd0")
 	)
 	(bus_entry
-		(at 99.06 92.71)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f29d0d1-d4b6-4906-9125-240a8838c763")
-	)
-	(bus_entry
 		(at 99.06 97.79)
 		(size 2.54 2.54)
 		(stroke
@@ -4653,7 +4644,7 @@
 	)
 	(bus
 		(pts
-			(xy 99.06 95.25) (xy 99.06 92.71)
+			(xy 99.06 90.17) (xy 99.06 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4810,16 +4801,6 @@
 			(type default)
 		)
 		(uuid "c6725ded-eea5-408f-95e7-ff17de8c8798")
-	)
-	(bus
-		(pts
-			(xy 99.06 92.71) (xy 99.06 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9dc01f2-f620-427c-83b9-01a63149e5ec")
 	)
 	(wire
 		(pts
