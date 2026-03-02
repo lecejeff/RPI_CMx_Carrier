@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RPI CMx Carrier")
-		(date "2026-02-28")
+		(date "2026-03-02")
 		(rev "2.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -1142,7 +1142,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603JRNPO9BN101"
+			(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402JRNPO9BN101"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1151,7 +1151,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CAP CER 100PF 50V C0G/NPO 0603"
+			(property "Description" "CAP CER 100PF 50V C0G/NPO 0402"
 				(at 1.778 -9.906 0)
 				(effects
 					(font
@@ -1214,7 +1214,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Number" "CC0603JRNPO9BN101"
+			(property "Manufacturer Part Number" "CC0402JRNPO9BN101"
 				(at 0.254 -7.874 0)
 				(effects
 					(font
@@ -1232,7 +1232,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Part Number" "311-1069-1-ND"
+			(property "Distributor Part Number" "311-1024-1-ND"
 				(at 0.762 -12.192 0)
 				(effects
 					(font
@@ -1251,7 +1251,7 @@
 					(hide yes)
 				)
 			)
-			(property "Dimensions" "1.60mm x 0.80mm"
+			(property "Dimensions" "1.00mm x 0.50mm"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -17608,7 +17608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603JRNPO9BN101"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402JRNPO9BN101"
 			(at 206.375 154.305 0)
 			(effects
 				(font
@@ -17617,7 +17617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100PF 50V C0G/NPO 0603"
+		(property "Description" "CAP CER 100PF 50V C0G/NPO 0402"
 			(at 208.153 164.211 0)
 			(effects
 				(font
@@ -17680,7 +17680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0603JRNPO9BN101"
+		(property "Manufacturer Part Number" "CC0402JRNPO9BN101"
 			(at 206.629 162.179 0)
 			(effects
 				(font
@@ -17698,7 +17698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "311-1069-1-ND"
+		(property "Distributor Part Number" "311-1024-1-ND"
 			(at 207.137 166.497 0)
 			(effects
 				(font
@@ -17717,7 +17717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dimensions" "1.60mm x 0.80mm"
+		(property "Dimensions" "1.00mm x 0.50mm"
 			(at 206.375 154.305 0)
 			(show_name yes)
 			(effects
@@ -22486,7 +22486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603JRNPO9BN101"
+		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402JRNPO9BN101"
 			(at 184.785 125.095 0)
 			(effects
 				(font
@@ -22495,7 +22495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100PF 50V C0G/NPO 0603"
+		(property "Description" "CAP CER 100PF 50V C0G/NPO 0402"
 			(at 186.563 135.001 0)
 			(effects
 				(font
@@ -22558,7 +22558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0603JRNPO9BN101"
+		(property "Manufacturer Part Number" "CC0402JRNPO9BN101"
 			(at 185.039 132.969 0)
 			(effects
 				(font
@@ -22576,7 +22576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" "311-1069-1-ND"
+		(property "Distributor Part Number" "311-1024-1-ND"
 			(at 185.547 137.287 0)
 			(effects
 				(font
@@ -22595,7 +22595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dimensions" "1.60mm x 0.80mm"
+		(property "Dimensions" "1.00mm x 0.50mm"
 			(at 184.785 125.095 0)
 			(show_name yes)
 			(effects
