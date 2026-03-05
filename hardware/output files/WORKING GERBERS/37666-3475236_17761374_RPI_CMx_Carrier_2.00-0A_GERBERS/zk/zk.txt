@@ -1,0 +1,8 @@
+false 差分 gtl no l2 false 0 90.00 +/-10% 5.80 4.64 0 2
+false 差分 l3 l2 l4 false 0 90.00 +/-10% 5.80 7.19 0 1
+false 差分 l6 l5 l7 false 0 90.00 +/-10% 5.80 7.19 0 4
+false 差分 gtl no l2 false 0 100.00 +/-10% 5.30 6.80 0 1
+false 差分 gbl l7 no false 0 100.00 +/-10% 5.30 6.80 0 3
+false 差分 l3 l2 l4 false 0 100.00 +/-10% 5.20 10.04 0 2
+false 差分 l6 l5 l7 false 0 100.00 +/-10% 5.20 10.04 0 3
+false 差分 gbl l7 no false 0 90.00 +/-10% 5.80 4.64 0 4
