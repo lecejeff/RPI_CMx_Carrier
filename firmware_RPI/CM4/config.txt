@@ -1,0 +1,91 @@
+# For more options and information see
+# http://rptl.io/configtxt
+# Some settings may impact device functionality. See link above for details
+#
+# This config file is applicable to CM4 variant of RPI_CMx_Carrier
+# Design by Jean-Francois Bilodeau, P.Eng #6022173
+# All informations available on github --> https://github.com/lecejeff/RPI_CMx_Carrier
+
+# Uncomment some or all of these to enable the optional hardware interfaces
+#dtparam=i2c_arm=off
+
+CONFIG_REGULATOR=y
+CONFIG_REGULATOR_FIXED_VOLTAGE=y
+
+# Enable system I2C bus
+# I2C3 connects RPI CM4 (Master) to
+#	MCP7940N (real-time clock)
+# 	SGTL5000 (audio codec)
+# 	SN65DSI84 (MIPI-DSI to LVDS bridge)
+# Compute Module 4 has I2C3 on GPIO [4..5] on ALT function 5
+gpio=4=a5	# SDA3
+gpio=5=a5	# SCL3
+dtoverlay=i2c3
+
+# overlay for the RTC (MCP7940)
+dtoverlay=i2c-rtc,mcp7940x,i2c3
+
+# Enable expansion I2C bus
+# I2C6 connects RPI CM4 (Multi-Master); Can only be used in non-lite variants 
+# Compute Module 4 has I2C6 on GPIO [22..23] on ALT function 5
+#	QWIIC expansion bus (Slave)
+#	PIC32AK1216 (Multi-Master)
+gpio=22=a5	# SDA6
+gpio=23=a5	# SCL6
+dtoverlay=i2c6
+
+# Enable MIPI I2C bus
+# I2C0 connects RPI CM4 to MIPI0 (Camera, expansion display)
+# Compute Module 4 has I2C0 on GPIO [0..1] on ALT function 0
+gpio=0=a0	# SDA0
+gpio=1=a0	# SCL0
+dtoverlay=i2c0
+
+# overlay for gpios related to i2s on Compute Module 4
+# Compute Module 4 has I2S[0] on GPIO [18..21] on ALT function 0
+gpio=18=a0	#pcm0_clk
+gpio=19=a0	#pcm0_fs
+gpio=20=a0	#pcm0_din
+gpio=21=a0	#pcm0_dout
+dtoverly=i2s=on
+dtoverlay=sgtl5000
+
+# Enable audio (loads snd_bcm2835)
+dtparam=audio=on
+
+# Additional overlays and parameters are documented
+# /boot/firmware/overlays/README
+
+# Automatically load overlays for detected cameras
+camera_auto_detect=1
+
+# Automatically load overlays for detected DSI displays
+display_auto_detect=1
+
+# Automatically load initramfs files, if found
+auto_initramfs=1
+
+# Enable DRM VC4 V3D driver
+dtoverlay=vc4-kms-v3d
+max_framebuffers=2
+
+# Don't have the firmware create an initial video= setting in cmdline.txt.
+# Use the kernel's default instead.
+disable_fw_kms_setup=1
+
+# Run in 64-bit mode
+arm_64bit=1
+
+# Disable compensation for displays with overscan
+disable_overscan=1
+
+# Run as fast as firmware / board allows
+arm_boost=1
+
+[cm4]
+# Enable host mode on the 2711 built-in XHCI USB controller.
+# This line should be removed if the legacy DWC2 controller is required
+# (e.g. for USB device mode) or if USB support is not required.
+otg_mode=1
+
+[all]
