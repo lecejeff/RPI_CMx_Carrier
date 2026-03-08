@@ -30,7 +30,7 @@
     };
 
     fragment@2 {
-        target = <&i2c3>;
+        target = <&i2c3>;		# RPI_CMx_Carrier fitted with Compute Module 4 has the audio codec connected to I2C3
         __overlay__ {
             status = "okay";
 

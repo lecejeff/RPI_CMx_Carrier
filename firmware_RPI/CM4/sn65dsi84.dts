@@ -6,7 +6,7 @@
  * Edited for RPI_CMx_Carrier by Jean-Francois Bilodeau, P.Eng on 2026-03-07
  *
  * RPI_CMx_Carrier uses SN65DSI84 on DSI1 with up to 4x DSI lanes and 1x 4-lane LVDS output on LVDS_A. 
- * The DSI bridge is controlled through I2C3 and doesn't have a dedicated enable input.
+ * The DSI bridge is controlled through I2C3 on CM4 and doesn't have a dedicated enable input.
  * The display panel is from Riverdi and the part number is RVT70HSLFWCA0.
  * The backlight driver is from Texas Instruments TPS61169 and is driven by PWM0_0 on RPI_CMx GPIO12, and doesn't have a dedicated enable input.
  * The schematic can be found on Github --> https://github.com/lecejeff/RPI_CMx_Carrier
@@ -25,10 +25,8 @@
 	fragment@0 {
 		target = <&gpio>;
 		__overlay__ {
-			pwm_pins: pwm_pins {
-				//brcm,pins = <19>;						
+			pwm_pins: pwm_pins {				
 				brcm,pins = <12>;						// Assign PWM0_0 to GPIO12
-				//brcm,function = <BCM2835_FSEL_ALT5>;	
 				brcm,function = <BCM2835_FSEL_ALT0>;	// RPI CM4 and CM5 GPIO12 PWM0_0 is on ALT0 assignment
 				brcm,pull = <0>;
 			};
@@ -52,7 +50,6 @@
 			/* Panel backlight through PWM0_0 on GPIO 12 */
 			backlight_lvds: backlight {
 				compatible = "pwm-backlight";
-				//pwms = <&pwm 1 1000000 0>; 	/* Period of 1000000ns means 1KHz */
 				pwms = <&pwm 1 50000000 0>; 	/* Period of 50000000ns means 50KHz --> TPS61169 backlight driver recommends PWM frequency between 5 to 100 kHz */
 				brightness-levels = <0 1000>;
 				num-interpolated-steps = <1000>;
