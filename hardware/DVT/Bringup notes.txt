@@ -1,0 +1,23 @@
+- At KiCad 10 release, create assembly variants:
+	- CM4 (with eMMC)
+		- Standard assy (USB through PCIe USB hub, no M.2)
+		- Non-standard assy (No USB, with M.2)
+		
+	- CM5 (with eMMC)
+		- Standard assy (USB native), with M.2, PCIe USB HUB de-pop'd 
+		- Non-standard assy (TBD)
+		
+	- CM4 (w/o eMMC)
+		- Isolate (0R series resistor) or remove access to QWIIC I2C bus (shares pins with SD card)
+		
+	- CM5 (w/o eMMC)
+		- Isolate (0R series resistor) or remove access to QWIIC I2C bus (shares pins with SD card)
+
+For bring-up:
+- Remove R248
+
+- For next revision:
+	- Adjust stackup & impedance profiles / DiffPairs routing based on NextPCB recommended stackup for their 8 layers line
+	- Add input on CMx and PIC32AK to distinct between lite (w/o eMMC) and standard (with eMMC) compute modules
+		- In addition to input already existing to distinguish between CM4 and CM5
+	- Identify bus names (for instance I2C busses) based on their real number between CM4 and CM5
