@@ -2,7 +2,7 @@
 /plugin/;
 
 /{
-    compatible = "brcm,bcm2835";
+    compatible = "brcm,bcm2712";
 
     fragment@0 {
         target-path = "/";
@@ -30,7 +30,7 @@
     };
 
     fragment@2 {
-        target = <&i2c2>;		# RPI_CMx_Carrier fitted with Compute Module 5 has the audio codec connected to I2C2
+        target = <&i2c2>;
         __overlay__ {
             status = "okay";
 
@@ -50,7 +50,7 @@
     };
 
     fragment@3 {
-        target = <&i2s>;
+        target = <&rp1_i2s1>;
         __overlay__ {
             status = "okay";
         };
@@ -72,7 +72,7 @@
                "External Speaker", "LINE_OUT";
            status = "okay";
            simple-audio-card,cpu {
-               sound-dai = <&i2s>;
+               sound-dai = <&rp1_i2s1>;
            };
            dailink0_master: simple-audio-card,codec {
                sound-dai = <&sgtl5000_codec>;

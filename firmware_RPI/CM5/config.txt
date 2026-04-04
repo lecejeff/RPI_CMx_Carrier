@@ -21,6 +21,7 @@ CONFIG_REGULATOR_FIXED_VOLTAGE=y
 gpio=4=a3	# SDA2
 gpio=5=a3	# SCL2
 dtoverlay=i2c2
+dtoverlay=sn65dsi84
 
 # overlay for the RTC (MCP7940)
 dtoverlay=i2c-rtc,mcp7940x,i2c2
@@ -40,14 +41,15 @@ dtoverlay=i2c3
 gpio=0=a3	# SDA0
 gpio=1=a3	# SCL0
 dtoverlay=i2c0
+dtoverlay=imx708,cam1
 
 # overlay for gpios related to i2s on Compute Module 5
-# Compute Module 5 has I2S[0] on GPIO [18..21] on ALT function 2
-gpio=18=a2	#pcm0_clk
-gpio=19=a2	#pcm0_fs
-gpio=20=a2	#pcm0_din
-gpio=21=a2	#pcm0_dout
-dtoverly=i2s=on
+# Compute Module 5 has I2S[1] slave on GPIO [18..21] on ALT function 4
+gpio=18=a4	#pcm0_clk
+gpio=19=a4	#pcm0_fs
+gpio=20=a4	#pcm0_din
+gpio=21=a4	#pcm0_dout
+dtoverly=rp1-i2s1=on
 dtoverlay=sgtl5000
 
 # Enable audio (loads snd_bcm2835)

@@ -16,6 +16,7 @@
 For bring-up:
 - Remove R248
 - Change Q16 with part that is SOT-23-3 and not SC-59-3; Correct part database as well
+- Change all 0R resistors with actual 0R resistors
 
 - For next revision:
 	- Adjust stackup & impedance profiles / DiffPairs routing based on NextPCB recommended stackup for their 8 layers line
@@ -23,3 +24,6 @@ For bring-up:
 		- In addition to input already existing to distinguish between CM4 and CM5
 	- Identify bus names (for instance I2C busses) based on their real number between CM4 and CM5
 	- Add PD on WDOG output from PIC32
+	- (DONE 2026-04-02) Correct 0R resistor calling out 1k part in BOM and component database !!
+	- Remove R248
+	- Change Q16 with part that is SOT-23-3 and not SC-59-3; Correct part database as well

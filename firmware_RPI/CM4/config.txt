@@ -21,6 +21,7 @@ CONFIG_REGULATOR_FIXED_VOLTAGE=y
 gpio=4=a5	# SDA3
 gpio=5=a5	# SCL3
 dtoverlay=i2c3
+dtoverlay=sn65dsi84
 
 # overlay for the RTC (MCP7940)
 dtoverlay=i2c-rtc,mcp7940x,i2c3
@@ -40,6 +41,7 @@ dtoverlay=i2c6
 gpio=0=a0	# SDA0
 gpio=1=a0	# SCL0
 dtoverlay=i2c0
+dtoverlay=imx708
 
 # overlay for gpios related to i2s on Compute Module 4
 # Compute Module 4 has I2S[0] on GPIO [18..21] on ALT function 0
@@ -82,10 +84,6 @@ disable_overscan=1
 # Run as fast as firmware / board allows
 arm_boost=1
 
-[cm4]
-# Enable host mode on the 2711 built-in XHCI USB controller.
-# This line should be removed if the legacy DWC2 controller is required
-# (e.g. for USB device mode) or if USB support is not required.
-otg_mode=1
-
 [all]
+otg_mode=1
+enable_uart=1

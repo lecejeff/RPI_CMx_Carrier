@@ -20,65 +20,32 @@
 / {
 	compatible = "brcm,bcm2835";
 
-	/* PWM0 function */
-	/* RPI_CMx_Carrier uses PWM0_0 on GPIO12 */
 	fragment@0 {
-		target = <&gpio>;
-		__overlay__ {
-			pwm_pins: pwm_pins {					
-				brcm,pins = <12>;						// Assign PWM0_0 to GPIO12
-				brcm,function = <BCM2835_FSEL_ALT0>;	// RPI CM4 and CM5 GPIO12 PWM0_0 is on ALT0 assignment
-				brcm,pull = <0>;
-			};
-		};
-	};
-
-	fragment@1 {
-		target = <&pwm>;
-		frag1: __overlay__ {
-			pinctrl-names = "default";
-			pinctrl-0 = <&pwm_pins>;
-			assigned-clock-rates = <50000000>;
-			status = "okay";
-		};
-	};
-
-	fragment@2 {
 		target-path = "/";
 		__overlay__ {
-			//#gpio-cells = <2>;
-			/* Panel backlight through PWM0_0 on GPIO 12 */
-			backlight_lvds: backlight {
-				compatible = "pwm-backlight";
-				pwms = <&pwm 1 50000000 0>; 	/* Period of 50000000ns means 50KHz --> TPS61169 backlight driver recommends PWM frequency between 5 to 100 kHz */
-				brightness-levels = <0 1000>;
-				num-interpolated-steps = <1000>;
-				default-brightness-level = <800>;
-				//enable-gpios = <&gpio 27 GPIO_ACTIVE_HIGH>;     /* Backlight enable --> RPI_CMx_Carrier backlight is always enabled */
-			};
 
 			panel: panel {
 				compatible = "panel-lvds";
 				backlight = <&backlight_lvds>;
 
 				/* Physical dimensions of active area */
-				width-mm = <292>;
-				height-mm = <110>;
+				width-mm = <154>;
+				height-mm = <86>;
 
 				data-mapping = "vesa-24";
 
 				/* RVT70HSLFWCA0 */
-				/* 800 x 480 pixels  */
+				/* 1024 x 600 pixels  */
 				panel-timing {
-					clock-frequency = <30000000>;
-					hactive = <800>;
-					vactive = <480>;
-					hfront-porch = <210>;
-					hback-porch = <16>;
-					hsync-len = <30>;
-					vfront-porch = <22>;
-					vback-porch = <10>;
-					vsync-len = <13>;
+					clock-frequency = <51200000>;
+					hactive = <1024>;
+					vactive = <600>;
+					hfront-porch = <160>;
+					hback-porch = <160>;
+					hsync-len = <70>;
+					vfront-porch = <12>;
+					vback-porch = <23>;
+					vsync-len = <10>;
 					hsync-active = <0>;
 					vsync-active = <0>;
 					de-active = <1>;
@@ -88,8 +55,8 @@
 		};
 	};
 
-	fragment@3 {
-		target = <&i2c2>;		# RPI_CMx_Carrier fitted with Compute Module 5 has SN65DSI84 bridge connected to I2C2		
+	fragment@1 {
+		target = <&i2c2>;
 		__overlay__ {
 			#gpio-cells = <2>;
 			#address-cells = <1>;
@@ -105,14 +72,14 @@
 				ti,lvds-bpp = <24>;
 				ti,lvds--channels = <1>;
 				ti,width-mm = <154>;
-				ti,height-mm = <87>;
+				ti,height-mm = <86>;
 				pinctrl-names = "default";
 				status = "okay";
 			};
 		};
 	};
 
-	fragment@4 {
+	fragment@2 {
 		target = <&dsi1>;
 		__overlay__ {
 			#address-cells = <1>;
@@ -127,15 +94,15 @@
 		};
 	};
 
-	fragment@5 {
-		target = <&i2c2if>;		# RPI_CMx_Carrier fitted with Compute Module 5 has SN65DSI84 bridge connected to I2C2		
+	fragment@3 {
+		target = <&i2c2if>;
 		__overlay__ {
 			status = "okay";
 		};
 	};
 		
-	fragment@6 {
-		target = <&i2c2mux>;	# RPI_CMx_Carrier fitted with Compute Module 5 has SN65DSI84 bridge connected to I2C2		
+	fragment@4 {
+		target = <&i2c2mux>;
 		__overlay__ {
 			status = "okay";
 		};
