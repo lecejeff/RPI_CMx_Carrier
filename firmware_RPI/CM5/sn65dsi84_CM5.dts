@@ -6,7 +6,7 @@
  * Edited for RPI_CMx_Carrier by Jean-Francois Bilodeau, P.Eng on 2026-03-07
  *
  * RPI_CMx_Carrier uses SN65DSI84 on DSI1 with up to 4x DSI lanes and 1x 4-lane LVDS output on LVDS_A. 
- * The DSI bridge is controlled through I2C3 on CM4 and doesn't have a dedicated enable input.
+ * The DSI bridge is controlled through I2C2 on CM5 and doesn't have a dedicated enable input.
  * The display panel is from Riverdi and the part number is RVT70HSLFWCA0.
  * The backlight driver is from Texas Instruments TPS61169 and is driven by PWM0_0 on RPI_CMx GPIO12, and doesn't have a dedicated enable input.
  * The schematic can be found on Github --> https://github.com/lecejeff/RPI_CMx_Carrier
@@ -14,8 +14,6 @@
 
 /dts-v1/;
 /plugin/;
-#include <dt-bindings/gpio/gpio.h>
-#include <dt-bindings/pinctrl/bcm2835.h>
 
 / {
 	compatible = "brcm,bcm2835";
@@ -26,18 +24,17 @@
 
 			panel: panel {
 				compatible = "panel-lvds";
-				backlight = <&backlight_lvds>;
 
 				/* Physical dimensions of active area */
-				width-mm = <154>;
-				height-mm = <86>;
+				width-mm = <292>;
+				height-mm = <110>;
 
 				data-mapping = "vesa-24";
 
 				/* RVT70HSLFWCA0 */
 				/* 1024 x 600 pixels  */
 				panel-timing {
-					clock-frequency = <51200000>;
+					clock-frequency = <40800000 51200000 67200000>;
 					hactive = <1024>;
 					vactive = <600>;
 					hfront-porch = <160>;
@@ -51,12 +48,18 @@
 					de-active = <1>;
 					pixelclk-active = <0>;
 				};
+
+				port {
+				    panel_in_lvds: endpoint {
+				        remote-endpoint = <&bridge_out>;
+				    };
+				};
 			};
 		};
 	};
 
 	fragment@1 {
-		target = <&i2c3>;
+		target = <&i2c2>;	
 		__overlay__ {
 			#gpio-cells = <2>;
 			#address-cells = <1>;
@@ -65,16 +68,28 @@
 
 			/* Information for RVT70HSLFWCA0 */
 			bridge@2c {
-				compatible = "ti,sn65dsi84";
+				compatible = "ti,sn65dsi83";
 				reg = <0x2c>;
-				ti,dsi-lanes = <4>;
-				ti,lvds-format = <0>;
-				ti,lvds-bpp = <24>;
-				ti,lvds--channels = <1>;
-				ti,width-mm = <154>;
-				ti,height-mm = <86>;
-				pinctrl-names = "default";
-				status = "okay";
+				ports {
+					#address-cells = <1>;
+				    	#size-cells = <0>;
+
+			    		port@0 {
+						reg = <0>;
+						bridge_in: endpoint {
+				    			remote-endpoint = <&dsi_out_port>;
+				    			// 3-lane DSI is fine here
+				    			data-lanes = <0 1 2>;
+						};
+		    			};
+
+				    	port@2 {
+						reg = <2>;
+						bridge_out: endpoint {
+					    		remote-endpoint = <&panel_in_lvds>;
+						};
+		    			};
+				};
 			};
 		};
 	};
@@ -88,23 +103,9 @@
 			port {
 				dsi_out_port: endpoint {
 					remote-endpoint = <&bridge_in>;
-					data-lanes = <1 2 3 4>;
+					data-lanes = <0 1 2>;
 				};
 			};
-		};
-	};
-
-	fragment@3 {
-		target = <&i2c3if>;
-		__overlay__ {
-			status = "okay";
-		};
-	};
-		
-	fragment@4 {
-		target = <&i2c3mux>;
-		__overlay__ {
-			status = "okay";
 		};
 	};
 };
