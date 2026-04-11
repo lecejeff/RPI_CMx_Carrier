@@ -38,10 +38,7 @@ dtoverlay=i2c3
 # Enable MIPI I2C bus
 # I2C0 connects RPI CM5 to MIPI0 (Camera, expansion display)
 # Compute Module 5 has I2C0 on GPIO [0..1] on ALT function 3
-gpio=0=a3	# SDA0
-gpio=1=a3	# SCL0
-dtoverlay=i2c0
-dtoverlay=imx708,cam1
+dtoverlay=imx708,cam0
 
 # overlay for gpios related to i2s on Compute Module 5
 # Compute Module 5 has I2S[1] slave on GPIO [18..21] on ALT function 4

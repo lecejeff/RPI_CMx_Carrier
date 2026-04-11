@@ -20,6 +20,7 @@ CONFIG_REGULATOR_FIXED_VOLTAGE=y
 # Compute Module 4 has I2C3 on GPIO [4..5] on ALT function 5
 gpio=4=a5	# SDA3
 gpio=5=a5	# SCL3
+gpio12=op,dh
 dtoverlay=i2c3
 dtoverlay=sn65dsi84
 
@@ -38,10 +39,7 @@ dtoverlay=i2c6
 # Enable MIPI I2C bus
 # I2C0 connects RPI CM4 to MIPI0 (Camera, expansion display)
 # Compute Module 4 has I2C0 on GPIO [0..1] on ALT function 0
-gpio=0=a0	# SDA0
-gpio=1=a0	# SCL0
-dtoverlay=i2c0
-dtoverlay=imx708
+dtoverlay=imx708,cam1
 
 # overlay for gpios related to i2s on Compute Module 4
 # Compute Module 4 has I2S[0] on GPIO [18..21] on ALT function 0
