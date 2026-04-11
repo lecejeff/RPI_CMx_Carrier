@@ -1,0 +1,123 @@
+(version 1)
+
+#### Differential pairs begin ####
+# Inner differential pair rule for DP_90R net class based on 8-layer stackup from JLCPCB 081611-2116
+(rule dp_inner_90R
+	(layer inner)
+	(condition "A.inDiffPair('*')")
+	(condition "A.hasNetclass('DP_90R')")
+	(constraint diff_pair_gap (min 0.1mm)(opt 0.16mm))
+	(constraint diff_pair_uncoupled (max 15mm))
+	(constraint track_width (opt 0.17mm))
+	(constraint skew (opt 0.25mm))
+	(constraint clearance (min 0.05mm))
+)
+
+# Inner differential pair rule for DP_100R net class based on 8-layer stackup from JLCPCB 081611-2116
+(rule dp_inner_100R
+	(layer inner)
+	(condition "A.inDiffPair('*')")
+	(condition "A.hasNetclass('DP_100R')")
+	(constraint diff_pair_gap (min 0.1mm)(opt 0.26mm))
+	(constraint diff_pair_uncoupled (max 15mm))
+	(constraint track_width (opt 0.127mm))
+	(constraint skew (opt 0.25mm))
+	(constraint clearance (min 0.05mm))
+)
+
+(rule dp_inner_polypour_to_via_clearance
+	(layer inner)
+	(constraint clearance (min 0.3mm))
+	(condition "A.inDiffPair('*') && (A.Type == 'Via' || A.Type == 'Pad') && B.Type == 'Zone'")
+)
+
+(rule dp_inner_polypour_to_track_clearance
+	(layer inner)
+	(constraint clearance (min 0.6mm))
+	(condition "A.inDiffPair('*') && A.Type == 'Track' && B.Type == 'Zone'")
+)
+
+# Outer differential pair rule for DP_90R net class based on 8-layer stackup from JLCPCB 081611-2116
+(rule dp_outer_90R
+	(layer outer)
+	(condition "A.inDiffPair('*')")
+	(condition "A.hasNetclass('DP_90R')")
+	(constraint diff_pair_gap (min 0.1mm)(opt 0.127mm))
+	(constraint diff_pair_uncoupled (max 15mm))
+	(constraint track_width (opt 0.1382mm))
+	(constraint skew (opt 0.25mm))
+	(constraint clearance (min 0.05mm))
+)
+
+# Outer differential pair rule for DP_100R net class based on 8-layer stackup from JLCPCB 081611-2116
+(rule dp_outer_100R
+	(layer outer)
+	(condition "A.inDiffPair('*')")
+	(condition "A.hasNetclass('DP_100R')")
+	(constraint diff_pair_gap (min 0.1mm)(opt 0.18mm))
+	(constraint diff_pair_uncoupled (max 15mm))
+	(constraint track_width (opt 0.1273mm))
+	(constraint skew (opt 0.25mm))
+	(constraint clearance (min 0.05mm))
+)
+
+(rule dp_outer_polypour_to_via_clearance
+	(layer outer)
+	(constraint clearance (min 0.3mm))
+	(condition "A.inDiffPair('*') && (A.Type == 'Via' || A.Type == 'Pad') && B.Type == 'Zone'")
+)
+
+(rule dp_outer_polypour_to_track_clearance
+	(layer outer)
+	(constraint clearance (min 0.6mm))
+	(condition "A.inDiffPair('*') && A.Type == 'Track' && B.Type == 'Zone'")
+)
+
+#### Differential pairs end ####
+
+#### Electrical clearance begin ####
+# Electrical seperation for CGND
+(rule cgnd_clearance
+	(condition "A.hasNetclass('CGND') && B.hasNetclass('GND')")
+	(constraint clearance (min 0.45mm))
+)
+
+# Electrical clearance via to zone
+(rule zone_to_via_default_clearance
+	(condition "A.Type == 'Zone' && B.Type == 'Via' && !B.inDiffPair('*')")
+	(constraint clearance (min 0.2mm)(opt 0.2mm))
+)
+
+(rule no_connect_clearance
+	(condition "A.Type == 'Pad' && A.Pin_Type == 'unconnected'")
+	(constraint clearance (min 0.05mm))
+)
+
+(rule polygon_to_polygon_clearance
+	(condition "A.Type == 'Zone' && !A.hasNetclass('CGND') && !A.hasNetclass('GND')")
+	(condition "B.Type == 'Zone' && !B.hasNetclass('GND') && !B.hasNetclass('CGND')")
+	(constraint clearance (min 0.2mm))
+)
+
+(rule polygon_to_no_connect_clearance
+	(condition "A.Type == 'Zone' && B.Pin_Type == 'unconnected' && !B.hasComponentClass('FIDUCIALS')")
+	(constraint clearance (min 0.35mm))
+)
+
+(rule fiducial_clearance
+	(condition "A.Type == 'Zone' && B.Pad_Type == 'SMD' && B.hasComponentClass('FIDUCIALS')")
+	(constraint clearance (min 0.5mm))
+)
+
+## Rule to allow components under RPI CMx module ##
+(rule ITEM1_courtyard_overlap
+	(severity exclusion)
+	(constraint courtyard_clearance)
+	(condition "A.Reference == 'ITEM1' && B.Reference == '*'")
+)
+	
+## Rule for polygon clearance to NPTH ##
+(rule polygon_to_NPTH_clearance
+	(condition "A.Type == 'Zone' && B.Pad_Type == 'NPTH, mechanical'")
+	(constraint hole_clearance (min 0.518mm))
+)
