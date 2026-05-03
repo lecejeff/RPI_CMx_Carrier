@@ -160,6 +160,7 @@
 
 #include "pic32ak_generic.h"
 #include "timer.h"
+#include "UART.h"
 
 // Access to TIMER struct members
 extern STRUCT_TIMER TIMER_struct[TIMER_QTY];
@@ -173,6 +174,11 @@ STRUCT_LED *LED2_struct = &LED_struct[LED_2];
 // Access to BTN struct members
 extern STRUCT_BUTTON BUTTON_struct[BTN_QTY];
 STRUCT_BUTTON *BTN1_struct = &BUTTON_struct[BTN_1];
+
+// Access to UART struct members
+extern STRUCT_UART UART_struct[UART_QTY];
+STRUCT_UART *UART1_struct = &UART_struct[UART_1];
+STRUCT_UART *UART2_struct = &UART_struct[UART_1];
 
 uint32_t counter_1ms = 0;
 
@@ -198,6 +204,9 @@ int main ( void )
     //  Configure on-board Buttons
     RPI_CMx_BTN_init(BTN1_struct, BTN_1, 25);
 
+    //  Configure debug UART
+    UART_init(UART1_struct, UART_1, 115200, 256, 256, 0);
+    UART_putstr(UART1_struct, "RPI_CMx_Carrier PIC32 Debug UART enabled\r\n");
     TRISBbits.TRISB8 = 0;   //  WDOG pin is output
     LATBbits.LATB8 = 0;     
     
@@ -212,6 +221,7 @@ int main ( void )
             {
                 RPI_CMx_LED_toggle(LED1_struct);
                 RPI_CMx_LED_toggle(LED2_struct);
+                UART_putstr(UART1_struct, "RPI_CMx_Carrier PIC32 Debug UART TX by interrupt\r\n");
                 counter_1ms = 0;
             }
         }
