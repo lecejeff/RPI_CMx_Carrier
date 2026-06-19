@@ -20,6 +20,7 @@ CONFIG_REGULATOR_FIXED_VOLTAGE=y
 # Compute Module 5 has I2C2 on GPIO [4..5] on ALT function 3
 gpio=4=a3	# SDA2
 gpio=5=a3	# SCL2
+gpio=12=op,dh
 dtoverlay=i2c2
 dtoverlay=sn65dsi84
 
@@ -86,5 +87,8 @@ arm_boost=1
 # This line should be removed if the legacy DWC2 controller is required
 # (e.g. for USB device mode) or if USB support is not required.
 otg_mode=1
+
+[cm5]
+dtoverlay=dwc2,dr_mode=host
 
 [all]

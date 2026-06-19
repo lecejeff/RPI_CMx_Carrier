@@ -20,7 +20,7 @@ CONFIG_REGULATOR_FIXED_VOLTAGE=y
 # Compute Module 4 has I2C3 on GPIO [4..5] on ALT function 5
 gpio=4=a5	# SDA3
 gpio=5=a5	# SCL3
-gpio12=op,dh
+gpio=12=op,dh
 dtoverlay=i2c3
 dtoverlay=sn65dsi84
 

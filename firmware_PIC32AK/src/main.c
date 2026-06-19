@@ -161,6 +161,7 @@
 #include "pic32ak_generic.h"
 #include "timer.h"
 #include "UART.h"
+#include "i2c.h"
 
 // Access to TIMER struct members
 extern STRUCT_TIMER TIMER_struct[TIMER_QTY];
@@ -180,7 +181,13 @@ extern STRUCT_UART UART_struct[UART_QTY];
 STRUCT_UART *UART1_struct = &UART_struct[UART_1];
 STRUCT_UART *UART2_struct = &UART_struct[UART_1];
 
+// Access to I2C struct members
+extern STRUCT_I2C I2C_struct[I2C_QTY];
+STRUCT_I2C *I2C1_struct = &I2C_struct[I2C_1];
+
 uint32_t counter_1ms = 0;
+
+uint8_t i2c1_data[3] = {0x66, 0, 0};
 
 // *****************************************************************************
 // *****************************************************************************
@@ -192,7 +199,6 @@ int main ( void )
 {
     /* Initialize all modules */
 
-    
     PIC32AK_init();
     TIMER_init(TIMER1_struct, TIMER_1, TIMER_PRESCALER_1, 1000);    //  1000Hz (1ms) timer
         
@@ -210,6 +216,10 @@ int main ( void )
     TRISBbits.TRISB8 = 0;   //  WDOG pin is output
     LATBbits.LATB8 = 0;     
     
+    // Configure I2C1
+    I2C_init(I2C1_struct, I2C_1, I2C_FREQ_100k, I2C_mode_master, 0);
+    //I2C_master_write(I2C1_struct, i2c1_data, 3);
+    
     TIMER_start(TIMER1_struct);
       
     while (1)
@@ -217,11 +227,15 @@ int main ( void )
         if (TIMER_get_state(TIMER1_struct, TIMER_INT_STATE))    //  1ms tick
         {    
             LATBbits.LATB8 = !LATBbits.LATB8;   // Cycle WDOG
+            
             if (++counter_1ms >= 500)
             {
+                i2c1_data[1] = !i2c1_data[1];
+                i2c1_data[2] = !i2c1_data[2];
                 RPI_CMx_LED_toggle(LED1_struct);
                 RPI_CMx_LED_toggle(LED2_struct);
                 UART_putstr(UART1_struct, "RPI_CMx_Carrier PIC32 Debug UART TX by interrupt\r\n");
+                //I2C_master_write(I2C1_struct, i2c1_data, 3);
                 counter_1ms = 0;
             }
         }
