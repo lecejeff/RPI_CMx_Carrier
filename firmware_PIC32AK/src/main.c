@@ -156,7 +156,8 @@
 
 #include <stddef.h>                     // Defines NULL
 #include <stdbool.h>                    // Defines true
-#include <stdlib.h>                     // Defines EXIT_FAILURE
+#include <stdlib.h>
+#include <p32AK1216GC41064.h>                     // Defines EXIT_FAILURE
 
 #include "pic32ak_generic.h"
 #include "timer.h"
@@ -186,6 +187,7 @@ extern STRUCT_I2C I2C_struct[I2C_QTY];
 STRUCT_I2C *I2C1_struct = &I2C_struct[I2C_1];
 
 uint32_t counter_1ms = 0;
+uint16_t btn_debounce = 1;
 
 uint8_t i2c1_data[3] = {0x66, 0, 0};
 
@@ -209,6 +211,9 @@ int main ( void )
     
     //  Configure on-board Buttons
     RPI_CMx_BTN_init(BTN1_struct, BTN_1, 25);
+    
+    LATAbits.LATA10 = 0;    // Set powerkill latch to OFF
+    TRISAbits.TRISA10 = 0;  // Set Powerkill pin as output
 
     //  Configure debug UART
     UART_init(UART1_struct, UART_1, 115200, 256, 256, 0);
@@ -230,13 +235,27 @@ int main ( void )
             
             if (++counter_1ms >= 500)
             {
-                i2c1_data[1] = !i2c1_data[1];
-                i2c1_data[2] = !i2c1_data[2];
                 RPI_CMx_LED_toggle(LED1_struct);
                 RPI_CMx_LED_toggle(LED2_struct);
                 UART_putstr(UART1_struct, "RPI_CMx_Carrier PIC32 Debug UART TX by interrupt\r\n");
                 //I2C_master_write(I2C1_struct, i2c1_data, 3);
                 counter_1ms = 0;
+            }
+            
+            if (PORTBbits.RB2 == 0)
+            {
+                if (++btn_debounce > 5000)
+                {
+                    btn_debounce = 5000;
+                    LATAbits.LATA10 = 1;
+                }
+            }
+            else
+            {
+                if (--btn_debounce <= 1)
+                {
+                    btn_debounce = 1;
+                }
             }
         }
     }

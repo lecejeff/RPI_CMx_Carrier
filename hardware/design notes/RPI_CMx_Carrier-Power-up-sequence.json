@@ -9,13 +9,13 @@
             { "name": "1V8_CB",  	"wave": "0.......1.......",		node: '........f........' },	//Start in parallel to 3V3 regulator
             { "name": "1V05_CB",  	"wave": "0........1......",		node: '.........g.......' },	//Soft-start delay of 1V05 regulator      	
             { "name": "PWG",  		"wave": "0..........1....",		node: '...........h.....' },   	//200ms deglitch delay in voltage supervisor IC 
-         	{ "name": "nEXTRST",  	"wave": "0............1..",		node: '.............i...' },   	//As per RPI CMx datasheet  
+         	{ "name": "EXT_RSTn",  	"wave": "0............1..",		node: '.............i...' },   	//As per RPI CMx datasheet  
          	{ "name": "SYS_RSTn",  	"wave": "0............1..",		node: '.............j...' },   	//Buffered nEXTRST
  		],   
  	], 
 	edge: 
     [
-         'a~b ~1.25s', 'b~c ~6.65ms', 'c~d ~500us', 'd~e ~7.65ms', 'e|-f', 'f~g 1.4ms', 'g~h 200ms', 'h|-i 1s', 'i|-j'
+         'a~b ~1.25s', 'b~c ~6.65ms', 'c~d ~500us', 'd~e ~1.90ms', 'e|-f', 'f~g 1.4ms', 'g~h 200ms', 'h~i > 1s', 'i|-j'
   	],
     head:
     	{
